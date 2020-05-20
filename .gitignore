@@ -1,5 +1,6 @@
 R-studio-examples/
 .ipynb_checkpoints/prot_domains2lethality-checkpoint.ipynb
 .vscode/settings.json
-functions-python/model_SVC.joblib
 Literature/
+model_SVC.joblib
+replication-code-of-the-paper.pdf
