@@ -4,3 +4,5 @@ R-studio-examples/
 Literature/
 model_SVC.joblib
 replication-code-of-the-paper.pdf
+model_SVC_C_10_gamma_scale_10000_pairs.joblib
+cross_val_object_5_fold.joblib

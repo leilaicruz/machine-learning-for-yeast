@@ -1,17 +1,15 @@
 ---
-title: "Predicting yeast synthetic lethal genetic interactions using protein domains-Code Replication"
+title: "Predicting yeast synthetic lethal genetic interactions using protein domains"
+subtitle: Code Replication from [this paper](https://ieeexplore-ieee-org.tudelft.idm.oclc.org/document/5341871)
 output: beamer_presentation
 # documentclass: article
 classoption: onecolumn
-theme: metropolis
-# usecolortheme: seahorse
+# theme: metropolis
 pdf_document:
 latex_engine: pdflatex
-toc: false
-lof: true
 numberSections: true
 highlight: tango
-sectionsDepth: 3
+sectionsDepth: 2
 chapters: True
 figPrefix:
   - "Fig."
@@ -20,11 +18,24 @@ secPrefix:
   - "Section"
   - "Sections"
 fontsize: 12pt
-geometry: margin=0.5in
+geometry: margin=0.1in
 autoEqnLabels: true
 cref: true
 crossref: true
+colorlinks: true
+header-includes: 
+    - |
+        ```{=latex}
+        \useoutertheme{metropolis}
+        \useinnertheme{metropolis}
+        \usefonttheme{metropolis}
+        \definecolor{UniBlue}{RGB}{0,136,145}
+        \usecolortheme{metropolis}
+        \setbeamercolor{title}{bg=UniBlue}
+        \usetheme[progressbar=frametitle]{metropolis}
+        ```
 ---
+
 
 
 ## The problem :
@@ -33,35 +44,70 @@ crossref: true
 
 ![](./img-for-presentation/problem-info.png){width=70%}
 
---------------------------------------
+# Usual workflow for any Machine learning implementation
 
-## What do we need first? 
+----------------------------------------------
+
+![](img-for-presentation/ML-workflow.png){width=90%}[^2]
+
+[^2]: From https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94
+
+-------------------------------------------
+
+
+::: incremental
+
+1. Gathering data
+2. Data pre-processing
+3. Researching the model that will be best for the type of data
+4. Training and testing the model
+5. Evaluation[^1]
+
+[^1]: From https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94
+
+::: 
+
+# Gathering data 
 
 ---------------------------------------
 
-## DATA!!!
 
-![](./img-for-presentation/data-info.png){width=70%}
-
--------------------------------------------
+![](./img-for-presentation/data-info.png){width=50%}
 
 ::: incremental
 
 - All the current knowledge on yeast genetic interaction is in [**BioGrid**](https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-3.5.184/)
 
-<!-- - For protein domains you can go to [**Yeastmine**](https://yeastmine.yeastgenome.org/yeastmine/begin.do)
-
-    - To retrieve data using Python you should create an account in yeastmine and copy the ```python code``` generate by your search.  -->
+- I used all the protein domain data from Pfam, and all genetic interactions filtered by Synthetic Lethality and Positive Genetic. 
 
 :::
 
+
+# Data pre-processing
+
+---------------------------------------
+
+::: incremental
+
+- I took a random subset of the whole dataset 
+    - 10000/17871 SL pairs
+    - 10000/43340 nSL pairs 
+
+- Cleaning missing data by removing empty domains from the list of pairs. There are some proteins that do not have domains annotated, these ones are out for the analysis. 
+  - The empty domain in the SL were: 680 out of 10000 domains
+  - The empty domain in the nSL were: 670 out of 10000 domains
+- Step 3: Select from the ordered indexes array of domain id list which of them appear once, in both or in any of the domains of each protein pair. 
+
+::: 
+
+
 -----------------------------------
 
-##  What do we need 2nd? 
+##  Feature selection! 
 
 
 
-- to implement the features of the problem in order for the method to "learn" from  
+What are we going  to use to distinguish between the two categories (SL and non SL)?  
 
 
 
@@ -86,27 +132,57 @@ crossref: true
 
 ![](img-for-presentation/feature-matrix-03.png)
 
-----------------------------------
+---------------------------------------------
 
-## Everything starts! :) 
+## How nice these features differenciate between the two classes
 
-::: incremental
 
-- Splitting the data[^1] for training and testing 
-- Train a classfier with the training data
-- Make some predictions
-- Evaluate the predictions based on the testing data. 
 
-[^1]: The data was a random sample of 10000 pairs taken from the given datasets.
+ ![](img-for-presentation/mean-std-feature-viz.png)
 
-::: 
+-------------------------------------------------------
 
+![](img-for-presentation/Pearson-corr-mean-std-lethality.png){width=50%}
+
+. . .
+
+ ![](img-for-presentation/Pearson-correlation-coefficient.jpg){width=50%}[^3]
+
+ [^3]: From https://www.questionpro.com/blog/pearson-correlation-coefficient/
+
+
+
+
+
+# Researching the model that will be best for the type of data 
+
+---------------------------------------------
+
+
+![](img-for-presentation/best-model-search.png)
 
 ----------------------------
 
-## Evaluating the method based on its prediction
 
-<!-- - The mean square error = $\frac{1}{n}\Sigma(y-\hat y)^2$ , where $\hat y$ is the predicted class value and $y$ is the true class value.  -->
+- This problem belong to the category of supervised learning. 
+- I choose Support vector machine because it was the one used in the paper, this is a classification method used mainly when blinary classification is required. 
+
+
+# Training and testing the model
+
+----------------------------------------
+
+![](img-for-presentation/train-validate-test.png)
+
+--------------------------------
+
+- 30% of the data is used for final test.
+- The rest 70% was used for 5-fold crossvalidation to tune the parameters for such big dataset. 
+
+# Model Evaluation
+
+------------------------------------------
+
 
 - Accuracy : The percentage of in how many cases the correct class was predicted. 
 
