@@ -46,11 +46,7 @@ header-includes:
 
 # Usual workflow for any Machine learning implementation
 
-----------------------------------------------
 
-![](img-for-presentation/ML-workflow.png){width=90%}[^2]
-
-[^2]: From https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94
 
 -------------------------------------------
 
@@ -66,6 +62,13 @@ header-includes:
 [^1]: From https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94
 
 ::: 
+
+----------------------------------------------
+
+![](img-for-presentation/ML-workflow.png){width=90%}[^2]
+
+[^2]: From https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94
+
 
 # Gathering data 
 
@@ -96,7 +99,7 @@ header-includes:
 - Cleaning missing data by removing empty domains from the list of pairs. There are some proteins that do not have domains annotated, these ones are out for the analysis. 
   - The empty domain in the SL were: 680 out of 10000 domains
   - The empty domain in the nSL were: 670 out of 10000 domains
-- Step 3: Select from the ordered indexes array of domain id list which of them appear once, in both or in any of the domains of each protein pair. 
+ 
 
 ::: 
 
@@ -132,23 +135,22 @@ What are we going  to use to distinguish between the two categories (SL and non 
 
 ![](img-for-presentation/feature-matrix-03.png)
 
----------------------------------------------
-
-## How nice these features differenciate between the two classes
 
 
+# Visualize extensively the patterns in the data before analysing it 
 
- ![](img-for-presentation/mean-std-feature-viz.png)
+
 
 -------------------------------------------------------
 
-![](img-for-presentation/Pearson-corr-mean-std-lethality.png){width=50%}
+![](img-for-presentation/Pairplot-to-see-data-dependencies-with-Lethality.png)
 
-. . .
+-------------------------------------------------------
 
- ![](img-for-presentation/Pearson-correlation-coefficient.jpg){width=50%}[^3]
 
- [^3]: From https://www.questionpro.com/blog/pearson-correlation-coefficient/
+
+ ![](img-for-presentation/Heatmap-Pearson-corr-mean-std-lethality.png)
+
 
 
 
@@ -165,7 +167,8 @@ What are we going  to use to distinguish between the two categories (SL and non 
 
 
 - This problem belong to the category of supervised learning. 
-- I choose Support vector machine because it was the one used in the paper, this is a classification method used mainly when blinary classification is required. 
+- I choose Support vector machine because it was the one used in the paper, this is a classification method used mainly when binary classification is required. 
+  - Technically, SVM, optimize a hyperplane such as the distance between point of the different classes is maximixed.
 
 
 # Training and testing the model
@@ -176,15 +179,33 @@ What are we going  to use to distinguish between the two categories (SL and non 
 
 --------------------------------
 
-- 30% of the data is used for final test.
-- The rest 70% was used for 5-fold crossvalidation to tune the parameters for such big dataset. 
+:::incremental
+
+- 70% of the data is used for training the SVM classifier.
+  - ```if``` the test error among different sets is low: by performing cross validation test
+    - ```then``` continue with the classifier
+  - ```else``` re-train  
+- The rest of 30% of the data is used for final test.
+
+::: 
+
+-------------------------------
+
+![](img-for-presentation/5-fold-crrosvalidation-result.png)
+
 
 # Model Evaluation
 
 ------------------------------------------
 
-
+:::incremental
 - Accuracy : The percentage of in how many cases the correct class was predicted. 
+
+  - ![](img-for-presentation/confusion-matrix-normalized.png){width=50%}
+
+:::
+
+--------------------------------
 
 - Sensitivity : Percentage of  correctly predicted SL interactions over the total number of SL interactions in the test dataset.
 
@@ -192,17 +213,15 @@ What are we going  to use to distinguish between the two categories (SL and non 
 
 - Precision : Percentage of correctly predicted positive data over the total number of predicted positive data.
 
---------------------------------
 
-
-![](img-for-presentation/Precisionrecall-wikipedia.png)
+![](img-for-presentation/Precisionrecall-wikipedia.png){with=40%}
 
 ***From Wikipedia***
-
 
 ----------------------------
 
 ## Results of the evaluation
+
 
 
 |  	| Paper 	| My replication 	|
@@ -215,11 +234,9 @@ What are we going  to use to distinguish between the two categories (SL and non 
 | AUC 	| 0.927 	| 0.9 	|
 
 
-------------------------------------------------
+# Thanks!
 
-## 5- fold Cross validation study
 
-![](functions-python/ROC-5-fold-crossvalidation-paper-replication.png){width=70%}
 
 
 
