@@ -1,0 +1,5 @@
+Errata
+
+Close study of the figure on page 3 tells us that we have the values of  β  mixed up.
+
+Looks like  β1  should be 0.6, and  β2  should be 0.8

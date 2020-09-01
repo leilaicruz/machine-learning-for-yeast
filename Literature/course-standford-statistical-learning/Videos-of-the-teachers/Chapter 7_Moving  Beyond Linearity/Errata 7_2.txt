@@ -1,0 +1,5 @@
+Errata
+
+Around time 5:00 and on slide 9, there is an error. We should only
+
+add basis functions to K+1, not K+3, for linear splines.

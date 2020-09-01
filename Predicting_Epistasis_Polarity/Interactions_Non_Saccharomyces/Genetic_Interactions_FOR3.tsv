@@ -1,0 +1,59 @@
+Systematic ID	Gene name	Product description	Budding yeast orthologs
+SPAC1F5.04c	cdc12	formin Cdc12	BNI1
+SPAC20G4.02c	fus1	formin Fus1	BNR1
+SPAC24H6.05	cdc25	M phase inducer tyrosine phosphatase Cdc25	MIH1
+SPAC24H6.09	gef1	Cdc42 RhoGEF Gef1	
+SPBC106.20	exo70	exocyst complex subunit Exo70	EXO70
+SPBC29A3.17	gef3	Cdc42/Rho3/Rho4 RhoGEF Gef3	
+SPBC4F6.06	kin1	microtubule affinity-regulating kinase Kin1	KIN1,KIN2
+SPCC1223.06	tea1	cell end marker Tea1	KEL2,KEL1
+SPCC1739.10	mug33	Tea1-interacting protein involved in exocytosis	DCV1,RIM9,YOL019W
+SPCC4B3.15	mid1	medial ring protein, anillin Mid1	BUD4
+SPAC17C9.12	scs22	VAP family protein Scs22	SCS22,SCS2
+SPBC16G5.05c	scs2	VAP family protein Scs2	SCS22,SCS2
+SPCC970.09	sec8	exocyst complex subunit Sec8	SEC8
+SPBC1706.01	tea4	tip elongation aberrant protein Tea4	BUD14
+SPBC215.05	gpd1	glycerol-3-phosphate dehydrogenase Gpd1	GPD1
+SPBC28E12.03	rga4	RhoGAP, GTPase activating protein Rga4	RGA2,RGA1
+SPBC83.18c	fic1	C2 domain protein Fic1	INN1
+SPBC1604.20c	tea2	kinesin family plus-end directed microtubule motor Tea2	KIP2
+SPCC1919.10c	myo52	myosin type V	MYO4,MYO2
+SPBC354.05c	sre2	DNA-binding transcription factor, membrane-tethered Sre2	
+SPBC947.10	dsc1	Golgi Dsc E3 ligase complex subunit Dsc1	TUL1
+SPAC11E3.02c	ync13	Munc family exocytic/endocytic regulator Ync13	YOR296W
+SPAC11E3.01c	swr1	SNF2 family ATP-dependent DNA helicase Swr1	SWR1
+SPAC12B10.07	acp1	F-actin capping protein alpha subunit	CAP1
+SPAC13G7.03	upf3	up-frameshift suppressor 3 family protein (predicted)	UPF3
+SPAC16A10.04	rho4	Rho family GTPase Rho4	RHO4
+SPAC16C9.06c	upf1	ATP-dependent RNA helicase Upf1	NAM7
+SPAC17A2.06c	vps8	CORVET complex WD repeat Vps8 (predicted)	VPS8
+SPAC18G6.15	mal3	microtubule plus-end binding protein, EB1 family Mal3	BIM1
+SPAC227.10	gim4	prefoldin subunit 2, Gim4(predicted)	GIM4
+SPAC23C4.08	rho3	Rho family GTPase Rho3	RHO3
+SPAC30C2.02	mmd1	deoxyhypusine hydroxylase	LIA1
+SPAC4C5.02c	ryh1	GTPase Ryh1	YPT6
+SPAC6G10.02c	tea3	cell end marker Tea3	KEL2,KEL1
+SPAC9G1.06c	cyk3	Nebulin-family actin filament anchoring protein Cyk3	CYK3
+SPAPJ696.01c	vps17	retromer complex subunit Vps17	VPS17
+SPBC1105.14	rsv2	DNA-binding transcription factor Rsv2	RPN4
+SPBC11B10.10c	pht1	histone H2A variant H2A.Z, Pht1	HTZ1
+SPBC13G1.08c	ash2	Ash2-trithorax family protein	BRE2
+SPBC1861.03	mak10	NatC N-acetyltransferase complex subunit Mak10 (predicted)	MAK10
+SPBC23G7.04c	nif1	protein kinase inhibitor, SEL1 repeat protein Nif1	DSF2
+SPBC31F10.13c	hip1	histone H3.3 H4 chaperone, hira family Hip1	HIR1
+SPBC336.14c	ppk26	PAN complex protein phosphotransferase subunit Ppk26 (predicted)	PAN3
+SPBC337.16	cho1	phosphatidyl-N-dimethylethanolamine N-methyltransferase	OPI3
+SPBC530.01	gyp1	GTPase activating protein Gyp1 (predicted)	GYP1
+SPBC713.11c	pmp3	plasma membrane proteolipid Pmp3 (predicted)	SNA4,PMP3,SNA3
+SPBC725.09c	hob3	BAR adaptor protein Hob3	RVS161
+SPBC887.04c	lub1	WD repeat protein Lub1	DOA1
+SPBC887.10	mcs4	response regulator Mcs4	SSK1
+SPCC132.02	hst2	histone deacetylase, Sirtuin family, NAD-dependent Hst2	HST2
+SPCC16C4.11	pef1	Pho85/PhoA-like cyclin-dependent kinase Pef1	PHO85
+SPCC306.04c	set1	histone lysine H3-K4 methyltransferase Set1	SET1
+SPCC576.13	swc5	Swr1 complex subunit Swc5	SWC5
+SPCC594.05c	spf1	Set1C PHD finger subunit Spf1	SPP1
+SPAC19G12.14	its3	1-phosphatidylinositol-4-phosphate 5-kinase Its3	MSS4
+SPAC4F8.13c	rng2	RasGAP GTPase activating protein IQGAP Rng2	IQG1
+SPAC926.03	rlc1	myosin II regulatory light chain Rlc1	MLC2
+SPAP8A3.08	cdc4	myosin II light chain	MLC1
