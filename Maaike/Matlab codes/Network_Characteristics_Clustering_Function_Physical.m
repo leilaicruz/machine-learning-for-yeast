@@ -1,20 +1,16 @@
-% in hoeverre moeten de punten met 0 interacties meegenomen worden in het
-% netwerk? nu ervoor gekozen deze volledig uit de analyse te schrappen,
-% omwille van het makkelijker maken van de code
-
 clear all
 close all
 clc
 
 % this code extracts which genes are present according to the Repertoire,
 % matches this with Overview Interactions and fits the network to the power law
-% and visualises it and calculates the shortest paths and clustering
+% to determine the scale-freeness and visualises it and calculates the shortest paths and clustering
 % coefficient, fits this to 1/k. Only apply to physical interactions
 % (builds on Network_Characteristics_Clustering_Function)
 
 % import file of network
 file_network = 'Overview interactions.xlsx';       % choose which network you want to use
-original_network = xlsread(file_network,3);        % orginal_network is imported, tab 3 is without self interactions
+original_network = xlsread(file_network,2);        % orginal_network is imported, tab 3 is without self interactions
 range_n = 'B1:AQ1';                                % where to find the names
 [~,gene_names,~] = xlsread(file_network,range_n);  % string of names of genes
 
@@ -74,6 +70,9 @@ plot(int_visualisation)
 N_links = nnz(int_binary_network);         % number of links is number of non-zero elements
 avg_degree = 2*N_links/N_nodes; % average degree <k>=2L/N
 degree = sum(int_binary_network);   % number of links per node
+
+% density
+N_links_max = N_nodes*(N_nodes-1)
 
 % average pathlength calculation
 pathlength = zeros(N_nodes,N_nodes);
