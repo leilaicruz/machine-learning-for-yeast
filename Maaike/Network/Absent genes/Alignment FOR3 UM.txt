@@ -1,0 +1,3901 @@
+RID: PP09BYCP014	
+Job Title:17 sequences (gar2)				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1: gar2 Query ID: lcl|Query_96523 Length: 500
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+hypothetical protein UMAG_06193 [Ustilago maydis 521]             186    186   36%   1e-53 50.54  XP_011392562.1   
+hypothetical protein UMAG_02412 [Ustilago maydis 521]             66.2   117   25%   4e-13 43.75  XP_011388704.1   
+hypothetical protein UMAG_02412 [Ustilago maydis 521]             65.5   116   25%   8e-13 43.75  XP_011388705.1   
+hypothetical protein UMAG_02420 [Ustilago maydis 521]             67.0   67.0  35%   4e-12 22.95  XP_011388711.1   
+hypothetical protein UMAG_10239 [Ustilago maydis 521]             61.2   110   35%   1e-10 35.71  XP_011387325.1   
+hypothetical protein UMAG_02881 [Ustilago maydis 521]             58.2   112   30%   1e-09 35.06  XP_011389311.1   
+hypothetical protein UMAG_10723 [Ustilago maydis 521]             57.4   109   25%   2e-09 31.97  XP_011391529.1   
+hypothetical protein UMAG_02994 [Ustilago maydis 521]             57.4   57.4  38%   5e-09 24.38  XP_011389382.1   
+hypothetical protein UMAG_06090 [Ustilago maydis 521]             54.7   101   37%   2e-08 37.04  XP_011392449.1   
+mRNA polyadenylate-binding protein PAB1 [Ustilago maydis 521]     55.1   55.1  35%   2e-08 29.95  XP_011389943.1   
+hypothetical protein UMAG_04679 [Ustilago maydis 521]             53.5   53.5  37%   3e-08 24.62  XP_011390951.1   
+hypothetical protein UMAG_01182 [Ustilago maydis 521]             52.8   92.4  30%   1e-07 30.26  XP_011387124.1   
+hypothetical protein UMAG_01265 [Ustilago maydis 521]             44.7   44.7  14%   2e-05 37.14  XP_011387189.1   
+hypothetical protein UMAG_03939 [Ustilago maydis 521]             44.3   44.3  14%   3e-05 26.03  XP_011390409.1   
+hypothetical protein UMAG_10639 [Ustilago maydis 521]             38.5   38.5  12%   0.003 26.56  XP_011389790.1   
+hypothetical protein UMAG_01271 [Ustilago maydis 521]             38.1   38.1  10%   0.004 36.67  XP_011387194.1   
+
+
+Alignments:
+>hypothetical protein UMAG_06193 [Ustilago maydis 521]
+Sequence ID: XP_011392562.1 Length: 475 
+>hypothetical protein UMAG_06193 [Ustilago maydis 521]
+Sequence ID: KIS65813.1 Length: 475  
+Range 1: 212 to 391
+
+Score:186 bits(472), Expect:1e-53, 
+Method:Compositional matrix adjust., 
+Identities:93/184(51%), Positives:122/184(66%), Gaps:5/184(2%)
+
+Query  262  TCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAV  321
+            T  ++VG+LSWNVD+ WL  E E +G +  ARV +D  SG+S+G+GYVDF T  AAK A 
+Sbjct  212  TNQIWVGQLSWNVDNDWLKSEMEVFGEVTSARVQLDRTSGKSRGFGYVDFATAAAAKKAF  271
+
+Query  322  AANGTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEPSDTVFVGNLSFNATEDD  381
+                 KE+DGR + +DLS P+        + RA  F DQ S PS T+F+GNLSF+ +EDD
+Sbjct  272  DEGQGKEVDGRAIRIDLSTPK----GDVTENRAKKFNDQRSAPSSTLFIGNLSFDVSEDD  327
+
+Query  382  LSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVE-MNGHFIAGRPCRLDF  440
+            +  AF   G++  +RLP DP SGR KGFGYV F+  +SA+  ++ M G  +AGRP RLDF
+Sbjct  328  VWNAFSEHGEVSGVRLPKDPDSGRPKGFGYVEFAAQESAQAAIDAMTGQELAGRPLRLDF  387
+
+Query  441  STPR  444
+            STPR
+Sbjct  388  STPR  391
+
+
+
+>hypothetical protein UMAG_02412 [Ustilago maydis 521]
+Sequence ID: XP_011388704.1 Length: 175 
+>hypothetical protein UMAG_02412 [Ustilago maydis 521]
+Sequence ID: KIS69897.1 Length: 175  
+Range 1: 5 to 84
+
+Score:66.2 bits(160), Expect:4e-13, 
+Method:Compositional matrix adjust., 
+Identities:35/80(44%), Positives:51/80(63%), Gaps:0/80(0%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            V+VG LSWN  D  L   F  YG +    V+ D ++GRS+G+G+V F T   A AA+AA 
+Sbjct  5    VYVGNLSWNTTDDSLAHAFSTYGQLTDYIVMKDRETGRSRGFGFVTFATQAEADAAIAAL  64
+
+Query  325  GTKEIDGRMVNLDLSNPRPA  344
+              +E+DGR + ++++N RPA
+Sbjct  65   NEQELDGRRIRVNMANSRPA  84
+
+
+
+
+Range 2: 5 to 52
+
+Score:50.8 bits(120), Expect:6e-08, 
+Method:Compositional matrix adjust., 
+Identities:22/48(46%), Positives:33/48(68%), Gaps:0/48(0%)
+
+Query  368  VFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFS  415
+            V+VGNLS+N T+D L+ AF   G +    +  D ++GR +GFG+VTF+
+Sbjct  5    VYVGNLSWNTTDDSLAHAFSTYGQLTDYIVMKDRETGRSRGFGFVTFA  52
+
+
+
+>hypothetical protein UMAG_02412 [Ustilago maydis 521]
+Sequence ID: XP_011388705.1 Length: 192 
+>hypothetical protein UMAG_02412 [Ustilago maydis 521]
+Sequence ID: KIS69898.1 Length: 192  
+Range 1: 5 to 84
+
+Score:65.5 bits(158), Expect:8e-13, 
+Method:Compositional matrix adjust., 
+Identities:35/80(44%), Positives:51/80(63%), Gaps:0/80(0%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            V+VG LSWN  D  L   F  YG +    V+ D ++GRS+G+G+V F T   A AA+AA 
+Sbjct  5    VYVGNLSWNTTDDSLAHAFSTYGQLTDYIVMKDRETGRSRGFGFVTFATQAEADAAIAAL  64
+
+Query  325  GTKEIDGRMVNLDLSNPRPA  344
+              +E+DGR + ++++N RPA
+Sbjct  65   NEQELDGRRIRVNMANSRPA  84
+
+
+
+
+Range 2: 5 to 52
+
+Score:50.8 bits(120), Expect:1e-07, 
+Method:Compositional matrix adjust., 
+Identities:22/48(46%), Positives:33/48(68%), Gaps:0/48(0%)
+
+Query  368  VFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFS  415
+            V+VGNLS+N T+D L+ AF   G +    +  D ++GR +GFG+VTF+
+Sbjct  5    VYVGNLSWNTTDDSLAHAFSTYGQLTDYIVMKDRETGRSRGFGFVTFA  52
+
+
+
+>hypothetical protein UMAG_02420 [Ustilago maydis 521]
+Sequence ID: XP_011388711.1 Length: 588 
+>hypothetical protein UMAG_02420 [Ustilago maydis 521]
+Sequence ID: KIS69906.1 Length: 588  
+Range 1: 171 to 344
+
+Score:67.0 bits(162), Expect:4e-12, 
+Method:Compositional matrix adjust., 
+Identities:42/183(23%), Positives:80/183(43%), Gaps:17/183(9%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +F+G L+W+  +  L + F ++G +    ++ D  +GRS+G+ +++F  P+A    +   
+Sbjct  171  MFIGGLNWDTTEDSLRRYFSQFGEVGNCAIMRDNMTGRSRGFAFLNFVDPKAVNTVMVRE  230
+
+Query  325  GTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEP--------SDTVFVGNLSFN  376
+                +DG++++   + PRP + Q                         S  +FVG L  +
+Sbjct  231  --HYLDGKVIDPKRAIPRPQHNQQGGGHHNNYNNGGGGGGGGGSYSASSQKLFVGGLPPS  288
+
+Query  377  ATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVEMNGHFIAGRPC  436
+             T     T F   G +       D ++G+ +GFG++T++D  S         H +  RP 
+Sbjct  289  VTPATFRTFFEQFGTLSDCTCMMDRETGKPRGFGFLTYADDSSLN-------HVLNTRPI  341
+
+Query  437  RLD  439
+              D
+Sbjct  342  VFD  344
+
+
+
+>hypothetical protein UMAG_10239 [Ustilago maydis 521]
+Sequence ID: XP_011387325.1 Length: 339 
+>hypothetical protein UMAG_10239 [Ustilago maydis 521]
+Sequence ID: KIS71427.1 Length: 339  
+Range 1: 122 to 205
+
+Score:61.2 bits(147), Expect:1e-10, 
+Method:Compositional matrix adjust., 
+Identities:30/84(36%), Positives:47/84(55%), Gaps:1/84(1%)
+
+Query  360  QLSEPSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDS  419
+            Q  EP+  + V  LS   TE DL   F     ++ + +  D ++GR +GFG++T  D++ 
+Sbjct  122  QEVEPTTVLGVFGLSIRTTEKDLEYEFDAIAPVEKVVIVYDARTGRSRGFGFITMRDVEG  181
+
+Query  420  AKKCVE-MNGHFIAGRPCRLDFST  442
+            A   +E +NG  + GR  R+DFST
+Sbjct  182  ASAAIEALNGKDLHGRRVRVDFST  205
+
+
+
+
+Range 2: 122 to 214
+
+Score:48.9 bits(115), Expect:1e-06, 
+Method:Compositional matrix adjust., 
+Identities:28/93(30%), Positives:48/93(51%), Gaps:1/93(1%)
+
+Query  257  QDSNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEA  316
+            Q+   T  + V  LS    ++ L  EF+    +    ++ D ++GRS+G+G++     E 
+Sbjct  122  QEVEPTTVLGVFGLSIRTTEKDLEYEFDAIAPVEKVVIVYDARTGRSRGFGFITMRDVEG  181
+
+Query  317  AKAAVAANGTKEIDGRMVNLDLS-NPRPANPQP  348
+            A AA+ A   K++ GR V +D S   +P +P P
+Sbjct  182  ASAAIEALNGKDLHGRRVRVDFSTTHKPHDPTP  214
+
+
+
+>hypothetical protein UMAG_02881 [Ustilago maydis 521]
+Sequence ID: XP_011389311.1 Length: 403 
+>hypothetical protein UMAG_02881 [Ustilago maydis 521]
+Sequence ID: KIS68895.1 Length: 403  
+Range 1: 10 to 86
+
+Score:58.2 bits(139), Expect:1e-09, 
+Method:Compositional matrix adjust., 
+Identities:27/77(35%), Positives:47/77(61%), Gaps:0/77(0%)
+
+Query  264  TVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAA  323
+             VFVG + +++ ++ L   F E G +VG R++ D ++G+ KGYG+ +FE PE A +AV  
+Sbjct  10   VVFVGNIPYDMSEEQLTDVFREVGKVVGFRLVNDRETGKFKGYGFCEFEDPETAASAVRN  69
+
+Query  324  NGTKEIDGRMVNLDLSN  340
+                E+ GR + +  ++
+Sbjct  70   LNEVEVGGRPLRISFAD  86
+
+
+
+
+Range 2: 8 to 85
+
+Score:54.7 bits(130), Expect:2e-08, 
+Method:Compositional matrix adjust., 
+Identities:27/78(35%), Positives:45/78(57%), Gaps:1/78(1%)
+
+Query  365  SDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCV  424
+            S  VFVGN+ ++ +E+ L+  F   G +   RL  D ++G+ KG+G+  F D ++A   V
+Sbjct  8    SRVVFVGNIPYDMSEEQLTDVFREVGKVVGFRLVNDRETGKFKGYGFCEFEDPETAASAV  67
+
+Query  425  -EMNGHFIAGRPCRLDFS  441
+              +N   + GRP R+ F+
+Sbjct  68   RNLNEVEVGGRPLRISFA  85
+
+
+
+>hypothetical protein UMAG_10723 [Ustilago maydis 521]
+Sequence ID: XP_011391529.1 Length: 310 
+>hypothetical protein UMAG_10723 [Ustilago maydis 521]
+Sequence ID: KIS66864.1 Length: 310  
+Range 1: 189 to 300
+
+Score:57.4 bits(137), Expect:2e-09, 
+Method:Compositional matrix adjust., 
+Identities:39/122(32%), Positives:66/122(54%), Gaps:10/122(8%)
+
+Query  218  SGDSDSSSDSESESSSEDEKKRKAEPASEERPAKITKPSQDSNETCTVFVGRLSWNVDDQ  277
+            +G+S + + +++ESS     + K EP          KP  + ++T  VFV  L++   D+
+Sbjct  189  NGESATPTQAKAESSEPRAPRAKREPKG--------KPHGEPSKTL-VFVANLAFATTDE  239
+
+Query  278  WLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAANGTKEIDGRMVNLD  337
+             L   F +Y  +  A V+    S RSKG+G+VDF+     + A+A++  K+IDGR V L 
+Sbjct  240  SLKAAFSDY-KVKSAHVVKRRSSNRSKGFGFVDFQDSSEQQRAIASSQGKQIDGREVTLQ  298
+
+Query  338  LS  339
+            ++
+Sbjct  299  VA  300
+
+
+
+
+Range 2: 29 to 104
+
+Score:52.4 bits(124), Expect:7e-08, 
+Method:Compositional matrix adjust., 
+Identities:27/78(35%), Positives:43/78(55%), Gaps:2/78(2%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            VF G L++   +  L   F E GT+  A+VI  G   RS GYG+V F T   A+ A+   
+Sbjct  29   VFAGNLAFATTEDELKTLFSEAGTVTHAQVITRGT--RSLGYGFVTFSTEAGAQNAIKLL  86
+
+Query  325  GTKEIDGRMVNLDLSNPR  342
+              +E+ GR ++++ + P+
+Sbjct  87   NKREVGGREISVESAKPQ  104
+
+
+
+>hypothetical protein UMAG_02994 [Ustilago maydis 521]
+Sequence ID: XP_011389382.1 Length: 703 
+>hypothetical protein UMAG_02994 [Ustilago maydis 521]
+Sequence ID: KIS69016.1 Length: 703  
+Range 1: 215 to 393
+
+Score:57.4 bits(137), Expect:5e-09, 
+Method:Compositional matrix adjust., 
+Identities:49/201(24%), Positives:89/201(44%), Gaps:29/201(14%)
+
+Query  248  RPAKITKPSQDSNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYG  307
+            R A++  PS  +NET  V+V  L   ++D  L       G ++  + ++D Q+G  KG+G
+Sbjct  215  RSAEMCWPSDKNNET-NVYVNGLPEEMNDHMLYLLGSACGVVISHKSMLDRQTGLCKGFG  273
+
+Query  308  YVDFETPEAAKAAVAANGTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEPSDT  367
+            ++ + + E AK A+    +                      +A     +F  +L   +DT
+Sbjct  274  FLMYASSEMAKKAIQWLNSHGF-------------------FASFAKESFSARLRRMADT  314
+
+Query  368  ----VFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKC  423
+                V++ NL    T   L   F     I S+++  D   G  +G G+V   D  +AK+C
+Sbjct  315  SSTNVYLSNLPLKFTTQQLEQLFAPY-PIASLKILYDVH-GESRGVGFVRVYDRATAKEC  372
+
+Query  424  VE-MNGHFIAG--RPCRLDFS  441
+            ++ ++G  + G   P ++ F+
+Sbjct  373  IDRLHGRMLPGTTLPLQVRFA  393
+
+
+
+>hypothetical protein UMAG_06090 [Ustilago maydis 521]
+Sequence ID: XP_011392449.1 Length: 547 
+>hypothetical protein UMAG_06090 [Ustilago maydis 521]
+Sequence ID: KIS66000.1 Length: 547  
+Range 1: 87 to 165
+
+Score:54.7 bits(130), Expect:2e-08, 
+Method:Compositional matrix adjust., 
+Identities:30/81(37%), Positives:42/81(51%), Gaps:2/81(2%)
+
+Query  363  EPSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKK  422
+            +P  T FVGNLSF+  E D+   F     + SIR+ T    G+ KGFGYV F   D  + 
+Sbjct  87   KPPFTAFVGNLSFDVMEADVENFFAPSKAV-SIRIVTG-HDGKPKGFGYVEFQSQDDLRA  144
+
+Query  423  CVEMNGHFIAGRPCRLDFSTP  443
+             ++  G  +A R  R+  + P
+Sbjct  145  ALDRTGTQLASRTVRISVAEP  165
+
+
+
+
+Range 2: 70 to 165
+
+Score:46.6 bits(109), Expect:1e-05, 
+Method:Compositional matrix adjust., 
+Identities:31/106(29%), Positives:54/106(50%), Gaps:10/106(9%)
+
+Query  236  EKKRKAEPASEERPAKITKPSQDSNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVI  295
+            E+  ++ P  EE P     P        T FVG LS++V +  + + F      V  R++
+Sbjct  70   ERPERSYPPREEHPIPDKPP-------FTAFVGNLSFDVMEADV-ENFFAPSKAVSIRIV  121
+
+Query  296  MDGQSGRSKGYGYVDFETPEAAKAAVAANGTKEIDGRMVNLDLSNP  341
+              G  G+ KG+GYV+F++ +  +AA+   GT ++  R V + ++ P
+Sbjct  122  T-GHDGKPKGFGYVEFQSQDDLRAALDRTGT-QLASRTVRISVAEP  165
+
+
+
+>mRNA polyadenylate-binding protein PAB1 [Ustilago maydis 521]
+Sequence ID: XP_011389943.1 Length: 651 
+>RecName: Full=Polyadenylate-binding protein, cytoplasmic and nuclear; Short=PABP; Short=Poly(A)-binding protein; AltName: Full=Polyadenylate tail-binding protein [Ustilago maydis 521]
+Sequence ID: Q4P8R9.1 Length: 651 >mRNA polyadenylate-binding protein PAB1 [Ustilago maydis 521]
+Sequence ID: KIS68403.1 Length: 651  
+Range 1: 116 to 285
+
+Score:55.1 bits(131), Expect:2e-08, 
+Method:Compositional matrix adjust., 
+Identities:56/187(30%), Positives:90/187(48%), Gaps:26/187(13%)
+
+Query  248  RPAKITKPSQDSNETCT----VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRS  303
+            RP +I    +D     T    +F+  L   +D++ L   F  +G I+  +V  + ++G S
+Sbjct  116  RPCRIMWSQRDPALRRTGQGNIFIKNLDAGIDNKALHDTFAAFGNILSCKVATN-ETG-S  173
+
+Query  304  KGYGYVDFETPEAAKAAVAANGTKEIDGRMVN-----LDLSNPRPANPQPYAQQRAGNFG  358
+             GYG+V +ET EAA+AA+     K ++G ++N     +    PR        + RA NF 
+Sbjct  174  LGYGFVHYETAEAAEAAI-----KHVNGMLLNDKKVYVGHHIPRKERQAKIEETRA-NFT  227
+
+Query  359  DQLSEPSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDID  418
+            +        V+  N+    T+D+    F   G I S  L  D + G+ KGFG+V F D +
+Sbjct  228  N--------VYAKNVDPEVTDDEFEKLFTKFGKITSCVLQRD-EDGKSKGFGFVNFEDHN  278
+
+Query  419  SAKKCVE  425
+             A+K V+
+Sbjct  279  EAQKAVD  285
+
+
+
+>hypothetical protein UMAG_04679 [Ustilago maydis 521]
+Sequence ID: XP_011390951.1 Length: 294 
+>hypothetical protein UMAG_04679 [Ustilago maydis 521]
+Sequence ID: KIS67582.1 Length: 294  
+Range 1: 5 to 178
+
+Score:53.5 bits(127), Expect:3e-08, 
+Method:Compositional matrix adjust., 
+Identities:48/195(25%), Positives:86/195(44%), Gaps:28/195(14%)
+
+Query  255  PSQDSNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETP  314
+            P  D N+  T ++G +    +D  + +   + G +V   +  D  +   +GY + +F+T 
+Sbjct  5    PELDRNQDATCYIGNIDDRANDAIVWELMIQAGPLVNLHLPKDRITQSHQGYAFAEFQTE  64
+
+Query  315  EAAKAAV-AANGTKEIDGRMVNLD-LSNPRPANPQPYAQQRAGNFGDQLSEPSDT---VF  369
+            + A  A    NG K + G+ + ++  SN R                    +P D    +F
+Sbjct  65   QDADYACKVMNGLK-LYGKPIRVNKASNDR--------------------KPIDIGANLF  103
+
+Query  370  VGNLSFNATEDDLSTAFGGCGDIQSI-RLPTDPQSGRLKGFGYVTFSDIDSAKKCVE-MN  427
+            VG+L     E  L   F   G I  + ++  DP SG  KGF +V+F   ++A   +E +N
+Sbjct  104  VGSLDPAVDERLLYETFSAFGGIIGLPKIARDPTSGEPKGFAFVSFDSFEAADAAIEALN  163
+
+Query  428  GHFIAGRPCRLDFST  442
+            G F+  +   +D++ 
+Sbjct  164  GQFLLNKNITVDYAI  178
+
+
+
+>hypothetical protein UMAG_01182 [Ustilago maydis 521]
+Sequence ID: XP_011387124.1 Length: 442 
+>hypothetical protein UMAG_01182 [Ustilago maydis 521]
+Sequence ID: KIS71282.1 Length: 442  
+Range 1: 111 to 186
+
+Score:52.8 bits(125), Expect:1e-07, 
+Method:Compositional matrix adjust., 
+Identities:23/76(30%), Positives:45/76(59%), Gaps:0/76(0%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +FVG LS +VDD  L   F  + ++   RV+ D  +G+S+G+G+++F + + A   +A  
+Sbjct  111  LFVGDLSPDVDDALLQSFFSRFTSLADVRVMYDAATGKSRGFGFINFRSKQDADDCIATC  170
+
+Query  325  GTKEIDGRMVNLDLSN  340
+              + + GR + ++ +N
+Sbjct  171  QGQWLRGRQIRVNWAN  186
+
+
+
+
+Range 2: 111 to 185
+
+Score:39.7 bits(91), Expect:0.001, 
+Method:Compositional matrix adjust., 
+Identities:20/75(27%), Positives:40/75(53%), Gaps:1/75(1%)
+
+Query  368  VFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCV-EM  426
+            +FVG+LS +  +  L + F     +  +R+  D  +G+ +GFG++ F     A  C+   
+Sbjct  111  LFVGDLSPDVDDALLQSFFSRFTSLADVRVMYDAATGKSRGFGFINFRSKQDADDCIATC  170
+
+Query  427  NGHFIAGRPCRLDFS  441
+             G ++ GR  R++++
+Sbjct  171  QGQWLRGRQIRVNWA  185
+
+
+
+>hypothetical protein UMAG_01265 [Ustilago maydis 521]
+Sequence ID: XP_011387189.1 Length: 297 
+>hypothetical protein UMAG_01265 [Ustilago maydis 521]
+Sequence ID: KIS71364.1 Length: 297  
+Range 1: 175 to 238
+
+Score:44.7 bits(104), Expect:2e-05, 
+Method:Compositional matrix adjust., 
+Identities:26/70(37%), Positives:41/70(58%), Gaps:6/70(8%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +FVG L  +V D+ L   F++Y +   ARV+ + + G++KGYG+V F  PE    A    
+Sbjct  175  LFVGDLGNDVSDELLSSTFQKYASFSKARVVRN-KDGKAKGYGFVAFADPEDFLKA----  229
+
+Query  325  GTKEIDGRMV  334
+              KE+DG+ +
+Sbjct  230  -WKEMDGKYI  238
+
+
+
+>hypothetical protein UMAG_03939 [Ustilago maydis 521]
+Sequence ID: XP_011390409.1 Length: 355 
+>hypothetical protein UMAG_03939 [Ustilago maydis 521]
+Sequence ID: KIS67883.1 Length: 355  
+Range 1: 177 to 249
+
+Score:44.3 bits(103), Expect:3e-05, 
+Method:Compositional matrix adjust., 
+Identities:19/73(26%), Positives:37/73(50%), Gaps:0/73(0%)
+
+Query  264  TVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAA  323
+             +++GRL     ++ L   F ++G +   RV  + ++G SK Y +++F   + AK     
+Sbjct  177  VLYIGRLPKGFFEKQLKSYFTQFGQVTRLRVSRNKKTGASKHYAFIEFADRDVAKIVQET  236
+
+Query  324  NGTKEIDGRMVNL  336
+                 IDGR++ +
+Sbjct  237  MHNYLIDGRLLQV  249
+
+
+
+>hypothetical protein UMAG_10639 [Ustilago maydis 521]
+Sequence ID: XP_011389790.1 Length: 664 
+>hypothetical protein UMAG_10639 [Ustilago maydis 521]
+Sequence ID: KIS68634.1 Length: 664  
+Range 1: 79 to 135
+
+Score:38.5 bits(88), Expect:0.003, 
+Method:Compositional matrix adjust., 
+Identities:17/64(27%), Positives:36/64(56%), Gaps:7/64(10%)
+
+Query  363  EPSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKK  422
+            E + T+FVG++S   ++  L+     CG+++S++  +       K FG+  ++D DS  +
+Sbjct  79   EVATTLFVGSISPGVSDTWLTRLLEACGNLRSLKRAS-------KAFGFAEYADPDSVLR  131
+
+Query  423  CVEM  426
+             +E+
+Sbjct  132  AIEV  135
+
+
+
+>hypothetical protein UMAG_01271 [Ustilago maydis 521]
+Sequence ID: XP_011387194.1 Length: 1059 
+>hypothetical protein UMAG_01271 [Ustilago maydis 521]
+Sequence ID: KIS71371.1 Length: 1059  
+Range 1: 402 to 461
+
+Score:38.1 bits(87), Expect:0.004, 
+Method:Compositional matrix adjust., 
+Identities:22/60(37%), Positives:35/60(58%), Gaps:8/60(13%)
+
+Query  393  QSIRLPTDPQSGRLKGFGYVTFS-DIDSAKKCVEMNGHFIA-------GRPCRLDFSTPR  444
+            +S ++ TDP +G  KG+G+V FS + D  +  VEM G  ++       GRP R+  +TP+
+Sbjct  402  KSAKIMTDPVTGVSKGYGFVRFSLEADCNRALVEMQGVVVSPANGLSPGRPLRVSTATPK  461
+
+
+
+
+
+Query #2: bud6 Query ID: lcl|Query_96524 Length: 1385
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+hypothetical protein UMAG_11657 [Ustilago maydis 521]             152    254   50%   1e-37 25.90  XP_011388054.1   
+
+
+Alignments:
+>hypothetical protein UMAG_11657 [Ustilago maydis 521]
+Sequence ID: XP_011388054.1 Length: 1280 
+>hypothetical protein UMAG_11657 [Ustilago maydis 521]
+Sequence ID: KIS70278.1 Length: 1280  
+Range 1: 623 to 1221
+
+Score:152 bits(385), Expect:1e-37, 
+Method:Compositional matrix adjust., 
+Identities:158/610(26%), Positives:277/610(45%), Gaps:66/610(10%)
+
+Query  678   INDPSSTITVSDVYPKKPASPVEITEPPSSA-LVSATSPTTNV--PIVPEAVHLSTAFST  734
+             +  P+S+    D     P   +  +E P+SA  V+ ++   N+  P+ P A  ++     
+Sbjct  623   VKTPTSSTFGLDARTLPPGRSIIDSEKPASAETVNVSTKQLNLLPPVAPSAPRVA-----  677
+
+Query  735   APVSTIVSNISPLPTV---APPNVSGS--------PSETPISKPEKVPVVSQTEKALPKP  783
+                S  VS+   LP +   APP+ SG          S+        V  +     A P+ 
+Sbjct  678   ---SQAVSSTESLPFLDAHAPPSESGDLAAEAQHLDSKNGAGSAATVDAIDAAIPATPRA  734
+
+Query  784   LGVDTEKY--YFLRYNNQTRKVKVE----SPLSNA---NELGELFSNVYKISFSGDSY-E  833
+                D       FL+   QTRK  +E    +PL+       L  LF + +  S   D +  
+Sbjct  735   CSSDATSSINVFLQLGRQTRKAVIELDASNPLTRGISVARLRMLFIDRFAYSPGMDDFPT  794
+
+Query  834   LNIEDPDTKISYLLEDLSDLKYKSLVSFMFKEQDANKKREDFHSGEVS----------AI  883
+             + ++DP + ++Y LEDLSD++  SL++   +  D  K+  D   G +S          A 
+Sbjct  795   IYVKDPASGVTYELEDLSDVQEGSLLTLNIEPLDQVKQHLDLSLGTISREIRELKATLAE  854
+
+Query  884   QHSSAQNTLDDHVNT----TTHESPS----SAFTEILERL----KAIEQNISTNHTNDSA  931
+             +           VN+    T H +P+    S F    +R+    +A  +  + NH + SA
+Sbjct  855   RDRDRDVRRTSFVNSEAFLTAHPTPTKISDSQFQAAGQRVAQLKRANTRAAAVNHEDSSA  914
+
+Query  932   ALKSSEDHSKLANNFSVPDS----IDHKF---YQQVKNMQLELASLKQISAAFFTRIPLK  984
+                SS + +    + S        I H+    +++++N++ E A  +Q+   F   +   
+Sbjct  915   QDPSSSNTAAAPGSSSSSALAGSRIAHELKVQFEELQNLRREFAITRQLQTDFEGDVKSI  974
+
+Query  985   IKDFKKEINAFNEKGSLDFQFGRGFVLSSKDRIEREVKNVVEKFDEVNDQIELMRSDVLL  1044
+             +   +++  A     S      R F+++ K R++ + ++++   +++ D ++ +R DV+ 
+Sbjct  975   LATVREQSGAVRAIASTKVAAERNFIVAGKSRLDAQSQDLLTLIEDLQDTVDDLRVDVIQ  1034
+
+Query  1045  RKVRPGLDQTSQLNEESAYLEKRIQTLERSLEEVTPIWKKQWERELNAIVQEQEFLDSHT  1104
+             R V+P      Q+ E+     K +  LE  ++ V P WKK WE EL  IV EQEFL+   
+Sbjct  1035  RGVKPRPVLVKQIVEDVGRATKGLLELEGYVQTVKPSWKKTWESELQNIVDEQEFLNHEE  1094
+
+Query  1105  VLISDLKRDLSALSTVLSNVSAIAELQAKSSIKSKPLTLKTATESEIKGYRDQIQLEVLN  1164
+              L+SDL+ DL +L  V SN+  + +L+  S    K   +    E   +G    + +EV +
+Sbjct  1095  GLLSDLRDDLRSLKEVFSNIQQVVKLRGGSGKGGK--YIPPLPEEGHEGL-STVMMEVKS  1151
+
+Query  1165  LKPDSEARLQAIERSELLQKKRLL--QRVDEFSKEVKTFVENEKLNKIGGAEEADRIRTI  1222
+                + E RL+A++  E  ++K LL  +  DEF++E+  FV+ + L K GG  EA+RIR  
+Sbjct  1152  QAVNHEKRLRALQAVERQRQKDLLASKTNDEFTEELAGFVDKKVLRKTGGVLEAERIRQK  1211
+
+Query  1223  QDEKVRKILW  1232
+             +D    K ++
+Sbjct  1212  RDHATWKAMF  1221
+
+
+
+
+Range 2: 126 to 259
+
+Score:101 bits(252), Expect:6e-22, 
+Method:Compositional matrix adjust., 
+Identities:56/138(41%), Positives:82/138(59%), Gaps:4/138(2%)
+
+Query  44   VPNGASNSPLSRDAASHLISTIETSIMKLLVVTKELLESLTNWSKGTVNDSAVSSVYVTL  103
+            VP+  +    ++ ++SH+    E+S+ +LLV TK LLESLT WS G  ++  VS +YV L
+Sbjct  126  VPSAIAQDSTAKFSSSHM----ESSVTRLLVATKMLLESLTKWSVGQRSEENVSDIYVRL  181
+
+Query  104  IGEFLQTTKSFHEAGIETADLNDFPLELRSVLEQTLEKTPSSDALETNLPNVRELVMHLL  163
+              +F     +F   GI+ +DLN  P +LR  LE  L +  S   LE +LP +RE++++LL
+Sbjct  182  GNDFNSAKLAFGSYGIDMSDLNSVPDDLRDCLEHCLSEEASPAVLEVHLPRIREIIINLL  241
+
+Query  164  QSLKYKQSLVKSRLNQSR  181
+            Q LK KQ+  K  L Q R
+Sbjct  242  QGLKMKQAEYKQFLVQQR  259
+
+
+
+
+
+Query #3: SPAC17G8.12.1 Query ID: lcl|Query_96525 Length: 608
+
+No significant similarity found.
+
+
+
+Query #4: cdc12 Query ID: lcl|Query_96526 Length: 1841
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+sepA-related Formin [Ustilago maydis 521]                         100    100   21%   2e-21 26.90  XP_011390816.1   
+Diaphanous related Formin [Ustilago maydis 521]                   40.0   40.0  23%   0.006 23.26  XP_011387089.1   
+
+
+Alignments:
+>sepA-related Formin [Ustilago maydis 521]
+Sequence ID: XP_011390816.1 Length: 1866 
+>sepA-related Formin [Ustilago maydis 521]
+Sequence ID: KIS67638.1 Length: 1866  
+Range 1: 1154 to 1564
+
+Score:100 bits(249), Expect:2e-21, 
+Method:Compositional matrix adjust., 
+Identities:117/435(27%), Positives:200/435(45%), Gaps:62/435(14%)
+
+Query  989   RLKQMHWEKLN--SGLEFTFWTG--PSDEANKILETLHTSGVLDELDESFAMKEAKTLVK  1044
+             ++KQ+ W+KL+     E  F      +DE   +++TL   G+ +E++E F   +AK  VK
+Sbjct  1154  KMKQLQWDKLSPQHAAETIFGKHELTADE-EALVKTLQQEGLFEEMEEDF---KAKQPVK  1209
+
+Query  1045  KTC--ARTDYMSSE----LQKLFGIH---------FHKLSHKNPNEIIRMILHCDDSMNE  1089
+             K+   A+ D +  +    LQ   GI            +    +P E+   I++C+++   
+Sbjct  1210  KSTSTAKKDKIELKTHLSLQTRQGIEMVLKRVKSSLTESKQASPEEVAHHIINCNEA---  1266
+
+Query  1090  CVEFLSSDKVLNQPKLKADLEPYRIDWANGGDLVNSEKDASELSRWDYLYVRLIVDLGGY  1149
+                      VL+Q  L   L  Y  +    G L      + E  R  +   RL+V L   
+Sbjct  1267  ---------VLDQSFLTELLRHY-PESETKGQLGEYRNASDEELRLLHPADRLVVLLMTV  1316
+
+Query  1150  WNQRMNALKVKNIIE-TNYE---NLVRQTKLIGRAALE-LRDSKVFKGLLYLILYLGNYM  1204
+              + +    KVK ++  T Y+   +L++   +  R A E L  +K F  LL LIL +GNY+
+Sbjct  1317  PHLKE---KVKGLLYMTKYKETFDLIKSGMVKVRDASEGLMKAKAFARLLSLILMMGNYL  1373
+
+Query  1205  NDYVRQ--AKGFAIGSLQRLPLIKNANNTKSLLHILDITIRKHFPQFDNFSPELSTVTEA  1262
+             N    Q  A GF I S+ +L   K ++ T +LLH ++ TI K FP+ + F  EL    EA
+Sbjct  1374  NSTGVQGGAFGFKITSINKLVDTKASDGT-TLLHFVERTISKCFPEVEAFMDELELPAEA  1432
+
+Query  1263  AKLNIEAIEQECSELIRGCQNLQIDCDSGALSDPTVFHPDDKILSVILPWLMEGTKKMDF  1322
+              ++ +  + ++ +EL  G    + + D   L D +  +  D  + ++LP+L +   ++  
+Sbjct  1433  CRVQLWDLRRDLAELKSGSFQHRKELDR--LLDESEENLQDPYVKIMLPFLNDAASELQR  1490
+
+Query  1323  LKEHLRTMNTTLNNAMRYFGEQPNDPNSKNL------------FFKRVDSFIIDYSKARS  1370
+             L + ++      N A++YFGE   DP  + L            FF     F+  Y K + 
+Sbjct  1491  LNDQVQFTERVYNEALKYFGEGL-DPKKRGLGQLANQTMRTEDFFGIFKEFLAAYKKVKV  1549
+
+Query  1371  DNLKSEEEEASQHRR  1385
+             DN++  E+ A + +R
+Sbjct  1550  DNVRIGEQRAMEAKR  1564
+
+
+
+>Diaphanous related Formin [Ustilago maydis 521]
+Sequence ID: XP_011387089.1 Length: 2195 
+>Diaphanous related Formin [Ustilago maydis 521]
+Sequence ID: KIS71238.1 Length: 2195  
+Range 1: 1551 to 1993
+
+Score:40.0 bits(92), Expect:0.006, 
+Method:Compositional matrix adjust., 
+Identities:110/473(23%), Positives:188/473(39%), Gaps:66/473(13%)
+
+Query  949   PPPPPLVSAAGGKFVSPAVSNNISKDDLH-----------KTTGLTRRPTRRLKQMHWEK  997
+             PPPPP    A G    P   +  +                K   L   P ++ K + W K
+Sbjct  1551  PPPPPPGGLAIGIPPPPPPPSLSAGPAPPPPPPLSGPTAPKPPALPLIPKKKRKALFWNK  1610
+
+Query  998   LNS-GLEFTFWTG--PSDEANKILETLHTSGVLDELDESFAMK--------EAKTLVKKT  1046
+             L +  L  T W+   P+        T+   G +D +DE FA+         E K   +K 
+Sbjct  1611  LPAHSLASTVWSDLPPA--------TVDVIGEIDRIDELFAVGSKPIAAIPETKQTGRKA  1662
+
+Query  1047  CARTDYMSSELQKLFGIHFHKLSHKNPNEIIRMILHCDDSMNECVEFLSSDKVLNQPKLK  1106
+                T    +  Q +  I   ++    P E+   +L CD+S       LS D + +     
+Sbjct  1663  NPTTLLDLTRAQNV-SIVLTRIKLPFP-ELRTALLQCDESK------LSLDNLKSIRSCL  1714
+
+Query  1107  ADLEPYRIDWANGGDLVNSEKDASELSRWDYLY--VRLIVDLGGYWNQRMNALKVKNIIE  1164
+                E   +       + + + D S LS+ D  +  V  I  L     +R+  +      E
+Sbjct  1715  PTAEELSL-------VRDYDGDISALSKADQFFHEVLGIPRLA----ERLGCMIYMRKFE  1763
+
+Query  1165  TNYENLVRQTKLIGRAALELRDSKVFKGLLYLILYLGNYMN--DYVRQAKGFAIGSLQRL  1222
+                E L    +++  A  E+  S  FK +L  +L +GN +N   +  +A GF +  L +L
+Sbjct  1764  LELEELKPDLRILKHAVDEINASSKFKAVLGTVLTVGNVLNAATFRGEAAGFQLSDLLKL  1823
+
+Query  1223  PLIKNAN---NTKSLLHILDITIRKHFPQFDNFSPELSTVTEAAKLNIEAIEQECSELIR  1279
+                K +    +T +LLH L   + K       F  + S V  AA+L+   I Q  + LI 
+Sbjct  1824  KETKPSQPTPSTPTLLHYLVRVLNKTDKTLVGFLDDCSHVEAAARLSTTLIMQSVTSLIS  1883
+
+Query  1280  GCQNLQIDCDSGALSDPTVFHPDDKILSVILPWLMEGTKKMDFLKEHLRTMNTTLNNAMR  1339
+                 ++ +  +  L   ++    D+ + V   ++ + T ++  L+    T+  +L   + 
+Sbjct  1884  AHATVKEEMST--LQRISISSQSDRFVDVTAEFVKQTTPQIKALQLAGTTVQESLAKLLV  1941
+
+Query  1340  YFGEQPNDPNSKNLFFKRVDSFIIDYSKARSDNLKS-------EEEEASQHRR  1385
+             YFGE P+    ++ FF  V SF     +A  D L++       E+++A Q +R
+Sbjct  1942  YFGEDPSQTKPED-FFGLVSSFGQALMRAEEDTLQADRKAELEEQKKAKQVKR  1993
+
+
+
+
+
+Query #5: rho1 Query ID: lcl|Query_96527 Length: 202
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+Rho family GTPase RHO1 [Ustilago maydis 521]                      339    339   98%   4e-121 82.91  XP_011391479.1   
+putative Rho family GTPase [Ustilago maydis 521]                  237    237   88%   2e-80  62.01  XP_011390336.1   
+GTP binding protein Rho2 [Ustilago maydis 521]                    223    223   87%   7e-75  60.67  XP_011388771.1   
+Rho2 GTP binding protein [Ustilago maydis]                        218    218   86%   6e-73  60.23  AAM74081.1       
+Rac1 GTP binding protein [Ustilago maydis 521]                    206    206   96%   2e-68  50.77  XP_011386548.1   
+Rac1 GTP binding protein [Ustilago maydis]                        204    204   96%   7e-68  50.26  AAM74083.1       
+Rho family GTPase CDC42 [Ustilago maydis 521]                     200    200   96%   3e-66  50.26  XP_011386207.1   
+Rho3 GTP binding protein [Ustilago maydis 521]                    171    171   90%   2e-54  48.37  XP_011390508.1   
+Rho3 GTP binding protein [Ustilago maydis]                        166    166   90%   2e-52  48.37  AAM74082.1       
+putative Rab family GTPase YPT1 [Ustilago maydis 521]             92.0   92.0  60%   1e-23  35.20  XP_011390269.1   
+putative Rab family GTPase SEC4 [Ustilago maydis 521]             89.4   89.4  84%   1e-22  30.23  XP_011390293.1   
+small G-protein Ras2 [Ustilago maydis 521]                        84.7   84.7  84%   4e-21  32.18  XP_011387629.1   
+putative Ras-related protein Rab-18 [Ustilago maydis 521]         83.2   83.2  82%   5e-20  31.95  XP_011390026.1   
+putative GTP-binding protein ypt5 [Ustilago maydis 521]           81.6   81.6  86%   1e-19  31.07  XP_011388763.1   
+ras-like protein Ras1 [Ustilago maydis]                           79.3   79.3  84%   5e-19  31.64  AAN37908.1       
+putative Rab family GTPase YPT6 [Ustilago maydis 521]             79.7   79.7  86%   7e-19  31.64  XP_011392486.1   
+putative Rab family GTPase YPT7 [Ustilago maydis 521]             73.9   73.9  85%   7e-17  27.37  XP_011391834.1   
+putative Rab family GTPase YPT31 [Ustilago maydis 521]            69.3   69.3  91%   5e-15  28.21  XP_011387636.1   
+putative GTP-binding protein [Ustilago maydis 521]                67.0   67.0  86%   3e-14  27.12  XP_011388889.1   
+hypothetical protein UMAG_11007 [Ustilago maydis 521]             65.5   65.5  62%   5e-13  33.08  XP_011392744.1   
+putative Ran GTPase GSP1 [Ustilago maydis 521]                    63.5   63.5  87%   6e-13  28.81  XP_011387256.1   
+GTP-binding protein [Ustilago maydis 521]                         60.5   60.5  86%   1e-11  26.14  XP_011387706.1   
+hypothetical protein UMAG_03810 [Ustilago maydis 521]             52.8   52.8  41%   1e-08  32.22  XP_011390248.1   
+hypothetical protein UMAG_11426 [Ustilago maydis 521]             37.0   37.0  50%   0.002  24.14  XP_011386754.1   
+
+
+Alignments:
+>Rho family GTPase RHO1 [Ustilago maydis 521]
+Sequence ID: XP_011391479.1 Length: 194 
+>Rho family GTPase RHO1 [Ustilago maydis 521]
+Sequence ID: KIS66953.1 Length: 194  
+Range 1: 2 to 194
+
+Score:339 bits(870), Expect:4e-121, 
+Method:Compositional matrix adjust., 
+Identities:165/199(83%), Positives:178/199(89%), Gaps:6/199(3%)
+
+Query  3    TELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTA  62
+            +ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTA
+Sbjct  2    SELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTA  61
+
+Query  63   GQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADL  122
+            GQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFC SLPI+LV CK DL
+Sbjct  62   GQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCHSLPIILVGCKKDL  121
+
+Query  123  RNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLK  182
+            R+DPKI++EL KT+Q PV+ EEG AVAQKIGA +YLECSAKT EGVREVFE ATRAA+  
+Sbjct  122  RHDPKIVDELRKTSQRPVSAEEGMAVAQKIGAVRYLECSAKTGEGVREVFEHATRAAL--  179
+
+Query  183  HKPKVKPSSGTKKKKRCIL  201
+                V+ S G++KK   +L
+Sbjct  180  ----VQRSRGSRKKGCTVL  194
+
+
+
+>putative Rho family GTPase [Ustilago maydis 521]
+Sequence ID: XP_011390336.1 Length: 230 
+>putative Rho family GTPase [Ustilago maydis 521]
+Sequence ID: KIS68190.1 Length: 230  
+Range 1: 30 to 208
+
+Score:237 bits(605), Expect:2e-80, 
+Method:Compositional matrix adjust., 
+Identities:111/179(62%), Positives:136/179(75%), Gaps:0/179(0%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAG  63
+            +L++KLV+VGDG CGKTCLLIV+S+  FP+ YVPTVFENYV  ++ +G+ +ELALWDTAG
+Sbjct  30   DLKKKLVVVGDGGCGKTCLLIVYSQNKFPQEYVPTVFENYVPIIQFEGKTIELALWDTAG  89
+
+Query  64   QEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLR  123
+            QE+YDRLRPLSYP+S VILICFAVD P SL NVQ+KW  E+ HFC  +PILLV  K DLR
+Sbjct  90   QEEYDRLRPLSYPESDVILICFAVDFPTSLANVQDKWFPEINHFCEGVPILLVGLKTDLR  149
+
+Query  124  NDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLK  182
+             D   +  L      PVT  +GQ VA +IGA KY+ECSAKT +GV+ VF++A R A  K
+Sbjct  150  KDANSLAMLQAQGTKPVTPAQGQHVADEIGAAKYVECSAKTKDGVQNVFDTAIREACRK  208
+
+
+
+>GTP binding protein Rho2 [Ustilago maydis 521]
+Sequence ID: XP_011388771.1 Length: 214 
+>GTP binding protein Rho2 [Ustilago maydis 521]
+Sequence ID: KIS69982.1 Length: 214  
+Range 1: 6 to 181
+
+Score:223 bits(568), Expect:7e-75, 
+Method:Compositional matrix adjust., 
+Identities:108/178(61%), Positives:134/178(75%), Gaps:3/178(1%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQ  64
+            +RRKLVIVGDGACGKT LL VF+ G FP+ Y PT+FENYVA++ +DG+ V+LALWDTAGQ
+Sbjct  6    IRRKLVIVGDGACGKTSLLCVFAIGEFPQEYEPTIFENYVAEIRLDGKPVQLALWDTAGQ  65
+
+Query  65   EDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS-SLPILLVACKADLR  123
+            E+Y+RLRPLSY  +HVILI FA+D+PDSL+NVQ KW+ EV   C  S+P+LLV CK DLR
+Sbjct  66   EEYERLRPLSYSQAHVILIAFAIDTPDSLENVQVKWMEEVRQICGPSVPVLLVGCKKDLR  125
+
+Query  124  NDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAML  181
+             D   I +      H V  ++ + VA +IGA  Y ECS+  N+GV  VFE+ATRAAML
+Sbjct  126  EDA--IAKGKPVQGHYVERQQAKLVAAQIGARSYHECSSLNNQGVDAVFEAATRAAML  181
+
+
+
+>Rho2 GTP binding protein [Ustilago maydis]
+Sequence ID: AAM74081.1 Length: 214 
+Range 1: 8 to 181
+
+Score:218 bits(555), Expect:6e-73, 
+Method:Compositional matrix adjust., 
+Identities:106/176(60%), Positives:132/176(75%), Gaps:3/176(1%)
+
+Query  7    RKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQED  66
+            RKLVIVGDGACGKT LL VF+ G FP+ Y PT+FENYVA++ +DG+ V+LALWDTAGQE+
+Sbjct  8    RKLVIVGDGACGKTSLLCVFAIGEFPQEYEPTIFENYVAEIRLDGKPVQLALWDTAGQEE  67
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS-SLPILLVACKADLRND  125
+            Y+RLRPLSY  +HVILI FA+D+PDSL+NVQ KW+ EV   C  S+P+LLV CK DLR +
+Sbjct  68   YERLRPLSYSQAHVILIAFAIDTPDSLENVQVKWMEEVRQICGPSVPVLLVGCKKDLREN  127
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAML  181
+               I +      H V  ++ + VA +IGA  Y ECS+  N+GV  VFE+ATRAAML
+Sbjct  128  A--IAKGKPVQGHYVKRQQAKLVAAQIGARSYHECSSLNNQGVDAVFEAATRAAML  181
+
+
+
+>Rac1 GTP binding protein [Ustilago maydis 521]
+Sequence ID: XP_011386548.1 Length: 193 
+>Rac1 GTP binding protein [Ustilago maydis 521]
+Sequence ID: KIS72370.1 Length: 193  
+Range 1: 5 to 193
+
+Score:206 bits(523), Expect:2e-68, 
+Method:Compositional matrix adjust., 
+Identities:99/195(51%), Positives:130/195(66%), Gaps:6/195(3%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  Y+PTVF+NY A+V VDG+ V L LWDTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNAFPGEYIPTVFDNYSANVMVDGKPVSLGLWDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRNDPK  127
+            DRLRPLSYP + V L+CF++ SP S +NV+ KW  EV H   ++P +LV  K DLR DP+
+Sbjct  65   DRLRPLSYPQTDVFLVCFSLVSPPSFENVRTKWWPEVSHHAPNIPTILVGTKLDLREDPE  124
+
+Query  128  IIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHKPKV  187
+             I +L      P+T  +G  +A+ I A KYLECSA T +G++ VF+ A R+ +     K 
+Sbjct  125  TIAKLRDRRMQPITYAQGNQMARDIHATKYLECSALTQKGLKGVFDEAIRSVLAPAPVK-  183
+
+Query  188  KPSSGTKKKKRCILL  202
+                 +KKK  C++L
+Sbjct  184  -----SKKKNNCMIL  193
+
+
+
+>Rac1 GTP binding protein [Ustilago maydis]
+Sequence ID: AAM74083.1 Length: 193 
+Range 1: 5 to 193
+
+Score:204 bits(520), Expect:7e-68, 
+Method:Compositional matrix adjust., 
+Identities:98/195(50%), Positives:130/195(66%), Gaps:6/195(3%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  Y+PTVF+NY A+V VDG+ V L LWDTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNAFPGEYIPTVFDNYSANVMVDGKPVSLGLWDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRNDPK  127
+            DRLRPLSYP + V L+CF++ SP S +NV+ KW  EV H   ++P +LV  K DLR DP+
+Sbjct  65   DRLRPLSYPQTDVFLVCFSLVSPPSFENVRTKWWPEVSHHAPNIPTILVGTKLDLREDPE  124
+
+Query  128  IIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHKPKV  187
+             I +L      P+T  +G  +A+ I A KYLECSA T +G++ VF+ A R+ +     + 
+Sbjct  125  TIAKLRDRRMQPITYAQGNQMARDIHATKYLECSALTQKGLKGVFDEAIRSVLAPAPVQ-  183
+
+Query  188  KPSSGTKKKKRCILL  202
+                 +KKK  C++L
+Sbjct  184  -----SKKKNNCLIL  193
+
+
+
+>Rho family GTPase CDC42 [Ustilago maydis 521]
+Sequence ID: XP_011386207.1 Length: 191 
+>GTP binding protein Cdc42 [Ustilago maydis]
+Sequence ID: AAM73880.1 Length: 191  
+Range 1: 5 to 191
+
+Score:200 bits(509), Expect:3e-66, 
+Method:Compositional matrix adjust., 
+Identities:98/195(50%), Positives:133/195(68%), Gaps:8/195(4%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  YVPTVF+NY   V +      L L+DTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNKFPSEYVPTVFDNYAVTVMIGEDPYTLGLFDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRNDPK  127
+            DRLRPLSYP + V L+CF+V SP S +NV+EKW  EV H C  +P L+V  + DLR+D  
+Sbjct  65   DRLRPLSYPQTDVFLVCFSVTSPASFENVKEKWFPEVHHHCPGVPCLIVGTQVDLRDDHA  124
+
+Query  128  IIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHKPKV  187
+            +IE+L+++ Q PV  E G+ +A+++GA KY+ECSA T +G++ VF+ A  AA+   +P V
+Sbjct  125  VIEKLARSKQRPVPFEAGERLARELGAVKYVECSALTQKGLKNVFDEAIVAAL---EPPV  181
+
+Query  188  KPSSGTKKKKRCILL  202
+                  +KK +C +L
+Sbjct  182  -----IRKKSKCAIL  191
+
+
+
+>Rho3 GTP binding protein [Ustilago maydis 521]
+Sequence ID: XP_011390508.1 Length: 198 
+>Rho3 GTP binding protein [Ustilago maydis 521]
+Sequence ID: KIS68029.1 Length: 198  
+Range 1: 19 to 193
+
+Score:171 bits(432), Expect:2e-54, 
+Method:Compositional matrix adjust., 
+Identities:89/184(48%), Positives:122/184(66%), Gaps:11/184(5%)
+
+Query  7    RKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVD-GRHVELALWDTAGQE  65
+            RK++++GDGA GKT LL V  +  FP+ Y PTVFENY        G  VEL LWDTAGQE
+Sbjct  19   RKVLVLGDGASGKTSLLFVLVRHEFPQTYEPTVFENYTHIQHTHTGLAVELTLWDTAGQE  78
+
+Query  66   DYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRND  125
+            ++D+LR LSY D+ V+L+CF+VD+P SL NV+ +WI+E+ H C ++ I+LVA K DLR +
+Sbjct  79   EFDKLRSLSYADTDVVLLCFSVDNPVSLQNVESRWIAEIRHHCPAVKIMLVALKCDLR-E  137
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVF-ESATRAAMLKHK  184
+            P+        N   ++   G  VA++I A +YLECSAK+N GV E F E A+ AA ++  
+Sbjct  138  PR--------NPRTLSYNHGLDVAKRINACRYLECSAKSNRGVTECFTELASVAANVRPH  189
+
+Query  185  PKVK  188
+            P  +
+Sbjct  190  PHSR  193
+
+
+
+>Rho3 GTP binding protein [Ustilago maydis]
+Sequence ID: AAM74082.1 Length: 197 
+Range 1: 19 to 192
+
+Score:166 bits(419), Expect:2e-52, 
+Method:Compositional matrix adjust., 
+Identities:89/184(48%), Positives:121/184(65%), Gaps:12/184(6%)
+
+Query  7    RKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVD-GRHVELALWDTAGQE  65
+            RK+++ GDGA GKT LL VF +  FP+   PTVFENY        G  VEL LWDTAGQE
+Sbjct  19   RKVLVFGDGASGKTSLLFVFVRHEFPQTS-PTVFENYTHIQHTHTGLAVELTLWDTAGQE  77
+
+Query  66   DYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRND  125
+            ++D+LR LSY D+ V+L+CF+VD+P SL NV+ +WI+E+ H C ++ I+LVA K DLR +
+Sbjct  78   EFDKLRSLSYADTDVVLLCFSVDNPVSLQNVESRWIAEIRHHCPAVKIMLVALKCDLR-E  136
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVF-ESATRAAMLKHK  184
+            P+        N   ++   G  VA++I A +YLECSAK+N GV E F E A+ AA ++  
+Sbjct  137  PR--------NPRTLSYNHGLDVAKRINACRYLECSAKSNRGVTECFTELASVAANVRPH  188
+
+Query  185  PKVK  188
+            P  +
+Sbjct  189  PHSR  192
+
+
+
+>putative Rab family GTPase YPT1 [Ustilago maydis 521]
+Sequence ID: XP_011390269.1 Length: 208 
+>putative Rab family GTPase YPT1 [Ustilago maydis 521]
+Sequence ID: KIS68251.1 Length: 208  
+Range 1: 13 to 135
+
+Score:92.0 bits(227), Expect:1e-23, 
+Method:Compositional matrix adjust., 
+Identities:44/125(35%), Positives:78/125(62%), Gaps:4/125(3%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHVELALWDTAGQED  66
+            KL+++GD   GK+CLL+ F+  T+ E Y+ T+  ++ +  +E++G+ V+L +WDTAGQE 
+Sbjct  13   KLLLIGDSGVGKSCLLLRFADDTYTESYISTIGVDFKIRTIELEGKTVKLQIWDTAGQER  72
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHF-CSSLPILLVACKADLRND  125
+            +  +    Y  +H I++ + V   D+  NV++ W+ E+  + C  +  LLV  K+DL N 
+Sbjct  73   FRTITSSYYRGAHGIIVVYDVTDNDTFSNVKQ-WLQEIDRYACEGVNKLLVGNKSDLTN-  130
+
+Query  126  PKIIE  130
+             K++E
+Sbjct  131  KKVVE  135
+
+
+
+>putative Rab family GTPase SEC4 [Ustilago maydis 521]
+Sequence ID: XP_011390293.1 Length: 209 
+>putative Rab family GTPase SEC4 [Ustilago maydis 521]
+Sequence ID: KIS68284.1 Length: 209  
+Range 1: 11 to 168
+
+Score:89.4 bits(220), Expect:1e-22, 
+Method:Compositional matrix adjust., 
+Identities:52/172(30%), Positives:92/172(53%), Gaps:16/172(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHVELALWDTAGQED  66
+            KL+++GD   GK+CLL+ F    +   ++ T+  ++ +  +E+DG+ ++L +WDTAGQE 
+Sbjct  11   KLLLIGDSGVGKSCLLLRFCDDAWTPSFITTIGIDFKIRTIELDGKRIKLQIWDTAGQER  70
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEV-LHFCSSLPILLVACKADLRND  125
+            +  +    Y  +  IL+ F V    S +NV+  W + +  H    +  +L+  K+D    
+Sbjct  71   FRTITTAYYRGAMGILLVFDVTDQKSFENVR-TWHANIEQHASEGVSKILIGNKSDWE--  127
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATR  177
+                       +  VTTE+G+ +A+++G   Y+E SAK+N  V E F +  R
+Sbjct  128  ----------EKRAVTTEQGEELAKELG-IPYIETSAKSNSNVEEAFFNLAR  168
+
+
+
+>small G-protein Ras2 [Ustilago maydis 521]
+Sequence ID: XP_011387629.1 Length: 192 
+>small G-protein Ras2 [Ustilago maydis]
+Sequence ID: AAO19639.1 Length: 192 >small G-protein Ras2 [Ustilago maydis 521]
+Sequence ID: KIS70468.1 Length: 192  
+Range 1: 9 to 168
+
+Score:84.7 bits(208), Expect:4e-21, 
+Method:Compositional matrix adjust., 
+Identities:56/174(32%), Positives:89/174(51%), Gaps:18/174(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQEDY  67
+            KLV++GDG  GKT L I      F E Y PT+ ++Y     +D +   L + DTAGQE+Y
+Sbjct  9    KLVVLGDGGVGKTALTIQLCLNHFVETYDPTIEDSYRKQTVIDDQPCMLEVLDTAGQEEY  68
+
+Query  68   DRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS----SLPILLVACKADLR  123
+              LR     +    L+ +++ +  + + V E++ S++         ++PI+LV  K D  
+Sbjct  69   TALRDQWIREGEGFLLVYSISARATFERV-ERFRSQISRVKDQEPHTVPIMLVGNKCD--  125
+
+Query  124  NDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATR  177
+                      K N+  V+ EEGQA+A ++G  K++E SAKT   V   + +  R
+Sbjct  126  ----------KVNEREVSREEGQALAHRLGC-KFIESSAKTCVNVERAYYTVVR  168
+
+
+
+>putative Ras-related protein Rab-18 [Ustilago maydis 521]
+Sequence ID: XP_011390026.1 Length: 233 
+>putative Ras-related protein Rab-18 [Ustilago maydis 521]
+Sequence ID: KIS68514.1 Length: 233  
+Range 1: 11 to 167
+
+Score:83.2 bits(204), Expect:5e-20, 
+Method:Compositional matrix adjust., 
+Identities:54/169(32%), Positives:91/169(53%), Gaps:15/169(8%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTF--PEVYVPTVFENY-VADVEVDGRHVELALWDTAGQ  64
+            K++++G  + GK+ LL+ F+   F  PE    T+  +Y +  +EV G+  +L++WDTAGQ
+Sbjct  11   KILLIGASSVGKSSLLLRFTDDEFLSPEETTATIGVDYRIKGIEVGGKRFKLSIWDTAGQ  70
+
+Query  65   EDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRN  124
+            E +  L    Y  +  ++I + V   D+ D +   W +E+  F +S  ++ V        
+Sbjct  71   ERFRTLTSSYYRGAQGVIITYDVTQRDTFDALP-TWFNELETFTTSDDVVKVIVGN----  125
+
+Query  125  DPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFE  173
+              K+ +E S+     VTT+EGQ  A+K+G   ++ECSAK   GV   F+
+Sbjct  126  --KVDKEFSRV----VTTKEGQEFAEKMGCL-FVECSAKKGVGVNGAFD  167
+
+
+
+>putative GTP-binding protein ypt5 [Ustilago maydis 521]
+Sequence ID: XP_011388763.1 Length: 221 
+>putative GTP-binding protein ypt5 [Ustilago maydis 521]
+Sequence ID: KIS69972.1 Length: 221  
+Range 1: 10 to 173
+
+Score:81.6 bits(200), Expect:1e-19, 
+Method:Compositional matrix adjust., 
+Identities:55/177(31%), Positives:91/177(51%), Gaps:16/177(9%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRH-VELALWDT  61
+            +L+ KLV++G+ A GK+ L++ F K  F +    T+   ++   V +D +  V+  +WDT
+Sbjct  10   QLQFKLVLLGESAVGKSSLVLRFVKDQFDDYRESTIGAAFLTQTVSLDAQTTVKFEIWDT  69
+
+Query  62   AGQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS-SLPILLVACKA  120
+            AGQE Y  L P+ Y +++  ++ + +  P SLD  +  WI E+      ++ I L   KA
+Sbjct  70   AGQERYKSLAPMYYRNANCAVVVYDITQPSSLDKAK-AWIRELQRQADPNIIIALAGNKA  128
+
+Query  121  DLRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATR  177
+            DL            + +  + TEE +  AQ+ G   +LE SAK +  V E+F    R
+Sbjct  129  DL-----------ASTRRAIPTEEAEKYAQEEGLL-FLETSAKNSSNVSELFTMIAR  173
+
+
+
+>ras-like protein Ras1 [Ustilago maydis]
+Sequence ID: AAN37908.1 Length: 195 
+Range 1: 9 to 171
+
+Score:79.3 bits(194), Expect:5e-19, 
+Method:Compositional matrix adjust., 
+Identities:56/177(32%), Positives:89/177(50%), Gaps:21/177(11%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTA---GQ  64
+            KLV++GDG  GKT L I      F E Y PT+ ++Y     +D +   L + DTA   GQ
+Sbjct  9    KLVVLGDGGVGKTALTIQLCLNHFVETYDPTIEDSYRKQTVIDDQPCMLEVLDTAGQDGQ  68
+
+Query  65   EDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS----SLPILLVACKA  120
+            E+Y  LR     +    L+ +++ +  + + V E++ S++         ++PI+LV  K 
+Sbjct  69   EEYTALRDQWIREGEGFLLVYSISARATFERV-ERFRSQISRVKDQEPHTVPIMLVGNKC  127
+
+Query  121  DLRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATR  177
+            D            K N+  V+ EEGQA+A ++G  K++E SAKT   V   + +  R
+Sbjct  128  D------------KVNEREVSREEGQALAHRLGC-KFIESSAKTCVNVERAYYTVVR  171
+
+
+
+>putative Rab family GTPase YPT6 [Ustilago maydis 521]
+Sequence ID: XP_011392486.1 Length: 218 
+>putative Rab family GTPase YPT6 [Ustilago maydis 521]
+Sequence ID: KIS66012.1 Length: 218  
+Range 1: 16 to 178
+
+Score:79.7 bits(195), Expect:7e-19, 
+Method:Compositional matrix adjust., 
+Identities:56/177(32%), Positives:91/177(51%), Gaps:17/177(9%)
+
+Query  5    LRR-KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRHVELALWDTA  62
+            LR+ KLV +G+ + GKT L+  F   TF   Y  T+  ++++  + ++ R V L LWDTA
+Sbjct  16   LRKFKLVFLGEQSVGKTSLITRFMYDTFDNTYQATIGIDFLSKTMYLEDRTVRLQLWDTA  75
+
+Query  63   GQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEV-LHFCSSLPILLVACKAD  121
+            GQE +  L P    DS V ++ + + +  S  N   KW+ +V     + + I+LV  K D
+Sbjct  76   GQERFRSLIPSYIRDSSVAVVVYDITNRASFQNT-SKWVDDVRAERGNDVIIVLVGNKTD  134
+
+Query  122  LRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRA  178
+            L            +++  VTTEE +  AQ+     ++E SAK    V+ +F+   +A
+Sbjct  135  L------------SDKRQVTTEEAEKKAQEFNVM-FIETSAKAGHNVKVLFKKIAQA  178
+
+
+
+>putative Rab family GTPase YPT7 [Ustilago maydis 521]
+Sequence ID: XP_011391834.1 Length: 205 
+Range 1: 10 to 176
+
+Score:73.9 bits(180), Expect:7e-17, 
+Method:Compositional matrix adjust., 
+Identities:49/179(27%), Positives:82/179(45%), Gaps:18/179(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVA-DVEVDGRHVELALWDTAGQED  66
+            K++I+GD   GKT L+  +    F   Y  T+  +++  +V VD R V + LWDTAGQE 
+Sbjct  10   KVIILGDSGVGKTSLMNQYVNKRFSSAYKATIGADFLTREVMVDDRLVTMQLWDTAGQER  69
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVL-----HFCSSLPILLVACKAD  121
+            +  L    Y  +    +C+ V++  S + + + W  E L     H   + P +++  K D
+Sbjct  70   FQSLGVAFYRGADCCCLCYDVNNAKSFETL-DSWRDEFLIQAAPHDPENFPFVVLGNKID  128
+
+Query  122  LRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAM  180
+            +    ++           V+ +      Q  G   Y E SAK    V + F++  RAA+
+Sbjct  129  VEESKRM-----------VSQKRAMTWCQSKGNIPYFETSAKEAINVEQAFQTIARAAL  176
+
+
+
+>putative Rab family GTPase YPT31 [Ustilago maydis 521]
+Sequence ID: XP_011387636.1 Length: 213 
+>putative Rab family GTPase YPT31 [Ustilago maydis 521]
+Sequence ID: KIS70476.1 Length: 213  
+Range 1: 12 to 192
+
+Score:69.3 bits(168), Expect:5e-15, 
+Method:Compositional matrix adjust., 
+Identities:55/195(28%), Positives:90/195(46%), Gaps:24/195(12%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHVELALWDTAGQED  66
+            K+V++GD   GK+ LL  F++  F      T+  E     + VDG+ V+  +WDTAGQE 
+Sbjct  12   KVVLIGDSGTGKSNLLSRFTRNEFSLESKSTIGVEFATRSISVDGKTVKAQIWDTAGQER  71
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVL-HFCSSLPILLVACKADLRND  125
+            Y  +    Y  +   L+ + +    +  NV  +W+ E+  H  S++ I+LV  K+DLR  
+Sbjct  72   YRAITSAYYRGAVGALLVYDIAKHPTYVNVS-RWLKELRDHADSNIVIMLVGNKSDLR--  128
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFES--------ATR  177
+                      +   V TEE +A A +     ++E SA     V + F++         + 
+Sbjct  129  ----------HLRAVPTEEAKAFAAE-NNLSFIETSALDASNVEQAFQNILTEIYRIVSN  177
+
+Query  178  AAMLKHKPKVKPSSG  192
+             A+      +KPS G
+Sbjct  178  KALQSSDDVIKPSGG  192
+
+
+
+>putative GTP-binding protein [Ustilago maydis 521]
+Sequence ID: XP_011388889.1 Length: 219 
+>putative GTP-binding protein [Ustilago maydis 521]
+Sequence ID: KIS69507.1 Length: 219  
+Range 1: 16 to 178
+
+Score:67.0 bits(162), Expect:3e-14, 
+Method:Compositional matrix adjust., 
+Identities:48/177(27%), Positives:83/177(46%), Gaps:17/177(9%)
+
+Query  19   KTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQEDYDRLRPLSYPDS  78
+            K+ L + F +  F   Y PT+ + Y   + +DG+   + + DTAG E +  L+ L     
+Sbjct  16   KSALTVQFVRNVFVSTYDPTIEDTYRKLLVIDGQQCMVEILDTAGTEQFLALKELYIKSG  75
+
+Query  79   HVILICFAVDSPDSLDNV---QEKWISEVLHFCSSLPILLVACKADLRNDPKIIEELSKT  135
+               ++ F++ S  S++ +   +E  +   +   +++PI+LV  KADLR D ++  E+   
+Sbjct  76   QGFILVFSLTSLASVNELGPLREAIVR--IKDTTAIPIVLVGNKADLRADRQVPREV---  130
+
+Query  136  NQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHKPKVKPSSG  192
+                     G ++++  G   Y E SA+    V EVF  A R          KPS+G
+Sbjct  131  ---------GTSLSKAWGNVPYYEASARKRINVDEVFADAVRQIRAFDAINGKPSNG  178
+
+
+
+>hypothetical protein UMAG_11007 [Ustilago maydis 521]
+Sequence ID: XP_011392744.1 Length: 691 
+>hypothetical protein UMAG_11007 [Ustilago maydis 521]
+Sequence ID: KIS65702.1 Length: 691  
+Range 1: 368 to 496
+
+Score:65.5 bits(158), Expect:5e-13, 
+Method:Composition-based stats., 
+Identities:43/130(33%), Positives:69/130(53%), Gaps:4/130(3%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVP-TVFENYVAD-VEVDGRHVELALWDT  61
+            +L  K+VI+G    GKT L+  ++ G F     P T+  +++   + VDG  V L LWDT
+Sbjct  368  QLEAKVVILGSQGVGKTSLVHRYTSGQFSIASTPSTIGASFLTKKLIVDGVKVRLQLWDT  427
+
+Query  62   AGQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEV-LHFCSSLPILLVACKA  120
+            AGQE +  + P+ Y  SH  +I + + S  S  +++  WI E+  +  + L I +V  K 
+Sbjct  428  AGQERFRSMAPMYYRGSHAAVIVYDITSMSSFMDIR-TWIEELKKNMTTDLVIHIVGAKL  486
+
+Query  121  DLRNDPKIIE  130
+            DL    + +E
+Sbjct  487  DLARSQRQVE  496
+
+
+
+>putative Ran GTPase GSP1 [Ustilago maydis 521]
+Sequence ID: XP_011387256.1 Length: 217 
+>putative Ran GTPase GSP1 [Ustilago maydis 521]
+Sequence ID: KIS71470.1 Length: 217  
+Range 1: 12 to 172
+
+Score:63.5 bits(153), Expect:6e-13, 
+Method:Compositional matrix adjust., 
+Identities:51/177(29%), Positives:75/177(42%), Gaps:17/177(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHVELALWDTAGQED  66
+            KLV+VGDG  GKT  +     G F + Y+ T+  E +      +   +   +WDTAGQE 
+Sbjct  12   KLVLVGDGGTGKTTFVKRHLTGEFEKKYIATLGVEVHPLQFHTNLGPICFNVWDTAGQEK  71
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRNDP  126
+            +  LR   Y      +I F V S  +  NV   W  ++   C ++PI+L   K D++   
+Sbjct  72   FGGLRDGYYIQGQCGIIMFDVTSRITYKNV-PNWHRDLERVCENIPIVLCGNKVDVK---  127
+
+Query  127  KIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKH  183
+               E   KT         G     +    +Y E SAK+N    + F    R  +  H
+Sbjct  128  ---ERKVKT---------GAVTFHRKKNLQYFEISAKSNYNFEKPFLWLARKLVGNH  172
+
+
+
+>GTP-binding protein [Ustilago maydis 521]
+Sequence ID: XP_011387706.1 Length: 246 
+>GTP-binding protein [Ustilago maydis 521]
+Sequence ID: KIS70567.1 Length: 246  
+Range 1: 18 to 180
+
+Score:60.5 bits(145), Expect:1e-11, 
+Method:Compositional matrix adjust., 
+Identities:46/176(26%), Positives:81/176(46%), Gaps:15/176(8%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRHVELALWDTAGQED  66
+            K +I+G+   GK+CLL  F    F E    T+   + +  +++  + V+L LWDTAGQE 
+Sbjct  18   KFIIIGEAGTGKSCLLHHFIHNQFKEQSAHTIGVEFSSRLIKIGNKSVKLQLWDTAGQER  77
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS-SLPILLVACKADLRND  125
+            +  +    Y  +   L+ + +    + + +  +W+++     S  L ++LV  K D  +D
+Sbjct  78   FRSVTRSYYRGAAGALLVYDITKRSTFEPLS-RWLTDARALASPDLVVVLVGNKTDRGDD  136
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAML  181
+             + +  L           E    A + G   +LE S+ T E V   F  A R+ +L
+Sbjct  137  EREVGYL-----------EASKWANENGVL-FLETSSITGENVEAPFALAARSILL  180
+
+
+
+>hypothetical protein UMAG_03810 [Ustilago maydis 521]
+Sequence ID: XP_011390248.1 Length: 754 
+>hypothetical protein UMAG_03810 [Ustilago maydis 521]
+Sequence ID: KIS68228.1 Length: 754  
+Range 1: 88 to 177
+
+Score:52.8 bits(125), Expect:1e-08, 
+Method:Composition-based stats., 
+Identities:29/90(32%), Positives:44/90(48%), Gaps:6/90(6%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADV------EVDGRHVELALWDT  61
+            K+V++GDG CGKT +   F   TF   Y  T+  +++         + +G    L +WDT
+Sbjct  88   KIVLIGDGGCGKTSIRNHFLSNTFFPSYRATIGADFITKTLPIDPSKPEGEKATLQIWDT  147
+
+Query  62   AGQEDYDRLRPLSYPDSHVILICFAVDSPD  91
+            AGQE +  L    Y  +  ++I F V   D
+Sbjct  148  AGQERFQSLGSAFYRGADAVIIAFDVTKGD  177
+
+
+
+>hypothetical protein UMAG_11426 [Ustilago maydis 521]
+Sequence ID: XP_011386754.1 Length: 396 
+>hypothetical protein UMAG_11426 [Ustilago maydis 521]
+Sequence ID: KIS71800.1 Length: 396  
+Range 1: 1 to 110
+
+Score:37.0 bits(84), Expect:0.002, 
+Method:Compositional matrix adjust., 
+Identities:28/116(24%), Positives:53/116(45%), Gaps:19/116(16%)
+
+Query  5    LRRKLVIVGDGACGKTCLL-IVFSKGTFPEVYVPTVFENYVADVEVDGRHVE------LA  57
+            ++RK++++G   CGKT +  ++FS       Y         + ++V+  HV       L 
+Sbjct  1    MKRKVLLMGQSGCGKTSMRSLIFSS------YRAADTRRLGSTLDVEHSHVRFLGNLVLN  54
+
+Query  58   LWDTAGQEDY-----DRLRPLSYPDSHVILICF-AVDSPDSLDNVQEKWISEVLHF  107
+            LWD  GQ+ Y     D+ R   +    V++  F  V + +  D  Q +W  ++ ++
+Sbjct  55   LWDCGGQQSYMDSYLDKQRSQVFSTVGVLIYVFDLVAAAEGGDEDQTEWERDLRYY  110
+
+
+
+
+
+Query #6: fus1 Query ID: lcl|Query_96528 Length: 1372
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+sepA-related Formin [Ustilago maydis 521]                         109    191   45%   3e-24 29.57  XP_011390816.1   
+
+
+Alignments:
+>sepA-related Formin [Ustilago maydis 521]
+Sequence ID: XP_011390816.1 Length: 1866 
+>sepA-related Formin [Ustilago maydis 521]
+Sequence ID: KIS67638.1 Length: 1866  
+Range 1: 322 to 548
+
+Score:109 bits(272), Expect:3e-24, 
+Method:Compositional matrix adjust., 
+Identities:68/230(30%), Positives:113/230(49%), Gaps:14/230(6%)
+
+Query  180  YIEKLSCTPLKLKYVESLAVALRTESVTWVRYFLLMGGHIVLAKILQAIHEKKHLKSPDI  239
+            +I+K     +  K++ESLAV LRT ++ W++ F+   G  VLA  L  +H K      D+
+Sbjct  322  FIKKFMDGTVTTKHIESLAVTLRTCAIGWIQSFVEAKGTPVLASFLSGLHAKGIKNDNDL  381
+
+Query  240  TLEIAILKSMRCIIGQKIGTDFYLSNKYPIDSVVHCLLSTKLLVRKLAAELLTFLCYSEK  299
+            +LE  +LK+ R +   K G +  L+    I  + H ++S +L  RK AA++L FLC+ +K
+Sbjct  382  SLEYEVLKAFRSLFNSKPGANDALAQPKCISGITHSMISLQLTTRKQAADILLFLCHWDK  441
+
+Query  300  PNGINAIMKCMKNFANLKVESMN--VFDLWLSQWKRTLLEK-------VVTEEKKVLEEA  350
+            P G   ++K    F +LK    +   FD W    ++T+  +         ++E K L   
+Sbjct  442  PTGHRLVLKA---FDDLKTSQGDHGRFDAWFRVLEQTIDGRGKMGSMVGASDEVKKLSVV  498
+
+Query  351  ALHDKITIEYIISQMLLINAFLEN--IPSKTALLQFKESLRIGNFKSILL  398
+              H+    EY I+ M LINA L +  +P     +  +  +     + IL+
+Sbjct  499  GPHESSLNEYAINNMFLINAILNSDIVPEFEVRVHLRNQMEASGLQRILI  548
+
+
+
+
+Range 2: 1148 to 1567
+
+Score:82.0 bits(201), Expect:6e-16, 
+Method:Compositional matrix adjust., 
+Identities:100/445(22%), Positives:187/445(42%), Gaps:65/445(14%)
+
+Query  871   LCNPSKRLKQLHWKRL------EVPFEKTLWNIVVADPYLLTLKLTAEGIFKQLEDCY--  922
+             L   S ++KQL W +L      E  F K   + + AD   L   L  EG+F+++E+ +  
+Sbjct  1148  LAMASSKMKQLQWDKLSPQHAAETIFGK---HELTADEEALVKTLQQEGLFEEMEEDFKA  1204
+
+Query  923   --PLREVTVSNKKVK-EYTGFMPVDLQQMVSIRLHRFNS-------LTPIEIAKKFFHCD  972
+               P+++ T + KK K E    + +  +Q + + L R  S        +P E+A    +C+
+Sbjct  1205  KQPVKKSTSTAKKDKIELKTHLSLQTRQGIEMVLKRVKSSLTESKQASPEEVAHHIINCN  1264
+
+Query  973   HDIMELVDFFNDRKFFRQEGLKKQLKPYMSSRNEEVMEVSEKLLELSRFDQIYTLIVVDI  1032
+               +++        + + +   K QL  Y ++ +EE+     +LL  +  D++  L++  +
+Sbjct  1265  EAVLDQSFLTELLRHYPESETKGQLGEYRNASDEEL-----RLLHPA--DRLVVLLMT-V  1316
+
+Query  1033  DTYYEKRMAALKIKSFLANNFRDFRRQIRKLHCASLELKSSLHFKYFLNLVLHIGNFMND  1092
+                 EK    L +  +    F   +  + K+  AS  L  +  F   L+L+L +GN++N 
+Sbjct  1317  PHLKEKVKGLLYMTKY-KETFDLIKSGMVKVRDASEGLMKAKAFARLLSLILMMGNYLNS  1375
+
+Query  1093  APRRAK--GYRLESLLRASMIKNDKTGLTLLHTIEKIVRTHFPQLEAFLVDLKAIPEISR  1150
+                +    G+++ S+ +    K    G TLLH +E+ +   FP++EAF+ +L+   E  R
+Sbjct  1376  TGVQGGAFGFKITSINKLVDTKA-SDGTTLLHFVERTISKCFPEVEAFMDELELPAEACR  1434
+
+Query  1151  FNLEQLEQDCNDICERMKNVEKDFSNEGIFSNHKALHP---------DDHICEVMVPWIP  1201
+               L  L +D  ++              G F + K L            D   ++M+P++ 
+Sbjct  1435  VQLWDLRRDLAEL------------KSGSFQHRKELDRLLDESEENLQDPYVKIMLPFLN  1482
+
+Query  1202  SGKSMVDELNSDITELKTTLKTTLLMYGENPD-----------EPTSSARFFNNLNEIIL  1250
+                S +  LN  +   +      L  +GE  D           +   +  FF    E + 
+Sbjct  1483  DAASELQRLNDQVQFTERVYNEALKYFGEGLDPKKRGLGQLANQTMRTEDFFGIFKEFLA  1542
+
+Query  1251  EYKKASTVNQKMEKEEELAFLRLQA  1275
+              YKK    N ++ ++  +   R  A
+Sbjct  1543  AYKKVKVDNVRIGEQRAMEAKRRAA  1567
+
+
+
+
+
+Query #7: itr2 Query ID: lcl|Query_96529 Length: 557
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+putative myo-inositol transporter [Ustilago maydis 521]           368    368   91%   1e-121 40.61  XP_011391149.1   
+hypothetical protein UMAG_01156 [Ustilago maydis 521]             312    312   82%   1e-99  35.18  XP_011387101.1   
+hypothetical protein UMAG_00061 [Ustilago maydis 521]             202    202   91%   3e-58  28.94  XP_011386034.1   
+hypothetical protein UMAG_11171 [Ustilago maydis 521]             169    169   80%   7e-46  30.85  XP_011386723.1   
+hypothetical protein UMAG_06076 [Ustilago maydis 521]             167    167   84%   1e-45  27.61  XP_011392436.1   
+putative monosaccharide transporter [Ustilago maydis 521]         159    159   84%   4e-43  27.81  XP_011391314.1   
+hypothetical protein UMAG_03034 [Ustilago maydis 521]             160    160   76%   9e-43  27.83  XP_011389409.1   
+putative sugar transporter [Ustilago maydis 521]                  159    159   74%   1e-42  28.94  XP_011391901.1   
+putative High-affinity glucose transporter [Ustilago maydis 521]  157    157   83%   4e-42  26.21  XP_011390556.1   
+putative hexose transporter [Ustilago maydis 521]                 154    154   80%   5e-41  29.35  XP_011388425.1   
+putative monosaccharide transporter [Ustilago maydis 521]         151    151   92%   5e-40  25.77  XP_011388799.1   
+putative quinate permease [Ustilago maydis 521]                   145    145   82%   4e-38  28.84  XP_011392103.1   
+putative sugar transporter [Ustilago maydis 521]                  145    145   81%   5e-38  26.65  XP_011387640.1   
+hypothetical protein UMAG_01476 [Ustilago maydis 521]             108    108   80%   3e-25  25.00  XP_011387534.1   
+hypothetical protein UMAG_01653 [Ustilago maydis 521]             89.0   89.0  66%   3e-19  25.25  XP_011387638.1   
+Major Facilitator invovled in MEL transport [Ustilago maydis 521] 38.1   38.1  33%   0.005  27.37  XP_011389466.1   
+
+
+Alignments:
+>putative myo-inositol transporter [Ustilago maydis 521]
+Sequence ID: XP_011391149.1 Length: 567 
+>putative myo-inositol transporter [Ustilago maydis 521]
+Sequence ID: KIS67376.1 Length: 567  
+Range 1: 43 to 551
+
+Score:368 bits(945), Expect:1e-121, 
+Method:Compositional matrix adjust., 
+Identities:212/522(41%), Positives:312/522(59%), Gaps:23/522(4%)
+
+Query  43   REIPSLPNEEEANATDPQANEVADEN-GEGFEAEKISSWIWVLSAVAGISGLLFGYDTGV  101
+            R + S     +A   D   +E A E  G+G   E  S ++W L+  A I GLLFGYDTG 
+Sbjct  43   RSVVSTEGIIDAAELDQVLDEAAIEAAGQG---ESNSLYLWTLTFFATIGGLLFGYDTGA  99
+
+Query  102  ISGALAVLGSDLGHV-LSSGQKELITSATSFAALISATTSGWLADWVGRKRLLLCADAIF  160
+            IS  L  +G+DL +  L+ G KE ITSA +  A+ISA  +G +AD  GRK  L+  D +F
+Sbjct  100  ISSVLVQVGTDLDNKELTDGNKEFITSALTVGAIISALCAGVVADKFGRKWTLVICDIMF  159
+
+Query  161  VIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITG  220
+            ++G+VI AA+     +V GRF++G GIG  + IVP+YI ELAPAR RGRL  +  + +T 
+Sbjct  160  IVGAVIQAAAHKKWDVVGGRFVLGLGIGAAAQIVPVYIQELAPARARGRLTCLNSIAVTF  219
+
+Query  221  GQLIAYSLNAAFEHVHQGWRIMFGIGAAPALGQLISL-FWTPESPRYLLRHNHVEKVYKI  279
+            GQ++A ++ A FEHV  GWR +  +GA P + QLI + F+  ESPRYL++    ++  + 
+Sbjct  220  GQVVATAIGAGFEHVSSGWRWIIALGAFPPIIQLIGIHFFMSESPRYLVKQRREDEAARA  279
+
+Query  280  LSRIHPEAKPAEIAYKVSLIQEGVKV-DFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCF  338
+            L+RI+P A P +I  K+ ++++ ++  D P        +  +KV   VP+ RR++F+   
+Sbjct  280  LTRIYPLATPEQINAKLGVLKKHIQTEDAPLR------YRIVKVWTDVPT-RRAVFLTSM  332
+
+Query  339  LQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRIL  398
+            +   QQ SG N++ YFS  +F+S G K  I+ S++V   NF+ T +   +IDR GRRR L
+Sbjct  333  VLASQQLSGFNSLMYFSGTLFKSAGLKQPIATSLIVSGANFLCTFIPLKYIDRFGRRRFL  392
+
+Query  399  LCTSAVMIAGLALCAIAYHFLPADTTQNTNSGWQY------VVLASIIIFLASYASGIGN  452
+            L T   +I  L   A  +  +   T Q    G+ Y       +L  +++++ SYA+G+GN
+Sbjct  393  LATMPCVIIFLVCTAGIFAKMLQPTNQRLVEGYPYPTSYTSAMLVFMVLYVCSYATGLGN  452
+
+Query  453  IPWQQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGL  512
+            +PWQQ E F  E R +G   STA+NW  NL+IS++FL++M +ITP+G F  +AG  FV L
+Sbjct  453  VPWQQGEFFSTETRMIGTSISTAVNWAANLVISSTFLSLMNAITPSGAFGFYAGLTFVFL  512
+
+Query  513  VTSYFTYPELAGMSIENIHKLLEKGFWQAVKESTKRVRKGRI  554
+            +  YF YPE + +S+E +   L  GF   VK+S K VRK +I
+Sbjct  513  LIVYFLYPETSLLSLEEVRTTLNGGF--NVKKSLK-VRKEKI  551
+
+
+
+>hypothetical protein UMAG_01156 [Ustilago maydis 521]
+Sequence ID: XP_011387101.1 Length: 600 
+>hypothetical protein UMAG_01156 [Ustilago maydis 521]
+Sequence ID: KIS71256.1 Length: 600  
+Range 1: 66 to 571
+
+Score:312 bits(799), Expect:1e-99, 
+Method:Compositional matrix adjust., 
+Identities:178/506(35%), Positives:294/506(58%), Gaps:49/506(9%)
+
+Query  78   SSWIWVLSAVAGISGLLFGYDTGVISGALAVLGSDLGHVLSSGQKELITSATSFAALISA  137
+            +S++  L+ VA + GL FG+DTG+ SG L  + SDLGH L+ G++ELI SAT+  A++ +
+Sbjct  66   ASYLARLTGVACLGGLQFGWDTGIASGMLVAIHSDLGHELNEGEQELIVSATTVGAILGS  125
+
+Query  138  TTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMY  197
+              +G +ADW+GRK++++ +  +F++G++  AAS+ V  +V+GR +VG G+G+ S++VP Y
+Sbjct  126  IVAGRMADWLGRKKVMIGSGVLFLLGALEQAASQVVRELVLGRVLVGLGVGMASMVVPTY  185
+
+Query  198  ITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQGWRIMFGIGAAPALGQLISL  257
+            + E+AP ++RGR+V I  + +TGGQ+IAY ++AAF ++  GWR M   G  PA+ QL+ +
+Sbjct  186  LAEVAPTKVRGRIVGINSLLVTGGQVIAYLIDAAFYNLPHGWRWMVLAGGVPAVLQLVGM  245
+
+Query  258  FWTPESPRYLLRHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVK-------VD----  306
+             +  ESPR+L+    + +  ++L RI+P A    I  ++  I   ++       VD    
+Sbjct  246  IYLDESPRWLVARGRIIRARRVLQRIYPHASVHTIDNEIDRISRSMQGATQHDSVDPDAC  305
+
+Query  307  ---FPEGNKFQHFFHS--------------------------LKVLFTVPSNRRSLFIGC  337
+                 +  + QH   +                          L +L    ++RR+L I C
+Sbjct  306  HTAVQQAEEVQHDLSATLGRVTAAPAQLTSTARQTTTRVKSKLDMLLQDRTHRRALLIAC  365
+
+Query  338  FLQWFQQFSGTNAIQYFSAIIFQSVGF-KNSISVSIVVGATNFVFTIVAFMFIDRIGRRR  396
+             LQ+FQQ +G N++ Y+S+ +    GF  N  + +I +   NF  T++A  +ID  GRR+
+Sbjct  366  VLQFFQQATGANSLLYYSSRLLMMAGFVVNPNAAAIGIAIANFGGTVIAVRYIDSWGRRK  425
+
+Query  397  ILLCTSAVMIAGLALCAIAYHFLP-------ADTTQNTNSGWQYVVLASIIIFLASYASG  449
+            +LL T+A M   LAL AI +  +        ++  +  ++ W Y  L  +I+F  SYA G
+Sbjct  426  LLLYTTAAMTLCLALVAIGFSQIDLGPVTGTSEQGEPVSTSWPYWTLVFMIMFTLSYALG  485
+
+Query  450  IGNIPWQ-QAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFC  508
+            +G +PW  Q+E+F  +VR +GAG +TA NW  NL+IS++FL +++ I P G FALF+   
+Sbjct  486  LGIVPWLVQSEIFSGQVRGVGAGLATATNWSTNLLISSTFLHLVKLIHPQGCFALFSAVS  545
+
+Query  509  FVGLVTSYFTYPELAGMSIENIHKLL  534
+             +    +Y+  PE AG+S+ ++   L
+Sbjct  546  ALSCAFTYWLLPETAGVSLNDVSGAL  571
+
+
+
+>hypothetical protein UMAG_00061 [Ustilago maydis 521]
+Sequence ID: XP_011386034.1 Length: 601 
+>hypothetical protein UMAG_00061 [Ustilago maydis 521]
+Sequence ID: KIS71619.1 Length: 601  
+Range 1: 12 to 540
+
+Score:202 bits(515), Expect:3e-58, 
+Method:Compositional matrix adjust., 
+Identities:156/539(29%), Positives:262/539(48%), Gaps:41/539(7%)
+
+Query  49   PNEEEANATDPQANEVADEN-GEGFEAEKISS-W-IWVLSAVAGISGLLFGYDTGVISGA  105
+            P+++E N        +A    G     E +   W +++L   A   GLLFG+DTG+I G 
+Sbjct  12   PSKQEGNLVSATHPPLAKRRFGSTSLTEDLQRHWRVYLLGICASFGGLLFGWDTGLIGGV  71
+
+Query  106  L--AVLGSDLGHVLSSGQKEL------ITSATSFAALISATTSGWLADWVGRKRLLLCAD  157
+            L  A   +D G  L +   +L      I S         A +S +L    GR+  +L + 
+Sbjct  72   LNMAAFQNDFG--LKNNPSKLAALKGNIVSVLQAGCFFGAASSFYLPHRFGRRNAMLISA  129
+
+Query  158  AIFVIGSVIMAASR--------NVAMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGR  209
+            A+F++GS+I    R         +  + VGR I G+G+GL S +VP Y++E AP  +RGR
+Sbjct  130  AVFLVGSIIQTTCRLHGQSATSALNQLYVGRVIGGFGVGLASSVVPTYLSECAPRSIRGR  189
+
+Query  210  LVIIYVVFITGGQLIAYSLNAAF------EHVHQGWRIMFGIGAAPALGQLISLFWTPES  263
+            L  +Y + I  G  IAY +N         +H    W++ F +   P    +++LF+ PES
+Sbjct  190  LAGMYQLLIVTGICIAYFVNYGMVQNYPDQHSSAMWQVPFALQCLPGFLFVVTLFFQPES  249
+
+Query  264  PRYLLRHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHSLKVL  323
+            PR+L+     E+ ++ L+RI+    P +    V+++QE ++ D  +G +       +++ 
+Sbjct  250  PRWLVEQGRSEEAHRALARIN--RTPIDDPSVVAILQE-IQNDL-QGKQGLSIRQQVRMA  305
+
+Query  324  FTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTI  383
+            F        +F G  L +FQQF+GTN+I Y+S  IF S+G     S  +  G    V  +
+Sbjct  306  FAERVTTYRVFTGALLMFFQQFTGTNSINYYSPQIFASLGVTGQSSGLLATGVYGVVKIV  365
+
+Query  384  VAFMF----IDRIGRRRILLCTSAVMIAGLALCAIAYHFLPADTTQNTNSGWQYVVLASI  439
+               +F    I+++GR+  L+    V +  L   AI     P+ T  +   G  Y+ +A I
+Sbjct  366  TTGLFMVVAIEQLGRKWCLITGGIVQVFCLFWIAIYQAVRPSGTPVD---GVGYLTIAMI  422
+
+Query  440  IIFLASYASGIGNIPWQ-QAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITPT  498
+             +F+  Y  G  ++ W   AE+ P ++RAL    +T   W  N +I+      +E I   
+Sbjct  423  YLFVVGYGLGWSSVTWAVSAEIAPNQLRALAMSAATMSQWFFNFVIALITPRALEHIK-F  481
+
+Query  499  GTFALFAGFCFVGLVTSYFTYPELAGMSIENIHKLLEKG-FWQAVKESTKRVRKGRIDE  556
+            GTF LFA    V ++ + F  PE +G+S+E +H++ +     +++++ + + RK   D 
+Sbjct  482  GTFILFAVVTSVAVLWAAFFLPETSGVSLELMHRVFQGNIITRSIQDLSPKKRKAFRDR  540
+
+
+
+>hypothetical protein UMAG_11171 [Ustilago maydis 521]
+Sequence ID: XP_011386723.1 Length: 645 
+>hypothetical protein UMAG_11171 [Ustilago maydis 521]
+Sequence ID: KIS72312.1 Length: 645  
+Range 1: 78 to 519
+
+Score:169 bits(428), Expect:7e-46, 
+Method:Compositional matrix adjust., 
+Identities:145/470(31%), Positives:221/470(47%), Gaps:47/470(10%)
+
+Query  84   LSAVAGISGLLFGYDTGVISGALA--VLGSDLGHVLSSGQKELITSATSFAALISATTSG  141
+            ++  A +   LFGYD GV+SG +      +   H  +     L+ S     AL+++   G
+Sbjct  78   VTCFASLGVFLFGYDQGVMSGIITGPYFKAYFKHPTAYEIGTLVAS-LELGALVTSLACG  136
+
+Query  142  WLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITEL  201
+             LAD  GRK  L     IF +G  I   +     M++GR I G G+G+ S+IVP Y +E+
+Sbjct  137  RLADIFGRKNTLFWGAVIFSVGGAIQTFTSGYDTMLIGRVISGLGVGVLSMIVPTYQSEI  196
+
+Query  202  APARLRGRLVIIYVVFITGGQLIAYSLN------AAFEHVHQGWRIMFG----IGAAPAL  251
+            +PA  RG+L  I       G +I Y+ +      ++F      WR+       IGA  A 
+Sbjct  197  SPAENRGKLACIEFT----GNIIGYASSVWVDYFSSFIESDLSWRLPLSLQVVIGATLAF  252
+
+Query  252  GQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEAKPAEIAYKVSL--IQEGVKVDFPE  309
+            G ++     PESPR+LL  +  E+  ++L+ +H    P E   K+    I+E V     +
+Sbjct  253  GSVL----LPESPRWLLDKDMDEQGMRVLADLHGAGDPNEPRAKLEFREIKENVLYLRKQ  308
+
+Query  310  GNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGF--KNS  367
+            G+      +S K + T    R    I    Q F Q  G N++ Y+  +I +S G+  +++
+Sbjct  309  GD------NSYKRMLT--QYRYRTMIAMSSQMFAQLVGINSVCYYLPMILESAGWIGRDA  360
+
+Query  368  ISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAYHFLPADTTQNT  427
+            + ++ V G    + T+  +  ID  GRR ILL  S  +  G AL A +Y F+  D +   
+Sbjct  361  LLMTGVNGIIYTLATVPTWFLIDLWGRRIILL--SGAIGCGAALTACSY-FMYLDQSYTP  417
+
+Query  428  NSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWVGNLIISA  486
+             +     V+  II+F A +    G +PW    E+ P+  RA GA  +TA NW  N ++  
+Sbjct  418  QA-----VVGCIIVFNAWFGYSWGPVPWLYPPEILPLAFRAKGASLATATNWSFNWLVGE  472
+
+Query  487  SFLTMMESIT--PTGTFALFAGFCFVGLVTSYFTYPELAGMSIENIHKLL  534
+                +ME I        A FAG  F   VT YF YPE +G+ +E I  L 
+Sbjct  473  LTPILMEKIAWRLYLILAFFAGLAF---VTVYFGYPETSGVPLEEIGALF  519
+
+
+
+>hypothetical protein UMAG_06076 [Ustilago maydis 521]
+Sequence ID: XP_011392436.1 Length: 578 
+>hypothetical protein UMAG_06076 [Ustilago maydis 521]
+Sequence ID: KIS65986.1 Length: 578  
+Range 1: 42 to 552
+
+Score:167 bits(424), Expect:1e-45, 
+Method:Compositional matrix adjust., 
+Identities:143/518(28%), Positives:233/518(44%), Gaps:52/518(10%)
+
+Query  84   LSAVAGISGLLFGYDTGVISGALAVL----GSDLGHVLSSGQKELITSATSFAALISATT  139
+            ++  A + GL++GY+ G+    L++      S +  + +      IT+     A +    
+Sbjct  42   IAVFASMGGLIYGYNQGMFGQILSMHSFSEASGVKGITNPTLAGFITAILELGAWVGVLM  101
+
+Query  140  SGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAM--MVVGRFIVGYGIGLTSLIVPMY  197
+            +G+++D  GR++ ++     F++G++I A +R+ +   ++ GR I G GIG  S+IVP+Y
+Sbjct  102  NGYVSDAFGRRKCVVFGVVWFILGAIIQACTRDGSYNYIIAGRTITGVGIGSLSMIVPLY  161
+
+Query  198  ITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHV--------HQGWRIMFGIGAAP  249
+              ELAP  +RG LV +    I  G +I+Y       ++           W I   +   P
+Sbjct  162  NAELAPPEIRGSLVALQQQAIVAGVMISYWFTYGTNYIGGTGAAQSRAAWLIPITVQILP  221
+
+Query  250  ALGQLISLFWTPESPRYLL---RHNHVEKVYKILSRIHPEAKPAEIAY----KVSLIQEG  302
+            AL   I +F+ PESPR+L+   R     KV   L R+       ++ +       L ++ 
+Sbjct  222  ALMLAIGIFFLPESPRWLINVGREQESLKVIADLRRLPENDLLVQLEFLEVKAQKLFEDR  281
+
+Query  303  VKV----DFPEGNKFQHF---FHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFS  355
+            V      D  +G++  +F       K L T P+N R   +      FQQ+ G N + Y+S
+Sbjct  282  VSAHDHPDLQDGSRSSNFKLGVAQYKSLVTNPANLRRTIVAVVTMLFQQWCGINFVLYYS  341
+
+Query  356  AIIFQSVGFK-NSISV--SIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALC  412
+              IF+ +G + N+IS+  S VVG   F+ TI A ++ID  GR+  L    A+M A    C
+Sbjct  342  PFIFKQIGLEGNTISLLASGVVGIVLFLATIPAVLYIDTWGRKPTLYVGCAIMGA----C  397
+
+Query  413  AIAYHFLPADTTQN----TNSGWQYVVLASIIIFLASYASGIGNIPWQ-QAELFPMEVRA  467
+             +A   + A  + N      +GW   V   + IF A +    G I W   AE+FP+ +RA
+Sbjct  398  HLAVAIIIATCSDNWPAHRAAGWVACVF--VWIFAAGFGFSFGPIGWIIVAEVFPLGLRA  455
+
+Query  468  LGAGFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVTSYFTYPELAGMSI  527
+             G     A NW+ N  ++ S    + S  P G F      CF+ +    F  PE    S+
+Sbjct  456  KGVSIGAASNWLNNFAVAMSTPDFI-SAAPYGVFIFLGVMCFLAIAYVKFFVPETKMKSL  514
+
+Query  528  ENIHKLL---------EKGFWQAVKESTKRVRKGRIDE  556
+            + +  +          E G     +     +R   IDE
+Sbjct  515  DELDAVFGDNSGRSKWEAGMMLQAQRDVGLLRLAGIDE  552
+
+
+
+>putative monosaccharide transporter [Ustilago maydis 521]
+Sequence ID: XP_011391314.1 Length: 534 
+>putative monosaccharide transporter [Ustilago maydis 521]
+Sequence ID: KIS67156.1 Length: 534  
+Range 1: 31 to 513
+
+Score:159 bits(403), Expect:4e-43, 
+Method:Compositional matrix adjust., 
+Identities:141/507(28%), Positives:238/507(46%), Gaps:58/507(11%)
+
+Query  83   VLSAVAGISGLLFGYDTGVISGALAV--LGSDLGHVLSSGQKELITSATSF-------AA  133
+            +++A +   G+LFGYDTG ISG L +       G +L  G+ +L T+ TS          
+Sbjct  31   LVAAASAFGGVLFGYDTGTISGLLVMKNFKETFGQLLPDGKVDLTTNDTSLVVSILSAGT  90
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLI  193
+             + A     L+D +GR+  +  A  +F IG V+  A+ N+ + + GR + G G+G+ S I
+Sbjct  91   FVGALAGAPLSDILGRRWGMQVALFVFTIGVVMQMATTNLDVFIGGRVVAGLGVGILSTI  150
+
+Query  194  VPMYITELAPARLRGRLVIIYVVFITGGQLIA-YSLNAAFEHVHQG-WRIMFGIGAAPAL  251
+            VPMY +E AP  +RG +V  Y   IT G L A  +      H + G WRI  GI  A A+
+Sbjct  151  VPMYQSETAPRWIRGAVVSGYQWAITIGLLCASLATYGTKNHDNSGAWRIPVGIQLAFAI  210
+
+Query  252  GQLISLFWT--PESPRYLLRHNHVEKVYKILSRIHP-EAKPAEIAYKVSLIQEGVKVDFP  308
+              ++ +F+T  PESPR+L++  + E+  K L+R++  +     +  ++S+IQ  + ++  
+Sbjct  211  --ILCIFFTILPESPRWLVKKGNHERASKSLARLNSTDVDDPIVRSELSVIQTNLDIELT  268
+
+Query  309  EGNKFQHFFHSLKVLFTVPSNRRSL---FIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFK  365
+                   +    K      ++R+ L     G F+Q FQQ +G N I YF    F++    
+Sbjct  269  HSTG--SYLDCFKT-----NDRKYLLRSLTGIFIQAFQQLTGINFIFYFGTKFFETA---  318
+
+Query  366  NSISVSIVVGATNFVF-----------TIVAFMFIDRIGRRRILLCTSAVMIAGLALCAI  414
+                   + G+  F+F           TI     ++R+GRR++L+  +  M     + A+
+Sbjct  319  -------LPGSDPFIFSVISNVVNVVSTIPGMYMMERLGRRKLLIWGAVWMCLCELIVAV  371
+
+Query  415  AYHFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFS  473
+                +P    +NT+ G     +A + I++A +AS  G   W    E+FP+ +RA      
+Sbjct  372  VGTAVP---KENTSGG--KTAVAFVCIYIAGFASTWGPAAWVVCGEIFPLAIRAKALSLC  426
+
+Query  474  TAINWVGNLIISASFLTMMESITPTG-----TFALFAGFCFVGLVTSYFTYPELAGMSIE  528
+            TA NW+ N  I  +   +++S           F ++ G C    V +YF   E   +S+E
+Sbjct  427  TASNWLWNFGIGYATPYLVDSGRGKAGLGAKVFFIWTGTCACCAVFAYFLIYETRLLSLE  486
+
+Query  529  NIHKLLEKGFWQAVKESTKRVRKGRID  555
+             + ++  +        +   +R  R D
+Sbjct  487  EVDEMYAQTNPIKSTAANAEIRARRSD  513
+
+
+
+>hypothetical protein UMAG_03034 [Ustilago maydis 521]
+Sequence ID: XP_011389409.1 Length: 643 
+>hypothetical protein UMAG_03034 [Ustilago maydis 521]
+Sequence ID: KIS69055.1 Length: 643  
+Range 1: 154 to 584
+
+Score:160 bits(405), Expect:9e-43, 
+Method:Compositional matrix adjust., 
+Identities:123/442(28%), Positives:207/442(46%), Gaps:25/442(5%)
+
+Query  103  SGALAVLGSDLGHVLSSGQKE---LITSATSFAALISATTSGWLAD----WVGRKRLLLC  155
+            S  + VL    G+V  +  +    L+    +   + SA    W++D    + GR+  +  
+Sbjct  154  SSPVGVLPGQPGYVTDAEAQRNQWLVGVVNAAPYIASALFGCWISDPLNNYFGRRGCIFI  213
+
+Query  156  ADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYV  215
+               I ++  +    ++N   + + R I+G G+G     VP++  E +P ++RG LV+ + 
+Sbjct  214  TAIILLVTPICSGLTQNWWELFIVRLILGIGMGAKGSTVPVFAAENSPPQIRGALVMGWQ  273
+
+Query  216  VFITGGQLIAYSLNAAFEHVHQ-GWRIMFGIGAAPALGQLISLFWTPESPRYLLRHNHVE  274
+            ++   G  + +  N A   V +  WR+  G    PAL   + +++ PESPR+L++ N   
+Sbjct  274  LWTAFGIFLGFVANVAVIDVGKIAWRLQLGSAFIPALPLAVLIYFCPESPRWLMKKNRYP  333
+
+Query  275  KVYKILSRI-HPEAKPAEIAY--KVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRR  331
+            +  + L R+ H + +     Y   V L++E   V      + + +    K LFT+P  RR
+Sbjct  334  QALRSLIRLRHNKIQACRDLYYIHVQLVEESKIV------RGETYLKRFKELFTIPRVRR  387
+
+Query  332  SLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVG--FKNSISVSIVVGATNFVFTIVAFMFI  389
+            +      +   QQ SG N I +FS+ IF   G   K ++  S+  GA NF+F   A + I
+Sbjct  388  ATVASTTVMLSQQLSGVNVIAFFSSTIFLESGSTAKQALYASLGFGAINFLFAFPALITI  447
+
+Query  390  DRIGRRRILLCTSAVMIAGLALCAIAYHFLPADTTQNTNSGWQYVVLASIIIFLASYASG  449
+            D  GRR +LL T   M     L A    FL       T  G   +V   I +F  +Y+ G
+Sbjct  448  DTFGRRSLLLFTFPQMT--WTLLAAGLCFLIPGEDSKTRLG---LVALFIYLFTMAYSPG  502
+
+Query  450  IGNIPWQ-QAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFC  508
+             G +P+   AE+FP+  R  G  ++ A       ++S +F  M++++TPTG F  +AG  
+Sbjct  503  CGPVPFTYSAEVFPLAQREQGMSWAVATCLFWAAVLSITFPRMLKAMTPTGAFGFYAGTN  562
+
+Query  509  FVGLVTSYFTYPELAGMSIENI  530
+             V  +  Y   PE A  ++E +
+Sbjct  563  IVAFILIYLFVPETARFTLEEL  584
+
+
+
+>putative sugar transporter [Ustilago maydis 521]
+Sequence ID: XP_011391901.1 Length: 537 
+>putative sugar transporter [Ustilago maydis 521]
+Sequence ID: KIS66614.1 Length: 537  
+Range 1: 74 to 490
+
+Score:159 bits(401), Expect:1e-42, 
+Method:Compositional matrix adjust., 
+Identities:125/432(29%), Positives:216/432(50%), Gaps:31/432(7%)
+
+Query  125  ITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFIVG  184
+            I S      +I A ++  + D +GR+R +L +  + +IG+ I AAS  V +M+ GR I G
+Sbjct  74   IVSLYEIGCVIGALSTFVVGDVLGRRRTILLSSILMLIGAAIQAASSTVGVMIAGRIISG  133
+
+Query  185  YGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHV----HQGWR  240
+             G+G  +  VP+   E +PA  RG+LV + +  +  G + AY ++  F +      + WR
+Sbjct  134  LGMGAINSTVPILQAETSPAVSRGQLVALDLTVLNIGIVFAYWMDYGFAYSGLTGSKVWR  193
+
+Query  241  IMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEA-KPAEIAYKVSLI  299
+            I   + +   +  +++    P+SPR+L +    E+   +L R+H  +    E+    + I
+Sbjct  194  IPVALQSVFIIVLVLTTLIIPDSPRWLAKKGRHEEAIAVLERLHNASIDSPEVQNSYAGI  253
+
+Query  300  QEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIF  359
+            Q+ ++ +    N     + SL    ++ + +R LF+ CF+Q  QQ SG NA+ Y+S  +F
+Sbjct  254  QQALEHERAAANTG---WASLVAKDSIQTRKR-LFLACFIQAAQQLSGINALIYYSGTLF  309
+
+Query  360  -QSVGFKNSISVSIVVGATNFVF---TIVAFMFIDRIGRRRILL-C---TSAVMIAGLAL  411
+             +S+G  +  S +++ G  N      +I++  FIDR+GR+++L+ C    SAVM     L
+Sbjct  310  SKSIGLDDKKS-ALMAGGLNMCLILGSIISIFFIDRVGRKKLLIPCIAGMSAVMCVQTGL  368
+
+Query  412  CAIAYHFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPWQ-QAELFPMEVRALGA  470
+              +       D TQN N G      A + +F   ++ G     W   +E+ P+ +R  G+
+Sbjct  369  VKVI-----QDGTQNANYG--RAASAMLFVFEFFFSLGFQATVWLIPSEVLPLLIRTKGS  421
+
+Query  471  GFSTAINWVGNLIISASFLTMMESITPTGTFALFA--GFCFVGLVTSYFTYPELAGMSIE  528
+              STA NW+ N  I     + +++I    T+ +FA    C+V ++  YF  PE  G S+E
+Sbjct  422  ALSTASNWIFNFAIVKFTPSALQNIGWR-TYIIFAVLNACWVPVI--YFFLPETKGRSLE  478
+
+Query  529  NIHKLLEKGFWQ  540
+             I +L     W 
+Sbjct  479  EIDELFATDDWH  490
+
+
+
+>putative High-affinity glucose transporter [Ustilago maydis 521]
+Sequence ID: XP_011390556.1 Length: 545 
+>putative High-affinity glucose transporter [Ustilago maydis 521]
+Sequence ID: KIS67836.1 Length: 545  
+Range 1: 8 to 510
+
+Score:157 bits(397), Expect:4e-42, 
+Method:Compositional matrix adjust., 
+Identities:135/515(26%), Positives:237/515(46%), Gaps:61/515(11%)
+
+Query  82   WVLSAVAGISGLLFGYDTGVISGALA------VLGSDLGHV-------------LSSGQK  122
+            +VL+A+A   G+LFG+D   +S  +A        G D   V              S+  +
+Sbjct  8    YVLTALACTGGMLFGFDISSLSAIIASPNYLVYFGDDKNTVECADRPGALCNPGPSADVQ  67
+
+Query  123  ELITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFI  182
+              IT++ +  + I++  SG +AD  GR+  +     ++VIGS++  A +N+ M++VGR  
+Sbjct  68   GGITASMAGGSFIASLFSGIVADRFGRRYAIFLGCILWVIGSILTCAVQNIGMLIVGRIF  127
+
+Query  183  VGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQ-----  237
+             G  +GL S  VP+Y++EL+P+R+RGRLV      IT G  I + ++    H+       
+Sbjct  128  NGMCVGLCSAQVPVYLSELSPSRIRGRLVGCQQWAITWGIAIFFFISFGCSHIGNRIDGE  187
+
+Query  238  -------GWRIMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIH---PEA  287
+                    +R  +GI   PAL  +  +   PESPR+L+ +   ++  +IL+++H    + 
+Sbjct  188  QDGRGTASFRTPWGIQMVPALVLMALVPLMPESPRWLIANARKQEALEILAQVHANGDQD  247
+
+Query  288  KPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSG  347
+             P  +A    ++Q  ++    EG  +   F           N     I  F Q + Q +G
+Sbjct  248  SPLVLAEYHEIVQN-IEESSGEGTGYLDLFKH--------GNAWRTHIAMFTQIWSQLTG  298
+
+Query  348  TNAIQYFSAIIFQSVGFKNSISV--SIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVM  405
+             N + Y+ + +F+  G   +I++  + +    N + T+ A +++DR GRR  LL  S +M
+Sbjct  299  MNVMMYYLSYVFEMAGITGNIALISNGIQYIINVLMTVPALLYVDRWGRRPTLLVGSTLM  358
+
+Query  406  IAGL----ALCAIAYHFLPADTTQNTNSGWQY------VVLASIIIFLASYASGIGNIPW  455
+               L     L A   H+ P   + N+   W+        V+A   +F+AS+A   G + W
+Sbjct  359  TIWLFAVAGLMAGYGHYYP--DSNNSVVRWKVEGPASKAVIACSYLFVASFAPTWGPVSW  416
+
+Query  456  -QQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVT  514
+                ELF   +R      STA NW  N  +         +I    ++ +F  F     + 
+Sbjct  417  IYVPELFGNRLRGKSNSVSTASNWAFNFALGYFVPPAFHNIQ-WKSYIIFGCFTVAMTIH  475
+
+Query  515  SYFTYPELAGMSIENIHKLLEKGF--WQAVKESTK  547
+             +  +PE AG ++E + ++ + G   W+    S++
+Sbjct  476  VFLAFPETAGKTLEEVDEIFQSGVPAWKTRPGSSR  510
+
+
+
+>putative hexose transporter [Ustilago maydis 521]
+Sequence ID: XP_011388425.1 Length: 539 
+>putative hexose transporter [Ustilago maydis 521]
+Sequence ID: KIS69498.1 Length: 539  
+Range 1: 17 to 478
+
+Score:154 bits(388), Expect:5e-41, 
+Method:Compositional matrix adjust., 
+Identities:140/477(29%), Positives:219/477(45%), Gaps:42/477(8%)
+
+Query  84   LSAVAGISGLLFGYDTGVISGAL----------------AVLGSDLGHVLSSGQKELITS  127
+            ++A+A + G LFG+DTG ISG L                A  G      +      L++ 
+Sbjct  17   IAALASMGGFLFGWDTGQISGLLEMSDFRARFATIDDPSATGGKSWNPWIEGVVVSLLSV  76
+
+Query  128  ATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMMV-VGRFIVGYG  186
+             T+   LI A     LAD +GR+  ++    +F IG +I   S      V +GR + G G
+Sbjct  77   GTAIGVLIGAP----LADKLGRRYAMVVECIVFDIGVIIQVTSFYAWYQVAIGRLVTGLG  132
+
+Query  187  IGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLN-AAFEHVHQG-WRIMFG  244
+            +G  S  VP+Y +E  P ++RG LV  Y +FIT G L+AY  N    ++ + G WR+   
+Sbjct  133  VGALSAAVPLYQSETVPRQVRGALVGTYQLFITLGILLAYCTNIGTRDYSNSGQWRVPIA  192
+
+Query  245  IGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRI----HPEAKP---AEIAYKVS  297
+            +G   +    I + + PESPR+L      E+ YK  + +    + +  P   AE    VS
+Sbjct  193  LGIFFSSILAIGILFCPESPRWLAAQGRNEEAYKACAAVRGAKYGDGNPWVEAEYREIVS  252
+
+Query  298  LIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAI  357
+            +++   K++  E      F    K L+      R+L +G  LQ  QQF+G N   YF   
+Sbjct  253  MVKADEKLE--EAGWLDCFKPQHKTLY------RTL-LGMALQAGQQFTGANYFFYFGTA  303
+
+Query  358  IFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAYH  417
+            IF+S G  +S    I++GA NFV T +    ++R GRR  L+  +A     L + AIA  
+Sbjct  304  IFRSAGLDDSFVTQIILGAVNFVCTFLGLYVLERFGRRWPLIYGAAWQSFWLFVFAIA-G  362
+
+Query  418  FLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAI  476
+             +     +  +SG   +++ +   F+  YAS      W    E F    RA  A  +T  
+Sbjct  363  VVGGPQPEQISSGIGKLLIVAACFFILGYASTWAPGIWIWIGESFSYRTRAKQASLATLS  422
+
+Query  477  NWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVTSYFTYPELAGMSIENIHKL  533
+            NW+ N +IS     +   I     F +FAG      + ++F   E A +++E++  +
+Sbjct  423  NWISNFLISYFSSPIANDINFAYGF-VFAGCNLANCLIAFFFVYESADLTLEDVDAM  478
+
+
+
+>putative monosaccharide transporter [Ustilago maydis 521]
+Sequence ID: XP_011388799.1 Length: 554 
+>putative monosaccharide transporter [Ustilago maydis 521]
+Sequence ID: KIS69674.1 Length: 554  
+Range 1: 1 to 550
+
+Score:151 bits(381), Expect:5e-40, 
+Method:Compositional matrix adjust., 
+Identities:143/555(26%), Positives:251/555(45%), Gaps:45/555(8%)
+
+Query  42   MREIPSLPNEEEANATDP------QANEVADENGEGFEA---EKISSWIWVLSAVAGISG  92
+            M + PS  + E+    +       QA+EV     +G++A    K++    +L+    + G
+Sbjct  1    MAQTPSTSSHEDMYKNEKIDLKVVQADEVHVHQVQGYDAPEPSKMTRRAQILAITICVGG  60
+
+Query  93   LLFGYDTGVISGA------LAVLGS--DLGHVLSSGQKELITSATSFAALISATTSGWLA  144
+            LLFG+D G+ISG       + V G     G  +  G+  +I S+ S    + A     ++
+Sbjct  61   LLFGFDIGIISGCFIMDPFIKVFGDCGAQGCSIPEGRISIINSSLSIGTFVGALLQAPVS  120
+
+Query  145  DWVGRKRLLLCADAIFVIGSVIMAAS-RNVAMMVVGRFIVGYGIGLTSLIVPMYITELAP  203
+            D+ GRK  ++     F +G++I  A+  +     VGR + G GIG  S + P+Y+ E AP
+Sbjct  121  DFFGRKPSMITWATTFTVGAIIQTATISSWHQFAVGRAVAGLGIGALSGLCPLYLGETAP  180
+
+Query  204  ARLRGRLVIIYVVFITGGQLIAYSLNAA---FEHVHQGWRIMFGIGAAPALGQLISLFWT  260
+              +RG +V  Y + I  G  I+Y ++ A   F+  +  W+I  G+     +  L  +   
+Sbjct  181  KHIRGTMVTFYQLLIIFGIFISYGVSWATQNFKTSNASWKIPVGLQLLWGVAMLSLMTLL  240
+
+Query  261  PESPRYLLRHNHVEKVYKILSRIHP------EAKPAEIAYKVSLIQEGVKVDFPEGNKF-  313
+            PESPRY L++  V++  +I++++          +P    +  + + E  +    E N F 
+Sbjct  241  PESPRYCLKNGQVDRAREIMAKMRDVVLQPINGQPRGDKWMEAELAEMKQGIDEENNIFA  300
+
+Query  314  -QHFFHSLKVLFTVPSNR-RSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFK-NSISV  370
+             + +  S  V F+  +   +    G  LQ  QQ +G N   Y+  ++  ++    +   +
+Sbjct  301  GRSYLGSYLVCFSAKNQMWKRTINGMMLQTLQQLNGQNFYYYYLPLLSSTLALPLDPFQI  360
+
+Query  371  SIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAYHF--LPADTTQNTN  428
+              ++G+ + V T+ A + I+++GRR +LL  +A   A   + A   H+   P DT  +  
+Sbjct  361  QFILGSASLVATLPALVAIEKLGRRPLLLIGAACEAACAFIVAFVGHYKTAPKDTPADLI  420
+
+Query  429  SGWQY----VVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWVGNLI  483
+            +  Q+    V ++  II L  Y+   G  PW   +E F    RA      +A NW+ N +
+Sbjct  421  TASQHQAGAVFISFAIIHLLFYSCCWGPGPWLYLSESFNSPTRAKAISLGSASNWLFNFL  480
+
+Query  484  ISASFLTMMESITPTGTFALFAGFCFVGLVTSYFTYPELAGMSIENIHKLLEKGFWQAVK  543
+            +S  F   + +        +F        V  YF  PE  G+S+E++  L  +     VK
+Sbjct  481  LSF-FSNKVAAQYGPFIMLIFGSVLVFAFVWVYFMVPETKGISLEDVEVLYSEN----VK  535
+
+Query  544  --ESTKRVRKGRIDE  556
+              +S   VR  R+ E
+Sbjct  536  PWKSAAWVRDNRLRE  550
+
+
+
+>putative quinate permease [Ustilago maydis 521]
+Sequence ID: XP_011392103.1 Length: 543 
+>putative quinate permease [Ustilago maydis 521]
+Sequence ID: KIS66420.1 Length: 543  
+Range 1: 16 to 489
+
+Score:145 bits(367), Expect:4e-38, 
+Method:Compositional matrix adjust., 
+Identities:139/482(29%), Positives:222/482(46%), Gaps:30/482(6%)
+
+Query  77   ISSW-IWVLSAVAGISGLLFGYDTGVISGALAV--LGSDLGHVLSSGQKELITSATSFAA  133
+            + +W +W+LS +A  + ++ GYD+  I G LA+       G + ++    L+++  +  A
+Sbjct  16   VYNWRVWMLSFIASFASIMIGYDSAFIGGTLALPSFTKSFGKLNANTSGNLVSTYQA-GA  74
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASR---NVAMMVVGRFIVGYGIGLT  190
+               A     +  + GRKR LL    +F IG+ IM A+    ++  + VGR I G  IG  
+Sbjct  75   FFGAFLGHPIGHFFGRKRGLLITSIVFTIGAAIMTAASPATHLTPIYVGRAIAGLAIGAA  134
+
+Query  191  SLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAF-----EHVHQGWRIMFGI  245
+            S + PMYI+E+APA  RG+ + +Y +    G ++ + +N          V Q WRI F +
+Sbjct  135  SNLTPMYISEIAPAPARGQAIGVYEIGWQIGGIVGFFINYGVIQTLPPSVKQ-WRIPFAV  193
+
+Query  246  GAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIH--PEAKP---AEIAYKVSLIQ  300
+               P    +I   +  ESPR+LL    V++  + L+ I   P   P    E       I+
+Sbjct  194  QLIPGGMLMIGSLFLVESPRWLLSRGRVDEAQQKLAYIRQLPTDHPYFIEEFNQMSHSIE  253
+
+Query  301  EGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQ  360
+            E  +V   +      +F   + +F      R L  G  L  FQ  +G NAI Y+S  +F+
+Sbjct  254  ENKRVAGGDS-----YFAPFRYVFRQKHLLRRLAFGSSLFIFQNGTGINAINYYSPTVFK  308
+
+Query  361  SVGFKNSISVSIVVGATNFVFTIVAFMFI----DRIGRRRILLCTS-AVMIAGLALCAIA  415
+            S+G   + +  +  G    + TI +F+FI    + +GRRR+L+ +S     A   + A  
+Sbjct  309  SLGIVGTSTGLLGTGCFGVIKTIGSFVFILFLVETVGRRRLLMISSTGGAAAMYYIAAYI  368
+
+Query  416  YHFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFST  474
+                P    +++  G     LA   I+   Y+ G   +PW   AE F    R +   F  
+Sbjct  369  AIAKPTLHKKSSIDGPGASALAFFYIWTCFYSFGWNPLPWVYGAESFDNTARPVAQIFMA  428
+
+Query  475  AINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVTSYFTYPELAGMSIENIHKLL  534
+            A NW+ N +IS +   M + +   G +A FA    V +   YF  PE  G+ IE +  L 
+Sbjct  429  ASNWLYNFVISQATPHMFQRMG-WGVYAFFASCMVVSVFWIYFLMPETKGIPIEEMDNLH  487
+
+Query  535  EK  536
+            EK
+Sbjct  488  EK  489
+
+
+
+>putative sugar transporter [Ustilago maydis 521]
+Sequence ID: XP_011387640.1 Length: 570 
+>putative sugar transporter [Ustilago maydis 521]
+Sequence ID: KIS70482.1 Length: 570  
+Range 1: 29 to 488
+
+Score:145 bits(367), Expect:5e-38, 
+Method:Compositional matrix adjust., 
+Identities:129/484(27%), Positives:215/484(44%), Gaps:55/484(11%)
+
+Query  82   WVLSAVAGISGLLFGYDTGVISGALAVLGSDLGHV--LSSGQKE-----------LITSA  128
+            W +   A    LLFGYD GV+ G+L  L S L     +++G              L+T  
+Sbjct  29   WAIGFAASAGFLLFGYDQGVL-GSLYTLPSWLAQFPEINTGPDSSPTSNASVLQGLVTGV  87
+
+Query  129  TSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIG  188
+                  + A +  +  + +GR+  +     I  +G++   AS ++A + V R I+G G G
+Sbjct  88   YELGCFVGAISMLYFGNLLGRRVNIWIGSIIMAVGAIGCTASYSLAQLFVFRVILGIGNG  147
+
+Query  189  LTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAA---FEHVHQGWRIMFGI  245
+            + +  +P++ +E +P   RG L+++    ITGG  +AY ++      E     WR+   +
+Sbjct  148  MHTATIPVWQSECSPPHKRGMLIMVEGAMITGGIAMAYWIDFGCFFLEPSSASWRVPLAL  207
+
+Query  246  GAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVKV  305
+                 L   ++ F  PESPR+L+     E+   +++ +                 + V V
+Sbjct  208  QLVLILPTFVTAF-LPESPRWLMLRGREEEARCVVAAL-----------------DNVPV  249
+
+Query  306  DFPE-GNKFQHFFHSLKVLFTV----------PSNRRSLFIGCFLQWFQQFSGTNAIQYF  354
+            D P  G K +    SL+   T             N     +G   Q FQQ SG N I Y+
+Sbjct  250  DDPMVGKKLREIAASLEAAKTTRIRDIFTNGPERNLHRTILGFVSQMFQQISGINLITYY  309
+
+Query  355  SAIIFQ-SVGFK--NSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLAL  411
+                 Q ++GF   NS  ++   G   F+ +  A  FI+++GRR ++L  +A    G  +
+Sbjct  310  IGKTLQENLGFSDINSRILAAANGTEYFIASWAAVFFIEKMGRRPLMLGGAA----GQCV  365
+
+Query  412  CAIAYHFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGA  470
+            C I    L     +N+ +G     +    +F  S+A G   + W   AE+ P+ +RA   
+Sbjct  366  CMIVLAILDVPRIKNSGNGPPVASVVFYFLFNTSFAWGWLGMTWLYPAEITPLAIRAQAN  425
+
+Query  471  GFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVTSYFTYPELAGMSIENI  530
+            G ST+ NW+ N ++      M  +I    T+ +FA   FV LV ++F +PE AG S+E +
+Sbjct  426  GISTSANWLFNFMVVMVTPVMFNNIG-YQTYVVFAVLNFVILVVTFFIFPETAGRSLEEM  484
+
+Query  531  HKLL  534
+              + 
+Sbjct  485  SAIF  488
+
+
+
+>hypothetical protein UMAG_01476 [Ustilago maydis 521]
+Sequence ID: XP_011387534.1 Length: 578 
+>hypothetical protein UMAG_01476 [Ustilago maydis 521]
+Sequence ID: KIS70303.1 Length: 578  
+Range 1: 33 to 501
+
+Score:108 bits(269), Expect:3e-25, 
+Method:Compositional matrix adjust., 
+Identities:122/488(25%), Positives:214/488(43%), Gaps:57/488(11%)
+
+Query  86   AVAGISGLLFGYDTGVISGAL---------AVLGSDLGHV-LSSGQKELITSATSFAALI  135
+            A+A I  +L+GYD    +G L          V+  D G   + S  + L  S      ++
+Sbjct  33   ALAVIGAILYGYDGTYFTGILEMDRFKRDFGVINPDNGQYEIPSNDQSLYASIVQAGEVV  92
+
+Query  136  SATTSGWLADWVGRKRLLLCADAIFVIGSVI-MAASRNVAMMVVGRFIVGYGIGLTSLIV  194
+             +  +  L D+VGR+     A  +  +G V+ +    + A++ +GR ++G G+G+ S   
+Sbjct  93   GSLLAAPLGDYVGRRGGFFGACTLVALGVVLQLVTVGSKALLTLGRGVLGAGVGVISNCT  152
+
+Query  195  PMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQGWR----IMFGIGAAPA  250
+            P+Y++E+AP  +RG +V  + + +  GQ+I   +    + +   W     I+F +     
+Sbjct  153  PLYLSEIAPTAIRGAIVSSWQLMLAIGQVIGACIAQGTKDIDSTWSYRIPIIFNLFFVAV  212
+
+Query  251  LGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVKVDFPEG  310
+            L  + + F  PESPR+L++ N  EK    L R++ + +  ++  KV  +         E 
+Sbjct  213  L--VAAQFIIPESPRWLIQKNRDEKALAALKRVN-KGQKDDVRDKVIAL---------EY  260
+
+Query  311  NKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWF---------QQFSGTNAIQYFSAIIFQS  361
+            N F+    + ++  +     +SL  G  L+ F         QQ  G   I  ++     +
+Sbjct  261  NAFRQ-ARADELELSGEGGWKSLMHGVELRKFACVLGILIGQQIGGVQFIFSYTVTFMTA  319
+
+Query  362  VGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCA-IAYHFLP  420
+            VG K++  ++I+V     V  + +F+ ++R GRR ++L TS  M   L + A I    LP
+Sbjct  320  VGLKDAFIITIIVDVIEVVGVLCSFLLVNRFGRRPLILWTSVPMFISLFVVAGIGTKGLP  379
+
+Query  421  ADTTQNTNSGWQYV--------VLASIIIFLASYASGIGNIPWQQA-ELFPMEVRALGAG  471
+                +  +  W  V        + A I I++  +    G + W  A EL   + R+    
+Sbjct  380  P---RGESLPWPGVISVTEGRTIAAMICIYVFFFNLAWGPLAWVVASELAVGKNRSKIMS  436
+
+Query  472  FSTAINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVTS----YFTYPELAGMSI  527
+              TA  W+   I  A   T+       G  A       VG + +    YF  PE  G S+
+Sbjct  437  VGTACFWI---IAWAVTFTLPYLFYNAGLGAQIGWIYGVGTLIAMTFVYFYIPETFGRSL  493
+
+Query  528  ENIHKLLE  535
+            E I+++LE
+Sbjct  494  EEINEMLE  501
+
+
+
+>hypothetical protein UMAG_01653 [Ustilago maydis 521]
+Sequence ID: XP_011387638.1 Length: 511 
+>hypothetical protein UMAG_01653 [Ustilago maydis 521]
+Sequence ID: KIS70478.1 Length: 511  
+Range 1: 78 to 469
+
+Score:89.0 bits(219), Expect:3e-19, 
+Method:Compositional matrix adjust., 
+Identities:102/404(25%), Positives:178/404(44%), Gaps:43/404(10%)
+
+Query  117  LSSGQKELITSATSFAALISATTSGWLA---DWVGRKRLLLCADAIFVIGSVIMAASRNV  173
+            L+  Q  L+TS  +   LIS+     L+    W GRK  +  + +  ++GS+++  S ++
+Sbjct  78   LTEAQFGLVTSLFTLGGLISSFLISPLSKSLSW-GRKTCITASASFGILGSLVLTFSSSL  136
+
+Query  174  AMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFE  233
+              + +GRF+ G G G+  +IVP++I E++P  L+G + ++    I  G  +A ++ A++ 
+Sbjct  137  TGLGIGRFVQGIGSGIGVVIVPIFINEISPTALKGSIGVLNQFSIVLGIFVAQAIGASWL  196
+
+Query  234  HVHQ-GWRIMFGIGAAPALGQLISLFWTP-ESPRYL---------LRHN-HVEKVYKIL-  280
+                  WR + G+  A +L QL+       ESP +L         +R N   ++V K+L 
+Sbjct  197  GSDGWWWRSVPGVSGALSLLQLLGSLTVGLESPGWLEGEGKKSWTMRANDEADEVRKVLW  256
+
+Query  281  -----------SRIHPEAKPAEIAYKVSLIQEGVKVDFPEGN-KFQHFFHSLKVLFTVPS  328
+                        R       A    +   +  G + D    N         L  LF+ P 
+Sbjct  257  SAKEVQSWKEGRRSTGSNDDARSDEERQALLAGSEADASRANVSSMEVKVGLCTLFSDPE  316
+
+Query  329  NRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMF  388
+             R    +    Q  QQ SG NA+ Y+S  I  S+    + S+ IV+   N V T      
+Sbjct  317  LRPGTLLVMLTQLGQQLSGINAVLYYSVGILGSIVPSLAGSIGIVITLINIVMTFPPIWL  376
+
+Query  389  ID--RIGRRRILLCTSAVMIAGLALCAIAYHFLPADTTQNTNSGWQYVVLASIIIFLASY  446
+            ID  R+GR+ ++L ++ VM    AL A    +           G++ +    +I+ +A +
+Sbjct  377  IDERRVGRKTLMLASALVMSIASALLATGIVY-----------GYKIISAICMILMVAGF  425
+
+Query  447  ASGIGNIPWQ-QAELFPMEVRALGAGFSTAINWVGNLIISASFL  489
+            + G+G IP+    EL      +        +NW  N ++ ++FL
+Sbjct  426  SFGLGPIPFVILPELVASRAVSTTTSLGLTLNWTANFVVGSAFL  469
+
+
+
+>Major Facilitator invovled in MEL transport [Ustilago maydis 521]
+Sequence ID: XP_011389466.1 Length: 619 
+>RecName: Full=MFS-type efflux pump MMF1; AltName: Full=Mannosylerythritol lipids (MELs) biosynthesis cluster protein MMF1 [Ustilago maydis 521]
+Sequence ID: A0A0D1DYJ6.1 Length: 619 >Major Facilitator invovled in MEL transport [Ustilago maydis 521]
+Sequence ID: KIS69144.1 Length: 619  
+Range 1: 40 to 225
+
+Score:38.1 bits(87), Expect:0.005, 
+Method:Compositional matrix adjust., 
+Identities:52/190(27%), Positives:91/190(47%), Gaps:9/190(4%)
+
+Query  37   PFSEDMREIPSLPNEE----EANATDPQANEVADENGEGFEAEKISSWIWVLSAVAGISG  92
+            P S+  ++  SL +++    E  ++ P  + V D        + +  WI + SA+  I+ 
+Sbjct  40   PSSQTKQDKESLSHDQAVRVEPESSTPLTDSVEDNESGAKVKKDLHFWI-IFSALMLIA-  97
+
+Query  93   LLFGYDTGVISGALAVLGSDLGHVLSSGQKELITSATSFAALISATTSGWLADWVGRKRL  152
+             +   D  +IS AL  + ++L    S+     ITSA     + S    G L+  +GRK  
+Sbjct  98   FVAALDMTMISTALPAITANLPP--STIAANWITSAFLLPMVASQPIFGGLSCSIGRKWS  155
+
+Query  153  LLCADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLV-  211
+            +  A  IF++GSV+ A ++   ++V+GR I G G G    +  + +++L   R RG    
+Sbjct  156  INSALVIFLVGSVVCATAKTFLVLVIGRGIQGLGGGGIHSMCEIIMSDLTTLRERGLFFG  215
+
+Query  212  IIYVVFITGG  221
+            +I +VF   G
+Sbjct  216  VIALVFAVAG  225
+
+
+
+
+
+Query #8: rho5 Query ID: lcl|Query_96530 Length: 200
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+Rho family GTPase RHO1 [Ustilago maydis 521]                      324    324   99%   3e-115 77.27  XP_011391479.1   
+putative Rho family GTPase [Ustilago maydis 521]                  236    236   89%   5e-80  61.45  XP_011390336.1   
+Rac1 GTP binding protein [Ustilago maydis 521]                    216    216   96%   3e-72  53.89  XP_011386548.1   
+Rac1 GTP binding protein [Ustilago maydis]                        214    214   96%   7e-72  53.37  AAM74083.1       
+GTP binding protein Rho2 [Ustilago maydis 521]                    212    212   88%   2e-70  56.18  XP_011388771.1   
+Rho2 GTP binding protein [Ustilago maydis]                        207    207   87%   1e-68  55.68  AAM74081.1       
+Rho family GTPase CDC42 [Ustilago maydis 521]                     202    202   96%   8e-67  50.26  XP_011386207.1   
+Rho3 GTP binding protein [Ustilago maydis 521]                    169    169   90%   7e-54  49.18  XP_011390508.1   
+Rho3 GTP binding protein [Ustilago maydis]                        164    164   92%   7e-52  48.39  AAM74082.1       
+putative Rab family GTPase YPT1 [Ustilago maydis 521]             91.3   91.3  95%   2e-23  27.46  XP_011390269.1   
+putative Rab family GTPase SEC4 [Ustilago maydis 521]             87.8   87.8  85%   4e-22  30.23  XP_011390293.1   
+putative GTP-binding protein ypt5 [Ustilago maydis 521]           85.1   85.1  87%   6e-21  31.64  XP_011388763.1   
+small G-protein Ras2 [Ustilago maydis 521]                        83.6   83.6  85%   1e-20  32.18  XP_011387629.1   
+putative Ras-related protein Rab-18 [Ustilago maydis 521]         82.4   82.4  83%   8e-20  32.16  XP_011390026.1   
+putative Rab family GTPase YPT7 [Ustilago maydis 521]             81.3   81.3  86%   1e-19  29.61  XP_011391834.1   
+putative Rab family GTPase YPT6 [Ustilago maydis 521]             79.3   79.3  87%   8e-19  31.64  XP_011392486.1   
+ras-like protein Ras1 [Ustilago maydis]                           78.2   78.2  85%   1e-18  31.64  AAN37908.1       
+putative Ran GTPase GSP1 [Ustilago maydis 521]                    69.3   69.3  85%   4e-15  32.16  XP_011387256.1   
+hypothetical protein UMAG_11007 [Ustilago maydis 521]             71.2   71.2  63%   5e-15  32.31  XP_011392744.1   
+putative Rab family GTPase YPT31 [Ustilago maydis 521]            68.2   68.2  58%   1e-14  33.61  XP_011387636.1   
+GTP-binding protein [Ustilago maydis 521]                         64.7   64.7  92%   3e-13  24.60  XP_011387706.1   
+hypothetical protein UMAG_02638 [Ustilago maydis 521]             57.8   57.8  89%   2e-10  26.92  XP_011389032.1   
+hypothetical protein UMAG_03810 [Ustilago maydis 521]             53.5   53.5  40%   6e-09  33.72  XP_011390248.1   
+hypothetical protein UMAG_11426 [Ustilago maydis 521]             39.7   39.7  51%   2e-04  25.00  XP_011386754.1   
+
+
+Alignments:
+>Rho family GTPase RHO1 [Ustilago maydis 521]
+Sequence ID: XP_011391479.1 Length: 194 
+>Rho family GTPase RHO1 [Ustilago maydis 521]
+Sequence ID: KIS66953.1 Length: 194  
+Range 1: 2 to 194
+
+Score:324 bits(831), Expect:3e-115, 
+Method:Compositional matrix adjust., 
+Identities:153/198(77%), Positives:174/198(87%), Gaps:5/198(2%)
+
+Query  3    TELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTA  62
+            +ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRH+ELALWDTA
+Sbjct  2    SELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTA  61
+
+Query  63   GQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDL  122
+            GQEDYDRLRPLSYPDSHV+LICF+VD+P+SLDNVQEKWISEVLHFC +LPI+LVGCK DL
+Sbjct  62   GQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCHSLPIILVGCKKDL  121
+
+Query  123  RNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLK  182
+            R+DPK ++EL KTSQ+P++ EEG  VAQKIGA +YLECSAK  EGV EVFE A RA++++
+Sbjct  122  RHDPKIVDELRKTSQRPVSAEEGMAVAQKIGAVRYLECSAKTGEGVREVFEHATRAALVQ  181
+
+Query  183  FKPASVPKTKKKKHCILL  200
+                S     +KK C +L
+Sbjct  182  RSRGS-----RKKGCTVL  194
+
+
+
+>putative Rho family GTPase [Ustilago maydis 521]
+Sequence ID: XP_011390336.1 Length: 230 
+>putative Rho family GTPase [Ustilago maydis 521]
+Sequence ID: KIS68190.1 Length: 230  
+Range 1: 30 to 208
+
+Score:236 bits(603), Expect:5e-80, 
+Method:Compositional matrix adjust., 
+Identities:110/179(61%), Positives:137/179(76%), Gaps:0/179(0%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAG  63
+            +L++KLV+VGDG CGKTCLLIV+S+  FP+ YVPTVFENYV  ++ +G+ IELALWDTAG
+Sbjct  30   DLKKKLVVVGDGGCGKTCLLIVYSQNKFPQEYVPTVFENYVPIIQFEGKTIELALWDTAG  89
+
+Query  64   QEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLR  123
+            QE+YDRLRPLSYP+S V+LICF+VD P SL NVQ+KW  E+ HFC  +PILLVG K DLR
+Sbjct  90   QEEYDRLRPLSYPESDVILICFAVDFPTSLANVQDKWFPEINHFCEGVPILLVGLKTDLR  149
+
+Query  124  NDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLK  182
+             D  ++  L     KP+T  +GQ VA +IGA KY+ECSAK  +GV  VF+TA R +  K
+Sbjct  150  KDANSLAMLQAQGTKPVTPAQGQHVADEIGAAKYVECSAKTKDGVQNVFDTAIREACRK  208
+
+
+
+>Rac1 GTP binding protein [Ustilago maydis 521]
+Sequence ID: XP_011386548.1 Length: 193 
+>Rac1 GTP binding protein [Ustilago maydis 521]
+Sequence ID: KIS72370.1 Length: 193  
+Range 1: 5 to 193
+
+Score:216 bits(549), Expect:3e-72, 
+Method:Compositional matrix adjust., 
+Identities:104/193(54%), Positives:137/193(70%), Gaps:4/193(2%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  Y+PTVF+NY A+V VDG+ + L LWDTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNAFPGEYIPTVFDNYSANVMVDGKPVSLGLWDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDPK  127
+            DRLRPLSYP + V L+CFS+ +P S +NV+ KW  EV H   N+P +LVG K+DLR DP+
+Sbjct  65   DRLRPLSYPQTDVFLVCFSLVSPPSFENVRTKWWPEVSHHAPNIPTILVGTKLDLREDPE  124
+
+Query  128  TIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKFKPAS  187
+            TI +L     +PIT+ +G  +A+ I A KYLECSA   +G+  VF+ A R+ +    PA 
+Sbjct  125  TIAKLRDRRMQPITYAQGNQMARDIHATKYLECSALTQKGLKGVFDEAIRSVL---APAP  181
+
+Query  188  VPKTKKKKHCILL  200
+            V K+KKK +C++L
+Sbjct  182  V-KSKKKNNCMIL  193
+
+
+
+>Rac1 GTP binding protein [Ustilago maydis]
+Sequence ID: AAM74083.1 Length: 193 
+Range 1: 5 to 193
+
+Score:214 bits(546), Expect:7e-72, 
+Method:Compositional matrix adjust., 
+Identities:103/193(53%), Positives:137/193(70%), Gaps:4/193(2%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  Y+PTVF+NY A+V VDG+ + L LWDTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNAFPGEYIPTVFDNYSANVMVDGKPVSLGLWDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDPK  127
+            DRLRPLSYP + V L+CFS+ +P S +NV+ KW  EV H   N+P +LVG K+DLR DP+
+Sbjct  65   DRLRPLSYPQTDVFLVCFSLVSPPSFENVRTKWWPEVSHHAPNIPTILVGTKLDLREDPE  124
+
+Query  128  TIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKFKPAS  187
+            TI +L     +PIT+ +G  +A+ I A KYLECSA   +G+  VF+ A R+ +    PA 
+Sbjct  125  TIAKLRDRRMQPITYAQGNQMARDIHATKYLECSALTQKGLKGVFDEAIRSVL---APAP  181
+
+Query  188  VPKTKKKKHCILL  200
+            V ++KKK +C++L
+Sbjct  182  V-QSKKKNNCLIL  193
+
+
+
+>GTP binding protein Rho2 [Ustilago maydis 521]
+Sequence ID: XP_011388771.1 Length: 214 
+>GTP binding protein Rho2 [Ustilago maydis 521]
+Sequence ID: KIS69982.1 Length: 214  
+Range 1: 6 to 181
+
+Score:212 bits(539), Expect:2e-70, 
+Method:Compositional matrix adjust., 
+Identities:100/178(56%), Positives:133/178(74%), Gaps:3/178(1%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQ  64
+            +RRKLVIVGDGACGKT LL VF+ G FP+ Y PT+FENYVA++ +DG+ ++LALWDTAGQ
+Sbjct  6    IRRKLVIVGDGACGKTSLLCVFAIGEFPQEYEPTIFENYVAEIRLDGKPVQLALWDTAGQ  65
+
+Query  65   EDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCS-NLPILLVGCKVDLR  123
+            E+Y+RLRPLSY  +HV+LI F++D P+SL+NVQ KW+ EV   C  ++P+LLVGCK DLR
+Sbjct  66   EEYERLRPLSYSQAHVILIAFAIDTPDSLENVQVKWMEEVRQICGPSVPVLLVGCKKDLR  125
+
+Query  124  NDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASML  181
+             D   I +        +  ++ ++VA +IGA  Y ECS+  N+GV+ VFE A RA+ML
+Sbjct  126  ED--AIAKGKPVQGHYVERQQAKLVAAQIGARSYHECSSLNNQGVDAVFEAATRAAML  181
+
+
+
+>Rho2 GTP binding protein [Ustilago maydis]
+Sequence ID: AAM74081.1 Length: 214 
+Range 1: 8 to 181
+
+Score:207 bits(527), Expect:1e-68, 
+Method:Compositional matrix adjust., 
+Identities:98/176(56%), Positives:131/176(74%), Gaps:3/176(1%)
+
+Query  7    RKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQED  66
+            RKLVIVGDGACGKT LL VF+ G FP+ Y PT+FENYVA++ +DG+ ++LALWDTAGQE+
+Sbjct  8    RKLVIVGDGACGKTSLLCVFAIGEFPQEYEPTIFENYVAEIRLDGKPVQLALWDTAGQEE  67
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCS-NLPILLVGCKVDLRND  125
+            Y+RLRPLSY  +HV+LI F++D P+SL+NVQ KW+ EV   C  ++P+LLVGCK DLR +
+Sbjct  68   YERLRPLSYSQAHVILIAFAIDTPDSLENVQVKWMEEVRQICGPSVPVLLVGCKKDLREN  127
+
+Query  126  PKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASML  181
+               I +        +  ++ ++VA +IGA  Y ECS+  N+GV+ VFE A RA+ML
+Sbjct  128  --AIAKGKPVQGHYVKRQQAKLVAAQIGARSYHECSSLNNQGVDAVFEAATRAAML  181
+
+
+
+>Rho family GTPase CDC42 [Ustilago maydis 521]
+Sequence ID: XP_011386207.1 Length: 191 
+>GTP binding protein Cdc42 [Ustilago maydis]
+Sequence ID: AAM73880.1 Length: 191  
+Range 1: 5 to 191
+
+Score:202 bits(513), Expect:8e-67, 
+Method:Compositional matrix adjust., 
+Identities:97/193(50%), Positives:131/193(67%), Gaps:6/193(3%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  YVPTVF+NY   V +      L L+DTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNKFPSEYVPTVFDNYAVTVMIGEDPYTLGLFDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDPK  127
+            DRLRPLSYP + V L+CFSV +P S +NV+EKW  EV H C  +P L+VG +VDLR+D  
+Sbjct  65   DRLRPLSYPQTDVFLVCFSVTSPASFENVKEKWFPEVHHHCPGVPCLIVGTQVDLRDDHA  124
+
+Query  128  TIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKFKPAS  187
+             IE+L+++ Q+P+ FE G+ +A+++GA KY+ECSA   +G+  VF+ A  A++       
+Sbjct  125  VIEKLARSKQRPVPFEAGERLARELGAVKYVECSALTQKGLKNVFDEAIVAAL------E  178
+
+Query  188  VPKTKKKKHCILL  200
+             P  +KK  C +L
+Sbjct  179  PPVIRKKSKCAIL  191
+
+
+
+>Rho3 GTP binding protein [Ustilago maydis 521]
+Sequence ID: XP_011390508.1 Length: 198 
+>Rho3 GTP binding protein [Ustilago maydis 521]
+Sequence ID: KIS68029.1 Length: 198  
+Range 1: 19 to 192
+
+Score:169 bits(427), Expect:7e-54, 
+Method:Compositional matrix adjust., 
+Identities:90/183(49%), Positives:118/183(64%), Gaps:11/183(6%)
+
+Query  7    RKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVD-GRHIELALWDTAGQE  65
+            RK++++GDGA GKT LL V  +  FP+ Y PTVFENY        G  +EL LWDTAGQE
+Sbjct  19   RKVLVLGDGASGKTSLLFVLVRHEFPQTYEPTVFENYTHIQHTHTGLAVELTLWDTAGQE  78
+
+Query  66   DYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRND  125
+            ++D+LR LSY D+ VVL+CFSVD P SL NV+ +WI+E+ H C  + I+LV  K DLR +
+Sbjct  79   EFDKLRSLSYADTDVVLLCFSVDNPVSLQNVESRWIAEIRHHCPAVKIMLVALKCDLR-E  137
+
+Query  126  PKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVF-ETAARASMLKFK  184
+            P+    LS        +  G  VA++I A +YLECSAK N GV E F E A+ A+ ++  
+Sbjct  138  PRNPRTLS--------YNHGLDVAKRINACRYLECSAKSNRGVTECFTELASVAANVRPH  189
+
+Query  185  PAS  187
+            P S
+Sbjct  190  PHS  192
+
+
+
+>Rho3 GTP binding protein [Ustilago maydis]
+Sequence ID: AAM74082.1 Length: 197 
+Range 1: 16 to 191
+
+Score:164 bits(414), Expect:7e-52, 
+Method:Compositional matrix adjust., 
+Identities:90/186(48%), Positives:118/186(63%), Gaps:12/186(6%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVD-GRHIELALWDTA  62
+             + RK+++ GDGA GKT LL VF +  FP+   PTVFENY        G  +EL LWDTA
+Sbjct  16   RIARKVLVFGDGASGKTSLLFVFVRHEFPQTS-PTVFENYTHIQHTHTGLAVELTLWDTA  74
+
+Query  63   GQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDL  122
+            GQE++D+LR LSY D+ VVL+CFSVD P SL NV+ +WI+E+ H C  + I+LV  K DL
+Sbjct  75   GQEEFDKLRSLSYADTDVVLLCFSVDNPVSLQNVESRWIAEIRHHCPAVKIMLVALKCDL  134
+
+Query  123  RNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVF-ETAARASML  181
+            R +P+    LS        +  G  VA++I A +YLECSAK N GV E F E A+ A+ +
+Sbjct  135  R-EPRNPRTLS--------YNHGLDVAKRINACRYLECSAKSNRGVTECFTELASVAANV  185
+
+Query  182  KFKPAS  187
+            +  P S
+Sbjct  186  RPHPHS  191
+
+
+
+>putative Rab family GTPase YPT1 [Ustilago maydis 521]
+Sequence ID: XP_011390269.1 Length: 208 
+>putative Rab family GTPase YPT1 [Ustilago maydis 521]
+Sequence ID: KIS68251.1 Length: 208  
+Range 1: 13 to 191
+
+Score:91.3 bits(225), Expect:2e-23, 
+Method:Compositional matrix adjust., 
+Identities:53/193(27%), Positives:101/193(52%), Gaps:16/193(8%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHIELALWDTAGQED  66
+            KL+++GD   GK+CLL+ F+  T+ E Y+ T+  ++ +  +E++G+ ++L +WDTAGQE 
+Sbjct  13   KLLLIGDSGVGKSCLLLRFADDTYTESYISTIGVDFKIRTIELEGKTVKLQIWDTAGQER  72
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHF-CSNLPILLVGCKVDLRND  125
+            +  +    Y  +H +++ + V   ++  NV++ W+ E+  + C  +  LLVG K DL   
+Sbjct  73   FRTITSSYYRGAHGIIVVYDVTDNDTFSNVKQ-WLQEIDRYACEGVNKLLVGNKSDL---  128
+
+Query  126  PKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKFKP  185
+                     T++K + +   +  A ++    +LE SAK    V + F T A+    +   
+Sbjct  129  ---------TNKKVVEYATAKDFADQL-QIPFLETSAKSATNVEQAFLTMAKQIKDRMGS  178
+
+Query  186  ASVPKTKKKKHCI  198
+            ++V      K  +
+Sbjct  179  STVNNQAGGKSTL  191
+
+
+
+>putative Rab family GTPase SEC4 [Ustilago maydis 521]
+Sequence ID: XP_011390293.1 Length: 209 
+>putative Rab family GTPase SEC4 [Ustilago maydis 521]
+Sequence ID: KIS68284.1 Length: 209  
+Range 1: 11 to 168
+
+Score:87.8 bits(216), Expect:4e-22, 
+Method:Compositional matrix adjust., 
+Identities:52/172(30%), Positives:92/172(53%), Gaps:16/172(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHIELALWDTAGQED  66
+            KL+++GD   GK+CLL+ F    +   ++ T+  ++ +  +E+DG+ I+L +WDTAGQE 
+Sbjct  11   KLLLIGDSGVGKSCLLLRFCDDAWTPSFITTIGIDFKIRTIELDGKRIKLQIWDTAGQER  70
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEV-LHFCSNLPILLVGCKVDLRND  125
+            +  +    Y  +  +L+ F V   +S +NV+  W + +  H    +  +L+G K D    
+Sbjct  71   FRTITTAYYRGAMGILLVFDVTDQKSFENVR-TWHANIEQHASEGVSKILIGNKSDWE--  127
+
+Query  126  PKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+                       ++ +T E+G+ +A+++G   Y+E SAK N  V E F   AR
+Sbjct  128  ----------EKRAVTTEQGEELAKELG-IPYIETSAKSNSNVEEAFFNLAR  168
+
+
+
+>putative GTP-binding protein ypt5 [Ustilago maydis 521]
+Sequence ID: XP_011388763.1 Length: 221 
+>putative GTP-binding protein ypt5 [Ustilago maydis 521]
+Sequence ID: KIS69972.1 Length: 221  
+Range 1: 10 to 173
+
+Score:85.1 bits(209), Expect:6e-21, 
+Method:Compositional matrix adjust., 
+Identities:56/177(32%), Positives:94/177(53%), Gaps:16/177(9%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRH-IELALWDT  61
+            +L+ KLV++G+ A GK+ L++ F K  F +    T+   ++   V +D +  ++  +WDT
+Sbjct  10   QLQFKLVLLGESAVGKSSLVLRFVKDQFDDYRESTIGAAFLTQTVSLDAQTTVKFEIWDT  69
+
+Query  62   AGQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCS-NLPILLVGCKV  120
+            AGQE Y  L P+ Y +++  ++ + +  P SLD  +  WI E+      N+ I L G K 
+Sbjct  70   AGQERYKSLAPMYYRNANCAVVVYDITQPSSLDKAK-AWIRELQRQADPNIIIALAGNKA  128
+
+Query  121  DLRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+            DL            ++++ I  EE +  AQ+ G   +LE SAK +  V+E+F   AR
+Sbjct  129  DL-----------ASTRRAIPTEEAEKYAQEEGLL-FLETSAKNSSNVSELFTMIAR  173
+
+
+
+>small G-protein Ras2 [Ustilago maydis 521]
+Sequence ID: XP_011387629.1 Length: 192 
+>small G-protein Ras2 [Ustilago maydis]
+Sequence ID: AAO19639.1 Length: 192 >small G-protein Ras2 [Ustilago maydis 521]
+Sequence ID: KIS70468.1 Length: 192  
+Range 1: 9 to 168
+
+Score:83.6 bits(205), Expect:1e-20, 
+Method:Compositional matrix adjust., 
+Identities:56/174(32%), Positives:88/174(50%), Gaps:18/174(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQEDY  67
+            KLV++GDG  GKT L I      F E Y PT+ ++Y     +D +   L + DTAGQE+Y
+Sbjct  9    KLVVLGDGGVGKTALTIQLCLNHFVETYDPTIEDSYRKQTVIDDQPCMLEVLDTAGQEEY  68
+
+Query  68   DRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSN----LPILLVGCKVDLR  123
+              LR     +    L+ +S+ A  + + V E++ S++          +PI+LVG K D  
+Sbjct  69   TALRDQWIREGEGFLLVYSISARATFERV-ERFRSQISRVKDQEPHTVPIMLVGNKCD--  125
+
+Query  124  NDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+                      K +++ ++ EEGQ +A ++G  K++E SAK    V   + T  R
+Sbjct  126  ----------KVNEREVSREEGQALAHRLGC-KFIESSAKTCVNVERAYYTVVR  168
+
+
+
+>putative Ras-related protein Rab-18 [Ustilago maydis 521]
+Sequence ID: XP_011390026.1 Length: 233 
+>putative Ras-related protein Rab-18 [Ustilago maydis 521]
+Sequence ID: KIS68514.1 Length: 233  
+Range 1: 11 to 167
+
+Score:82.4 bits(202), Expect:8e-20, 
+Method:Compositional matrix adjust., 
+Identities:55/171(32%), Positives:94/171(54%), Gaps:19/171(11%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTF--PEVYVPTVFENY-VADVEVDGRHIELALWDTAGQ  64
+            K++++G  + GK+ LL+ F+   F  PE    T+  +Y +  +EV G+  +L++WDTAGQ
+Sbjct  11   KILLIGASSVGKSSLLLRFTDDEFLSPEETTATIGVDYRIKGIEVGGKRFKLSIWDTAGQ  70
+
+Query  65   EDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPI--LLVGCKVDL  122
+            E +  L    Y  +  V+I + V   ++ D +   W +E+  F ++  +  ++VG KVD 
+Sbjct  71   ERFRTLTSSYYRGAQGVIITYDVTQRDTFDALP-TWFNELETFTTSDDVVKVIVGNKVD-  128
+
+Query  123  RNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFE  173
+                   +E S+     +T +EGQ  A+K+G   ++ECSAK   GVN  F+
+Sbjct  129  -------KEFSRV----VTTKEGQEFAEKMGCL-FVECSAKKGVGVNGAFD  167
+
+
+
+>putative Rab family GTPase YPT7 [Ustilago maydis 521]
+Sequence ID: XP_011391834.1 Length: 205 
+Range 1: 10 to 176
+
+Score:81.3 bits(199), Expect:1e-19, 
+Method:Compositional matrix adjust., 
+Identities:53/179(30%), Positives:88/179(49%), Gaps:18/179(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVA-DVEVDGRHIELALWDTAGQED  66
+            K++I+GD   GKT L+  +    F   Y  T+  +++  +V VD R + + LWDTAGQE 
+Sbjct  10   KVIILGDSGVGKTSLMNQYVNKRFSSAYKATIGADFLTREVMVDDRLVTMQLWDTAGQER  69
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVL-----HFCSNLPILLVGCKVD  121
+            +  L    Y  +    +C+ V+  +S + + + W  E L     H   N P +++G K+D
+Sbjct  70   FQSLGVAFYRGADCCCLCYDVNNAKSFETL-DSWRDEFLIQAAPHDPENFPFVVLGNKID  128
+
+Query  122  LRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASM  180
+                   +EE    S++ ++ +      Q  G   Y E SAK    V + F+T ARA++
+Sbjct  129  -------VEE----SKRMVSQKRAMTWCQSKGNIPYFETSAKEAINVEQAFQTIARAAL  176
+
+
+
+>putative Rab family GTPase YPT6 [Ustilago maydis 521]
+Sequence ID: XP_011392486.1 Length: 218 
+>putative Rab family GTPase YPT6 [Ustilago maydis 521]
+Sequence ID: KIS66012.1 Length: 218  
+Range 1: 16 to 178
+
+Score:79.3 bits(194), Expect:8e-19, 
+Method:Compositional matrix adjust., 
+Identities:56/177(32%), Positives:90/177(50%), Gaps:17/177(9%)
+
+Query  5    LRR-KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRHIELALWDTA  62
+            LR+ KLV +G+ + GKT L+  F   TF   Y  T+  ++++  + ++ R + L LWDTA
+Sbjct  16   LRKFKLVFLGEQSVGKTSLITRFMYDTFDNTYQATIGIDFLSKTMYLEDRTVRLQLWDTA  75
+
+Query  63   GQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSN-LPILLVGCKVD  121
+            GQE +  L P    DS V ++ + +    S  N   KW+ +V     N + I+LVG K D
+Sbjct  76   GQERFRSLIPSYIRDSSVAVVVYDITNRASFQNT-SKWVDDVRAERGNDVIIVLVGNKTD  134
+
+Query  122  LRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARA  178
+            L            + ++ +T EE +  AQ+     ++E SAK    V  +F+  A+A
+Sbjct  135  L------------SDKRQVTTEEAEKKAQEFNVM-FIETSAKAGHNVKVLFKKIAQA  178
+
+
+
+>ras-like protein Ras1 [Ustilago maydis]
+Sequence ID: AAN37908.1 Length: 195 
+Range 1: 9 to 171
+
+Score:78.2 bits(191), Expect:1e-18, 
+Method:Compositional matrix adjust., 
+Identities:56/177(32%), Positives:88/177(49%), Gaps:21/177(11%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTA---GQ  64
+            KLV++GDG  GKT L I      F E Y PT+ ++Y     +D +   L + DTA   GQ
+Sbjct  9    KLVVLGDGGVGKTALTIQLCLNHFVETYDPTIEDSYRKQTVIDDQPCMLEVLDTAGQDGQ  68
+
+Query  65   EDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSN----LPILLVGCKV  120
+            E+Y  LR     +    L+ +S+ A  + + V E++ S++          +PI+LVG K 
+Sbjct  69   EEYTALRDQWIREGEGFLLVYSISARATFERV-ERFRSQISRVKDQEPHTVPIMLVGNKC  127
+
+Query  121  DLRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+            D            K +++ ++ EEGQ +A ++G  K++E SAK    V   + T  R
+Sbjct  128  D------------KVNEREVSREEGQALAHRLGC-KFIESSAKTCVNVERAYYTVVR  171
+
+
+
+>putative Ran GTPase GSP1 [Ustilago maydis 521]
+Sequence ID: XP_011387256.1 Length: 217 
+>putative Ran GTPase GSP1 [Ustilago maydis 521]
+Sequence ID: KIS71470.1 Length: 217  
+Range 1: 12 to 166
+
+Score:69.3 bits(168), Expect:4e-15, 
+Method:Compositional matrix adjust., 
+Identities:55/171(32%), Positives:76/171(44%), Gaps:17/171(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHIELALWDTAGQED  66
+            KLV+VGDG  GKT  +     G F + Y+ T+  E +      +   I   +WDTAGQE 
+Sbjct  12   KLVLVGDGGTGKTTFVKRHLTGEFEKKYIATLGVEVHPLQFHTNLGPICFNVWDTAGQEK  71
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDP  126
+            +  LR   Y      +I F V +  +  NV   W  ++   C N+PI+L G KVD++   
+Sbjct  72   FGGLRDGYYIQGQCGIIMFDVTSRITYKNV-PNWHRDLERVCENIPIVLCGNKVDVK---  127
+
+Query  127  KTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+               E   KT         G V   +    +Y E SAK N    + F   AR
+Sbjct  128  ---ERKVKT---------GAVTFHRKKNLQYFEISAKSNYNFEKPFLWLAR  166
+
+
+
+>hypothetical protein UMAG_11007 [Ustilago maydis 521]
+Sequence ID: XP_011392744.1 Length: 691 
+>hypothetical protein UMAG_11007 [Ustilago maydis 521]
+Sequence ID: KIS65702.1 Length: 691  
+Range 1: 368 to 496
+
+Score:71.2 bits(173), Expect:5e-15, 
+Method:Composition-based stats., 
+Identities:42/130(32%), Positives:72/130(55%), Gaps:4/130(3%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVP-TVFENYVAD-VEVDGRHIELALWDT  61
+            +L  K+VI+G    GKT L+  ++ G F     P T+  +++   + VDG  + L LWDT
+Sbjct  368  QLEAKVVILGSQGVGKTSLVHRYTSGQFSIASTPSTIGASFLTKKLIVDGVKVRLQLWDT  427
+
+Query  62   AGQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEV-LHFCSNLPILLVGCKV  120
+            AGQE +  + P+ Y  SH  +I + + +  S  +++  WI E+  +  ++L I +VG K+
+Sbjct  428  AGQERFRSMAPMYYRGSHAAVIVYDITSMSSFMDIR-TWIEELKKNMTTDLVIHIVGAKL  486
+
+Query  121  DLRNDPKTIE  130
+            DL    + +E
+Sbjct  487  DLARSQRQVE  496
+
+
+
+>putative Rab family GTPase YPT31 [Ustilago maydis 521]
+Sequence ID: XP_011387636.1 Length: 213 
+>putative Rab family GTPase YPT31 [Ustilago maydis 521]
+Sequence ID: KIS70476.1 Length: 213  
+Range 1: 12 to 129
+
+Score:68.2 bits(165), Expect:1e-14, 
+Method:Compositional matrix adjust., 
+Identities:40/119(34%), Positives:64/119(53%), Gaps:3/119(2%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHIELALWDTAGQED  66
+            K+V++GD   GK+ LL  F++  F      T+  E     + VDG+ ++  +WDTAGQE 
+Sbjct  12   KVVLIGDSGTGKSNLLSRFTRNEFSLESKSTIGVEFATRSISVDGKTVKAQIWDTAGQER  71
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVL-HFCSNLPILLVGCKVDLRN  124
+            Y  +    Y  +   L+ + +    +  NV  +W+ E+  H  SN+ I+LVG K DLR+
+Sbjct  72   YRAITSAYYRGAVGALLVYDIAKHPTYVNVS-RWLKELRDHADSNIVIMLVGNKSDLRH  129
+
+
+
+>GTP-binding protein [Ustilago maydis 521]
+Sequence ID: XP_011387706.1 Length: 246 
+>GTP-binding protein [Ustilago maydis 521]
+Sequence ID: KIS70567.1 Length: 246  
+Range 1: 18 to 191
+
+Score:64.7 bits(156), Expect:3e-13, 
+Method:Compositional matrix adjust., 
+Identities:46/187(25%), Positives:87/187(46%), Gaps:15/187(8%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRHIELALWDTAGQED  66
+            K +I+G+   GK+CLL  F    F E    T+   + +  +++  + ++L LWDTAGQE 
+Sbjct  18   KFIIIGEAGTGKSCLLHHFIHNQFKEQSAHTIGVEFSSRLIKIGNKSVKLQLWDTAGQER  77
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCS-NLPILLVGCKVDLRND  125
+            +  +    Y  +   L+ + +    + + +  +W+++     S +L ++LVG K D  +D
+Sbjct  78   FRSVTRSYYRGAAGALLVYDITKRSTFEPLS-RWLTDARALASPDLVVVLVGNKTDRGDD  136
+
+Query  126  PKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKFKP  185
+                       ++ + + E    A + G   +LE S+   E V   F  AAR+ +L  + 
+Sbjct  137  -----------EREVGYLEASKWANENGVL-FLETSSITGENVEAPFALAARSILLAIES  184
+
+Query  186  ASVPKTK  192
+              +   K
+Sbjct  185  GKLDPEK  191
+
+
+
+>hypothetical protein UMAG_02638 [Ustilago maydis 521]
+Sequence ID: XP_011389032.1 Length: 752 
+>RecName: Full=Mitochondrial Rho GTPase 1; AltName: Full=GTPase EF-hand protein of mitochondria 1 [Ustilago maydis 521]
+Sequence ID: Q4PB75.1 Length: 752 >hypothetical protein UMAG_02638 [Ustilago maydis 521]
+Sequence ID: KIS69295.1 Length: 752  
+Range 1: 6 to 174
+
+Score:57.8 bits(138), Expect:2e-10, 
+Method:Compositional matrix adjust., 
+Identities:49/182(27%), Positives:82/182(45%), Gaps:17/182(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADV----EVDGRHIELALWDTAG  63
+            ++V+ GD   GK+ L+    K    E YV  V +  V  +    EV    +   + DT+ 
+Sbjct  6    RIVLAGDPDVGKSTLITSLVK----EAYVAKV-QKVVPPITLPPEVAPEAVVTKIVDTSS  60
+
+Query  64   QEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLR  123
+              ++          ++V+ I +S+ AP S D +   W+  +     N+P++LVG K+DLR
+Sbjct  61   SPEHRANLEAELRRANVICIVYSISAPSSFDRIPTYWLPYIRSLGVNVPVILVGNKIDLR  120
+
+Query  124  NDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKF  183
+            +   T   L          E   V+A+       +ECSA++   V+EVF  A +A +   
+Sbjct  121  SGDVTNAALED--------ELAPVMAEFKEVETCVECSARIPLNVSEVFYFAQKAVLYPT  172
+
+Query  184  KP  185
+             P
+Sbjct  173  AP  174
+
+
+
+>hypothetical protein UMAG_03810 [Ustilago maydis 521]
+Sequence ID: XP_011390248.1 Length: 754 
+>hypothetical protein UMAG_03810 [Ustilago maydis 521]
+Sequence ID: KIS68228.1 Length: 754  
+Range 1: 88 to 173
+
+Score:53.5 bits(127), Expect:6e-09, 
+Method:Composition-based stats., 
+Identities:29/86(34%), Positives:43/86(50%), Gaps:6/86(6%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADV------EVDGRHIELALWDT  61
+            K+V++GDG CGKT +   F   TF   Y  T+  +++         + +G    L +WDT
+Sbjct  88   KIVLIGDGGCGKTSIRNHFLSNTFFPSYRATIGADFITKTLPIDPSKPEGEKATLQIWDT  147
+
+Query  62   AGQEDYDRLRPLSYPDSHVVLICFSV  87
+            AGQE +  L    Y  +  V+I F V
+Sbjct  148  AGQERFQSLGSAFYRGADAVIIAFDV  173
+
+
+
+>hypothetical protein UMAG_11426 [Ustilago maydis 521]
+Sequence ID: XP_011386754.1 Length: 396 
+>hypothetical protein UMAG_11426 [Ustilago maydis 521]
+Sequence ID: KIS71800.1 Length: 396  
+Range 1: 1 to 110
+
+Score:39.7 bits(91), Expect:2e-04, 
+Method:Compositional matrix adjust., 
+Identities:29/116(25%), Positives:53/116(45%), Gaps:19/116(16%)
+
+Query  5    LRRKLVIVGDGACGKTCLL-IVFSKGTFPEVYVPTVFENYVADVEVDGRHIE------LA  57
+            ++RK++++G   CGKT +  ++FS       Y         + ++V+  H+       L 
+Sbjct  1    MKRKVLLMGQSGCGKTSMRSLIFSS------YRAADTRRLGSTLDVEHSHVRFLGNLVLN  54
+
+Query  58   LWDTAGQEDY-----DRLRPLSYPDSHVVLICFS-VDAPESLDNVQEKWISEVLHF  107
+            LWD  GQ+ Y     D+ R   +    V++  F  V A E  D  Q +W  ++ ++
+Sbjct  55   LWDCGGQQSYMDSYLDKQRSQVFSTVGVLIYVFDLVAAAEGGDEDQTEWERDLRYY  110
+
+
+
+
+
+Query #9: cdc25 Query ID: lcl|Query_96531 Length: 596
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+hypothetical protein UMAG_00277 [Ustilago maydis 521]             156    156   30%   2e-40 38.65  XP_011386194.1   
+
+
+Alignments:
+>hypothetical protein UMAG_00277 [Ustilago maydis 521]
+Sequence ID: XP_011386194.1 Length: 985 
+>mitosis-inducer protein phosphatase [Ustilago maydis]
+Sequence ID: AAY59539.1 Length: 985 >hypothetical protein UMAG_00277 [Ustilago maydis 521]
+Sequence ID: KIS71848.1 Length: 985  
+Range 1: 641 to 844
+
+Score:156 bits(394), Expect:2e-40, 
+Method:Compositional matrix adjust., 
+Identities:80/207(39%), Positives:115/207(55%), Gaps:26/207(12%)
+
+Query  390  FISSHVEDLSLPCFAVKEDSLKRITQETLLGLLDGKFKDIFDKCIIIDCRFEYEYLGGHI  449
+            F +S  E   LPCF VK+D L RIT +T+  LL GK+ +      ++DCRF YEY GGHI
+Sbjct  641  FGASEKEGKILPCFNVKDDGLMRITPQTMTDLLAGKYTNAIMSYQVVDCRFGYEYQGGHI  700
+
+Query  450  STAVNLNTKQAIVDAFL---------SKPLTHRV--------------ALVFHCEHSAHR  486
+              A+NL+T Q +V  FL          +PL  R                LVFHCE S  R
+Sbjct  701  PGAINLSTVQRVVGHFLQPGLGRHANGEPLPPRSQSGKPDKFGNRRKHVLVFHCEFSCKR  760
+
+Query  487  APHLALHFRNTDRRMNSHRYPFLYYPEVYILHGGYKSFYENHKNRCDPINYVPMNDASHV  546
+            AP +AL  R  DR + +H YP  ++PE+YIL GGY +F++++   C P  YV M+D   +
+Sbjct  761  APTMALALRQADRGL-AHDYPNCHFPEIYILQGGYCNFFQSYAQLCQPQQYVRMDDPRFL  819
+
+Query  547  MTCTKAMNNFKRNATFMRTKSYTFGQS  573
+             + +  ++ F++   F R +S+T+G+ 
+Sbjct  820  ASRSTELHGFRKQ--FSRHRSFTYGEG  844
+
+
+
+
+
+Query #10: SPAC3G9.05 Query ID: lcl|Query_96532 Length: 659
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+hypothetical protein UMAG_04468 [Ustilago maydis 521]             86.3   86.3  11%   8e-18 55.70  XP_011391141.1   
+
+
+Alignments:
+>hypothetical protein UMAG_04468 [Ustilago maydis 521]
+Sequence ID: XP_011391141.1 Length: 1025 
+>hypothetical protein UMAG_04468 [Ustilago maydis 521]
+Sequence ID: KIS67366.1 Length: 1025  
+Range 1: 153 to 231
+
+Score:86.3 bits(212), Expect:8e-18, 
+Method:Compositional matrix adjust., 
+Identities:44/79(56%), Positives:52/79(65%), Gaps:3/79(3%)
+
+Query  34   REKLQRLSHIQFSELLTDVADELQRRINNDPKVR---FLPPVDSYHPKRNHARQKLSSLA  90
+            REKL RLS  QF+EL TDV DEL RR NN        FL   D +HPKRN ARQKL++L 
+Sbjct  153  REKLTRLSKQQFTELSTDVYDELMRRQNNAKNGNSQPFLAVRDEFHPKRNQARQKLATLP  212
+
+Query  91   PTRLRDLCMDVFFEVQSRY  109
+              R +DL  DVFFE++ R+
+Sbjct  213  KNRFKDLASDVFFELERRF  231
+
+
+
+
+
+Query #11: cdc3 Query ID: lcl|Query_96533 Length: 127
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+putative profilin [Ustilago maydis 521]                           119    119   100%  4e-36 47.24  XP_011389817.1   
+
+
+Alignments:
+>putative profilin [Ustilago maydis 521]
+Sequence ID: XP_011389817.1 Length: 126 
+>putative profilin [Ustilago maydis 521]
+Sequence ID: KIS68732.1 Length: 126  
+Range 1: 1 to 126
+
+Score:119 bits(297), Expect:4e-36, 
+Method:Compositional matrix adjust., 
+Identities:60/127(47%), Positives:81/127(63%), Gaps:1/127(0%)
+
+Query  1    MSWQAYVDTSLLGTGKIDRAAIVSRAGDSVWAASAGFNLSPQEIQGLAAGFQDPPSMFGT  60
+            MSWQ YVDT+L+GTGKI +AAI+   G  VWA S+ FNL+ +E + + AGF DP  +   
+Sbjct  1    MSWQGYVDTNLVGTGKISQAAIIGLKG-GVWATSSDFNLTAEEQKAIIAGFDDPSGLQAG  59
+
+Query  61   GIILAGQKYITIRAEGRSIYGKLQKEGIICVATKLCILVSHYPETTLPGEAAKITEALAD  120
+            G+   G+K+ T+    R+IYGK   +G++ V T   +LV  Y    +PGEA K+ E L D
+Sbjct  60   GVRANGKKFFTLGVTPRTIYGKQGGDGLVAVKTNQAVLVCVYMAPIVPGEANKVAEGLGD  119
+
+Query  121  YLVGVGY  127
+            YLV VGY
+Sbjct  120  YLVSVGY  126
+
+
+
+
+
+Query #12: exo70 Query ID: lcl|Query_96534 Length: 615
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+hypothetical protein UMAG_01845 [Ustilago maydis 521]             72.0   72.0  39%   2e-13 24.91  XP_011387786.1   
+
+
+Alignments:
+>hypothetical protein UMAG_01845 [Ustilago maydis 521]
+Sequence ID: XP_011387786.1 Length: 727 
+>hypothetical protein UMAG_01845 [Ustilago maydis 521]
+Sequence ID: KIS70687.1 Length: 727  
+Range 1: 455 to 726
+
+Score:72.0 bits(175), Expect:2e-13, 
+Method:Compositional matrix adjust., 
+Identities:69/277(25%), Positives:129/277(46%), Gaps:40/277(14%)
+
+Query  370  VPLTTDRVSEMTHGIMSFLNELAEHENA-SYLLESIGNWGWRHEINADLSPARSV-----  423
+            VP T+  V+E+T+  + F+ ++ E+ +  S LL ++GN  W   +++ ++P  S+     
+Sbjct  455  VPSTS--VNEITYLGLQFIRQITEYSDVVSPLLHTLGNGNWM--MSSGVAPILSLGLDSD  510
+
+Query  424  ---QDITRNYVMDCMDSYLTSVQTAAQAVDTIGWKMGVMLLN------------ISVYFE  468
+               Q I  +Y+ D +   LTS++  ++A+        V LLN            +  Y  
+Sbjct  511  ASKQSIVGDYLNDVVAVVLTSLEARSRAIRQPS-TASVFLLNNIGHLRRSVSAPLPSYLG  569
+
+Query  469  AK---CLESKIASFLQDVDLEKLGDRSQKYSTMYMEVWRQCSQNMLDST---------YT  516
+            A       S I+  L ++  + LG   ++ +T Y++ W      ++D           + 
+Sbjct  570  AAEDGSSVSIISLHLGEMGNDLLGTALRQANTSYLDAWSPVVAPLMDDQPLNATQYHRHA  629
+
+Query  517  KSQNKSTMSAKEREITKEKFRNFNEQVTSVVQVHRESV--RFETGVATFLLQEVKKTVLP  574
+             S+     S  E+   K++F  F E +  + ++HR     R +  +   L ++V + V P
+Sbjct  630  TSKLIGVGSGSEKNQVKDRFARFYEALEDLERLHRAYPVNREDHELKERLTRDVTRLVCP  689
+
+Query  575  LYQRFYDKYINSDFTKNKDKYIKFTKADLDSFITSAF  611
+            +Y RF  K+  SDFTKN  K+I+ T+ +++  I S F
+Sbjct  690  MYARFLAKHKASDFTKNPSKHIRMTEQEVEDKIASLF  726
+
+
+
+
+
+Query #13: tea2 Query ID: lcl|Query_96535 Length: 628
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+kinesin motor protein [Ustilago maydis]                           232    232   49%   1e-65 37.78  AAB63336.1       
+Kinesin-7a motor protein [Ustilago maydis 521]                    228    228   49%   3e-64 37.78  XP_011386911.1   
+hypothetical protein UMAG_01560 [Ustilago maydis 521]             226    226   56%   1e-63 37.47  XP_011387584.1   
+Chain K, kinesin-5 [Ustilago maydis 521]                          183    183   46%   1e-52 36.65  5MM4_K           
+Chain K, kinesin-5 [Ustilago maydis]                              184    184   46%   4e-52 36.65  5MM7_K           
+Kinesin-1 motor protein [Ustilago maydis 521]                     191    191   54%   4e-52 35.16  XP_011390699.1   
+kinesin motor protein [Ustilago maydis]                           189    189   54%   2e-51 34.87  AAB63337.1       
+hypothetical protein UMAG_04524 [Ustilago maydis 521]             189    189   43%   3e-51 38.44  XP_011390850.1   
+hypothetical protein UMAG_10678 [Ustilago maydis 521]             186    186   46%   3e-50 36.65  XP_011391731.1   
+Kinesin-3 motor protein [Ustilago maydis 521]                     172    172   46%   2e-45 33.86  XP_011392595.1   
+c-terminal kinesin [Ustilago maydis 521]                          144    144   44%   2e-36 33.11  XP_011391012.1   
+hypothetical protein UMAG_06427 [Ustilago maydis 521]             103    103   46%   7e-24 30.03  XP_011392709.1   
+hypothetical protein UMAG_10383 [Ustilago maydis 521]             92.4   92.4  24%   1e-19 40.26  XP_011389772.1   
+hypothetical protein UMAG_04727 [Ustilago maydis 521]             71.2   112   45%   4e-13 26.79  XP_011391611.1   
+
+
+Alignments:
+>kinesin motor protein [Ustilago maydis]
+Sequence ID: AAB63336.1 Length: 1459 
+Range 1: 313 to 659
+
+Score:232 bits(592), Expect:1e-65, 
+Method:Compositional matrix adjust., 
+Identities:133/352(38%), Positives:198/352(56%), Gaps:48/352(13%)
+
+Query  179  YLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTENEPGII  238
+            + F+ +        D+Y   +  VVR    GYNG VFAYG TG+GKT++M G++ EPG+I
+Sbjct  313  FQFDKLITGAQTTDDMYHSHIAPVVRAAVEGYNGTVFAYGQTGSGKTHTMSGSDAEPGVI  372
+
+Query  239  PLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIG-------------NSDEEPR-  284
+            P A+  +F+M+++  D + F +R+SYLEIYNE ++DL+               + + P  
+Sbjct  373  PRAVEQIFQMIKDEPDRE-FLLRVSYLEIYNETLKDLLAPLPPLTGSTGSSLQTTDRPAS  431
+
+Query  285  --------------------IRENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAA  324
+                                I +  S  V +T L   +VT    V  +I++    R   A
+Sbjct  432  PIKGGSSHAAGQSQSCTLRIIEDQKSSRVIITGLREEIVTDANTVLCLIQRGQDERHVGA  491
+
+Query  325  TDFNTYSSRSHAILQVFLIRNNPTAHTSQ---ISSLSLVDLAGSERASAHHERRKEGAFI  381
+            TD+N  SSRSH + Q+ +   +P    S+   IS L+L+DLAGSERA++  ERRKEGAFI
+Sbjct  492  TDWNERSSRSHCVFQLTIESRSPAPSASKEVRISQLNLIDLAGSERAASQAERRKEGAFI  551
+
+Query  382  NKSLLTLGTVISRLSAAANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATISIES  441
+            NKSLLTLGTVI +L+      + +   HIPYR+SKLTR+LQ SLSG ++I+++ T+S ++
+Sbjct  552  NKSLLTLGTVIGKLTE----PVENGDAHIPYRDSKLTRILQTSLSGNARIAVICTLSPDT  607
+
+Query  442  NHTMETTNTLKFASRAQNLPQDIRQAEAVTN------VQAELASLHSALEKN  487
+             H  ET +TLKF  R + +    ++  A+ +       + EL +L + LE N
+Sbjct  608  EHANETLSTLKFGKRCKLVVTTAKKGTAMDDKALLQKYRKELDALRAKLEAN  659
+
+
+
+>Kinesin-7a motor protein [Ustilago maydis 521]
+Sequence ID: XP_011386911.1 Length: 1459 
+>Kinesin-7a motor protein [Ustilago maydis 521]
+Sequence ID: KIS70978.1 Length: 1459  
+Range 1: 313 to 659
+
+Score:228 bits(582), Expect:3e-64, 
+Method:Compositional matrix adjust., 
+Identities:133/352(38%), Positives:199/352(56%), Gaps:48/352(13%)
+
+Query  179  YLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTENEPGII  238
+            + F+ +        D+Y   +  VVR    GYNG VFAYG TG+GKT++M G++ EPG+I
+Sbjct  313  FQFDKLITGAQTTDDMYHSHIAPVVRAAVEGYNGTVFAYGQTGSGKTHTMSGSDAEPGVI  372
+
+Query  239  PLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIG-------------NSDEEPR-  284
+            P A+  +F+M+++  D + F +R+SYLEIYNE ++DL+               + + P  
+Sbjct  373  PRAVEQIFQMIKDEPDRE-FLLRVSYLEIYNETLKDLLAPLPPLTGSTGSSLQTTDRPAS  431
+
+Query  285  --------------------IRENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAA  324
+                                I +  S  V +T L   +VT    V  +I++    R   A
+Sbjct  432  PIKGGSSHAAGQSQSCTLRIIEDQKSSRVIITGLREEIVTDANTVLCLIQRGQDERHVGA  491
+
+Query  325  TDFNTYSSRSHAILQVFLIRNN--PTAHTS-QISSLSLVDLAGSERASAHHERRKEGAFI  381
+            TD+N  SSRSH + Q+ +   +  P+A    +IS L+L+DLAGSERA++  ERRKEGAFI
+Sbjct  492  TDWNERSSRSHCVFQLTIESRSRAPSASKEVRISQLNLIDLAGSERAASQAERRKEGAFI  551
+
+Query  382  NKSLLTLGTVISRLSAAANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATISIES  441
+            NKSLLTLGTVI +L+      + +   HIPYR+SKLTR+LQ SLSG ++I+++ T+S ++
+Sbjct  552  NKSLLTLGTVIGKLTE----PVENGDAHIPYRDSKLTRILQTSLSGNARIAVICTLSPDT  607
+
+Query  442  NHTMETTNTLKFASRAQNLPQDIRQAEAVTN------VQAELASLHSALEKN  487
+             H  ET +TLKF  R + +    ++  A+ +       + EL +L + LE N
+Sbjct  608  EHANETLSTLKFGKRCKLVVTTAKKGTAMDDKALLQKYRKELDALRAKLEAN  659
+
+
+
+>hypothetical protein UMAG_01560 [Ustilago maydis 521]
+Sequence ID: XP_011387584.1 Length: 1103 
+>hypothetical protein UMAG_01560 [Ustilago maydis 521]
+Sequence ID: KIS70390.1 Length: 1103  
+Range 1: 108 to 461
+
+Score:226 bits(576), Expect:1e-63, 
+Method:Compositional matrix adjust., 
+Identities:139/371(37%), Positives:213/371(57%), Gaps:32/371(8%)
+
+Query  179  YLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTENEPGII  238
+            Y F+ VF   +   D+++ + K ++  + +GYN  VFAYG TG GKT+++ GT N+PG+I
+Sbjct  108  YAFDRVFDSTASQTDVFEETCKPLLDGILNGYNASVFAYGATGCGKTHTISGTPNDPGLI  167
+
+Query  239  PLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIGNSDEEP----RIRENASGEVN  294
+             L M +L+  +++  DD    IR+SYLEIYNE IRDL+ +    P     +RE+A+  ++
+Sbjct  168  FLTMKELYNRIQDARDDSDVHIRLSYLEIYNETIRDLLSSEPTPPGAGLALREDANNRIS  227
+
+Query  295  VTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLIRNNPTA---HT  351
+            V  +T ++  SPE V + I++ N  R  + T+ N  SSRSHA+LQ+ + +   TA     
+Sbjct  228  VVGITELIPESPESVLEYIQEGNLRRTMSPTEANAVSSRSHAVLQINVTQKPRTASMIEQ  287
+
+Query  352  SQISSLSLVDLAGSERASA---HHERRKEGAFINKSLLTLGTVISRLSAAANPSLTSNSG  408
+            +  +SL+++DLAGSERASA   +  R KEGA INKSLL LG  I+        +L  + G
+Sbjct  288  TTSASLNIIDLAGSERASATRNNGARMKEGANINKSLLALGNCIN--------ALCQSGG  339
+
+Query  409  ---HIPYRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRAQNLPQDIR  465
+               H+PYR SKLTRLL+ SL G  +  ++  IS  S H  ET N LK+A++A+N+   + 
+Sbjct  340  VVRHVPYRNSKLTRLLKFSLGGNCKTVMVVCISPSSTHYEETHNALKYANQAKNIRTKV-  398
+
+Query  466  QAEAVTNVQAELASLHSALEKNAQEVEYYASLVKQLTSDLEERDTYIAMLEAER--SQGT  523
+             +  + NV   +A    A+ +  +E E       +L + L+ER +  +  E  +    G 
+Sbjct  399  -SRNMINVDRHVAQYVQAIHELKEENE-------RLRAKLDERGSLESAAEKRKRAEMGR  450
+
+Query  524  AISRARLRMEE  534
+             +  A+ RM E
+Sbjct  451  EMDEAKKRMRE  461
+
+
+
+>Chain K, kinesin-5 [Ustilago maydis 521]
+Sequence ID: 5MM4_K Length: 385 
+Range 1: 63 to 374
+
+Score:183 bits(465), Expect:1e-52, 
+Method:Compositional matrix adjust., 
+Identities:118/322(37%), Positives:187/322(58%), Gaps:43/322(13%)
+
+Query  172  SSTIQQEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGT  231
+            S+T Q+ Y F+ VFG E+    +Y+  V  ++  V SGYN  +FAYG TGTGKT++M+G 
+Sbjct  63   SATRQKSYHFDQVFGPEADQGMVYQDVVGPILEEVMSGYNCTIFAYGQTGTGKTHTMEGD  122
+
+Query  232  --------ENEPGIIPLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIG------  277
+                     +E GIIP ++  LF  +E + +D  + ++ +++E+YNE +RDL+       
+Sbjct  123  LTSQMGTYSSEAGIIPRSLYRLFHTLELSKED--YSVKATFIELYNEELRDLLSIDSSTS  180
+
+Query  278  --------NSDEEP----RIRENASGE-VNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAA  324
+                     + +EP    R+ ++A G+ V +  L  V +        V+ + +  R+ AA
+Sbjct  181  SAEPSSSATATKEPQHALRMYDDARGKGVVIQGLEEVALKDAAHGLSVLRRGSQKRQIAA  240
+
+Query  325  TDFNTYSSRSHAI--LQVFLI-RNNPTAHTSQISSLSLVDLAGSE---RASAHHERRKEG  378
+            T+ N  SSRSH++  + VF+  + +      +I  L+LVDLAGSE   R+ A ++R +E 
+Sbjct  241  TNCNEQSSRSHSVFTMTVFIKDKGSRGEDVLKIGKLNLVDLAGSENIGRSGAENKRAREA  300
+
+Query  379  AFINKSLLTLGTVISRLSAAANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATIS  438
+              IN+SLLTLG VI+        +L   + HIPYRESKLTRLLQ+SL G+++  ++AT+S
+Sbjct  301  GMINQSLLTLGRVIN--------ALVEKNSHIPYRESKLTRLLQESLGGRTKTCIIATVS  352
+
+Query  439  IESNHTMETTNTLKFASRAQNL  460
+             E  +  ET +TL +A RA+++
+Sbjct  353  QERANIEETLSTLDYALRAKSI  374
+
+
+
+>Chain K, kinesin-5 [Ustilago maydis]
+Sequence ID: 5MM7_K Length: 457 
+Range 1: 135 to 446
+
+Score:184 bits(468), Expect:4e-52, 
+Method:Compositional matrix adjust., 
+Identities:118/322(37%), Positives:187/322(58%), Gaps:43/322(13%)
+
+Query  172  SSTIQQEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGT  231
+            S+T Q+ Y F+ VFG E+    +Y+  V  ++  V SGYN  +FAYG TGTGKT++M+G 
+Sbjct  135  SATRQKSYHFDQVFGPEADQGMVYQDVVGPILEEVMSGYNCTIFAYGQTGTGKTHTMEGD  194
+
+Query  232  --------ENEPGIIPLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIG------  277
+                     +E GIIP ++  LF  +E + +D  + ++ +++E+YNE +RDL+       
+Sbjct  195  LTSQMGTYSSEAGIIPRSLYRLFHTLELSKED--YSVKATFIELYNEELRDLLSIDSSTS  252
+
+Query  278  --------NSDEEP----RIRENASGE-VNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAA  324
+                     + +EP    R+ ++A G+ V +  L  V +        V+ + +  R+ AA
+Sbjct  253  SAEPSSSATATKEPQHALRMYDDARGKGVVIQGLEEVALKDAAHGLSVLRRGSQKRQIAA  312
+
+Query  325  TDFNTYSSRSHAI--LQVFLI-RNNPTAHTSQISSLSLVDLAGSE---RASAHHERRKEG  378
+            T+ N  SSRSH++  + VF+  + +      +I  L+LVDLAGSE   R+ A ++R +E 
+Sbjct  313  TNCNEQSSRSHSVFTMTVFIKDKGSRGEDVLKIGKLNLVDLAGSENIGRSGAENKRAREA  372
+
+Query  379  AFINKSLLTLGTVISRLSAAANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATIS  438
+              IN+SLLTLG VI+        +L   + HIPYRESKLTRLLQ+SL G+++  ++AT+S
+Sbjct  373  GMINQSLLTLGRVIN--------ALVEKNSHIPYRESKLTRLLQESLGGRTKTCIIATVS  424
+
+Query  439  IESNHTMETTNTLKFASRAQNL  460
+             E  +  ET +TL +A RA+++
+Sbjct  425  QERANIEETLSTLDYALRAKSI  446
+
+
+
+>Kinesin-1 motor protein [Ustilago maydis 521]
+Sequence ID: XP_011390699.1 Length: 968 
+>Kinesin-1 motor protein [Ustilago maydis 521]
+Sequence ID: KIS67718.1 Length: 968  
+Range 1: 52 to 372
+
+Score:191 bits(486), Expect:4e-52, 
+Method:Compositional matrix adjust., 
+Identities:122/347(35%), Positives:192/347(55%), Gaps:33/347(9%)
+
+Query  179  YLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTE----NE  234
+            ++F+ VF M +   D+++  +K  V +V +GYNG +FAYG TG+GKT++M G++    N 
+Sbjct  52   FVFDKVFPMNTMQRDVFEFGIKETVEDVLNGYNGTIFAYGQTGSGKTFTMMGSDIDNDNL  111
+
+Query  235  PGIIPLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIGNSDEEPRIRENASGEVN  294
+             GIIP     +FE +  +     + +++SY+EIY E+IRDL+   ++  ++ E  +  V 
+Sbjct  112  KGIIPRITEQIFENIMASPPHLEYLVKVSYMEIYMEKIRDLLAPQNDNLQVHEEKNRGVY  171
+
+Query  295  VTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLIRNNPTAHTSQI  354
+            V  L+   V    +V +++ Q    R  ++T+ N  SSRSH+I  + + + N    +++ 
+Sbjct  172  VKGLSDFYVGGQADVYEIMRQGGLARAVSSTNMNAESSRSHSIFLITIQQRNTETGSAKT  231
+
+Query  355  SSLSLVDLAGSERA---SAHHERRKEGAFINKSLLTLGTVISRLSAAANPSLTSNSGHIP  411
+             +L LVDLAGSE+     A  +  +E   INKSL  LG VI+ L+          S HIP
+Sbjct  232  GNLYLVDLAGSEKVGKTGASGQTLEEAKKINKSLSALGMVINALT-------DGKSSHIP  284
+
+Query  412  YRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRAQNLPQDIRQAEAVT  471
+            YR+SKLTR+LQ+SL G S+ +L+   S    +  ET +TL+F  RA+++    R      
+Sbjct  285  YRDSKLTRILQESLGGNSRTTLIVNASPCVYNADETLSTLRFGVRAKSIKNKAR------  338
+
+Query  472  NVQAELASLHSALEKNAQEVEYYASLVKQLTSDLEERDTYIAMLEAE  518
+             V AEL+   S L+          +L+K+  +D E    YIA LEAE
+Sbjct  339  -VNAELSP--SELK----------TLLKKAKADNERYQQYIANLEAE  372
+
+
+
+>kinesin motor protein [Ustilago maydis]
+Sequence ID: AAB63337.1 Length: 968 
+Range 1: 52 to 372
+
+Score:189 bits(481), Expect:2e-51, 
+Method:Compositional matrix adjust., 
+Identities:121/347(35%), Positives:191/347(55%), Gaps:33/347(9%)
+
+Query  179  YLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTE----NE  234
+            ++F+ VF M +   D+++  +K  V +V +GYNG +FAYG TG+GKT++M G++    N 
+Sbjct  52   FVFDKVFPMNTMQRDVFEFGIKETVEDVLNGYNGTIFAYGQTGSGKTFTMMGSDIDNDNL  111
+
+Query  235  PGIIPLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIGNSDEEPRIRENASGEVN  294
+             GIIP     +FE +  +     + +++SY+EIY E+IRDL+   ++  ++ E  +  V 
+Sbjct  112  KGIIPRITEQIFENIMASPPHLEYLVKVSYMEIYMEKIRDLLAPQNDNLQVHEEKNRGVY  171
+
+Query  295  VTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLIRNNPTAHTSQI  354
+            V  L+   V    +V +++ Q    R  ++T+ N  SSRSH+I  + + + N    +++ 
+Sbjct  172  VKGLSDFYVGGQADVYEIMRQGGLARAVSSTNMNAESSRSHSIFLITIQQRNTETGSAKT  231
+
+Query  355  SSLSLVDLAGSERA---SAHHERRKEGAFINKSLLTLGTVISRLSAAANPSLTSNSGHIP  411
+             +L LVDLAGSE+     A  +  +E   INKSL  LG VI+ L+          S HIP
+Sbjct  232  GNLYLVDLAGSEKVGKTGASGQTLEEAKKINKSLSALGMVINALT-------DGKSSHIP  284
+
+Query  412  YRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRAQNLPQDIRQAEAVT  471
+            YR+SKLTR+LQ+SL G S+ +L+   S    +  ET +TL+F  RA+++    R      
+Sbjct  285  YRDSKLTRILQESLGGNSRTTLIVNASPCVYNADETLSTLRFGVRAKSIKNKAR------  338
+
+Query  472  NVQAELASLHSALEKNAQEVEYYASLVKQLTSDLEERDTYIAMLEAE  518
+             V AEL+   S L+          +L+K+  +D E    YI  LEAE
+Sbjct  339  -VNAELSP--SELK----------TLLKKAKADNERYQQYIVNLEAE  372
+
+
+
+>hypothetical protein UMAG_04524 [Ustilago maydis 521]
+Sequence ID: XP_011390850.1 Length: 1043 
+>hypothetical protein UMAG_04524 [Ustilago maydis 521]
+Sequence ID: KIS67426.1 Length: 1043  
+Range 1: 370 to 658
+
+Score:189 bits(480), Expect:3e-51, 
+Method:Compositional matrix adjust., 
+Identities:113/294(38%), Positives:170/294(57%), Gaps:27/294(9%)
+
+Query  189  SKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTEN--EPGIIPLAMNDLF  246
+            S N  +Y    + +VR    GY+ +VFAYG T +GKT+++ G E   E GIIP A+ D+F
+Sbjct  370  SANRPVYVSVARPLVRAALDGYDAVVFAYGQTASGKTFTLSGDEKGQEAGIIPRAVRDIF  429
+
+Query  247  EMVENNSDDDTFQIRISYLEIYNERIRDLIGNSDEEPRIREN----ASGEVNVTPLTRVL  302
+              +  +S    + +R SYLEI+NE ++DL+  S+  P++R++          V PL   +
+Sbjct  430  RGIRQSSARREYLLRASYLEIWNEVVKDLLEPSNV-PQVRDDKRRRGGKGTTVQPLREEI  488
+
+Query  303  VTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFL-------IRNNPTAHTSQ--  353
+            VTSP +V +++ +  A R   ATD+N  SSRSH   ++ +        + +  A  ++  
+Sbjct  489  VTSPAQVRELLARGQANRHVGATDWNERSSRSHTCFKITIESWERDQDQRSAGADAAETR  548
+
+Query  354  ------ISSLSLVDLAGSER-ASAHHERRKEGAFINKSLLTLGTVISRLSAAANPSLTSN  406
+                  +S L L+DLAGSE+  S   +RR EGA INKSLLTLG VI  LS  +     S 
+Sbjct  549  YGKKVSVSELCLIDLAGSEKYVSQGSDRRAEGAHINKSLLTLGKVIYALSEKSG----ST  604
+
+Query  407  SGHIPYRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRAQNL  460
+              HIPYR+SKLTR+LQ SLSG ++++++ TI+   +   E+ +TL FA R + +
+Sbjct  605  GVHIPYRDSKLTRILQNSLSGNARVAVVCTINPNPSAVDESLSTLNFAKRIKKV  658
+
+
+
+>hypothetical protein UMAG_10678 [Ustilago maydis 521]
+Sequence ID: XP_011391731.1 Length: 1203 
+>hypothetical protein UMAG_10678 [Ustilago maydis 521]
+Sequence ID: KIS66664.1 Length: 1203  
+Range 1: 134 to 445
+
+Score:186 bits(473), Expect:3e-50, 
+Method:Compositional matrix adjust., 
+Identities:118/322(37%), Positives:187/322(58%), Gaps:43/322(13%)
+
+Query  172  SSTIQQEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGT  231
+            S+T Q+ Y F+ VFG E+    +Y+  V  ++  V SGYN  +FAYG TGTGKT++M+G 
+Sbjct  134  SATRQKSYHFDQVFGPEADQGMVYQDVVGPILEEVMSGYNCTIFAYGQTGTGKTHTMEGD  193
+
+Query  232  --------ENEPGIIPLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIG------  277
+                     +E GIIP ++  LF  +E + +D  + ++ +++E+YNE +RDL+       
+Sbjct  194  LTSQMGTYSSEAGIIPRSLYRLFHTLELSKED--YSVKATFIELYNEELRDLLSIDSSTS  251
+
+Query  278  --------NSDEEP----RIRENASGE-VNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAA  324
+                     + +EP    R+ ++A G+ V +  L  V +        V+ + +  R+ AA
+Sbjct  252  SAEPSSSATATKEPQHALRMYDDARGKGVVIQGLEEVALKDAAHGLSVLRRGSQKRQIAA  311
+
+Query  325  TDFNTYSSRSHAI--LQVFLI-RNNPTAHTSQISSLSLVDLAGSE---RASAHHERRKEG  378
+            T+ N  SSRSH++  + VF+  + +      +I  L+LVDLAGSE   R+ A ++R +E 
+Sbjct  312  TNCNEQSSRSHSVFTMTVFIKDKGSRGEDVLKIGKLNLVDLAGSENIGRSGAENKRAREA  371
+
+Query  379  AFINKSLLTLGTVISRLSAAANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATIS  438
+              IN+SLLTLG VI+        +L   + HIPYRESKLTRLLQ+SL G+++  ++AT+S
+Sbjct  372  GMINQSLLTLGRVIN--------ALVEKNSHIPYRESKLTRLLQESLGGRTKTCIIATVS  423
+
+Query  439  IESNHTMETTNTLKFASRAQNL  460
+             E  +  ET +TL +A RA+++
+Sbjct  424  QERANIEETLSTLDYALRAKSI  445
+
+
+
+>Kinesin-3 motor protein [Ustilago maydis 521]
+Sequence ID: XP_011392595.1 Length: 1676 
+>kinesin [Ustilago maydis]
+Sequence ID: AAL87137.1 Length: 1676 >Kinesin-3 motor protein [Ustilago maydis 521]
+Sequence ID: KIS65876.1 Length: 1676  
+Range 1: 48 to 361
+
+Score:172 bits(436), Expect:2e-45, 
+Method:Compositional matrix adjust., 
+Identities:107/316(34%), Positives:176/316(55%), Gaps:23/316(7%)
+
+Query  166  QQTSTSSSTIQQEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKT  225
+            ++ S ++      + F+  +   ++  D+++     ++++ F+G+N  VFAYG TG+GK+
+Sbjct  48   KENSKATKKKSMPFSFDRAYDEHTEQDDLFQYIGVELLQHAFNGFNTCVFAYGQTGSGKS  107
+
+Query  226  YSMQGTENEPGIIPLAMNDLFEMVENNSDDD---TFQIRISYLEIYNERIRDLIGNSDE-  281
+            +SM G     GIIPL    LFE +   +  D      + +SY+EIYNE++RDL+   ++ 
+Sbjct  108  HSMVGYAQAKGIIPLTCARLFEDINQKTAADPNLKISVEVSYIEIYNEKVRDLLNPKNKG  167
+
+Query  282  EPRIRENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVF  341
+              ++RE+ S    V  L++++V S  ++  ++++ N  R  AAT+ N  SSRSHA+  + 
+Sbjct  168  NLKVREHPSLGPYVEDLSKLVVASYPDIMNLMDEGNKARTVAATNMNETSSRSHAVFTLV  227
+
+Query  342  LIRNNPTAHTS----QISSLSLVDLAGSERAS---AHHERRKEGAFINKSLLTLGTV---  391
+            L +      T     ++S +S+VDLAGSERA+   A   R KEGA IN+SL TLG V   
+Sbjct  228  LTQKRFDVQTKLEAEKVSRISMVDLAGSERANSTGATGARLKEGANINRSLTTLGKVIAA  287
+
+Query  392  -------ISRLSAAANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATISIESNHT  444
+                   +  +  A  P   S    +PYR+S LT LL+ SL G S+ +++A IS      
+Sbjct  288  LAIASSAVEPVKGAKKPKTASLDSFVPYRDSVLTWLLKDSLGGNSKTAMIAAISPADYE-  346
+
+Query  445  METTNTLKFASRAQNL  460
+             ET +TL++A +A+ +
+Sbjct  347  -ETLSTLRYADQAKKI  361
+
+
+
+>c-terminal kinesin [Ustilago maydis 521]
+Sequence ID: XP_011391012.1 Length: 699 
+>c-terminal kinesin [Ustilago maydis 521]
+Sequence ID: KIS67408.1 Length: 699 >C-terminal kinesin [Ustilago maydis]
+Sequence ID: CAE53638.1 Length: 699  
+Range 1: 390 to 682
+
+Score:144 bits(362), Expect:2e-36, 
+Method:Compositional matrix adjust., 
+Identities:99/299(33%), Positives:157/299(52%), Gaps:27/299(9%)
+
+Query  179  YLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTEN-----  233
+            + F+ VF   +   D+++  +  + ++V  GYN  +FAYG TG+GKT++++G  +     
+Sbjct  390  FTFDRVFQPTASQADVFE-EIAHLTQSVLDGYNTSIFAYGQTGSGKTHTLEGAPDSITNY  448
+
+Query  234  --EP------GIIPLAMNDLFEMVENNSDDD-TFQIRISYLEIYNERIRDLIGNSDEEPR  284
+              +P      G+IP A+  L+   E+  D    +    S LEIY + I DL+G ++ +  
+Sbjct  449  GSDPSADAGAGLIPRAVQMLWSTAESLKDKGWKYDFEGSMLEIYLDNINDLLGKAEVDKA  508
+
+Query  285  IRE--NASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFL  342
+              E  +  G   V+    V + SP +V  ++++    R+ AAT  N  SSRSH++  + +
+Sbjct  509  KHEIKHDKGRTTVSDTVVVALDSPAQVFALLDKAKKRRQVAATLMNERSSRSHSVFMLRV  568
+
+Query  343  IRNNPTAHTSQISSLSLVDLAGSERASAHHE-----RRKEGAFINKSLLTLGTVISRLSA  397
+               N T   +  + LSLVDLAGSER +         R KE   INKSL +L  VIS L  
+Sbjct  569  RGQNATTMEACDAVLSLVDLAGSERLANSGSDKDPVRLKEAQSINKSLSSLADVISALGQ  628
+
+Query  398  AANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASR  456
+              N     ++ H+PYR S LT LL+ SL G S+  +L  +S  + H  E+  +L+FA++
+Sbjct  629  NKN-----STSHVPYRNSTLTWLLKNSLGGNSKTLMLLALSPMAAHLNESLCSLRFATK  682
+
+
+
+>hypothetical protein UMAG_06427 [Ustilago maydis 521]
+Sequence ID: XP_011392709.1 Length: 490 
+>hypothetical protein UMAG_06427 [Ustilago maydis 521]
+Sequence ID: KIS65727.1 Length: 490  
+Range 1: 41 to 340
+
+Score:103 bits(258), Expect:7e-24, 
+Method:Compositional matrix adjust., 
+Identities:94/313(30%), Positives:145/313(46%), Gaps:35/313(11%)
+
+Query  165  RQQTSTSSSTIQQEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGK  224
+            R    TSS+     +  +  F   S   D+Y   V S++  V  G    V AYG TG+GK
+Sbjct  41   RTNVHTSSTHTAHTFSSDGCFLASSSTSDLYSSHVDSLIPFVLCGGYATVLAYGQTGSGK  100
+
+Query  225  TYSMQGTENEPGIIPLAMNDLFEMVENNSDDDTFQIRISYLEIYNE-RIRDLIGNSDEEP  283
+            T+++           LA+  LF   +N +      + +  +EIY + ++ DL   ++   
+Sbjct  101  THTLSECSR------LAIASLFR--QNQAK---CHVTLQAIEIYGKSKVNDLFDRTNTRV  149
+
+Query  284  RIRENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLI  343
+             I EN +G       T   + S E + + +E   + R T  T+ N  SSRSHA++++   
+Sbjct  150  LIAENIAGSSTFAKATTKPIRSAESMLEEVESAWSQRMTRGTEKNPQSSRSHALIRIICQ  209
+
+Query  344  RNNPTAHTSQISSLSLVDLAGSERASAHH--------------ERRKEGAFINKSLLTLG  389
+             N     T  +  L LVDLAGSERA+ H               +R  E   IN SL+TL 
+Sbjct  210  PNKDKNATPGV--LQLVDLAGSERAADHSASGARACGGDVDSAQRMAETVAINTSLMTLK  267
+
+Query  390  TVISRLSAAANPSLTSNSG---HIPYRESKLTRLLQQSLSGQSQ----ISLLATISIESN  442
+            + I   ++   P++ S +    HIP+R SKLT  L+++    S+      L+AT S +  
+Sbjct  268  SCIRARTSPTPPAIGSGAAPVPHIPFRSSKLTLALKEAFDLYSRQPTHTLLIATASPDVV  327
+
+Query  443  HTMETTNTLKFAS  455
+                T NTL++AS
+Sbjct  328  DVAATLNTLRYAS  340
+
+
+
+>hypothetical protein UMAG_10383 [Ustilago maydis 521]
+Sequence ID: XP_011389772.1 Length: 1948 
+>hypothetical protein UMAG_10383 [Ustilago maydis 521]
+Sequence ID: KIS68585.1 Length: 1948  
+Range 1: 369 to 504
+
+Score:92.4 bits(228), Expect:1e-19, 
+Method:Compositional matrix adjust., 
+Identities:62/154(40%), Positives:86/154(55%), Gaps:21/154(13%)
+
+Query  355  SSLSLVDLAGSER---ASAHHERRKEGAFINKSLLTLGTVISRLSAAANPSLTSNSGHIP  411
+            S    VDLAGSER    +A  ER KEG  IN  L  LG VIS L    +P+    + HIP
+Sbjct  369  SKFHFVDLAGSERLKRTAAQGERVKEGISINSGLHALGNVISAL---GDPAKAKRATHIP  425
+
+Query  412  YRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRAQNLPQDIRQAEAVT  471
+            YR+SKLTRLLQ SL G +   ++A +S    +  ET NTL++A+RA+N+           
+Sbjct  426  YRDSKLTRLLQDSLGGNAHTLMIACVSPTEYNVSETVNTLQYANRARNIKN---------  476
+
+Query  472  NVQAELASLHSALEKNAQEVEYYASLVKQLTSDL  505
+              +AEL    + +E    +V+Y  +LV++L  +L
+Sbjct  477  --KAEL----NEVEVGWDDVDYLQTLVQRLRKEL  504
+
+
+
+>hypothetical protein UMAG_04727 [Ustilago maydis 521]
+Sequence ID: XP_011391611.1 Length: 1148 
+>hypothetical protein UMAG_04727 [Ustilago maydis 521]
+Sequence ID: KIS66666.1 Length: 1148  
+Range 1: 364 to 628
+
+Score:71.2 bits(173), Expect:4e-13, 
+Method:Compositional matrix adjust., 
+Identities:71/265(27%), Positives:117/265(44%), Gaps:62/265(23%)
+
+Query  258  FQIRISYLEIYNERIRDLI----GNS------------------DEEPR-IRENASGEVN  294
+            + + +SY+EIYNE++ DL+    G+S                  +  P  I  +AS  +N
+Sbjct  364  YSVFVSYVEIYNEKLFDLLDVSPGSSLSRAESIRGSNWSLANMANAAPSSIPASASITLN  423
+
+Query  295  VTPLT----------------RVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAIL  338
+              PL+                 + VTSP+E   ++ +    R    T  N  SSRSH I 
+Sbjct  424  RKPLSLKNDHDNGGKYVAGLREIKVTSPQEARDLLHRGQENRAVFGTMANRASSRSHGIF  483
+
+Query  339  QVFLIRN--------NPTAHTSQISSLSLVDLAGSERAS----AHHERRKEGAFINKSLL  386
+             + +IR+        +    +   + LS+VDLAGSER +    A  +R KE   INKSL+
+Sbjct  484  TIKVIRHHGGLTNLSDDDLDSFTTARLSIVDLAGSERVANTGLASGDRLKEAGNINKSLM  543
+
+Query  387  TLGTVISRLSAAANPSL-TSNSGH----------IPYRESKLTRLLQQSLSGQSQISLLA  435
+             LG  +  L       + T+++G           +P+R SKLT L Q    G+ +  ++ 
+Sbjct  544  CLGQCLETLRKNQVRLMGTTDNGQAATVKRRVSIVPFRHSKLTELFQSFFVGEGKAVMIV  603
+
+Query  436  TISIESNHTMETTNTLKFASRAQNL  460
+              +       E ++ +KF++ A+ +
+Sbjct  604  NANPYDTGFDENSHVMKFSAIAKEV  628
+
+
+
+
+Range 2: 187 to 282
+
+Score:41.6 bits(96), Expect:6e-04, 
+Method:Compositional matrix adjust., 
+Identities:21/96(22%), Positives:51/96(53%), Gaps:12/96(12%)
+
+Query  167  QTSTSSSTIQQEYLFNNVFGMESKNYD----------IYKRSVKSVVRNVFSGYNGIVFA  216
+            ++ T+S     +Y+F+ VFG +  +             ++ +   +V  +  G +G++F 
+Sbjct  187  RSRTTSIAPPTKYIFSKVFGSQPTSSSDTGQDMSQSAFFQHTTLPLVEALLQGESGLMFT  246
+
+Query  217  YGMTGTGKTYSMQGTENE--PGIIPLAMNDLFEMVE  250
+            YG+T +GK++++ G  +    GI+P +++ +F  ++
+Sbjct  247  YGVTNSGKSHTVMGNSSPGGAGILPRSLDVIFNSIK  282
+
+
+
+
+
+Query #14: tea4 Query ID: lcl|Query_96536 Length: 821
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+hypothetical protein UMAG_01012 [Ustilago maydis 521]             115    115   10%   1e-26 61.45  XP_011386992.1   
+
+
+Alignments:
+>hypothetical protein UMAG_01012 [Ustilago maydis 521]
+Sequence ID: XP_011386992.1 Length: 1684 
+>Tea4 [Ustilago maydis]
+Sequence ID: AHJ11173.1 Length: 1684 >hypothetical protein UMAG_01012 [Ustilago maydis 521]
+Sequence ID: KIS71101.1 Length: 1684  
+Range 1: 191 to 273
+
+Score:115 bits(289), Expect:1e-26, 
+Method:Compositional matrix adjust., 
+Identities:51/83(61%), Positives:64/83(77%), Gaps:0/83(0%)
+
+Query  119  LSSSPSIHEEVIDCNFVHAIRGFEATVEGQVDATKGDMMILLDDSNSYWWLVKMCKNLAI  178
+            LSSSPSI +E ID + V+A+  F ATVEGQ    KG+ + LLDDSNSYWWLV++ +   +
+Sbjct  191  LSSSPSIPDENIDFDLVYALHNFVATVEGQATVHKGNSLTLLDDSNSYWWLVRVLRTQEV  250
+
+Query  179  GYLPAEYIETPSERLARLNKYKN  201
+            GY+PAE IETP ERLARLNK++N
+Sbjct  251  GYIPAENIETPFERLARLNKHRN  273
+
+
+
+
+
+Query #15: nop56 Query ID: lcl|Query_96537 Length: 497
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+putative snoRNP complex protein NOP56 [Ustilago maydis 521]       547    547   85%   0.0    60.61  XP_011392585.1   
+putative required for pre-18S rRNA processing [Ustilago maydis... 332    332   96%   2e-108 39.30  XP_011388968.1   
+hypothetical protein UMAG_00364 [Ustilago maydis 521]             79.7   79.7  44%   3e-16  25.34  XP_011386254.1   
+
+
+Alignments:
+>putative snoRNP complex protein NOP56 [Ustilago maydis 521]
+Sequence ID: XP_011392585.1 Length: 523 
+>putative snoRNP complex protein NOP56 [Ustilago maydis 521]
+Sequence ID: KIS65857.1 Length: 523  
+Range 1: 7 to 428
+
+Score:547 bits(1409), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/424(61%), Positives:341/424(80%), Gaps:2/424(0%)
+
+Query  4    YLLYESATGYSLFDVVGADQIAAKTKEVQLSLQDISKFGKVVQLRSFIPFKNAAHALENA  63
+            ++L+E ATG ++F+V   ++I + T+ VQ S+ +++ FGK+V+L SF PFKNA  AL+ +
+Sbjct  7    HILFECATGCAVFEVAAVEEIGSLTRAVQESVNEVNTFGKMVKLLSFSPFKNALDALQAS  66
+
+Query  64   NDISEGVLNDFLKNFLELNLPKASKKKKVSLGVQDKNLATSIKSEIDAIECDTSELTQDL  123
+             DISEGV+ND+LK+ L LNL  + KKK V LGVQD+NLA+SI  E+  I CDT E + +L
+Sbjct  67   LDISEGVVNDYLKSLLTLNL-SSGKKKSVILGVQDRNLASSIVGEL-GIPCDTGETSLEL  124
+
+Query  124  LRGIRFHGDKLLKQLSPGDFERAQLGLGHSYSRAKVKFNVNRNDNMIIQAIAILDQLDKD  183
+            +RG+R H +KLLK ++ GD  +AQLGLGHSYSR+KVKFNVNR+DNMIIQAIA+LD LDKD
+Sbjct  125  IRGVRQHAEKLLKGMADGDLAKAQLGLGHSYSRSKVKFNVNRSDNMIIQAIALLDTLDKD  184
+
+Query  184  INTFAMRMKEWYSWHFPELSKIVGDNYKYAVIVTLVGDKTTINDEMLHDLAAVVDDDKDI  243
+            +NTF+MR++EWY WHFPEL K+  DN  YA +  L+ +K  +++E + D+  ++  D+  
+Sbjct  185  VNTFSMRVREWYGWHFPELVKLTTDNLTYAKLAKLIRNKERLSEEDVEDMTDILSGDETT  244
+
+Query  244  AQSIINAGKVSMGQDISEIDLENILSFAERVIKLSNYRKQLHNYLVQKMNVVAPNLAELI  303
+            A++I++A + SMGQ+I E+D+ NIL+FA+RVI L  YRK +H YL++KM++VAPNL+ L+
+Sbjct  245  AKNILDAARASMGQEIGELDMHNILNFADRVINLGEYRKNMHKYLIEKMHLVAPNLSALL  304
+
+Query  304  GEMVGARLISHAGSLTNLSKCPASTVQILGAEKALFRALKTRGNTPKYGIIYHSSFIGKA  363
+            GE++GARLISHAGSLTNL+K PASTVQILGAEKALFRALKT+GNTPKYG+IYH+S I +A
+Sbjct  305  GEIIGARLISHAGSLTNLAKYPASTVQILGAEKALFRALKTKGNTPKYGLIYHASAIARA  364
+
+Query  364  GAKNKGRISRFLANKCSIASRIDNFSDAPTTAFGQVLRRQVEERLNFFDTGVAPTRNSIA  423
+              KNKGR+SRFLANK SIASRID FSD PTT FG+VL  QVEERL F++TG AP++NS A
+Sbjct  365  APKNKGRMSRFLANKISIASRIDCFSDTPTTKFGEVLAVQVEERLAFYETGKAPSKNSDA  424
+
+Query  424  MAEA  427
+            M++A
+Sbjct  425  MSKA  428
+
+
+
+>putative required for pre-18S rRNA processing [Ustilago maydis 521]
+Sequence ID: XP_011388968.1 Length: 582 
+>RecName: Full=Nucleolar protein 58 [Ustilago maydis 521]
+Sequence ID: Q4PBF2.1 Length: 582 >putative required for pre-18S rRNA processing [Ustilago maydis 521]
+Sequence ID: KIS69213.1 Length: 582  
+Range 1: 4 to 510
+
+Score:332 bits(852), Expect:2e-108, 
+Method:Compositional matrix adjust., 
+Identities:202/514(39%), Positives:302/514(58%), Gaps:40/514(7%)
+
+Query  5    LLYESATGYSLFDVVGADQIAAKTKEVQLSLQDISKFGKVVQLRSFIPFKNAAHALENAN  64
+            +L+E+A G+ LF+V  + ++ A TK +  SL        +++L +   F N A A+E+ +
+Sbjct  4    VLFETAVGFCLFNVSDSSKLEA-TKNLHESLDSAEGASNLLKLSAIHRFTNTAEAVEDIS  62
+
+Query  65   DISEGVLNDFLKNFLELNLPKASKKKKVSLGVQDKNLATSIKSEIDAIECDTSELTQDLL  124
+             I+EG ++  LK FL   + +   K+K +L V +  LA++I  ++       SEL  DL 
+Sbjct  63   AINEGKMSKSLKKFLTDEIVEGKGKEKENLIVAESKLASNIAKKLGIQVTYDSELL-DLY  121
+
+Query  125  RGIRFHGDKLL------KQLSPGDFERAQLGLGHSYSRAKVKFNVNRNDNMIIQAIAILD  178
+            RGIR +   LL      + L P D     LGL HS SR K+KF+ ++ D M++QAI +LD
+Sbjct  122  RGIRENLATLLSSSSGDESLDPRDLNTMSLGLSHSLSRYKLKFSPDKVDTMVVQAIGLLD  181
+
+Query  179  QLDKDINTFAMRMKEWYSWHFPELSKIVGDNYKYAVIVTLVGDKTTINDEMLHDLAAVVD  238
+             LDK+IN +AMR+KEWY WHFPE+ KI+ DN  YA ++  +G +T  +     D + ++ 
+Sbjct  182  DLDKEINIYAMRVKEWYGWHFPEMGKIITDNLAYAKVIRAMGFRTNAS---ATDFSEILP  238
+
+Query  239  DDKDIAQSIINAGKVSMGQDISEIDLENILSFAERVIKLSNYRKQLHNYLVQKMNVVAPN  298
+            ++  I +++  A ++SMG +ISE DLE+I S  ++VI ++ YR QL+ YL  +M  +APN
+Sbjct  239  EE--IEETLKAAAEISMGTEISETDLEHIWSLCDQVISITQYRTQLYQYLQNRMAAIAPN  296
+
+Query  299  LAELIGEMVGARLISHAGSLTNLSKCPASTVQILGAEKALFRALKTRGNTPKYGIIYHSS  358
+            L  L+G++VGARLISHAGSL NL+K PASTVQILGAEKALFRALKT+ +TPKYG+IYHSS
+Sbjct  297  LTALVGDLVGARLISHAGSLMNLAKHPASTVQILGAEKALFRALKTKHDTPKYGLIYHSS  356
+
+Query  359  FIGKAGAKNKGRISRFLANKCSIASRIDNFSDAPTTA------FGQVLRRQVEERLNFFD  412
+             +G+A  K KG+++R +A K +++ R+D  +DA T +       G   R ++E RL   +
+Sbjct  357  LVGQAPQKLKGKMARMVATKAALSIRLDALADADTKSDEGAPTVGIEARAKLESRLRALE  416
+
+Query  413  -----TGVAPTRNSIAMAEAYEKALS------SVNIDGDEEVDIDVEET-------VETI  454
+                 +G+   RN+       +K         S N   D     D+          + + 
+Sbjct  417  MQSGLSGMRSARNAAGDQGHKQKGFQMEAGGRSYNAAADAAGPSDMASAANMAPSMLPST  476
+
+Query  455  SEKPSK---KEKKDKKEKKKEKSKKKRSADDASE  485
+              KPS    +EKK  KE++K   K ++S   ASE
+Sbjct  477  PAKPSTTTDEEKKLSKEERKALKKARKSEIAASE  510
+
+
+
+>hypothetical protein UMAG_00364 [Ustilago maydis 521]
+Sequence ID: XP_011386254.1 Length: 599 
+>hypothetical protein UMAG_00364 [Ustilago maydis 521]
+Sequence ID: KIS71937.1 Length: 599  
+Range 1: 171 to 386
+
+Score:79.7 bits(195), Expect:3e-16, 
+Method:Compositional matrix adjust., 
+Identities:56/221(25%), Positives:103/221(46%), Gaps:7/221(3%)
+
+Query  168  NMIIQAIAILDQLDKDINTFAMRMKEWYSWHFPELSKIVGDNYKYAVIVTLVGDKTTIND  227
+            ++I++A  +   +D ++      +++ YS  FPEL  ++ + + Y   V  +G+  TI  
+Sbjct  171  HLIVKANNVAVDVDNEVMVVHKFIRDHYSPRFPELESLIPNPWDYVQAVKAIGNYDTIPT  230
+
+Query  228  EMLHDLAAVVDDDKDIAQSIINAGKVSMGQDISEIDLENILSFAERVIKLSNYRKQLHNY  287
+                 L  V+     +  S+  A   + GQ +   +   +    E V++L + R ++  Y
+Sbjct  231  S---SLEGVLPHGTVVVISM--AASTTTGQTLPVSEWHAVQEGLEMVLELESVRSRILAY  285
+
+Query  288  LVQKMNVVAPNLAELIGEMVGARLISHAGSLTNLSKCPASTVQILGAEKALFRALKT--R  345
+            +  +M  VAPNL+ ++G     +L+  AG L  LSK PA  + +LGA K     L +   
+Sbjct  286  VESRMAFVAPNLSAVVGTRTATKLLGVAGGLDGLSKIPACNLHLLGAAKKHSMGLSSVHG  345
+
+Query  346  GNTPKYGIIYHSSFIGKAGAKNKGRISRFLANKCSIASRID  386
+            G+    G I  S  +       K +  R ++ K  +A+R+D
+Sbjct  346  GSARSTGFIVQSDLVANTPDDYKRQAIRMVSAKALLAARMD  386
+
+
+
+
+
+Query #16: tea1 Query ID: lcl|Query_96538 Length: 1147
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+Tea1 [Ustilago maydis]                                            266    266   26%   3e-73 37.50  AVL25102.1       
+hypothetical protein UMAG_15019 [Ustilago maydis 521]             216    478   30%   2e-57 36.00  XP_011386855.1   
+hypothetical protein UMAG_03273 [Ustilago maydis 521]             114    215   21%   3e-26 34.60  XP_011389686.1   
+hypothetical protein UMAG_11691 [Ustilago maydis 521]             71.2   71.2  17%   8e-13 31.05  XP_011388084.1   
+hypothetical protein UMAG_05224 [Ustilago maydis 521]             50.1   50.1  6%    3e-06 33.77  XP_011388261.1   
+hypothetical protein UMAG_10155 [Ustilago maydis 521]             46.2   46.2  10%   4e-05 30.88  XP_011388836.1   
+
+
+Alignments:
+>Tea1 [Ustilago maydis]
+Sequence ID: AVL25102.1 Length: 1698 
+Range 1: 246 to 571
+
+Score:266 bits(679), Expect:3e-73, 
+Method:Compositional matrix adjust., 
+Identities:123/328(38%), Positives:190/328(57%), Gaps:26/328(7%)
+
+Query  78   LPRYSHASHLYAEGGQEIYIFGGVASDSQPKNDLWVL------------------NLATS  119
+             PRY HA +  A    E+Y+FGG+  +S  KNDL+ +                  N   +
+Sbjct  246  FPRYGHAVNQAASSAGELYLFGGLVRESV-KNDLYTITSTSSSPQTPNSPPGANANQLYA  304
+
+Query  120  QFTSLRSLGETPSPRLGHASILIGNAFIVFGGLTNHDVADRQDNSLYLLNTSSLVWQKAN  179
+              T +++ GE P PR+GHA++L+ N  I++GG T     D+QD  LYLLN S+  W +  
+Sbjct  305  SATLVQTTGEIPPPRVGHATVLVSNVLILWGGDTKVRADDKQDEGLYLLNLSTREWTRVK  364
+
+Query  180  ASGAR---PSGRYGHTISCLGSKICLFGGRLLDYYFNDLVCFDLNNLNTSDSRWELASVV  236
+            A       P GRYGH+++ +GS+  +FGG++   + NDL CFDLN+L  + + W+     
+Sbjct  365  AGDGHETCPVGRYGHSVAIVGSRFYVFGGQVDGTFMNDLWCFDLNSLKGTPT-WQCLKAN  423
+
+Query  237  NDPPPARAGHVAFTFSDKLYIFGGTDGANFFNDLWCYHPKQSAWSKVETFGVAPNPRAGH  296
+             D PP R GH + T+ DK+Y+FGGTDG   +ND WCY    + W ++   G  P PR GH
+Sbjct  424  GDVPPKRTGHASVTYKDKIYVFGGTDGQYHYNDTWCYDIATATWKELSCIGYIPVPREGH  483
+
+Query  297  AASVVEGILYVFGGRASDGTFLNDLYAFRLSSKHWYKLSDLPFTPSPRSSHTLSCSGLTL  356
+            AA +V+ ++Y+FGGR  DG  L DL +F+++++ WY  +++  +PS RS H +S     +
+Sbjct  484  AACLVDDVMYIFGGRGVDGKDLGDLASFKITNQRWYMFANMGPSPSGRSGHAMSTFQNKV  543
+
+Query  357  VLIGGKQGKGAS---DSNVYMLDTSRFR  381
+            V++GG+   GA     S +++LDT++ +
+Sbjct  544  VVLGGESFTGAKPDDPSTLHVLDTAKIK  571
+
+
+
+>hypothetical protein UMAG_15019 [Ustilago maydis 521]
+Sequence ID: XP_011386855.1 Length: 1639 
+>hypothetical protein UMAG_15019 [Ustilago maydis 521]
+Sequence ID: KIS72325.1 Length: 1639  
+Range 1: 240 to 530
+
+Score:216 bits(550), Expect:2e-57, 
+Method:Compositional matrix adjust., 
+Identities:108/300(36%), Positives:163/300(54%), Gaps:27/300(9%)
+
+Query  126  SLGETPSPRLGHA---SILIGNAFIVFGGLTNHDVAD---------RQDNSLYLLNTSSL  173
+            +L   P PR GHA   +        +FGGL    V +           D  LYLLN S+ 
+Sbjct  240  ALSPFPFPRYGHAVNQAASSAGELYLFGGLVRESVKNDLYTITSTSSSDEGLYLLNLSTR  299
+
+Query  174  VWQKANASGAR---PSGRYGHTISCLGSKICLFGGRLLDYYFNDLVCFDLNNLNTSDSRW  230
+             W +  A       P GRYGH+++ +GS+  +FGG++   + NDL CFDLN+L  + + W
+Sbjct  300  EWTRVKAGDGHETCPVGRYGHSVAIVGSRFYVFGGQVDGTFMNDLWCFDLNSLKGTPT-W  358
+
+Query  231  ELASVVNDPPPARAGHVAFTFSDKLYIFGGTDGANFFNDLWCYHPKQSAWSKVETFGVAP  290
+            +      D PP R GH + T+ DK+Y+FGGTDG   +ND WCY    + W ++   G  P
+Sbjct  359  QCLKANGDVPPKRTGHASVTYKDKIYVFGGTDGQYHYNDTWCYDIATATWKELSCIGYIP  418
+
+Query  291  NPRAGHAASVVEGILYVFGGRASDGTFLNDLYAFRLSSKHWYKLSDLPFTPSPRSSHTLS  350
+             PR GHAA +V+ ++Y+FGGR  DG  L DL +F+++++ WY  +++  +PS RS H +S
+Sbjct  419  VPREGHAACLVDDVMYIFGGRGVDGKDLGDLASFKITNQRWYMFANMGPSPSGRSGHAMS  478
+
+Query  351  CSGLTLVLIGGKQGKGAS---DSNVYMLDTSRFRLGSVPTTSGRQRNTSFFSNSTGNTNP  407
+                 +V++GG+   GA     S +++LDT++ +    PT      N S   +S G+  P
+Sbjct  479  TFQNKVVVLGGESFTGAKPDDPSTLHVLDTAKIKY---PTD-----NASQIKSSAGSQLP  530
+
+
+
+
+Range 2: 246 to 499
+
+Score:129 bits(325), Expect:1e-30, 
+Method:Compositional matrix adjust., 
+Identities:84/266(32%), Positives:126/266(47%), Gaps:35/266(13%)
+
+Query  78   LPRYSHASHLYAEGGQEIYIFGGVASDSQPKND-------------LWVLNLATSQFTSL  124
+             PRY HA +  A    E+Y+FGG+  +S  KND             L++LNL+T ++T +
+Sbjct  246  FPRYGHAVNQAASSAGELYLFGGLVRESV-KNDLYTITSTSSSDEGLYLLNLSTREWTRV  304
+
+Query  125  RSLGE----TPSPRLGHASILIGNAFIVFGGLTNHDVADRQDNSLYLLNTSSL----VWQ  176
+            ++ G+     P  R GH+  ++G+ F VFGG  +        N L+  + +SL     WQ
+Sbjct  305  KA-GDGHETCPVGRYGHSVAIVGSRFYVFGGQVDGTFM----NDLWCFDLNSLKGTPTWQ  359
+
+Query  177  KANASGARPSGRYGHTISCLGSKICLFGGRLLDYYFNDLVCFDLNNLNTSDSRWELASVV  236
+               A+G  P  R GH       KI +FGG    Y++ND  C+D+     + + W+  S +
+Sbjct  360  CLKANGDVPPKRTGHASVTYKDKIYVFGGTDGQYHYNDTWCYDI-----ATATWKELSCI  414
+
+Query  237  NDPPPARAGHVAFTFSDKLYIFG--GTDGANFFNDLWCYHPKQSAWSKVETFGVAPNPRA  294
+               P  R GH A    D +YIFG  G DG +   DL  +      W      G +P+ R+
+Sbjct  415  GYIPVPREGHAACLVDDVMYIFGGRGVDGKD-LGDLASFKITNQRWYMFANMGPSPSGRS  473
+
+Query  295  GHAASVVEGILYVFGGRASDGTFLND  320
+            GHA S  +  + V GG +  G   +D
+Sbjct  474  GHAMSTFQNKVVVLGGESFTGAKPDD  499
+
+
+
+
+Range 3: 358 to 489
+
+Score:78.6 bits(192), Expect:6e-15, 
+Method:Compositional matrix adjust., 
+Identities:49/144(34%), Positives:71/144(49%), Gaps:16/144(11%)
+
+Query  66   WSKLTVRGSSNVLP-RYSHASHLYAEGGQEIYIFGGVASDSQPK-NDLWVLNLATSQFTS  123
+            W  L   G  +V P R  HAS  Y +   +IY+FGG  +D Q   ND W  ++AT+ +  
+Sbjct  358  WQCLKANG--DVPPKRTGHASVTYKD---KIYVFGG--TDGQYHYNDTWCYDIATATWKE  410
+
+Query  124  LRSLGETPSPRLGHASILIGNAFIVFG--GLTNHDVADRQDNSLYLLNTSSLVWQKANAS  181
+            L  +G  P PR GHA+ L+ +   +FG  G+   D+ D     L     ++  W      
+Sbjct  411  LSCIGYIPVPREGHAACLVDDVMYIFGGRGVDGKDLGD-----LASFKITNQRWYMFANM  465
+
+Query  182  GARPSGRYGHTISCLGSKICLFGG  205
+            G  PSGR GH +S   +K+ + GG
+Sbjct  466  GPSPSGRSGHAMSTFQNKVVVLGG  489
+
+
+
+
+Range 4: 403 to 519
+
+Score:53.9 bits(128), Expect:2e-07, 
+Method:Compositional matrix adjust., 
+Identities:35/121(29%), Positives:58/121(47%), Gaps:4/121(3%)
+
+Query  61   ITASPWSKLTVRGSSNVLPRYSHASHLYAEGGQEIYIFGGVASDSQPKNDLWVLNLATSQ  120
+            I  + W +L+  G   V PR  HA+ L  +    +YIFGG   D +   DL    +   +
+Sbjct  403  IATATWKELSCIGYIPV-PREGHAACLVDD---VMYIFGGRGVDGKDLGDLASFKITNQR  458
+
+Query  121  FTSLRSLGETPSPRLGHASILIGNAFIVFGGLTNHDVADRQDNSLYLLNTSSLVWQKANA  180
+            +    ++G +PS R GHA     N  +V GG +         ++L++L+T+ + +   NA
+Sbjct  459  WYMFANMGPSPSGRSGHAMSTFQNKVVVLGGESFTGAKPDDPSTLHVLDTAKIKYPTDNA  518
+
+Query  181  S  181
+            S
+Sbjct  519  S  519
+
+
+
+>hypothetical protein UMAG_03273 [Ustilago maydis 521]
+Sequence ID: XP_011389686.1 Length: 767 
+>hypothetical protein UMAG_03273 [Ustilago maydis 521]
+Sequence ID: KIS68705.1 Length: 767  
+Range 1: 447 to 651
+
+Score:114 bits(285), Expect:3e-26, 
+Method:Compositional matrix adjust., 
+Identities:73/211(35%), Positives:100/211(47%), Gaps:11/211(5%)
+
+Query  172  SLVWQKANASGARPSGRY-GHTISCLGSKICLFGGRLLDYYFNDLVCFDLNNLNTSDSRW  230
+            ++ W KA   G+ P   +  HT +     + LFGG      F DL CFD   +      W
+Sbjct  447  AMYWSKAPVHGSIPRRSFRAHTANLCDEVLWLFGGCDNRGCFRDLWCFDTETMC-----W  501
+
+Query  231  ELASVVNDPPPARAGHVAFTFSDKLYIFGGTDGANFFNDLWCYHPKQSAWSKVETFGVAP  290
+                V  D PPAR  H A   + +LY+F G DG ++FNDL+ +      W+K E  G AP
+Sbjct  502  SKPKVTGDIPPARRAHSATMVNKRLYVFAGGDGPHYFNDLYIFDTVSLRWTKPEVGGTAP  561
+
+Query  291  NPRAGHAASVVEGILYVFGGRASDGTFLNDLYAF---RLSSKHWYKLSDLPFTPSPRSSH  347
+            +PR  H  +  EG L VFGG    G  LND++      LS   W K+      P  R  H
+Sbjct  562  SPRRAHTCNYYEGQLIVFGGGNGVGA-LNDVHTLDVNDLSRLEWRKVQCSGKVPIGRGYH  620
+
+Query  348  TLSCSGLTLVLIGGKQGKGA-SDSNVYMLDT  377
+            T +     L++IGG  G  + +D ++  LDT
+Sbjct  621  TSNLVDGKLIVIGGSDGHMSFNDIHILRLDT  651
+
+
+
+
+Range 2: 467 to 686
+
+Score:100 bits(250), Expect:5e-22, 
+Method:Compositional matrix adjust., 
+Identities:68/234(29%), Positives:103/234(44%), Gaps:19/234(8%)
+
+Query  137  HASILIGNAFIVFGGLTNHDVADRQDNSLYLLNTSSLVWQKANASGARPSGRYGHTISCL  196
+            H + L      +FGG  N          L+  +T ++ W K   +G  P  R  H+ + +
+Sbjct  467  HTANLCDEVLWLFGGCDNRGCF----RDLWCFDTETMCWSKPKVTGDIPPARRAHSATMV  522
+
+Query  197  GSKICLFGGRLLDYYFNDLVCFDLNNLNTSDSRWELASVVNDPPPARAGHVAFTFSDKLY  256
+              ++ +F G    +YFNDL  FD  +L     RW    V    P  R  H    +  +L 
+Sbjct  523  NKRLYVFAGGDGPHYFNDLYIFDTVSL-----RWTKPEVGGTAPSPRRAHTCNYYEGQLI  577
+
+Query  257  IFGGTDGANFFNDLWCYHPKQSA---WSKVETFGVAPNPRAGHAASVVEGILYVFGGRAS  313
+            +FGG +G    ND+        +   W KV+  G  P  R  H +++V+G L V GG  S
+Sbjct  578  VFGGGNGVGALNDVHTLDVNDLSRLEWRKVQCSGKVPIGRGYHTSNLVDGKLIVIGG--S  635
+
+Query  314  DGTF-LNDLYAFRLSSKHWYKL-SDLPFTPSPRSSHTLSCSGLTLVLIGGKQGK  365
+            DG    ND++  RL ++ WY++ +D       R  HT +  G  L + GG   K
+Sbjct  636  DGHMSFNDIHILRLDTRTWYQVKTDEVHN---RLGHTATQVGSYLFIFGGHDSK  686
+
+
+
+>hypothetical protein UMAG_11691 [Ustilago maydis 521]
+Sequence ID: XP_011388084.1 Length: 714 
+>hypothetical protein UMAG_11691 [Ustilago maydis 521]
+Sequence ID: KIS70422.1 Length: 714  
+Range 1: 91 to 302
+
+Score:71.2 bits(173), Expect:8e-13, 
+Method:Compositional matrix adjust., 
+Identities:68/219(31%), Positives:105/219(47%), Gaps:30/219(13%)
+
+Query  182  GARPSGRYGHTIS-C-LGSKICLFGGRLLDYYFNDLVCF--DLNNLNTSDSRWELASVVN  237
+            G  PS R   T + C LG+ + LFGG   +Y+  + V F  D+       + W   +  N
+Sbjct  91   GGPPSRRANATFTPCPLGNDLYLFGG---EYFNGERVAFYQDMYRYIPDKNEWRTYASKN  147
+
+Query  238  DPPPARAGHVAFTFSDK--LYIFGGT-DGA-----NFFNDLWCYHPKQSAWSKVETFGVA  289
+             P P  A  VA T +    L++FGG   GA     + + DLW +  +  AW +++T  + 
+Sbjct  148  QPGPRSAHQVAATPAQGGMLWLFGGEFSGARQNAFHHYRDLWAFSIESKAWERIDT-KLR  206
+
+Query  290  PNPRAGHAASVVEGILYVFGGRASDGT---FLNDLYAFRLSSKHWYKLSDLP----FTPS  342
+            P+ R+GH  +  +  L +FGG    G    +LNDL+ F   +++ +K +++       P 
+Sbjct  207  PSARSGHRMTFWKHYLVLFGGFIDTGVKTQYLNDLWIF--DTQNTFKWTEIKQNDLRRPP  264
+
+Query  343  PRSSHT-LSCSGLTLVLIGG---KQGKGASDSNVYMLDT  377
+            PRS  + LSC    +VL GG   K  KG     V + DT
+Sbjct  265  PRSGFSFLSCP-EGIVLHGGYCKKYVKGQRTQGVALEDT  302
+
+
+
+>hypothetical protein UMAG_05224 [Ustilago maydis 521]
+Sequence ID: XP_011388261.1 Length: 1424 
+>hypothetical protein UMAG_05224 [Ustilago maydis 521]
+Sequence ID: KIS70153.1 Length: 1424  
+Range 1: 501 to 577
+
+Score:50.1 bits(118), Expect:3e-06, 
+Method:Compositional matrix adjust., 
+Identities:26/77(34%), Positives:38/77(49%), Gaps:7/77(9%)
+
+Query  240  PPARAGHVAFTFSDK--LYIFGGTDGANFFNDLWCYHPKQSAWSKVET---FGVAPNPRA  294
+            P  R GH     +DK   Y+FGG DG    +DLW YH  ++ W  + +       P+PR+
+Sbjct  501  PSGRGGHAMVFDADKGIAYLFGGWDGQRDLSDLWAYHVGENRWRLISSDTQLQGGPSPRS  560
+
+Query  295  GHAASVVE--GILYVFG  309
+             H   + E  G +Y+ G
+Sbjct  561  CHKMCLDEKSGCIYLLG  577
+
+
+
+>hypothetical protein UMAG_10155 [Ustilago maydis 521]
+Sequence ID: XP_011388836.1 Length: 973 
+>hypothetical protein UMAG_10155 [Ustilago maydis 521]
+Sequence ID: KIS69920.1 Length: 973  
+Range 1: 381 to 514
+
+Score:46.2 bits(108), Expect:4e-05, 
+Method:Compositional matrix adjust., 
+Identities:42/136(31%), Positives:62/136(45%), Gaps:13/136(9%)
+
+Query  142  IGNAFIVFGGLTNHDVADRQDNSLYLLNTSSLVWQKANASGARPSGRYGHT-ISCLGSKI  200
+             G   +  GG        R D   ++L+  S  W+  NA+G  PSGR GHT +     KI
+Sbjct  381  CGEKVVFLGGKDGSGNMARLDK-FWVLDVGSGNWEHWNATGLIPSGRMGHTAVVSPDGKI  439
+
+Query  201  CLFGGRLLDYYF----NDLV--CFDLNNLNTSDSRWELASVVNDP--PPARAGHVAFTFS  252
+             + GG L D +     ND +   F L+   T  +RW+ A+  ++   PP+ A H A    
+Sbjct  440  IVHGGYLQDPWQIKTNNDPIDEVFILDPRQTP-ARWDAATWTSESSKPPSVAYHSAVMTD  498
+
+Query  253  DKLYI-FG-GTDGANF  266
+            + + + FG   DG  F
+Sbjct  499  EVMVVSFGRANDGPAF  514
+
+
+
+
+
+Query #17: mid1 Query ID: lcl|Query_96539 Length: 920
+
+No significant similarity found.
+
+
+
+
+
+		
+
+

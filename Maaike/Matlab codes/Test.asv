@@ -1,0 +1,21 @@
+yy=cell(1,3306);
+for ii=1:3306
+    xx=find(transpose(interact_matrix_XL(ii,:))~=interact_matrix_XL(:,ii));
+    yy{ii}=gene_names_XL(xx);
+end
+%%
+
+size_yy = zeros(1,3306);
+for ii=1:3306
+    [~,size_yy(ii)] = size(yy{ii});
+end
+missing = cell(3306,1);
+index = 0;
+for ii=1:3306
+    for jj=1:size_yy(ii)
+        missing(tabs+index+jj) = yy{ii}(jj,1);
+    end
+    index=index+size_yy(ii);
+end
+
+% er gaat iets mis met de 'Y' proteins en IMP2'

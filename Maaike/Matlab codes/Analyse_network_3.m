@@ -1,0 +1,159 @@
+% INPUT
+% interaction matrix (square double, retrieved from
+    % Build_interaction_matrix_2 or Overview interactions.xlsx)
+% gene names
+% Repertoire_edited (retrieved from ...)
+
+% OUTPUT
+% graph
+% degree distribution (incl power law fit)
+% density
+% average pathlength
+% clustering coefficient (incl 1/k fit)
+
+% import file with network
+original_network = interact_matrix_XL_phys;
+
+% import file with names
+names = gene_names_XL;
+
+% import file with presence of genes                         
+%presence = xlsread('Repertoire_Edited.xlsx','C16:AR16');
+%[~,size_p]=size(presence);
+
+% only look at the physical interactions
+phys_network = original_network;
+%[size_n] = size(phys_network);
+%for ii=1:size_n
+%    for jj=1:size_n
+%        if phys_network(ii,jj)==2
+%            phys_network(ii,jj)=0;
+%        end
+%    end
+%end
+
+% delete all interactions with absent genes
+present_network = phys_network;
+%for ii=size_p:-1:1                                 
+%    if presence(ii)==0      
+%        present_network(ii,:)=[];
+%        present_network(:,ii)=[];
+%        gene_names(ii)=[];
+%    end
+%end
+
+% make matrix of zeros and ones
+binary_network = present_network./present_network;
+binary_network(isnan(binary_network))=0;
+
+% visualise the network
+%visualisation = graph(binary_network,gene_names);
+%figure
+%subplot(2,2,1)
+%plot(visualisation)
+
+% delete genes which have no interactions
+int_binary_network = binary_network;
+for ii=size(int_binary_network):-1:1
+    if sum(binary_network(ii,:))==0
+        int_binary_network(ii,:)=[];
+        int_binary_network(:,ii)=[];
+        names(ii)=[];
+    end
+end
+
+% delete self interactions
+for ii=1:size(int_binary_network)
+    int_binary_network(ii,ii)=0;
+end
+%%
+% visualise the network
+int_visualisation = graph(int_binary_network,names);
+subplot(2,2,1)
+plot(int_visualisation)
+
+% nodes and edges
+N_nodes = numnodes(int_visualisation);
+N_edges = numedges(int_visualisation);
+
+% degree
+avg_degree = 2*N_edges/N_nodes;                 % average degree <k>=2L/N          
+degree_per_node = degree(int_visualisation);    % number of edges per node
+
+% density
+N_edges_max = N_nodes*(N_nodes-1)/2;            % max edges = N(N-1)/2
+density = N_edges/N_edges_max;
+%%
+% average pathlength
+pathlength = zeros(N_nodes,N_nodes);
+for ii=1:N_nodes
+    for jj=ii:N_nodes
+        [~,length] = shortestpath(int_visualisation,ii,jj);
+        pathlength(ii,jj) = length;
+    end    
+end
+avg_pathlength = sum(pathlength,'all')/nnz(pathlength);
+exp_avg_pathlength = log(log(N_nodes));         % scale-free follows loglogN, random follows logN
+diameter = max(max(pathlength));
+
+% average clustering coefficient calculation
+binary_temp = int_binary_network;
+nn = zeros(1,N_nodes);   % number of neighbours of neighbours
+CC = zeros(1,N_nodes);   % clustering coefficient, C=2*n/k(k-1)
+for jj=1:N_nodes         % determine coefficient for each node
+    for ii=1:N_nodes     % turn every value for which there is no interaction zero                           
+        if int_binary_network(ii,jj)==0      
+            binary_temp(ii,:)=0;
+            binary_temp(:,ii)=0;
+        end
+    end
+    nn(jj) = sum(binary_temp,'all')/2;
+    CC(jj)= (2*nn(jj))/(degree_per_node(jj)*(degree_per_node(jj)-1));
+    CC(isnan(CC))=0;
+    binary_temp = int_binary_network;
+end
+avg_CC = sum(CC)/N_nodes;
+
+% degree distribution
+max_degree = max(degree_per_node);
+distr_count = [1:max_degree];
+distr_abs = histcounts(degree_per_node,max_degree);
+distr_rel = distr_abs/N_nodes;
+
+% plot of degree distribution
+subplot(2,2,3)
+histogram(degree_per_node,'Binwidth',5)                         % which binwidth or number of bins?
+xlabel('Degree')
+ylabel('Counts')
+
+% power law fit to degree distribution
+[fitresult_p,gof_p] = Fit_Function_p(distr_count,distr_rel); % y = 1+ln4/ln3 for hierarchical 
+
+% 1/k fit to clustering coefficient
+[fitresult_c,gof_c] = Fit_Function_c(degree_per_node,CC);
+
+% define functions
+function [fitresult_p, gof_p] = Fit_Function_p(distr_count,distr_rel)
+[xData,yData] = prepareCurveData(distr_count,distr_rel);
+ft = fittype('power1');
+opts = fitoptions( 'Method', 'NonlinearLeastSquares' );
+[fitresult_p, gof_p] = fit(xData,yData,ft,opts); % goodness of fit
+subplot(2,2,4)
+plot(fitresult_p,xData,yData);
+legend('Data','Power law fit');
+xlabel('Degree');
+ylabel('Probability');
+end
+function [fitresult_c, gof_c] = Fit_Function_c(degree,CC)
+[xData,yData] = prepareCurveData(degree,CC);
+ft = fittype('a*x^(-1)','independent','x','dependent','y');
+%excludedPoints = excludedata(xData,yData,'Indices',27);
+opts = fitoptions('Method','NonlinearLeastSquares');
+%opts.Exclude = excludedPoints;
+[fitresult_c,gof_c] = fit(xData,yData,ft,opts);
+figure
+plot(fitresult_c,xData,yData); %,excludedPoints
+legend('Data','1/k fit');
+xlabel('degree');
+ylabel('clustering coefficient');
+end

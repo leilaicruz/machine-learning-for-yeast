@@ -1,0 +1,57 @@
+% INPUT
+% file with all first interactors from Yeastmine
+% gene_names_XL (retrieved from Find_first_interactors_1)
+
+% OUTPUT
+% interact_matrix_XL_gen
+% interact_matrix_XL_phys
+% interact_matrix_XL
+
+all_first_interactors = readtable('All first Interactors.csv');
+all_first_interactors = table2cell(all_first_interactors);
+
+% fill the empty standard name cells with systematic name
+index_afi = find(cellfun(@isempty,all_first_interactors));
+[size_afi,~] = size(all_first_interactors);
+all_first_interactors(index_afi)=all_first_interactors(index_afi-size_afi);
+
+% divide the interactions in 'physical' and 'genetic'
+afi_phys_i = strcmp(all_first_interactors(:,5),'physical');
+afi_phys = all_first_interactors(afi_phys_i,:);
+afi_gen_i = strcmp(all_first_interactors(:,5),'genetic');
+afi_gen = all_first_interactors(afi_gen_i,:);
+
+[size_XL,~] = size(gene_names_XL);
+interact_matrix_XL_phys = zeros(size_XL);
+interact_matrix_XL_gen = zeros(size_XL);
+
+% create a physical interaction matrix
+for ii=1:size_XL
+    index = strcmp(afi_phys(:,2),gene_names_XL(ii));
+    list = afi_phys(index,4);
+    [~,pos] = intersect(gene_names_XL,list);
+    interact_matrix_XL_phys(ii,pos)=1;
+    clear index
+    clear list
+end
+
+% create a genetic interaction matrix
+for ii=1:size_XL
+    index = strcmp(afi_gen(:,2),gene_names_XL(ii));
+    list = afi_gen(index,4);
+    [~,pos] = intersect(gene_names_XL,list);
+    interact_matrix_XL_gen(ii,pos)=2;
+    clear index
+    clear list
+end
+
+interact_matrix_XL = interact_matrix_XL_phys + interact_matrix_XL_gen;
+
+clear afi_gen
+clear afi_gen_i
+clear afi_phys
+clear afi_phys_i
+clear pos
+clear ii
+clear index_afi
+clear size_afi

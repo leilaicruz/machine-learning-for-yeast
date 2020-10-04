@@ -1,0 +1,83 @@
+clear all
+close all
+clc
+
+% this code constructs all interactions from SGD
+
+file_names = 'Genes S. cerevisiae.xlsx';       % choose which network you want to use
+tab_n = 2;
+range_n = 'A:A';                               % where to find the names
+[~,gene_names,~] = xlsread(file_names,tab_n,range_n); 
+
+file_interactors = 'Interactions SGD.xlsx';
+range = 'C:C';
+range2 = 'E:E';
+tabs = 37;
+
+interactors = cell(1,tabs);
+
+% find Excel interaction data
+for ii=1:tabs
+    [~,interactors{ii}] = xlsread(file_interactors,ii,range);
+    [~,interactors{ii}(:,2)] = xlsread(file_interactors,ii,range2);
+end
+
+% make a copy, as it takes ages to calculate
+interact_save = interactors;
+
+% determine the size of the matrices
+size_int = zeros(size(interactors));
+for ii=1:tabs
+    [size_int(ii),~] = size(interactors{ii});
+end
+
+% delete all double information
+for ii=1
+    for jj=size_int(ii):-1:2
+        if isequal(interactors{ii}(jj,1),interactors{ii}(jj-1,1))
+            if isequal(interactors{ii}(jj,2),interactors{ii}(jj-1,2))
+                interactors{ii}(jj-1,:)=[];
+            else
+                interactors{ii}(jj,2)={'Both'};
+                interactors{ii}(jj-1,:)=[];
+            end
+        end
+    end
+end
+
+% determine new sizes
+size_int_new = zeros(size(interactors));
+for ii=1:tabs
+    [size_int_new(ii),~] = size(interactors{ii});
+end
+%%
+interact_matrix=zeros(sum(size_int_new));
+%%
+all_genes = cell(sum(size_int_new),1);
+all_genes = [interactors{1}(:,1);interactors{2}(:,1)];
+%%
+
+
+AA = cat(1,interactors{}(:,1));
+%%
+
+
+
+%%
+% construct an interaction matrix
+interact_matrix_num = zeros(tabs);
+for ii=1:tabs   
+    for jj=ii:tabs
+        for kk=1:size_int_new(jj)
+            if contains(interactors{jj}(kk),gene_names(ii))
+                if contains(interactors{jj}(kk,2),'Physical')
+                    interact_matrix_num(ii,jj) = 1;
+                elseif contains(interactors{jj}(kk,2),'Genetic')
+                    interact_matrix_num(ii,jj) = 2;
+                else
+                    interact_matrix_num(ii,jj) = 3;
+                end
+            end
+        end
+    end    
+end
