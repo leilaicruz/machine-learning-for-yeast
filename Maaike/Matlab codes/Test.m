@@ -1,34 +1,22 @@
-% waarom is de matrix niet symmetrisch?
-% er gaat iets mis met de 'Y' proteins en IMP2'
+% more network characteristics
 
-yy=cell(1,size_XL);
-for ii=1:size_XL
-    xx=find(transpose(interact_matrix_XL(ii,:))~=interact_matrix_XL(:,ii));
-    yy{ii}=gene_names_XL(xx);
-end
+% matching index = sum distinct common neighbours / sum total number of
+    % neighbours
+    
+% degree centrality = degree of N    
+    
+% closeness centrality = 1 / sum distance between N and all others
+    % or N-1 / same sum (normalised version
+    
+% betweenness centrality = total number of shortest paths that go through N
+    % / total number of shortest paths
+    
+% eccentricity centrality = 1 / max distance to another node 
 
-size_yy = zeros(1,size_XL);
-for ii=1:size_XL
-    [~,size_yy(ii)] = size(yy{ii});
-end
-missing = cell(size_XL,1);
-index = 0;
-for ii=1:size_XL
-    for jj=1:size_yy(ii)
-        missing(index+jj) = yy{ii}(1,jj);
-    end
-    index=index+size_yy(ii);
-end
+% motifs??
 
-zz = unique(missing,'stable');
+% modularity?
 
-%%
-AA = readtable('results.csv');
-%%
-BB = table2cell(AA);
-%%
-pp=cellfun(@isempty,BB);
-[qq,rr]=find(pp(2,:));
-%%
-CC=BB;
-CC(qq,rr)=CC(qq,rr-1);
+% assortativity
+
+% global and local efficiency
