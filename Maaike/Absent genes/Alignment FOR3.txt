@@ -1,0 +1,3952 @@
+RID: PHG5EVHS01R	
+Job Title:17 interactors for3				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1: gar2 Query ID: lcl|Query_93913 Length: 500
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+Nop13p [Saccharomyces cerevisiae S288C]                           76.6   76.6  28%   2e-15 32.43  NP_014224.2      
+Hrp1p [Saccharomyces cerevisiae S288C]                            75.9   75.9  33%   4e-15 26.35  NP_014518.1      
+Pub1p [Saccharomyces cerevisiae S288C]                            63.9   119   37%   2e-11 25.00  NP_014382.1      
+Nop12p [Saccharomyces cerevisiae S288C]                           63.9   63.9  16%   3e-11 34.52  NP_014601.1      
+Ngr1p [Saccharomyces cerevisiae S288C]                            63.9   63.9  28%   3e-11 32.08  NP_009771.3      
+Chain D, Polyadenylate-binding protein, cytoplasmic and nuclea... 60.8   170   35%   2e-10 28.05  6R5K_D           
+polyadenylate-binding protein [Saccharomyces cerevisiae S288C]    60.8   169   35%   3e-10 28.05  NP_011092.1      
+U1 snRNP complex subunit SNP1 [Saccharomyces cerevisiae S288C]    55.5   55.5  16%   6e-09 29.41  NP_012203.1      
+Sgn1p [Saccharomyces cerevisiae S288C]                            48.1   48.1  14%   1e-06 31.43  NP_012266.1      
+RNA-binding ribosome biosynthesis protein MRD1 [Saccharomyces...  47.4   47.4  14%   4e-06 26.39  NP_015437.1      
+Chain A, U2 snRNP component IST3 [Saccharomyces cerevisiae S288C] 39.3   72.8  31%   2e-04 32.05  2MKC_A           
+U2 snRNP complex subunit IST3 [Saccharomyces cerevisiae S288C]    39.7   73.5  31%   3e-04 32.05  NP_012270.1      
+Chain A, Protein HRB1 [Saccharomyces cerevisiae S288C]            37.7   37.7  14%   5e-04 28.77  2MZR_A           
+Rna15p [Saccharomyces cerevisiae S288C]                           39.3   39.3  11%   0.001 25.86  NP_011471.1      
+mRNA-binding protein [Saccharomyces cerevisiae S288C]             39.3   39.3  14%   0.001 29.58  NP_014394.2      
+Rie1p [Saccharomyces cerevisiae S288C]                            35.8   35.8  11%   0.017 32.05  NP_011766.3      
+
+
+Alignments:
+>Nop13p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014224.2 Length: 403 
+>RecName: Full=Nucleolar protein 13 [Saccharomyces cerevisiae S288C]
+Sequence ID: P53883.2 Length: 403  
+Range 1: 181 to 319
+
+Score:76.6 bits(187), Expect:2e-15, 
+Method:Compositional matrix adjust., 
+Identities:48/148(32%), Positives:78/148(52%), Gaps:13/148(8%)
+
+Query  302  RSKGYGYVDFETPEAAKAAVAANGTKEIDGR-MVNLDLSNP--RPANPQPYAQQRAGNFG  358
+            ++KG+ Y+ F+  E  KA +  + +  ++GR M+  D  N   RP      A  +     
+Sbjct  181  KNKGFCYMFFKNVEQMKAVLELSES-HLNGRNMLIKDSENYSGRPDKDDLVAMSK-----  234
+
+Query  359  DQLSEPSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDID  418
+               + PS  +FVGNLSF+ T+D L   F  CGDI  IR+ T   SG+ KGF ++ F + +
+Sbjct  235  ---NPPSRILFVGNLSFDVTDDLLRKHFQHCGDIVKIRMATFEDSGKCKGFAFIDFKNEE  291
+
+Query  419  SAKKCV-EMNGHFIAGRPCRLDFSTPRT  445
+             +   + + +   IAGRP R+++   R+
+Sbjct  292  GSTNALKDKSCRKIAGRPLRMEYGEDRS  319
+
+
+
+>Hrp1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014518.1 Length: 534 
+>RecName: Full=Nuclear polyadenylated RNA-binding protein 4; AltName: Full=Cleavage factor IB; Short=CFIB [Saccharomyces cerevisiae S288C]
+Sequence ID: Q99383.1 Length: 534  
+Range 1: 155 to 302
+
+Score:75.9 bits(185), Expect:4e-15, 
+Method:Compositional matrix adjust., 
+Identities:44/167(26%), Positives:83/167(49%), Gaps:19/167(11%)
+
+Query  259  SNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAK  318
+            S E+C +F+G L+W+  +  L + F +YGT+   +++ D  +GRS+G+G++ FE P +  
+Sbjct  155  SKESCKMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVD  214
+
+Query  319  AAVAANGTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEPSDTVFVGNLSFNAT  378
+              V       +DG+++     +P+ A P+   Q + G            +FVG +  +  
+Sbjct  215  EVVKTQHI--LDGKVI-----DPKRAIPRD-EQDKTG-----------KIFVGGIGPDVR  255
+
+Query  379  EDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVE  425
+              +    F   G I   +L  D  +G+ +GFG+VT+   D+  +  +
+Sbjct  256  PKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFVTYDSADAVDRVCQ  302
+
+
+
+>Pub1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014382.1 Length: 453 
+>RecName: Full=Nuclear and cytoplasmic polyadenylated RNA-binding protein PUB1; AltName: Full=ARS consensus-binding protein ACBP-60; AltName: Full=Poly uridylate-binding protein; Short=Poly(U)-binding protein [Saccharomyces cerevisiae S288C]
+Sequence ID: P32588.4 Length: 453  
+Range 1: 76 to 241
+
+Score:63.9 bits(154), Expect:2e-11, 
+Method:Compositional matrix adjust., 
+Identities:46/184(25%), Positives:89/184(48%), Gaps:21/184(11%)
+
+Query  264  TVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAA  323
+             ++VG L   + +  L Q F+  G I   ++++D ++ ++  Y +V++     A  A+  
+Sbjct  76   VLYVGNLDKAITEDILKQYFQVGGPIANIKIMID-KNNKNVNYAFVEYHQSHDANIALQT  134
+
+Query  324  NGTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEPSDT--VFVGNLSFNATEDD  381
+               K+I+  +V ++ +                 F  Q S   DT  +FVG+L+ N  ++ 
+Sbjct  135  LNGKQIENNIVKINWA-----------------FQSQQSSSDDTFNLFVGDLNVNVDDET  177
+
+Query  382  LSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVE-MNGHFIAGRPCRLDF  440
+            L  AF       S  +  D Q+G  +G+G+V+F+  D A+  ++ M G  + GRP R+++
+Sbjct  178  LRNAFKDFPSYLSGHVMWDMQTGSSRGYGFVSFTSQDDAQNAMDSMQGQDLNGRPLRINW  237
+
+Query  441  STPR  444
+            +  R
+Sbjct  238  AAKR  241
+
+
+
+
+Range 2: 158 to 238
+
+Score:55.8 bits(133), Expect:8e-09, 
+Method:Compositional matrix adjust., 
+Identities:26/81(32%), Positives:53/81(65%), Gaps:0/81(0%)
+
+Query  259  SNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAK  318
+            S++T  +FVG L+ NVDD+ L   F+++ + +   V+ D Q+G S+GYG+V F + + A+
+Sbjct  158  SDDTFNLFVGDLNVNVDDETLRNAFKDFPSYLSGHVMWDMQTGSSRGYGFVSFTSQDDAQ  217
+
+Query  319  AAVAANGTKEIDGRMVNLDLS  339
+             A+ +   ++++GR + ++ +
+Sbjct  218  NAMDSMQGQDLNGRPLRINWA  238
+
+
+
+>Nop12p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014601.1 Length: 459 
+>RecName: Full=Nucleolar protein 12 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q08208.1 Length: 459  
+Range 1: 270 to 340
+
+Score:63.9 bits(154), Expect:3e-11, 
+Method:Compositional matrix adjust., 
+Identities:29/84(35%), Positives:44/84(52%), Gaps:13/84(15%)
+
+Query  344  ANPQPYAQQRAGNFGDQLSEPSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQS  403
+            A+P P+ ++R             ++FVGNL F   E+ L   F  CGDI+ +R+  D ++
+Sbjct  270  AHPAPHDKKR-------------SIFVGNLDFEEIEESLWKHFEPCGDIEYVRIIRDSKT  316
+
+Query  404  GRLKGFGYVTFSDIDSAKKCVEMN  427
+               KGF YV F D+ S  K + +N
+Sbjct  317  NMGKGFAYVQFKDLQSVNKALLLN  340
+
+
+
+>Ngr1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_009771.3 Length: 672 
+>RecName: Full=Negative growth regulatory protein NGR1; AltName: Full=RNA-binding protein RBP1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32831.2 Length: 672  
+Range 1: 129 to 272
+
+Score:63.9 bits(154), Expect:3e-11, 
+Method:Compositional matrix adjust., 
+Identities:51/159(32%), Positives:79/159(49%), Gaps:34/159(21%)
+
+Query  305  GYGYVDFETPEAAKAAVAANGTKEIDGRMVNLDLSNPRP----------ANPQPYAQQRA  354
+            GY +V+FET + AK A++ N T              P P           NP  + +   
+Sbjct  129  GYCFVEFETQKDAKFALSLNAT--------------PLPNFYSPTTNSQTNPT-FKRTFR  173
+
+Query  355  GNF--GDQL-----SEPSDTVFVGNLSFNATEDDLSTAFGG-CGDIQSIRLPTDPQSGRL  406
+             N+  G  L     S P  ++FVG+LS  ATE DL + F      ++++R+ TDP +G  
+Sbjct  174  LNWASGATLQSSIPSTPEFSLFVGDLSPTATEADLLSLFQTRFKSVKTVRVMTDPLTGSS  233
+
+Query  407  KGFGYVTFSDIDSAKK-CVEMNGHFIAGRPCRLDFSTPR  444
+            + FG+V F D D  ++  +EM+G +  GR  R+ ++TPR
+Sbjct  234  RCFGFVRFGDEDERRRALIEMSGKWFQGRALRVAYATPR  272
+
+
+
+>Chain D, Polyadenylate-binding protein, cytoplasmic and nuclear [Saccharomyces cerevisiae S288C]
+Sequence ID: 6R5K_D Length: 581 
+>Chain F, Polyadenylate-binding protein, cytoplasmic and nuclear [Saccharomyces cerevisiae S288C]
+Sequence ID: 6R5K_F Length: 581 >Chain H, Polyadenylate-binding protein, cytoplasmic and nuclear [Saccharomyces cerevisiae S288C]
+Sequence ID: 6R5K_H Length: 581  
+Range 1: 132 to 281
+
+Score:60.8 bits(146), Expect:2e-10, 
+Method:Compositional matrix adjust., 
+Identities:46/164(28%), Positives:82/164(50%), Gaps:17/164(10%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +F+  L  ++D++ L   F  +G I+ +++  D ++G+SKG+G+V FE   AAK A+ A 
+Sbjct  132  IFIKNLHPDIDNKALYDTFSVFGDILSSKIATD-ENGKSKGFGFVHFEEEGAAKEAIDAL  190
+
+Query  325  GTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSE---PSDTVFVGNLSFNATEDD  381
+                ++G+ + +           P+  ++  +   QL E       ++V N++   T++ 
+Sbjct  191  NGMLLNGQEIYV----------APHLSRKERD--SQLEETKAHYTNLYVKNINSETTDEQ  238
+
+Query  382  LSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVE  425
+                F   G I S  L  D   G+LKGFG+V +   + A K VE
+Sbjct  239  FQELFAKFGPIVSASLEKD-ADGKLKGFGFVNYEKHEDAVKAVE  281
+
+
+
+
+Range 2: 326 to 401
+
+Score:55.1 bits(131), Expect:2e-08, 
+Method:Compositional matrix adjust., 
+Identities:29/77(38%), Positives:47/77(61%), Gaps:1/77(1%)
+
+Query  263  CTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVA  322
+              +FV  L  +VDD+ L +EF  YGTI  A+V M  ++G+SKG+G+V F TPE A  A+ 
+Sbjct  326  VNLFVKNLDDSVDDEKLEEEFAPYGTITSAKV-MRTENGKSKGFGFVCFSTPEEATKAIT  384
+
+Query  323  ANGTKEIDGRMVNLDLS  339
+                + + G+ + + ++
+Sbjct  385  EKNQQIVAGKPLYVAIA  401
+
+
+
+
+Range 3: 221 to 398
+
+Score:54.3 bits(129), Expect:3e-08, 
+Method:Compositional matrix adjust., 
+Identities:46/180(26%), Positives:87/180(48%), Gaps:4/180(2%)
+
+Query  261  ETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAA  320
+                ++V  ++    D+   + F ++G IV A +  D   G+ KG+G+V++E  E A  A
+Sbjct  221  HYTNLYVKNINSETTDEQFQELFAKFGPIVSASLEKDA-DGKLKGFGFVNYEKHEDAVKA  279
+
+Query  321  VAANGTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEPSDT-VFVGNLSFNATE  379
+            V A    E++G  + +  +  +        +Q      +++++     +FV NL  +  +
+Sbjct  280  VEALNDSELNGEKLYVGRAQKKNERMHVLKKQYEAYRLEKMAKYQGVNLFVKNLDDSVDD  339
+
+Query  380  DDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCV-EMNGHFIAGRPCRL  438
+            + L   F   G I S ++    ++G+ KGFG+V FS  + A K + E N   +AG+P  +
+Sbjct  340  EKLEEEFAPYGTITSAKV-MRTENGKSKGFGFVCFSTPEEATKAITEKNQQIVAGKPLYV  398
+
+
+
+>polyadenylate-binding protein [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011092.1 Length: 577 
+>RecName: Full=Polyadenylate-binding protein, cytoplasmic and nuclear; Short=PABP; Short=Poly(A)-binding protein; AltName: Full=ARS consensus-binding protein ACBP-67; AltName: Full=Polyadenylate tail-binding protein [Saccharomyces cerevisiae S288C]
+Sequence ID: P04147.4 Length: 577  
+Range 1: 128 to 277
+
+Score:60.8 bits(146), Expect:3e-10, 
+Method:Compositional matrix adjust., 
+Identities:46/164(28%), Positives:82/164(50%), Gaps:17/164(10%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +F+  L  ++D++ L   F  +G I+ +++  D ++G+SKG+G+V FE   AAK A+ A 
+Sbjct  128  IFIKNLHPDIDNKALYDTFSVFGDILSSKIATD-ENGKSKGFGFVHFEEEGAAKEAIDAL  186
+
+Query  325  GTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSE---PSDTVFVGNLSFNATEDD  381
+                ++G+ + +           P+  ++  +   QL E       ++V N++   T++ 
+Sbjct  187  NGMLLNGQEIYV----------APHLSRKERD--SQLEETKAHYTNLYVKNINSETTDEQ  234
+
+Query  382  LSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVE  425
+                F   G I S  L  D   G+LKGFG+V +   + A K VE
+Sbjct  235  FQELFAKFGPIVSASLEKD-ADGKLKGFGFVNYEKHEDAVKAVE  277
+
+
+
+
+Range 2: 322 to 397
+
+Score:55.1 bits(131), Expect:2e-08, 
+Method:Compositional matrix adjust., 
+Identities:29/77(38%), Positives:47/77(61%), Gaps:1/77(1%)
+
+Query  263  CTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVA  322
+              +FV  L  +VDD+ L +EF  YGTI  A+V M  ++G+SKG+G+V F TPE A  A+ 
+Sbjct  322  VNLFVKNLDDSVDDEKLEEEFAPYGTITSAKV-MRTENGKSKGFGFVCFSTPEEATKAIT  380
+
+Query  323  ANGTKEIDGRMVNLDLS  339
+                + + G+ + + ++
+Sbjct  381  EKNQQIVAGKPLYVAIA  397
+
+
+
+
+Range 3: 217 to 394
+
+Score:53.9 bits(128), Expect:3e-08, 
+Method:Compositional matrix adjust., 
+Identities:46/180(26%), Positives:87/180(48%), Gaps:4/180(2%)
+
+Query  261  ETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAA  320
+                ++V  ++    D+   + F ++G IV A +  D   G+ KG+G+V++E  E A  A
+Sbjct  217  HYTNLYVKNINSETTDEQFQELFAKFGPIVSASLEKDA-DGKLKGFGFVNYEKHEDAVKA  275
+
+Query  321  VAANGTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEPSDT-VFVGNLSFNATE  379
+            V A    E++G  + +  +  +        +Q      +++++     +FV NL  +  +
+Sbjct  276  VEALNDSELNGEKLYVGRAQKKNERMHVLKKQYEAYRLEKMAKYQGVNLFVKNLDDSVDD  335
+
+Query  380  DDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCV-EMNGHFIAGRPCRL  438
+            + L   F   G I S ++    ++G+ KGFG+V FS  + A K + E N   +AG+P  +
+Sbjct  336  EKLEEEFAPYGTITSAKV-MRTENGKSKGFGFVCFSTPEEATKAITEKNQQIVAGKPLYV  394
+
+
+
+>U1 snRNP complex subunit SNP1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012203.1 Length: 300 
+>RecName: Full=U1 small nuclear ribonucleoprotein 70 kDa homolog; Short=U1 70K; Short=U1 snRNP 70 kDa homolog; Short=U1-70K; AltName: Full=U1 small nuclear ribonucleoprotein SNP1; Short=U1 snRNP protein SNP1 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q00916.1 Length: 300 >Chain Q, U1 small nuclear ribonucleoprotein 70 kDa homolog [Saccharomyces cerevisiae S288C]
+Sequence ID: 5ZWN_Q Length: 300 >Chain A, U1 small nuclear ribonucleoprotein 70 kDa homolog [Saccharomyces cerevisiae S288C]
+Sequence ID: 6N7P_A Length: 300 >Chain A, U1 small nuclear ribonucleoprotein 70 kDa homolog [Saccharomyces cerevisiae S288C]
+Sequence ID: 6N7R_A Length: 300 >Chain A, U1 small nuclear ribonucleoprotein 70 kDa homolog [Saccharomyces cerevisiae S288C]
+Sequence ID: 6N7X_A Length: 300  
+Range 1: 101 to 185
+
+Score:55.5 bits(132), Expect:6e-09, 
+Method:Compositional matrix adjust., 
+Identities:25/85(29%), Positives:50/85(58%), Gaps:3/85(3%)
+
+Query  257  QDSNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEA  316
+            +D++   T+F+GRL +++D+  L + F ++G I   R++ D  + +SKGY ++ F+ P +
+Sbjct  101  KDTDPYRTIFIGRLPYDLDEIELQKYFVKFGEIEKIRIVKDKITQKSKGYAFIVFKDPIS  160
+
+Query  317  AKAAVAANGTK---EIDGRMVNLDL  338
+            +K A    G     +I  R+  +D+
+Sbjct  161  SKMAFKEIGVHRGIQIKDRICIVDI  185
+
+
+
+>Sgn1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012266.1 Length: 250 
+>RecName: Full=RNA-binding protein SGN1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P40561.1 Length: 250  
+Range 1: 66 to 134
+
+Score:48.1 bits(113), Expect:1e-06, 
+Method:Compositional matrix adjust., 
+Identities:22/70(31%), Positives:41/70(58%), Gaps:1/70(1%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +FVG ++ +V  + +   F++ G I    ++ D  +G  KGYGY++FE+P   + A+  N
+Sbjct  66   IFVGNITPDVTPEQIEDHFKDCGQIKRITLLYDRNTGTPKGYGYIEFESPAYREKALQLN  125
+
+Query  325  GTKEIDGRMV  334
+            G  E+ G+ +
+Sbjct  126  GG-ELKGKKI  134
+
+
+
+>RNA-binding ribosome biosynthesis protein MRD1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_015437.1 Length: 887 
+>RecName: Full=Multiple RNA-binding domain-containing protein 1 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q06106.1 Length: 887  
+Range 1: 347 to 418
+
+Score:47.4 bits(111), Expect:4e-06, 
+Method:Compositional matrix adjust., 
+Identities:19/72(26%), Positives:38/72(52%), Gaps:1/72(1%)
+
+Query  368  VFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSD-IDSAKKCVEM  426
+            +F+ N+ + + E+D    F   G+++ + +  D ++G+ KGF YV F D  ++    VE+
+Sbjct  347  LFLRNILYTSKEEDFRKLFSPFGELEEVHVALDTRTGQSKGFAYVLFKDSKNAVNAYVEL  406
+
+Query  427  NGHFIAGRPCRL  438
+            +     GR   +
+Sbjct  407  DKQIFQGRLLHI  418
+
+
+
+>Chain A, U2 snRNP component IST3 [Saccharomyces cerevisiae S288C]
+Sequence ID: 2MKC_A Length: 118 
+>Chain A, U2 snRNP component IST3 [Saccharomyces cerevisiae S288C]
+Sequence ID: 2MY2_A Length: 118 >Chain A, U2 snRNP component IST3 [Saccharomyces cerevisiae S288C]
+Sequence ID: 2MY3_A Length: 118  
+Range 1: 13 to 90
+
+Score:39.3 bits(90), Expect:2e-04, 
+Method:Composition-based stats., 
+Identities:25/78(32%), Positives:40/78(51%), Gaps:1/78(1%)
+
+Query  368  VFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVE-M  426
+            +++GNL+   TE D+ T F   G    + L  D  +G  +GF Y+ + D  S    V+ +
+Sbjct  13   IYIGNLNRELTEGDILTVFSEYGVPVDVILSRDENTGESQGFAYLKYEDQRSTILAVDNL  72
+
+Query  427  NGHFIAGRPCRLDFSTPR  444
+            NG  I GR  ++D +  R
+Sbjct  73   NGFKIGGRALKIDHTFYR  90
+
+
+
+
+Range 2: 13 to 91
+
+Score:33.5 bits(75), Expect:0.023, 
+Method:Composition-based stats., 
+Identities:21/79(27%), Positives:39/79(49%), Gaps:0/79(0%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +++G L+  + +  +   F EYG  V   +  D  +G S+G+ Y+ +E   +   AV   
+Sbjct  13   IYIGNLNRELTEGDILTVFSEYGVPVDVILSRDENTGESQGFAYLKYEDQRSTILAVDNL  72
+
+Query  325  GTKEIDGRMVNLDLSNPRP  343
+               +I GR + +D +  RP
+Sbjct  73   NGFKIGGRALKIDHTFYRP  91
+
+
+
+>U2 snRNP complex subunit IST3 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012270.1 Length: 148 
+>RecName: Full=U2 snRNP component IST3; AltName: Full=Increased sodium tolerance protein 3; AltName: Full=U2 snRNP protein SNU17 [Saccharomyces cerevisiae S288C]
+Sequence ID: P40565.1 Length: 148 >Chain V, U2 snRNP component IST3 [Saccharomyces cerevisiae S288C]
+Sequence ID: 5GM6_V Length: 148 >Chain X, U2 snRNP component IST3 [Saccharomyces cerevisiae S288C]
+Sequence ID: 5ZWM_X Length: 148 >Chain X, U2 snRNP component IST3 [Saccharomyces cerevisiae S288C]
+Sequence ID: 5ZWO_X Length: 148  
+Range 1: 33 to 110
+
+Score:39.7 bits(91), Expect:3e-04, 
+Method:Composition-based stats., 
+Identities:25/78(32%), Positives:40/78(51%), Gaps:1/78(1%)
+
+Query  368  VFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCVE-M  426
+            +++GNL+   TE D+ T F   G    + L  D  +G  +GF Y+ + D  S    V+ +
+Sbjct  33   IYIGNLNRELTEGDILTVFSEYGVPVDVILSRDENTGESQGFAYLKYEDQRSTILAVDNL  92
+
+Query  427  NGHFIAGRPCRLDFSTPR  444
+            NG  I GR  ++D +  R
+Sbjct  93   NGFKIGGRALKIDHTFYR  110
+
+
+
+
+Range 2: 33 to 111
+
+Score:33.9 bits(76), Expect:0.027, 
+Method:Composition-based stats., 
+Identities:21/79(27%), Positives:39/79(49%), Gaps:0/79(0%)
+
+Query  265  VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN  324
+            +++G L+  + +  +   F EYG  V   +  D  +G S+G+ Y+ +E   +   AV   
+Sbjct  33   IYIGNLNRELTEGDILTVFSEYGVPVDVILSRDENTGESQGFAYLKYEDQRSTILAVDNL  92
+
+Query  325  GTKEIDGRMVNLDLSNPRP  343
+               +I GR + +D +  RP
+Sbjct  93   NGFKIGGRALKIDHTFYRP  111
+
+
+
+>Chain A, Protein HRB1 [Saccharomyces cerevisiae S288C]
+Sequence ID: 2MZR_A Length: 95 
+Range 1: 19 to 89
+
+Score:37.7 bits(86), Expect:5e-04, 
+Method:Compositional matrix adjust., 
+Identities:21/73(29%), Positives:39/73(53%), Gaps:3/73(4%)
+
+Query  365  SDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCV  424
+            S+++FVGNL++++T +DL+  F   G +  +R       G  +G G V F++ D   + +
+Sbjct  19   SNSIFVGNLTYDSTPEDLTEFFSQIGKV--VRADIITSRGHHRGMGTVEFTNSDDVDRAI  76
+
+Query  425  -EMNGHFIAGRPC  436
+             + +G F   R  
+Sbjct  77   RQYDGAFFMDRKI  89
+
+
+
+>Rna15p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011471.1 Length: 296 
+>RecName: Full=mRNA 3'-end-processing protein RNA15 [Saccharomyces cerevisiae S288C]
+Sequence ID: P25299.1 Length: 296  
+Range 1: 19 to 76
+
+Score:39.3 bits(90), Expect:0.001, 
+Method:Compositional matrix adjust., 
+Identities:15/58(26%), Positives:35/58(60%), Gaps:0/58(0%)
+
+Query  264  TVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAV  321
+             V++G + ++  ++ +       G ++  +++ D Q+GRSKGY +++F   E++ +AV
+Sbjct  19   VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV  76
+
+
+
+>mRNA-binding protein [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014394.2 Length: 454 
+>RecName: Full=Protein HRB1; AltName: Full=Protein TOM34 [Saccharomyces cerevisiae S288C]
+Sequence ID: P38922.2 Length: 454  
+Range 1: 160 to 228
+
+Score:39.3 bits(90), Expect:0.001, 
+Method:Compositional matrix adjust., 
+Identities:21/71(30%), Positives:39/71(54%), Gaps:3/71(4%)
+
+Query  365  SDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCV  424
+            S+++FVGNL++++T +DL+  F   G +  +R       G  +G G V F++ D   + +
+Sbjct  160  SNSIFVGNLTYDSTPEDLTEFFSQIGKV--VRADIITSRGHHRGMGTVEFTNSDDVDRAI  217
+
+Query  425  -EMNGHFIAGR  434
+             + +G F   R
+Sbjct  218  RQYDGAFFMDR  228
+
+
+
+>Rie1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011766.3 Length: 781 
+>RecName: Full=Uncharacterized RNA-binding protein YGR250C [Saccharomyces cerevisiae S288C]
+Sequence ID: P53316.1 Length: 781  
+Range 1: 549 to 624
+
+Score:35.8 bits(81), Expect:0.017, 
+Method:Compositional matrix adjust., 
+Identities:25/78(32%), Positives:38/78(48%), Gaps:22/78(28%)
+
+Query  270  LSWNVDDQWLGQEFEEYGTIVGARVIMDGQS-------------------GRSKGYGYVD  310
+            LSW  +D  L   ++ +G I+  +VI  G S                   G S+GYG+V 
+Sbjct  549  LSWTDED--LYDFYKSFGEIISVKVITVGGSKNKYRQQSNDSSSDNDLPVGSSRGYGFVS  606
+
+Query  311  FETP-EAAKAAVAANGTK  327
+            FE+P +AAKA +  +G +
+Sbjct  607  FESPLDAAKAILNTDGYQ  624
+
+
+
+
+
+Query #2: bud6 Query ID: lcl|Query_93914 Length: 1385
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+Bud6p [Saccharomyces cerevisiae S288C]                            122    227   39%   1e-28 27.13  NP_013423.1      
+
+
+Alignments:
+>Bud6p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013423.1 Length: 788 
+>RecName: Full=Bud site selection protein 6; AltName: Full=Actin-interacting protein 3 [Saccharomyces cerevisiae S288C]
+Sequence ID: P41697.1 Length: 788  
+Range 1: 365 to 776
+
+Score:122 bits(307), Expect:1e-28, 
+Method:Compositional matrix adjust., 
+Identities:121/446(27%), Positives:214/446(47%), Gaps:47/446(10%)
+
+Query  793   FLRYNNQTRKVKVESPLSNANELGELFSNVYKISFSGDSY-ELNIEDPDTKISYLLEDLS  851
+             FLR  ++T+K  V+ P +  N L  LF   +  S   +S+ ++ I DP   + Y LE+L+
+Sbjct  365   FLRIGDKTKKCHVQLP-TTKNALRLLFIERFAYSPGANSFPDIYIMDPQYGVFYELEELN  423
+
+Query  852   --DLKYKSLVSFMFKEQDANKKREDFHSGEVSAIQHSSAQNTLDDHVNTTTHESP-SSAF  908
+               D+K   ++    +E   N  +E     +   ++ S++QN +  H+   +  S  S   
+Sbjct  424   LLDIKEGFVIELKLEENPNNTIKEFI---DTVKMEISNSQNDIIRHLKEMSFGSAISGKQ  480
+
+Query  909   TEILERLKAIEQNISTNHTNDSAALKSSEDHSKLANNFSVPDSIDHKFYQQVKNMQLELA  968
+             TE+L +   +E N                 H  +  N    D         +K++Q EL 
+Sbjct  481   TEVLPQ-PGLEAN----------------KHDLVGQNKKDDDK-------TIKDIQYELG  516
+
+Query  969   SLKQISAAFFTRIPLKIKDFKKEINAFNEKGSLDFQF----GRGFVLSSKDRIEREVKNV  1024
+              +KQ+     + I   I +  ++++ F    SL F       R ++  S+  +      +
+Sbjct  517   KIKQVHNINRSNINETIFNILRKVDNFK---SLSFSAKNSSNRMYMEKSQTELGDLSDTL  573
+
+Query  1025  VEKFDEVNDQIELMRSDVLLRKVRPGLDQTSQLNEESAYLEKRIQTLERSLEEVTPIWKK  1084
+             + K D++ D IE+MR DV  R+ +P   +   ++++    +  +  L+  ++   P WKK
+Sbjct  574   LSKVDDLQDVIEIMRKDVAERRSQPAKKKLETVSKDLENAQADVLKLQEFIDTEKPHWKK  633
+
+Query  1085  QWERELNAIVQEQEFLDSHTVLISDLKRDLSALSTVLSNVSAIAELQAK--SSIKSKPL-  1141
+              WE EL+ + +EQ+FL     LI DLK DL         +    E Q K  S  KS P+ 
+Sbjct  634   TWEAELDKVCEEQQFLTLQEELILDLKEDLGKALETFDLIKLCCEEQEKNPSRSKSNPIL  693
+
+Query  1142  -TLKTATESEIKGYRDQIQLEVLNLKPDSEARLQAIERSE-LLQKKRLLQRVDEFSKEVK  1199
+               ++  T +++   R+Q+ + V +L PD ++R++AI+++E + + +R L+  +EF  E++
+Sbjct  694   PIMRPGTFNQV---REQVMVAVQSLNPDHDSRVEAIDKAEKMWEMERKLKASNEFDDELE  750
+
+Query  1200  TFVENEKLNKIGGAEEADRIRTIQDE  1225
+              FV N  L K GG EE +RIR  +DE
+Sbjct  751   NFVGNSNLKKSGGFEEVERIRKQKDE  776
+
+
+
+
+Range 2: 23 to 141
+
+Score:104 bits(260), Expect:4e-23, 
+Method:Compositional matrix adjust., 
+Identities:52/119(44%), Positives:77/119(64%), Gaps:0/119(0%)
+
+Query  63   STIETSIMKLLVVTKELLESLTNWSKGTVNDSAVSSVYVTLIGEFLQTTKSFHEAGIETA  122
+            S+IET++ KLL+ TK LL+ LT WSKGT +   VS  YV L  +F   +K F  A ++ +
+Sbjct  23   SSIETTVTKLLMSTKHLLQVLTQWSKGTTSGRLVSDAYVQLGNDFKVVSKFFMHAKVDMS  82
+
+Query  123  DLNDFPLELRSVLEQTLEKTPSSDALETNLPNVRELVMHLLQSLKYKQSLVKSRLNQSR  181
+            D+ D P+ LR VLE TL + PS + L  +LP +RE+++ LL  LK KQ+++K+   + R
+Sbjct  83   DVGDVPMALRRVLEVTLREPPSDETLNKHLPKIREIIVTLLDKLKVKQAILKNMQQEHR  141
+
+
+
+
+
+Query #3: SPAC17G8.12.1 Query ID: lcl|Query_93915 Length: 608
+
+No significant similarity found.
+
+
+
+Query #4: cdc12 Query ID: lcl|Query_93916 Length: 1841
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+formin BNI1 [Saccharomyces cerevisiae S288C]                      250    250   23%   3e-67 32.03  NP_014128.2      
+formin BNR1 [Saccharomyces cerevisiae S288C]                      186    186   26%   1e-47 28.26  NP_012107.1      
+
+
+Alignments:
+>formin BNI1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014128.2 Length: 1953 
+>RecName: Full=Protein BNI1; AltName: Full=Pointed projection formation protein 3; AltName: Full=Sensitive to high expression protein 5; AltName: Full=Synthetic lethal 39 [Saccharomyces cerevisiae S288C]
+Sequence ID: P41832.3 Length: 1953  
+Range 1: 1353 to 1811
+
+Score:250 bits(639), Expect:3e-67, 
+Method:Compositional matrix adjust., 
+Identities:148/462(32%), Positives:251/462(54%), Gaps:27/462(5%)
+
+Query  985   RPTRRLKQMHWEKLNSGLEFTFWTGPSDEANKILETLHTSGVLDELDESFAMKEAKTLV-  1043
+             RP ++LKQ+HWEKL+      + TG   +A K  + L+  GVL +L+++FA +E K+L  
+Sbjct  1353  RPHKKLKQLHWEKLDCTDNSIWGTG---KAEKFADDLYEKGVLADLEKAFAAREIKSLAS  1409
+
+Query  1044  --KKTCARTDYMSSELQKLFGIHFHKLSHKNPNEIIRMILHCDDSMNE---CVEFLSSDK  1098
+               K+   +  ++S ++ + FGI+ H  S  +  ++++ IL+CD    +    VEFLS  +
+Sbjct  1410  KRKEDLQKITFLSRDISQQFGINLHMYSSLSVADLVKKILNCDRDFLQTPSVVEFLSKSE  1469
+
+Query  1099  VLN-QPKLKADLEPYRIDWANGGDLVNS---EKDASELSRWDYLYVRLIVDLGGYWNQRM  1154
+             ++     L  +  PY  DW    +L ++   EKD ++L R D +Y++L+V+L  YW  RM
+Sbjct  1470  IIEVSVNLARNYAPYSTDWEGVRNLEDAKPPEKDPNDLQRADQIYLQLMVNLESYWGSRM  1529
+
+Query  1155  NALKVKNIIETNYENLVRQTKLIGRAALELRDSKVFKGLLYLILYLGNYMNDYVRQAKGF  1214
+              AL V    E  Y  L+ + + + +A   L++S   + +  +IL +GN+MND  +QA+GF
+Sbjct  1530  RALTVVTSYEREYNELLAKLRKVDKAVSALQESDNLRNVFNVILAVGNFMNDTSKQAQGF  1589
+
+Query  1215  AIGSLQRLPLIKNANNTKSLLHILDITIRKHFPQFDNFSPELSTVTEAAKLNIEAIEQEC  1274
+              + +LQRL  IK+  N+ + L+ ++  +R ++P F++F  EL  V +  K++IE +  +C
+Sbjct  1590  KLSTLQRLTFIKDTTNSMTFLNYVEKIVRLNYPSFNDFLSELEPVLDVVKVSIEQLVNDC  1649
+
+Query  1275  SELIRGCQNLQIDCDSGALSDPTVFHPDDKILSVILPWLMEGTKKMDFLKEHLRTMNTTL  1334
+              +  +   N++   + G LSD + FHP DK+L   LP L E  KK D L++ ++      
+Sbjct  1650  KDFSQSIVNVERSVEIGNLSDSSKFHPLDKVLIKTLPVLPEARKKGDLLEDEVKLTIMEF  1709
+
+Query  1335  NNAMRYFGEQPNDPNSKNLFFKRVDSFIIDYSKARSDNLKSEEEEASQHRRLNLVNNHKE  1394
+              + M  +GE   D  +K  FFK+   FI +Y KA++ NL +EEEE    +   +V   ++
+Sbjct  1710  ESLMHTYGEDSGDKFAKISFFKKFADFINEYKKAQAQNLAAEEEERLYIKHKKIVEEQQK  1769
+
+Query  1395  HVLERAM---------SENNKMDN-----EAMDGFLDKLRNV  1422
+                E+           SE N+ D        MD  L++L+N 
+Sbjct  1770  RAQEKEKQKENSNSPSSEGNEEDEAEDRRAVMDKLLEQLKNA  1811
+
+
+
+>formin BNR1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012107.1 Length: 1375 
+>RecName: Full=BNI1-related protein 1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P40450.1 Length: 1375  
+Range 1: 845 to 1325
+
+Score:186 bits(471), Expect:1e-47, 
+Method:Compositional matrix adjust., 
+Identities:143/506(28%), Positives:241/506(47%), Gaps:52/506(10%)
+
+Query  945   PPPPPPPPPLVSAAGGKFVSPAVSNNISKDDLHKTTGLTRRPT-RRLKQMHWEKLNSGLE  1003
+             PP PP P  L+S       S +VS N +      TT L   PT +RLKQ+HW+K+   ++
+Sbjct  845   PPAPPLPNGLLS-------SSSVSINPT------TTDLKPPPTEKRLKQIHWDKV-EDIK  890
+
+Query  1004  FTFWTGPSDEANKILETLHTSGVLDELDESFAMKEAKTLVKKTCA---------------  1048
+              T W         I E L T G+  ++++ F MK    +  K  A               
+Sbjct  891   DTLWEDTFQRQETIKE-LQTDGIFSQIEDIFKMKSPTKIANKRNAESSIALSSNNGKSSN  949
+
+Query  1049  ---RTDYMSSELQKLFGIHFHKLSHKNPNEIIRMILHCDDSMNECV---EFLSSDKVLNQ  1102
+                +  ++S +L + FGI+ H  S  +  E +  +L+CD+ + + V   +F   ++++N 
+Sbjct  950   ELKKISFLSRDLAQQFGINLHMFSQLSDMEFVMKVLNCDNDIVQNVNILKFFCKEELVNI  1009
+
+Query  1103  PK-LKADLEPYRIDWANGGDLVNSEKDASELSRWDYLYVRLIVDLGGYWNQRMNALKVKN  1161
+             PK +    EPY    + G D     K  S+L R D +++ L ++L  YWN R  +L   +
+Sbjct  1010  PKSMLNKYEPY----SQGKD----GKAVSDLQRADRIFLELCINLRFYWNARSKSLLTLS  1061
+
+Query  1162  IIETNYENLVRQTKLIGRAALELRDSKVFKGLLYLILYLGNYMNDYVRQAKGFAIGSLQR  1221
+               E +Y +L+ + + I  A   L  S  FK L+++I  +GN+MN   R  KG  + SL +
+Sbjct  1062  TYERDYYDLIFKLQKIDDAISHLNRSPKFKSLMFIITEIGNHMNK--RIVKGIKLKSLTK  1119
+
+Query  1222  LPLIKNA-NNTKSLLHILDITIRKHFPQFDNFSPELSTVTEAAKLNIEAIEQECSELIRG  1280
+             L  ++++ +   S LH ++  IR  +P    F  +L  + +  K+++E +E EC E  + 
+Sbjct  1120  LAFVRSSIDQNVSFLHFIEKVIRIKYPDIYGFVDDLKNIEDLGKISLEHVESECHEFHKK  1179
+
+Query  1281  CQNLQIDCDSGALSDPTVFHPDDKILSVILPWLMEGTKKMDFLKEHLRTMNTTLNNAMRY  1340
+              ++L      G LS      P D+I+  +   +     K + L    +     LN  M+Y
+Sbjct  1180  IEDLVTQFQVGKLSKEENLDPRDQIIKKVKFKINRAKTKSELLIGQCKLTLIDLNKLMKY  1239
+
+Query  1341  FGEQPNDPNSKNLFFKRVDSFIIDYSKARSDNLKSEEEEASQHRRLNLVNNHKEHVLERA  1400
+             +GE P D  SKN FF+    F+  + K   +N++ EE E    +R +L++       +  
+Sbjct  1240  YGEDPKDKESKNEFFQPFIEFLAMFKKCAKENIEKEEMERVYEQRKSLLDMRTSSNKKSN  1299
+
+Query  1401  MSENN---KMDNEAMDGFLDKLRNVK  1423
+              S+ N   K++ +A+D  + KLR VK
+Sbjct  1300  GSDENDGEKVNRDAVDLLISKLREVK  1325
+
+
+
+
+
+Query #5: rho1 Query ID: lcl|Query_93917 Length: 202
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+Rho family GTPase RHO1 [Saccharomyces cerevisiae S288C]           306    306   89%   6e-108 76.80  NP_015491.1      
+Rho family GTPase RHO3 [Saccharomyces cerevisiae S288C]           213    213   93%   1e-70  49.53  NP_012148.1      
+Rho family GTPase RHO2 [Saccharomyces cerevisiae S288C]           199    199   89%   5e-66  56.11  NP_014309.3      
+Rho family GTPase CDC42 [Saccharomyces cerevisiae S288C]          196    196   96%   7e-65  50.26  NP_013330.1      
+Rho family GTPase RHO4 [Saccharomyces cerevisiae S288C]           178    178   83%   2e-56  49.70  NP_012981.3      
+Rho family GTPase RHO5 [Saccharomyces cerevisiae S288C]           160    160   85%   5e-49  41.12  NP_014219.1      
+Rab family GTPase YPT1 [Saccharomyces cerevisiae S288C]           90.1   90.1  94%   4e-23  30.46  NP_116615.1      
+Chain A, Ras-related Protein Sec4 [Saccharomyces cerevisiae...    84.7   84.7  87%   2e-21  28.49  4Z8Y_A           
+Rab family GTPase SEC4 [Saccharomyces cerevisiae S288C]           85.9   85.9  87%   2e-21  28.49  NP_116650.1      
+Ras family GTPase RSR1 [Saccharomyces cerevisiae S288C]           84.7   84.7  81%   2e-20  31.14  NP_011668.3      
+Rab family GTPase YPT52 [Saccharomyces cerevisiae S288C]          82.8   82.8  83%   4e-20  30.32  NP_012939.1      
+Rab family GTPase YPT6 [Saccharomyces cerevisiae S288C]           80.1   80.1  85%   4e-19  28.41  NP_013363.1      
+Rab family GTPase YPT7 [Saccharomyces cerevisiae S288C]           66.6   66.6  88%   3e-14  25.95  NP_013713.1      
+Rab family GTPase YPT31 [Saccharomyces cerevisiae S288C]          66.6   66.6  84%   4e-14  29.07  NP_010948.1      
+Ran GTPase GSP2 [Saccharomyces cerevisiae S288C]                  66.2   66.2  57%   5e-14  32.48  NP_014828.1      
+Ran GTPase GSP1 [Saccharomyces cerevisiae S288C]                  65.9   65.9  57%   7e-14  32.48  NP_013396.1      
+Chain A, GTP-binding protein YPT7 [Saccharomyces cerevisiae...    63.9   63.9  88%   2e-13  25.95  4PHF_A           
+Rab family GTPase YPT10 [Saccharomyces cerevisiae S288C]          61.2   61.2  56%   3e-12  27.87  NP_009823.2      
+Rab family GTPase YPT11 [Saccharomyces cerevisiae S288C]          49.3   49.3  37%   1e-07  32.93  NP_014095.2      
+
+
+Alignments:
+>Rho family GTPase RHO1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_015491.1 Length: 209 
+>RecName: Full=GTP-binding protein RHO1; AltName: Full=Rho-type GTPase 1; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P06780.3 Length: 209  
+Range 1: 5 to 185
+
+Score:306 bits(784), Expect:6e-108, 
+Method:Compositional matrix adjust., 
+Identities:139/181(77%), Positives:160/181(88%), Gaps:0/181(0%)
+
+Query  1    MATELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWD  60
+            +   +RRKLVIVGDGACGKTCLLIVFSKG FPEVYVPTVFENYVADVEVDGR VELALWD
+Sbjct  5    VGNSIRRKLVIVGDGACGKTCLLIVFSKGQFPEVYVPTVFENYVADVEVDGRRVELALWD  64
+
+Query  61   TAGQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKA  120
+            TAGQEDYDRLRPLSYPDS+V+LICF++D PDSL+NVQEKWI+EVLHFC  +PI+LV CK 
+Sbjct  65   TAGQEDYDRLRPLSYPDSNVVLICFSIDLPDSLENVQEKWIAEVLHFCQGVPIILVGCKV  124
+
+Query  121  DLRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAM  180
+            DLRNDP+ IE+L +  Q PVT++EGQ+VA +IGA  Y ECSAKT  GVREVFE+ATRA++
+Sbjct  125  DLRNDPQTIEQLRQEGQQPVTSQEGQSVADQIGATGYYECSAKTGYGVREVFEAATRASL  184
+
+Query  181  L  181
+            +
+Sbjct  185  M  185
+
+
+
+>Rho family GTPase RHO3 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012148.1 Length: 231 
+>RecName: Full=GTP-binding protein RHO3; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: Q00245.2 Length: 231  
+Range 1: 15 to 226
+
+Score:213 bits(541), Expect:1e-70, 
+Method:Compositional matrix adjust., 
+Identities:105/212(50%), Positives:142/212(66%), Gaps:23/212(10%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQ  64
+            + RK+VI+GDGACGKT LL VF++G FPEVY PTVFENY+ D+ VD +H+ L+LWDTAGQ
+Sbjct  15   IERKIVILGDGACGKTSLLNVFTRGYFPEVYEPTVFENYIHDIFVDSKHITLSLWDTAGQ  74
+
+Query  65   EDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRN  124
+            E++DRLR LSY D+  I++CF++DS DSL+NVQ KW+ E+   C  + ++LVA K DLRN
+Sbjct  75   EEFDRLRSLSYSDTQCIMLCFSIDSRDSLENVQNKWVGEITDHCEGVKLVLVALKCDLRN  134
+
+Query  125  D--------PKIIEE---LSKTNQHPVTT----------EEGQAVAQKIGAYKYLECSAK  163
+            +        P  I++   +S  N + + +          EEG A+A+KIGA +YLECSAK
+Sbjct  135  NENESNAITPNNIQQDNSVSNDNGNNINSTSNGKNLISYEEGLAMAKKIGALRYLECSAK  194
+
+Query  164  TNEGVREVFESATRAAMLKH--KPKVKPSSGT  193
+             N+GV E F  A R A+       +VK  SG+
+Sbjct  195  LNKGVNEAFTEAARVALTAGPVATEVKSDSGS  226
+
+
+
+>Rho family GTPase RHO2 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014309.3 Length: 192 
+>RecName: Full=GTP-binding protein RHO2; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P06781.2 Length: 192  
+Range 1: 6 to 182
+
+Score:199 bits(507), Expect:5e-66, 
+Method:Compositional matrix adjust., 
+Identities:101/180(56%), Positives:121/180(67%), Gaps:3/180(1%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQ  64
+            +RRKLVI+GDGACGKT LL VF+ G FPE Y PTVFENYV D  VDG  V L LWDTAGQ
+Sbjct  6    VRRKLVIIGDGACGKTSLLYVFTLGKFPEQYHPTVFENYVTDCRVDGIKVSLTLWDTAGQ  65
+
+Query  65   EDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRN  124
+            E+Y+RLRP SY  + +ILI FAVD+ +SL N + KW  E L +C   PI+LV  K DLR 
+Sbjct  66   EEYERLRPFSYSKADIILIGFAVDNFESLINARTKWADEALRYCPDAPIVLVGLKKDLRQ  125
+
+Query  125  DPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHK  184
+            +    E         V  E+ + VA+ IGA KY+ECSA T EGV +VFE ATR ++L  K
+Sbjct  126  EAHFKE---NATDEMVPIEDAKQVARAIGAKKYMECSALTGEGVDDVFEVATRTSLLMKK  182
+
+
+
+>Rho family GTPase CDC42 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013330.1 Length: 191 
+>RecName: Full=Cell division control protein 42; AltName: Full=Suppressor of RHO3 protein 2; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P19073.2 Length: 191  
+Range 1: 5 to 191
+
+Score:196 bits(499), Expect:7e-65, 
+Method:Compositional matrix adjust., 
+Identities:98/195(50%), Positives:130/195(66%), Gaps:8/195(4%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  YVPTVF+NY   V +      L L+DTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNQFPADYVPTVFDNYAVTVMIGDEPYTLGLFDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRNDPK  127
+            DRLRPLSYP + V L+CF+V SP S +NV+EKW  EV H C  +P L+V  + DLR+D  
+Sbjct  65   DRLRPLSYPSTDVFLVCFSVISPPSFENVKEKWFPEVHHHCPGVPCLVVGTQIDLRDDKV  124
+
+Query  128  IIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHKPKV  187
+            IIE+L +    P+T+E+G  +A+++ A KY+ECSA T  G++ VF+ A  AA+   +P V
+Sbjct  125  IIEKLQRQRLRPITSEQGSRLARELKAVKYVECSALTQRGLKNVFDEAIVAAL---EPPV  181
+
+Query  188  KPSSGTKKKKRCILL  202
+                  KK K+C +L
+Sbjct  182  -----IKKSKKCAIL  191
+
+
+
+>Rho family GTPase RHO4 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012981.3 Length: 291 
+>RecName: Full=GTP-binding protein RHO4; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: Q00246.2 Length: 291  
+Range 1: 74 to 234
+
+Score:178 bits(452), Expect:2e-56, 
+Method:Compositional matrix adjust., 
+Identities:84/169(50%), Positives:121/169(71%), Gaps:9/169(5%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVE-VDGRHVELALWDTAGQED  66
+            K+V+VGDGA GKTCLLI + +GTFP  Y+PT+FENYV ++E  +G+ +ELALWDTAGQE+
+Sbjct  74   KIVVVGDGAVGKTCLLISYVQGTFPTDYIPTIFENYVTNIEGPNGQIIELALWDTAGQEE  133
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLRNDP  126
+            Y RLRPLSY ++ V+++C++V S  SL NV++ W  EV HFC S PI+LV  K+DL    
+Sbjct  134  YSRLRPLSYTNADVLMVCYSVGSKTSLKNVEDLWFPEVKHFCPSTPIMLVGLKSDLYE--  191
+
+Query  127  KIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESA  175
+               + LS      V     +++A+++GA+ +++CSA+  E + EVFE+A
+Sbjct  192  --ADNLSDL----VEPSSAESLAKRLGAFAHIQCSARLKENIDEVFETA  234
+
+
+
+>Rho family GTPase RHO5 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014219.1 Length: 331 
+>RecName: Full=GTP-binding protein RHO5; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P53879.2 Length: 331  
+Range 1: 5 to 218
+
+Score:160 bits(406), Expect:5e-49, 
+Method:Compositional matrix adjust., 
+Identities:88/214(41%), Positives:113/214(52%), Gaps:41/214(19%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEV------------------  49
+            K VI+GDGA GKT LLI ++  +FP  YVPTVF+NY   + +                  
+Sbjct  5    KCVIIGDGAVGKTSLLISYTTNSFPTDYVPTVFDNYSTTIAIPNGTASSPLELDNGNDKR  64
+
+Query  50   ------------DGRHVELALWDTAGQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQ  97
+                        D +  ++ LWDTAGQEDYDRLRPL YP + + LICF+V    S  NV 
+Sbjct  65   GSLSSASSSPSTDRKLYKINLWDTAGQEDYDRLRPLCYPQTDIFLICFSVSEHASFANVT  124
+
+Query  98   EKWISEVLHFCS-----------SLPILLVACKADLRNDPKIIEELSKTNQHPVTTEEGQ  146
+            EKW+ E+    +             PILLV  K+DLR+DP   ++L + N   V+ EE  
+Sbjct  125  EKWLPELKQTSNIEGTSLYTKLGKYPILLVGTKSDLRDDPATQKKLQEANSDYVSQEEID  184
+
+Query  147  AVAQKIGAYKYLECSAKTNEGVREVFESATRAAM  180
+             + Q+ G   Y ECSA T  GVREVFE A R A+
+Sbjct  185  ELVQRCGFMGYTECSAATQAGVREVFEQAVRYAI  218
+
+
+
+>Rab family GTPase YPT1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_116615.1 Length: 206 
+>RecName: Full=GTP-binding protein YPT1; AltName: Full=Protein YP2; AltName: Full=Rab GTPase YPT1; AltName: Full=Transport GTPase YPT1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P01123.2 Length: 206  
+Range 1: 10 to 185
+
+Score:90.1 bits(222), Expect:4e-23, 
+Method:Compositional matrix adjust., 
+Identities:60/197(30%), Positives:101/197(51%), Gaps:28/197(14%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHVELALWDTAGQED  66
+            KL+++G+   GK+CLL+ FS  T+   Y+ T+  ++ +  VE+DG+ V+L +WDTAGQE 
+Sbjct  10   KLLLIGNSGVGKSCLLLRFSDDTYTNDYISTIGVDFKIKTVELDGKTVKLQIWDTAGQER  69
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPI-LLVACKADLRND  125
+            +  +    Y  SH I+I + V   +S + V+  W+ E+  + +S  + LLV  K DL+ D
+Sbjct  70   FRTITSSYYRGSHGIIIVYDVTDQESFNGVK-MWLQEIDRYATSTVLKLLVGNKCDLK-D  127
+
+Query  126  PKIIE-----ELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAM  180
+             +++E     E +  N+ P                 +LE SA  +  V + F   T A  
+Sbjct  128  KRVVEYDVAKEFADANKMP-----------------FLETSALDSTNVEDAF--LTMARQ  168
+
+Query  181  LKHKPKVKPSSGTKKKK  197
+            +K     +  + T +KK
+Sbjct  169  IKESMSQQNLNETTQKK  185
+
+
+
+>Chain A, Ras-related Protein Sec4 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4Z8Y_A Length: 170 
+>Chain B, Ras-related Protein Sec4 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4Z8Y_B Length: 170 >Chain A, Ras-related protein SEC4 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4ZDW_A Length: 170  
+Range 1: 5 to 166
+
+Score:84.7 bits(208), Expect:2e-21, 
+Method:Compositional matrix adjust., 
+Identities:51/179(28%), Positives:97/179(54%), Gaps:19/179(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHVELALWDTAGQED  66
+            K++++GD   GK+CLL+ F +  F   ++ T+  ++ +  V+++G+ V+L LWDTAGQE 
+Sbjct  5    KILLIGDVGVGKSCLLVRFVEDKFNPSFITTIGIDFKIKTVDINGKKVKLQLWDTAGQER  64
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVL-HFCSSLPILLVACKADLRND  125
+            +  +    Y  +  I++ + V    +  N+++ W   V  H      +LLV  K+D+   
+Sbjct  65   FRTITTAYYRGAMGIILVYDVTDERTFTNIKQ-WFKTVNEHANDEAQLLLVGNKSDMET-  122
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHK  184
+                          VT ++G+A+A+++G   ++E SAK ++ V E+F   T A +++ K
+Sbjct  123  ------------RVVTADQGEALAKELG-IPFIESSAKNDDNVNEIF--FTLAKLIQEK  166
+
+
+
+>Rab family GTPase SEC4 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_116650.1 Length: 215 
+>RecName: Full=Ras-related protein SEC4; AltName: Full=Suppressor of RHO3 protein 6 [Saccharomyces cerevisiae S288C]
+Sequence ID: P07560.1 Length: 215  
+Range 1: 22 to 183
+
+Score:85.9 bits(211), Expect:2e-21, 
+Method:Compositional matrix adjust., 
+Identities:51/179(28%), Positives:97/179(54%), Gaps:19/179(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHVELALWDTAGQED  66
+            K++++GD   GK+CLL+ F +  F   ++ T+  ++ +  V+++G+ V+L LWDTAGQE 
+Sbjct  22   KILLIGDSGVGKSCLLVRFVEDKFNPSFITTIGIDFKIKTVDINGKKVKLQLWDTAGQER  81
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVL-HFCSSLPILLVACKADLRND  125
+            +  +    Y  +  I++ + V    +  N+++ W   V  H      +LLV  K+D+   
+Sbjct  82   FRTITTAYYRGAMGIILVYDVTDERTFTNIKQ-WFKTVNEHANDEAQLLLVGNKSDMET-  139
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAMLKHK  184
+                          VT ++G+A+A+++G   ++E SAK ++ V E+F   T A +++ K
+Sbjct  140  ------------RVVTADQGEALAKELG-IPFIESSAKNDDNVNEIF--FTLAKLIQEK  183
+
+
+
+>Ras family GTPase RSR1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011668.3 Length: 272 
+>RecName: Full=Ras-related protein RSR1; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P13856.1 Length: 272  
+Range 1: 5 to 158
+
+Score:84.7 bits(208), Expect:2e-20, 
+Method:Compositional matrix adjust., 
+Identities:52/167(31%), Positives:84/167(50%), Gaps:15/167(8%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHVELALWDTAGQEDY  67
+            KLV++G G  GK+CL + F +G + + Y PT+ ++Y   +E+D +  +L + DTAG   +
+Sbjct  5    KLVVLGAGGVGKSCLTVQFVQGVYLDTYDPTIEDSYRKTIEIDNKVFDLEILDTAGIAQF  64
+
+Query  68   DRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSS--LPILLVACKADLRND  125
+              +R L        L+ ++V    SL+ + E    +VL    S  +P++L+  KADL   
+Sbjct  65   TAMRELYIKSGMGFLLVYSVTDRQSLEELME-LREQVLRIKDSDRVPMVLIGNKADL---  120
+
+Query  126  PKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVF  172
+                      N+  ++ EEG  V+ K G   + E SA     V EVF
+Sbjct  121  ---------INERVISVEEGIEVSSKWGRVPFYETSALLRSNVDEVF  158
+
+
+
+>Rab family GTPase YPT52 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012939.1 Length: 234 
+>RecName: Full=GTP-binding protein YPT52 [Saccharomyces cerevisiae S288C]
+Sequence ID: P36018.1 Length: 234  
+Range 1: 2 to 187
+
+Score:82.8 bits(203), Expect:4e-20, 
+Method:Compositional matrix adjust., 
+Identities:57/188(30%), Positives:95/188(50%), Gaps:21/188(11%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEV----DGRH-----VE  55
+            L+ KLV++GD + GK+ ++  F K TF E+   T+   +++        DG       ++
+Sbjct  2    LQFKLVLLGDSSVGKSSIVHRFVKDTFDELRESTIGAAFLSQSITIHPNDGNETKDVVIK  61
+
+Query  56   LALWDTAGQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS--SLPI  113
+              +WDTAGQE Y  L P+ Y +++  L+ + +   DSL   +  W+ E+ +      L I
+Sbjct  62   FEIWDTAGQERYKSLAPMYYRNANAALVVYDITQEDSLQKAR-NWVDELKNKVGDDDLVI  120
+
+Query  114  LLVACKADLRNDPKIIEELSKTNQ--------HPVTTEEGQAVAQKIGAYKYLECSAKTN  165
+             L+  K DL  +    E    +N+          ++TEE +  AQ+ G   + E SAKT 
+Sbjct  121  YLLGNKVDLCQETPSTETSPDSNEGGDEEQKVRAISTEEAKQYAQEQGLL-FREVSAKTG  179
+
+Query  166  EGVREVFE  173
+            EGV+E+F+
+Sbjct  180  EGVKEIFQ  187
+
+
+
+>Rab family GTPase YPT6 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013363.1 Length: 215 
+>RecName: Full=GTP-binding protein YPT6 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q99260.1 Length: 215  
+Range 1: 10 to 172
+
+Score:80.1 bits(196), Expect:4e-19, 
+Method:Compositional matrix adjust., 
+Identities:50/176(28%), Positives:92/176(52%), Gaps:16/176(9%)
+
+Query  6    RRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRHVELALWDTAGQ  64
+            + K+V +G+   GKT L+  F   TF + Y  T+  ++++  + +D + + L LWDTAGQ
+Sbjct  10   KYKIVFLGEQGVGKTSLITRFMYDTFDDHYQATIGIDFLSKTMYLDDKTIRLQLWDTAGQ  69
+
+Query  65   EDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILL--VACKADL  122
+            E +  L P    DS V +I + +    S + + +KWI +V +      ++L  V  K+DL
+Sbjct  70   ERFRSLIPSYIRDSRVAIIVYDITKRKSFEYI-DKWIEDVKNERGDENVILCIVGNKSDL  128
+
+Query  123  RNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRA  178
+                        +++  ++TEEG+  A+ +GA  ++E S K    V+ +F+   ++
+Sbjct  129  ------------SDERQISTEEGEKKAKLLGAKIFMETSTKAGYNVKALFKKIAKS  172
+
+
+
+>Rab family GTPase YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013713.1 Length: 208 
+>RecName: Full=GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32939.1 Length: 208  
+Range 1: 10 to 182
+
+Score:66.6 bits(161), Expect:3e-14, 
+Method:Compositional matrix adjust., 
+Identities:48/185(26%), Positives:85/185(45%), Gaps:19/185(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVA-DVEVDGRHVE-LALWDTAGQE  65
+            K++I+GD   GKT L+  +    + + Y  T+  +++  +V VDG  V  + +WDTAGQE
+Sbjct  10   KVIILGDSGVGKTSLMHRYVNDKYSQQYKATIGADFLTKEVTVDGDKVATMQVWDTAGQE  69
+
+Query  66   DYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS-----SLPILLVACKA  120
+             +  L    Y  +   ++ + V +  S +N++  W  E L   +     + P +++  K 
+Sbjct  70   RFQSLGVAFYRGADCCVLVYDVTNASSFENIK-SWRDEFLVHANVNSPETFPFVILGNKI  128
+
+Query  121  DLRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAM  180
+            D     KI+ E S            Q +A+ +G       SAK    V   FE   R+A+
+Sbjct  129  DAEESKKIVSEKS-----------AQELAKSLGDIPLFLTSAKNAINVDTAFEEIARSAL  177
+
+Query  181  LKHKP  185
+             +++ 
+Sbjct  178  QQNQA  182
+
+
+
+>Rab family GTPase YPT31 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010948.1 Length: 223 
+>RecName: Full=GTP-binding protein YPT31/YPT8; AltName: Full=Rab GTPase YPT31 [Saccharomyces cerevisiae S288C]
+Sequence ID: P38555.3 Length: 223  
+Range 1: 11 to 168
+
+Score:66.6 bits(161), Expect:4e-14, 
+Method:Compositional matrix adjust., 
+Identities:50/172(29%), Positives:81/172(47%), Gaps:16/172(9%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHVELALWDTA  62
+            +L  K+V++GD   GK+ LL  F+K  F      T+  E     +E+DG+ ++  +WDTA
+Sbjct  11   DLLFKIVLIGDSGVGKSNLLSRFTKNEFNMDSKSTIGVEFATRTLEIDGKRIKAQIWDTA  70
+
+Query  63   GQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFC-SSLPILLVACKAD  121
+            GQE Y  +    Y  +   LI + +    S +N    W+SE+      ++ + L+  K+D
+Sbjct  71   GQERYRAITSAYYRGAVGALIVYDISKSSSYENCNH-WLSELRENADDNVAVGLIGNKSD  129
+
+Query  122  LRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFE  173
+            L             +   V TEE +  AQ+     + E SA  +E V + FE
+Sbjct  130  L------------AHLRAVPTEESKTFAQE-NQLLFTETSALNSENVDKAFE  168
+
+
+
+>Ran GTPase GSP2 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014828.1 Length: 220 
+>RecName: Full=GTP-binding nuclear protein GSP2/CNR2 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32836.1 Length: 220  
+Range 1: 15 to 130
+
+Score:66.2 bits(160), Expect:5e-14, 
+Method:Compositional matrix adjust., 
+Identities:38/117(32%), Positives:61/117(52%), Gaps:2/117(1%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHVELALWDTAGQED  66
+            KLV+VGDG  GKT  +     G F + Y+ T+  E +      +   ++  +WDTAGQE 
+Sbjct  15   KLVLVGDGGTGKTTFVKRHLTGEFEKKYIATIGVEVHPLSFYTNFGEIKFDVWDTAGQEK  74
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLR  123
+            +  LR   Y ++   +I F V S  +  NV   W  +++  C ++PI+L   K D++
+Sbjct  75   FGGLRDGYYINAQCAIIMFDVTSRITYKNV-PNWHRDLVRVCENIPIVLCGNKVDVK  130
+
+
+
+>Ran GTPase GSP1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013396.1 Length: 219 
+>RecName: Full=GTP-binding nuclear protein GSP1/CNR1; AltName: Full=Chromosome stability protein 17; AltName: Full=GTPase Ran homolog; AltName: Full=Genetic suppressor of PRP20-1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32835.1 Length: 219  
+Range 1: 14 to 129
+
+Score:65.9 bits(159), Expect:7e-14, 
+Method:Compositional matrix adjust., 
+Identities:38/117(32%), Positives:61/117(52%), Gaps:2/117(1%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHVELALWDTAGQED  66
+            KLV+VGDG  GKT  +     G F + Y+ T+  E +      +   ++  +WDTAGQE 
+Sbjct  14   KLVLVGDGGTGKTTFVKRHLTGEFEKKYIATIGVEVHPLSFYTNFGEIKFDVWDTAGQEK  73
+
+Query  67   YDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKADLR  123
+            +  LR   Y ++   +I F V S  +  NV   W  +++  C ++PI+L   K D++
+Sbjct  74   FGGLRDGYYINAQCAIIMFDVTSRITYKNV-PNWHRDLVRVCENIPIVLCGNKVDVK  129
+
+
+
+>Chain A, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHF_A Length: 184 
+>Chain A, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_A Length: 184 >Chain B, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_B Length: 184 >Chain C, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_C Length: 184 >Chain D, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_D Length: 184  
+Range 1: 12 to 184
+
+Score:63.9 bits(154), Expect:2e-13, 
+Method:Compositional matrix adjust., 
+Identities:48/185(26%), Positives:84/185(45%), Gaps:19/185(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVA-DVEVDGRHVE-LALWDTAGQE  65
+            K++I+GD   GKT L+  +    +   Y  T+  +++  +V VDG  V  + +WDTAGQE
+Sbjct  12   KVIILGDSGVGKTSLMHRYVNDKYSCQYKATIGADFLTKEVTVDGDKVATMQVWDTAGQE  71
+
+Query  66   DYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCS-----SLPILLVACKA  120
+             +  L    Y  +   ++ + V +  S +N++  W  E L   +     + P +++  K 
+Sbjct  72   RFQSLGVAFYRGADCCVLVYDVTNASSFENIKS-WRDEFLVHANVNSPETFPFVILGNKI  130
+
+Query  121  DLRNDPKIIEELSKTNQHPVTTEEGQAVAQKIGAYKYLECSAKTNEGVREVFESATRAAM  180
+            D     KI+ E S            Q +A+ +G       SAK    V   FE   R+A+
+Sbjct  131  DAEESKKIVSEKS-----------AQELAKSLGDIPLFLTSAKNAINVDTAFEEIARSAL  179
+
+Query  181  LKHKP  185
+             +++ 
+Sbjct  180  QQNQA  184
+
+
+
+>Rab family GTPase YPT10 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_009823.2 Length: 199 
+>RecName: Full=GTP-binding protein YPT10 [Saccharomyces cerevisiae S288C]
+Sequence ID: P38146.2 Length: 199  
+Range 1: 6 to 126
+
+Score:61.2 bits(147), Expect:3e-12, 
+Method:Compositional matrix adjust., 
+Identities:34/122(28%), Positives:60/122(49%), Gaps:8/122(6%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDG------RHVELALWD  60
+            K+V++GD + GKT ++     G F   +  T+   ++   +EV        + + + +WD
+Sbjct  6    KVVLLGDSSVGKTSIVTRLKSGKFLAKHAATIGAAFITKTIEVPSNDSSTEKRIHMEIWD  65
+
+Query  61   TAGQEDYDRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVLHFCSSLPILLVACKA  120
+            TAGQE Y  L P+ Y D+++ LI F +    SL    + W  ++        +++V  K 
+Sbjct  66   TAGQERYKSLVPMYYRDANIALIVFELGDVSSL-QCAKTWFQDLQDRAQGTQVIIVGNKY  124
+
+Query  121  DL  122
+            DL
+Sbjct  125  DL  126
+
+
+
+>Rab family GTPase YPT11 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014095.2 Length: 417 
+>RecName: Full=GTP-binding protein YPT11; AltName: Full=Rab GTPase YPT11 [Saccharomyces cerevisiae S288C]
+Sequence ID: P48559.2 Length: 417  
+Range 1: 215 to 296
+
+Score:49.3 bits(116), Expect:1e-07, 
+Method:Compositional matrix adjust., 
+Identities:27/82(33%), Positives:43/82(52%), Gaps:6/82(7%)
+
+Query  47   VEVDGRHVELALWDTAGQEDY-DRLRPLSYPDSHVILICFAVDSPDSLDNVQEKWISEVL  105
+            V +D R   + LWDTAGQE Y + + P  Y  ++ +++ + + +  S  +  E+WI + L
+Sbjct  215  VNIDNRFFNVILWDTAGQERYQNAIIPSLYKKTNAVILTYDITNAKSFQSCMERWIVQAL  274
+
+Query  106  HFCSSLPIL-----LVACKADL  122
+               SS  +L     LV  K DL
+Sbjct  275  ENFSSQDLLKARFFLVGNKIDL  296
+
+
+
+
+
+Query #6: fus1 Query ID: lcl|Query_93918 Length: 1372
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+formin BNI1 [Saccharomyces cerevisiae S288C]                      198    258   42%   2e-51 28.91  NP_014128.2      
+formin BNR1 [Saccharomyces cerevisiae S288C]                      137    137   34%   4e-33 26.61  NP_012107.1      
+
+
+Alignments:
+>formin BNI1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014128.2 Length: 1953 
+>RecName: Full=Protein BNI1; AltName: Full=Pointed projection formation protein 3; AltName: Full=Sensitive to high expression protein 5; AltName: Full=Synthetic lethal 39 [Saccharomyces cerevisiae S288C]
+Sequence ID: P41832.3 Length: 1953  
+Range 1: 1354 to 1809
+
+Score:198 bits(503), Expect:2e-51, 
+Method:Compositional matrix adjust., 
+Identities:133/460(29%), Positives:230/460(50%), Gaps:29/460(6%)
+
+Query  874   PSKRLKQLHWKRLEVPFEKTLWNIVVADPYLLTLKLTAEGIFKQLEDCYPLREVTVSNKK  933
+             P K+LKQLHW++L+   + ++W    A+ +     L  +G+   LE  +  RE+     K
+Sbjct  1354  PHKKLKQLHWEKLDCT-DNSIWGTGKAEKF--ADDLYEKGVLADLEKAFAAREIKSLASK  1410
+
+Query  934   VKE---YTGFMPVDLQQMVSIRLHRFNSLTPIEIAKKFFHCDHDIME---LVDFFNDRKF  987
+              KE      F+  D+ Q   I LH ++SL+  ++ KK  +CD D ++   +V+F +  + 
+Sbjct  1411  RKEDLQKITFLSRDISQQFGINLHMYSSLSVADLVKKILNCDRDFLQTPSVVEFLSKSEI  1470
+
+Query  988   FRQE-GLKKQLKPYMSS----RNEEVMEVSEKLL-ELSRFDQIYTLIVVDIDTYYEKRMA  1041
+                   L +   PY +     RN E  +  EK   +L R DQIY  ++V++++Y+  RM 
+Sbjct  1471  IEVSVNLARNYAPYSTDWEGVRNLEDAKPPEKDPNDLQRADQIYLQLMVNLESYWGSRMR  1530
+
+Query  1042  ALKIKSFLANNFRDFRRQIRKLHCASLELKSSLHFKYFLNLVLHIGNFMNDAPRRAKGYR  1101
+             AL + +     + +   ++RK+  A   L+ S + +   N++L +GNFMND  ++A+G++
+Sbjct  1531  ALTVVTSYEREYNELLAKLRKVDKAVSALQESDNLRNVFNVILAVGNFMNDTSKQAQGFK  1590
+
+Query  1102  LESLLRASMIKNDKTGLTLLHTIEKIVRTHFPQLEAFLVDLKAIPEISRFNLEQLEQDCN  1161
+             L +L R + IK+    +T L+ +EKIVR ++P    FL +L+ + ++ + ++EQL  DC 
+Sbjct  1591  LSTLQRLTFIKDTTNSMTFLNYVEKIVRLNYPSFNDFLSELEPVLDVVKVSIEQLVNDCK  1650
+
+Query  1162  DICERMKNVEKDFSNEGIFSNHKALHPDDHICEVMVPWIPSGKSMVDELNSDITELKTTL  1221
+             D  + + NVE+     G  S+    HP D +    +P +P  +   D L  ++       
+Sbjct  1651  DFSQSIVNVERSVEI-GNLSDSSKFHPLDKVLIKTLPVLPEARKKGDLLEDEVKLTIMEF  1709
+
+Query  1222  KTTLLMYGENPDEPTSSARFFNNLNEIILEYKKASTVNQKMEKEEEL-----AFLRLQAL  1276
+             ++ +  YGE+  +  +   FF    + I EYKKA   N   E+EE L       +  Q  
+Sbjct  1710  ESLMHTYGEDSGDKFAKISFFKKFADFINEYKKAQAQNLAAEEEERLYIKHKKIVEEQQK  1769
+
+Query  1277  KASVKSNNAENSGSSKN--------EEVSATMENLISQLQ  1308
+             +A  K    ENS S  +        E+  A M+ L+ QL+
+Sbjct  1770  RAQEKEKQKENSNSPSSEGNEEDEAEDRRAVMDKLLEQLK  1809
+
+
+
+
+Range 2: 301 to 464
+
+Score:60.1 bits(144), Expect:3e-09, 
+Method:Compositional matrix adjust., 
+Identities:46/166(28%), Positives:77/166(46%), Gaps:16/166(9%)
+
+Query  150  FITGYLSRNDKFLKISSNDSELNVKASV----------ISYIEKLSCTPLKLKYVESLAV  199
+             ++G L +      I    +E N  AS           I Y++++    L    ++ L V
+Sbjct  301  LVSGSLKKQPSLNNIYRGGAENNTSASTLPGDRTNRPPIHYVQRILADKLTSDEMKDLWV  360
+
+Query  200  ALRTESVTWVRYFLLMGGHIVLAKIL-QAIHE---KKHLKSPDITLEIAILKSMRCIIGQ  255
+             LRTE + WV  F+   GHI +A +L  +I++   +++L    +  E +  K  R +   
+Sbjct  361  TLRTEQLDWVDAFIDHQGHIAMANVLMNSIYKTAPRENLTKELLEKENSFFKCFRVLSML  420
+
+Query  256  KIGTDFYLSNKYPIDSVVHCLLSTKLLVRKLAAELLTFLCYSEKPN  301
+              G   + +++   D+V   L STKL  RK+A E+  F+C  EK N
+Sbjct  421  SQGLYEFSTHRLMTDTVAEGLFSTKLATRKMATEI--FVCMLEKKN  464
+
+
+
+>formin BNR1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012107.1 Length: 1375 
+>RecName: Full=BNI1-related protein 1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P40450.1 Length: 1375  
+Range 1: 825 to 1305
+
+Score:137 bits(346), Expect:4e-33, 
+Method:Compositional matrix adjust., 
+Identities:136/511(27%), Positives:244/511(47%), Gaps:62/511(12%)
+
+Query  816   PPLPTAMSSLQKFEKNDSQIFRKTIIIPENISIDDIFKFCSGSESEVYASKIPGELCNP-  874
+             PPLP ++ S+ K   N   +      +P  +           S S V  +    +L  P 
+Sbjct  825   PPLPESL-SMNKGPSNHDLVTPPAPPLPNGLL----------SSSSVSINPTTTDLKPPP  873
+
+Query  875   -SKRLKQLHWKRLEVPFEKTLWNIVVADPYLLTLKLTAEGIFKQLEDCYPLREVT-VSNK  932
+               KRLKQ+HW ++E   + TLW         +  +L  +GIF Q+ED + ++  T ++NK
+Sbjct  874   TEKRLKQIHWDKVE-DIKDTLWEDTFQRQETIK-ELQTDGIFSQIEDIFKMKSPTKIANK  931
+
+Query  933   KVKEYT-----------------GFMPVDLQQMVSIRLHRFNSLTPIEIAKKFFHCDHDI  975
+             +  E +                  F+  DL Q   I LH F+ L+ +E   K  +CD+DI
+Sbjct  932   RNAESSIALSSNNGKSSNELKKISFLSRDLAQQFGINLHMFSQLSDMEFVMKVLNCDNDI  991
+
+Query  976   MELVDFFNDRKFFRQEGLK-------KQLKPYMSSRNEEVMEVSEKLLELSRFDQIYTLI  1028
+             ++ V+     KFF +E L         + +PY   ++ + +       +L R D+I+  +
+Sbjct  992   VQNVNIL---KFFCKEELVNIPKSMLNKYEPYSQGKDGKAVS------DLQRADRIFLEL  1042
+
+Query  1029  VVDIDTYYEKRMAALKIKSFLANNFRDFRRQIRKLHCASLELKSSLHFKYFLNLVLHIGN  1088
+              +++  Y+  R  +L   S    ++ D   +++K+  A   L  S  FK  + ++  IGN
+Sbjct  1043  CINLRFYWNARSKSLLTLSTYERDYYDLIFKLQKIDDAISHLNRSPKFKSLMFIITEIGN  1102
+
+Query  1089  FMNDAPRRAKGYRLESLLRASMIKND-KTGLTLLHTIEKIVRTHFPQLEAFLVDLKAIPE  1147
+              MN   R  KG +L+SL + + +++     ++ LH IEK++R  +P +  F+ DLK I +
+Sbjct  1103  HMN--KRIVKGIKLKSLTKLAFVRSSIDQNVSFLHFIEKVIRIKYPDIYGFVDDLKNIED  1160
+
+Query  1148  ISRFNLEQLEQDCNDICERMKNVEKDFSNEGIFSNHKALHPDDHICEVMVPWIPSGKSMV  1207
+             + + +LE +E +C++  ++++++   F   G  S  + L P D I + +   I   K+  
+Sbjct  1161  LGKISLEHVESECHEFHKKIEDLVTQFQ-VGKLSKEENLDPRDQIIKKVKFKINRAKTKS  1219
+
+Query  1208  DELNSDITELKTT---LKTTLLMYGENPDEPTSSARFFNNLNEIILEYKKASTVNQKMEK  1264
+             + L   I + K T   L   +  YGE+P +  S   FF    E +  +KK +  N  +EK
+Sbjct  1220  ELL---IGQCKLTLIDLNKLMKYYGEDPKDKESKNEFFQPFIEFLAMFKKCAKEN--IEK  1274
+
+Query  1265  EE-ELAFLRLQALKASVKSNNAENSGSSKNE  1294
+             EE E  + + ++L     S+N +++GS +N+
+Sbjct  1275  EEMERVYEQRKSLLDMRTSSNKKSNGSDEND  1305
+
+
+
+
+
+Query #7: itr2 Query ID: lcl|Query_93919 Length: 557
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+myo-inositol transporter ITR1 [Saccharomyces cerevisiae S288C]    417    417   98%   2e-140 40.49  NP_010785.1      
+myo-inositol transporter ITR2 [Saccharomyces cerevisiae S288C]    410    410   94%   1e-137 41.53  NP_014538.2      
+galactose permease GAL2 [Saccharomyces cerevisiae S288C]          191    191   95%   2e-54  27.19  NP_013182.1      
+hexose transporter HXT9 [Saccharomyces cerevisiae S288C]          167    167   89%   1e-45  27.51  NP_012316.1      
+hexose transporter HXT13 [Saccharomyces cerevisiae S288C]         164    164   91%   1e-44  28.12  NP_010845.1      
+hexose transporter HXT11 [Saccharomyces cerevisiae S288C]         164    164   91%   1e-44  27.17  NP_014486.1      
+hexose transporter HXT17 [Saccharomyces cerevisiae S288C]         163    163   89%   4e-44  27.78  NP_014470.1      
+hexose transporter HXT15 [Saccharomyces cerevisiae S288C]         162    162   91%   1e-43  28.28  NP_010036.1      
+hexose transporter HXT4 [Saccharomyces cerevisiae S288C]          161    161   89%   2e-43  27.84  NP_011960.2      
+hexose transporter HXT16 [Saccharomyces cerevisiae S288C]         160    160   91%   5e-43  28.10  NP_012692.3      
+hexose transporter HXT1 [Saccharomyces cerevisiae S288C]          158    158   81%   2e-42  28.10  NP_011962.1      
+hexose transporter HXT7 [Saccharomyces cerevisiae S288C]          157    157   81%   5e-42  28.66  NP_010629.3      
+hexose transporter HXT6 [Saccharomyces cerevisiae S288C]          157    157   81%   6e-42  28.66  NP_010630.1      
+glucose sensor [Saccharomyces cerevisiae S288C]                   156    156   80%   6e-41  27.47  NP_010087.1      
+glucose sensor [Saccharomyces cerevisiae S288C]                   151    151   90%   2e-39  27.52  NP_010143.1      
+hexose transporter HXT2 [Saccharomyces cerevisiae S288C]          148    148   92%   4e-39  25.23  NP_013724.1      
+hexose transporter HXT5 [Saccharomyces cerevisiae S288C]          149    149   86%   5e-39  25.29  NP_011964.1      
+Cin10p [Saccharomyces cerevisiae S288C]                           148    293   77%   5e-39  34.60  NP_010675.3      
+hexose transporter HXT10 [Saccharomyces cerevisiae S288C]         147    147   81%   9e-39  27.62  NP_116644.1      
+hexose transporter HXT3 [Saccharomyces cerevisiae S288C]          147    147   92%   2e-38  26.52  NP_010632.1      
+Hxt14p [Saccharomyces cerevisiae S288C]                           133    133   89%   9e-34  25.09  NP_014081.1      
+hexose transporter HXT8 [Saccharomyces cerevisiae S288C]          133    133   95%   9e-34  24.25  NP_012321.1      
+PUTATIVE PSEUDOGENE: RecName: Full=Putative hexose transporter... 132    132   74%   9e-34  28.31  P40441.1         
+uncharacterized protein YBR241C [Saccharomyces cerevisiae S288C]  119    119   66%   4e-29  26.26  NP_009800.1      
+putative sugar transporter [Saccharomyces cerevisiae S288C]       79.3   79.3  69%   3e-16  23.35  NP_011411.3      
+phosphate transporter PHO84 [Saccharomyces cerevisiae S288C]      70.9   70.9  84%   2e-13  23.46  NP_013583.1      
+
+
+Alignments:
+>myo-inositol transporter ITR1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010785.1 Length: 584 
+>RecName: Full=Myo-inositol transporter 1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P30605.2 Length: 584  
+Range 1: 4 to 566
+
+Score:417 bits(1071), Expect:2e-140, 
+Method:Compositional matrix adjust., 
+Identities:230/568(40%), Positives:345/568(60%), Gaps:23/568(4%)
+
+Query  5    NIPLATIKSSDDKGKDFI-----VEMTTRPSETKKKVPFSEDMREIPSLPNEEEANATDP  59
+            +IP  T K+S     D +     VE  +      K+   + +  EI   P  ++ +    
+Sbjct  4    HIPYLTSKTSQSNVGDAVGNADSVEFNSEHDSPSKRGKITLESHEIQRAPASDDEDRI--  61
+
+Query  60   QANEVADENGEGFE---AEKISSWIWVLSAVAGISGLLFGYDTGVISGALAVLGSDLGH-  115
+            Q   V DE+         + +S +I  L+ VA ISG +FGYDTG IS AL  +G+DL H 
+Sbjct  62   QIKPVNDEDDTSVMITFNQSLSPFIITLTFVASISGFMFGYDTGYISSALISIGTDLDHK  121
+
+Query  116  VLSSGQKELITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAM  175
+            VL+ G+KE++T+ATS  ALI++  +G  AD  GRKR L+ ++ +FVIG+++  ++     
+Sbjct  122  VLTYGEKEIVTAATSLGALITSIFAGTAADIFGRKRCLMGSNLMFVIGAILQVSAHTFWQ  181
+
+Query  176  MVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHV  235
+            M VGR I+G+G+G+ SLI P++I+E+AP  +RGRL +I  +++TGGQL+AY   A   +V
+Sbjct  182  MAVGRLIMGFGVGIGSLIAPLFISEIAPKMIRGRLTVINSLWLTGGQLVAYGCGAGLNYV  241
+
+Query  236  HQGWRIMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEAKPAEIAYK  295
+            + GWRI+ G+   P   Q   L + P++PRY +    + +  ++L R + +     I  K
+Sbjct  242  NNGWRILVGLSLIPTAVQFTCLCFLPDTPRYYVMKGDLARATEVLKRSYTDTSEEIIERK  301
+
+Query  296  VSLIQEGVKVD--FPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQY  353
+            V   +E V ++   P  N  +  ++++K L TVPSN R+L IGC LQ  QQF+G N++ Y
+Sbjct  302  V---EELVTLNQSIPGKNVPEKVWNTIKELHTVPSNLRALIIGCGLQAIQQFTGWNSLMY  358
+
+Query  354  FSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCA  413
+            FS  IF++VGFKNS +VSI+V  TNF+FT+VAF  ID+IGRR ILL     M   L +C+
+Sbjct  359  FSGTIFETVGFKNSSAVSIIVSGTNFIFTLVAFFSIDKIGRRTILLIGLPGMTMALVVCS  418
+
+Query  414  IAYHFLP-------ADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPWQQAELFPMEVR  466
+            IA+HFL        A    +  S W  V++  II+F A YA GIG +PWQQ+ELFP  VR
+Sbjct  419  IAFHFLGIKFDGAVAVVVSSGFSSWGIVIIVFIIVFAAFYALGIGTVPWQQSELFPQNVR  478
+
+Query  467  ALGAGFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVTSYFTYPELAGMS  526
+             +G  ++TA NW G+L+I+++FLTM+++ITP GTFA FAG   +  +  YF YPEL+G+ 
+Sbjct  479  GIGTSYATATNWAGSLVIASTFLTMLQNITPAGTFAFFAGLSCLSTIFCYFCYPELSGLE  538
+
+Query  527  IENIHKLLEKGFWQAVKESTKRVRKGRI  554
+            +E +  +L+ GF     ++  + RK ++
+Sbjct  539  LEEVQTILKDGFNIKASKALAKKRKQQV  566
+
+
+
+>myo-inositol transporter ITR2 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014538.2 Length: 609 
+>RecName: Full=Myo-inositol transporter 2 [Saccharomyces cerevisiae S288C]
+Sequence ID: P30606.2 Length: 609  
+Range 1: 57 to 592
+
+Score:410 bits(1055), Expect:1e-137, 
+Method:Compositional matrix adjust., 
+Identities:223/537(42%), Positives:329/537(61%), Gaps:11/537(2%)
+
+Query  31   ETKKKVPFSEDMREIPSLPNEEEANA--TDPQANEVADENGEGFEAEKISSWIWVLSAVA  88
+            +  KK P S    +I S  +E+E +        N+  D +      + IS +I  L+ VA
+Sbjct  57   QKPKKSPVSTSTMQIKSRQDEDEDDGRIVIKPVNDEDDTSVIITFNQSISPFIITLTFVA  116
+
+Query  89   GISGLLFGYDTGVISGALAVLGSDLGH-VLSSGQKELITSATSFAALISATTSGWLADWV  147
+             ISG +FGYDTG IS AL  +  DL + VL+ G+KELIT+ATS  ALI++  +G  AD  
+Sbjct  117  SISGFMFGYDTGYISSALISINRDLDNKVLTYGEKELITAATSLGALITSVGAGTAADVF  176
+
+Query  148  GRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELAPARLR  207
+            GR+  L+ ++ +F+IG+++   +     M  GR I+G+G+G+ SLI P++I+E+AP  +R
+Sbjct  177  GRRPCLMFSNLMFLIGAILQITAHKFWQMAAGRLIMGFGVGIGSLISPLFISEIAPKMIR  236
+
+Query  208  GRLVIIYVVFITGGQLIAYSLNAAFEHVHQGWRIMFGIGAAPALGQLISLFWTPESPRYL  267
+            GRL +I  +++TGGQLIAY   A   HV  GWRI+ G+   P + Q     + P++PRY 
+Sbjct  237  GRLTVINSLWLTGGQLIAYGCGAGLNHVKNGWRILVGLSLIPTVLQFSFFCFLPDTPRYY  296
+
+Query  268  LRHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVP  327
+            +    +++   +L R +   +   I  KV  +   +    P  N    F++ +K L TVP
+Sbjct  297  VMKGDLKRAKMVLKRSYVNTEDEIIDQKVEELSS-LNQSIPGKNPITKFWNMVKELHTVP  355
+
+Query  328  SNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFM  387
+            SN R+L IGC LQ  QQF+G N++ YFS  IF++VGFKNS +VSI+V  TNFVFT++AF 
+Sbjct  356  SNFRALIIGCGLQAIQQFTGWNSLMYFSGTIFETVGFKNSSAVSIIVSGTNFVFTLIAFF  415
+
+Query  388  FIDRIGRRRILLCTSAVMIAGLALCAIAYHFL-----PADTTQNTN--SGWQYVVLASII  440
+             ID+IGRR ILL     M   L +CAIA+HFL      AD    ++  S W  V++  II
+Sbjct  416  CIDKIGRRYILLIGLPGMTVALVICAIAFHFLGIKFNGADAVVASDGFSSWGIVIIVFII  475
+
+Query  441  IFLASYASGIGNIPWQQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITPTGT  500
+            ++ A YA GIG +PWQQ+ELFP  VR +G  ++TA NW G+L+I+++FLTM+++ITPTGT
+Sbjct  476  VYAAFYALGIGTVPWQQSELFPQNVRGVGTSYATATNWAGSLVIASTFLTMLQNITPTGT  535
+
+Query  501  FALFAGFCFVGLVTSYFTYPELAGMSIENIHKLLEKGFWQAVKESTKRVRKGRIDEA  557
+            F+ FAG   +  +  YF YPEL+G+ +E +  +L+ GF     ++  + RK ++ E 
+Sbjct  536  FSFFAGVACLSTIFCYFCYPELSGLELEEVQTILKDGFNIKASKALAKKRKQQVAEG  592
+
+
+
+>galactose permease GAL2 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013182.1 Length: 574 
+>RecName: Full=Galactose transporter; AltName: Full=Galactose permease [Saccharomyces cerevisiae S288C]
+Sequence ID: P13181.3 Length: 574 >TPA: galactose permease GAL2 [Saccharomyces cerevisiae S288C]
+Sequence ID: DAA09397.1 Length: 574  
+Range 1: 6 to 537
+
+Score:191 bits(486), Expect:2e-54, 
+Method:Compositional matrix adjust., 
+Identities:155/570(27%), Positives:255/570(44%), Gaps:74/570(12%)
+
+Query  4    NNIPLATIKSSDDKGKDFIVEMTTRPSETKKKVPFSEDMREIPSLPNEEEANATDPQANE  63
+            NN+P+  +      G+D I  ++     + +   +S D                + +A E
+Sbjct  6    NNMPV--VSQQPQAGEDVISSLSKDSHLSAQSQKYSND----------------ELKAGE  47
+
+Query  64   VADENGEGFEAE----KISSWIWV--LSAVAGISGLLFGYDTGVISG---------ALAV  108
+               E  +    E     +S ++ V  L       G +FG+DTG ISG            +
+Sbjct  48   SGSEGSQSVPIEIPKKPMSEYVTVSLLCLCVAFGGFMFGWDTGTISGFVVQTDFLRRFGM  107
+
+Query  109  LGSDLGHVLSSGQKELITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMA  168
+               D  H LS+ +  LI +  +              D  GRK+ L    +++++G +I  
+Sbjct  108  KHKDGTHYLSNVRTGLIVAIFNIGCAFGGIILSKGGDMYGRKKGLSIVVSVYIVGIIIQI  167
+
+Query  169  ASRNV-AMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYS  227
+            AS N      +GR I G G+G  +++ PM I+E+AP  LRG LV  Y + IT G  + Y 
+Sbjct  168  ASINKWYQYFIGRIISGLGVGGIAVLCPMLISEIAPKHLRGTLVSCYQLMITAGIFLGYC  227
+
+Query  228  LNAAFEHVHQG--WRIMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSR---  282
+             N   +       WR+  G+  A +L  + +L   PESPRYL   N VE   + +++   
+Sbjct  228  TNYGTKSYSNSVQWRVPLGLCFAWSLFMIGALTLVPESPRYLCEVNKVEDAKRSIAKSNK  287
+
+Query  283  IHPEAKPAEIAYKVSLIQEGVKVDFPEGN-KFQHFFHSLKVLFTVPSNRRSLFIGCFLQW  341
+            + PE  PA +  ++ LI  G++ +   GN  +   F +   +F      + L +G F+Q 
+Sbjct  288  VSPE-DPA-VQAELDLIMAGIEAEKLAGNASWGELFSTKTKVF------QRLLMGVFVQM  339
+
+Query  342  FQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCT  401
+            FQQ +G N   Y+  +IF+SVG  +S   SIV+G  NF  T  +   ++ +G R+ LL  
+Sbjct  340  FQQLTGNNYFFYYGTVIFKSVGLDDSFETSIVIGVVNFASTFFSLWTVENLGHRKCLLLG  399
+
+Query  402  SAVMIAGLALCAIAY------HFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW  455
+            +A M+A    C + Y         P   +Q ++ G    ++     ++  YA+    + W
+Sbjct  400  AATMMA----CMVIYASVGVTRLYPHGKSQPSSKGAGNCMIVFTCFYIFCYATTWAPVAW  455
+
+Query  456  Q-QAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITP--TGTFALFAGFCFVGL  512
+               AE FP+ V++     ++A NWV   +I+          TP  T     + G+ F+G 
+Sbjct  456  VITAESFPLRVKSKCMALASASNWVWGFLIAF--------FTPFITSAINFYYGYVFMGC  507
+
+Query  513  VTSYFTY-----PELAGMSIENIHKLLEKG  537
+            + + F Y     PE  G+S+E I +L E+G
+Sbjct  508  LVAMFFYVFFFVPETKGLSLEEIQELWEEG  537
+
+
+
+>hexose transporter HXT9 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012316.1 Length: 567 
+>RecName: Full=Hexose transporter HXT9 [Saccharomyces cerevisiae S288C]
+Sequence ID: P40885.1 Length: 567  
+Range 1: 19 to 529
+
+Score:167 bits(423), Expect:1e-45, 
+Method:Compositional matrix adjust., 
+Identities:145/527(28%), Positives:247/527(46%), Gaps:44/527(8%)
+
+Query  39   SEDMREIPSLPNEEEANATDPQANEVADENGEGFEAEKISSW--IWVLSAVAGISGLLFG  96
+            S  +   PS+  E   N +    N  A E       + +S++  + +L  +    G +FG
+Sbjct  19   SNSVANAPSVKTEH--NDSKNSLNLDATEPPIDLPQKPLSAYTTVAILCLMIAFGGFIFG  76
+
+Query  97   YDTGVISGALAV--------LGSDLG-HVLSSGQKELITSATSFAALISATTSGWLADWV  147
+            +DTG ISG + +          +D G + LS  +  LI S  +    I       + D  
+Sbjct  77   WDTGTISGFVNLSDFIRRFGQKNDKGTYYLSKVRMGLIVSIFNIGCAIGGIVLSKVGDIY  136
+
+Query  148  GRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSLIVPMYITELAPARL  206
+            GR+  L+   AI+V+G +I   S N      +GR I G G+G  +++ PM I+E+AP ++
+Sbjct  137  GRRIGLITVTAIYVVGILIQITSINKWYQYFIGRIISGLGVGGIAVLSPMLISEVAPKQI  196
+
+Query  207  RGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPALGQLISLFWTPESP  264
+            RG LV +Y +  T G  + Y  N   ++ H    WR+  G+  A     +  + + PESP
+Sbjct  197  RGTLVQLYQLMCTMGIFLGYCTNYGTKNYHNATQWRVGLGLCFAWTTFMVSGMMFVPESP  256
+
+Query  265  RYLLRHNHVEKVYKILSRIHPEA--KPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHSLKV  322
+            RYL+     E+  + LS+ +  +   PA +A +   I+ G++++   GN         ++
+Sbjct  257  RYLIEVGKDEEAKRSLSKSNKVSVDDPALLA-EYDTIKAGIELEKLAGNASWS-----EL  310
+
+Query  323  LFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFT  382
+            L T     + + +G  +Q  QQ +G N   Y+   IF+SVG K+S   SI++G  NF  +
+Sbjct  311  LSTKTKVFQRVLMGVMIQSLQQLTGDNYFFYYGTTIFKSVGLKDSFQTSIIIGVVNFFSS  370
+
+Query  383  IVAFMFIDRIGRRRILLCTSAVMIAGLALCAI--AYHFLPADTTQN--TNSGWQYVVLAS  438
+             +A   I+R GRR  LL  +A M+   A+ A        P  ++    T+ G    ++  
+Sbjct  371  FIAVYTIERFGRRTCLLWGAASMLCCFAVFASVGVTKLWPQGSSHQDITSQGAGNCMIVF  430
+
+Query  439  IIIFLASYASG-IGNIPWQQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITP  497
+             + F+ S+A+   G      +E FP+ V++ G   +TA NW+   +IS          TP
+Sbjct  431  TMFFIFSFATTWAGGCYVIVSETFPLRVKSRGMAIATAANWMWGFLISF--------FTP  482
+
+Query  498  --TGTFALFAGFCFVGLV-----TSYFTYPELAGMSIENIHKLLEKG  537
+              TG    + G+ F+G +       +F  PE  G+++E ++ +  +G
+Sbjct  483  FITGAINFYYGYVFLGCLVFAYFYVFFFVPETKGLTLEEVNTMWLEG  529
+
+
+
+>hexose transporter HXT13 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010845.1 Length: 564 
+>RecName: Full=Hexose transporter HXT13 [Saccharomyces cerevisiae S288C]
+Sequence ID: P39924.1 Length: 564  
+Range 1: 2 to 524
+
+Score:164 bits(416), Expect:1e-44, 
+Method:Compositional matrix adjust., 
+Identities:153/544(28%), Positives:248/544(45%), Gaps:57/544(10%)
+
+Query  30   SETKKKVPFSEDMRE--IPSLPNEEEANATDPQANEVADENGEGFEAEKISSW----IWV  83
+            S  +  +    D+R+  I   P  E+  +     NEV   NG+  E  K        I++
+Sbjct  2    SSAQSSIDSDGDVRDADIHVAPPVEKEWSDGFDDNEVI--NGDNVEPPKRGLIGYLVIYL  59
+
+Query  84   LSAVAGISGLLFGYDTGVISGALAVLGSDLG----------HVLSSGQKELITSATSFAA  133
+            L       G L G+D+G+ +G + +    +           + LS+ +  L+ +  S   
+Sbjct  60   LCYPISFGGFLPGWDSGITAGFINMDNFKMNFGSYKHSTGEYYLSNVRMGLLVAMFSIGC  119
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSL  192
+             I       LAD +GR+  ++    ++++G++I  +S +      VG+ I G G G  S+
+Sbjct  120  AIGGLIFARLADTLGRRLAIVIVVLVYMVGAIIQISSNHKWYQYFVGKIIYGLGAGGCSV  179
+
+Query  193  IVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSL---NAAFEHVHQGWRIMFGIGAAP  249
+            + PM ++E+AP  LRG LV +Y + +T G  + Y        +++  Q WR+  G+    
+Sbjct  180  LCPMLLSEIAPTDLRGGLVSLYQLNMTFGIFLGYCSVYGTRKYDNTAQ-WRVPLGLCFLW  238
+
+Query  250  ALGQLISLFWTPESPRYLL---RHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVKVD  306
+            AL  +I +   PESPRYL+   RH         ++++ PE     +  +   I  GV   
+Sbjct  239  ALIIIIGMLLVPESPRYLIECERHEEARASIAKINKVSPE--DPWVLKQADEINAGVLAQ  296
+
+Query  307  FPEGNKFQHFFHSLKVLFTVPSN-RRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFK  365
+               G        S K LF+V +   + L  G  +Q F Q +G N   ++   IF+SVG  
+Sbjct  297  RELGEA------SWKELFSVKTKVLQRLITGILVQTFLQLTGENYFFFYGTTIFKSVGLT  350
+
+Query  366  NSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCA-IAYHFL---PA  421
+            +    SIV+G  NF  TI+A M +D+IGRR+ LL  +A M+A + + A I    L     
+Sbjct  351  DGFETSIVLGTVNFFSTIIAVMVVDKIGRRKCLLFGAAGMMACMVIFASIGVKCLYPHGQ  410
+
+Query  422  DTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWVG  480
+            D   +  +G   +V     IF   +A+    + +   AE FP +V++     STA NW+ 
+Sbjct  411  DGPSSKGAGNAMIVFTCFYIF--CFATTWAPVAYIVVAESFPSKVKSRAMSISTACNWLW  468
+
+Query  481  NLIISASFLTMMESITP--TGTFALFAGFCFVGLVTSYFTY-----PELAGMSIENIHKL  533
+              +I           TP  TG+   + G+ FVG + + F Y     PE  G+S+E I  L
+Sbjct  469  QFLIGF--------FTPFITGSIHFYYGYVFVGCLVAMFLYVFFFLPETIGLSLEEIQLL  520
+
+Query  534  LEKG  537
+             E+G
+Sbjct  521  YEEG  524
+
+
+
+>hexose transporter HXT11 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014486.1 Length: 567 
+>RecName: Full=Hexose transporter HXT11; AltName: Full=Low-affinity glucose transporter LGT3 [Saccharomyces cerevisiae S288C]
+Sequence ID: P54862.1 Length: 567  
+Range 1: 7 to 529
+
+Score:164 bits(416), Expect:1e-44, 
+Method:Compositional matrix adjust., 
+Identities:147/541(27%), Positives:252/541(46%), Gaps:48/541(8%)
+
+Query  27   TRPSETKKKVPFSEDMREIPSLPNE--EEANATDPQANEVADENGEGFEAEKISSW--IW  82
+            T  +E    +  S      PS+  E  +  N+ +  ANE   +       + +S++  + 
+Sbjct  7    TSANELSTTMSNSNSAVGAPSVKTEHGDSKNSLNLDANEPPID----LPQKPLSAYTTVA  62
+
+Query  83   VLSAVAGISGLLFGYDTGVISGALAVLG--------SDLG-HVLSSGQKELITSATSFAA  133
+            +L  +    G +FG+DTG ISG + +          +D G + LS  +  LI S  +   
+Sbjct  63   ILCLMIAFGGFIFGWDTGTISGFVNLSDFIRRFGQKNDKGTYYLSKVRMGLIVSIFNIGC  122
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSL  192
+             I       + D  GR+  L+   AI+V+G +I   S N      +GR I G G+G  ++
+Sbjct  123  AIGGIVLSKVGDIYGRRIGLITVTAIYVVGILIQITSINKWYQYFIGRIISGLGVGGIAV  182
+
+Query  193  IVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPA  250
+            + PM I+E+AP  +RG LV +Y +  T G  + Y  N   ++ H    WR+  G+  A A
+Sbjct  183  LSPMLISEVAPKHIRGTLVQLYQLMGTMGIFLGYCTNYGTKNYHNATQWRVGLGLCFAWA  242
+
+Query  251  LGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEA--KPAEIAYKVSLIQEGVKVDFP  308
+               +  + + PESPRYL+     E+  + LS+ +  +   PA +  +   I+ G++++  
+Sbjct  243  TFMVSGMMFVPESPRYLIEVGKDEEAKRSLSKSNKVSVDDPALLV-EYDTIKAGIELEKL  301
+
+Query  309  EGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSI  368
+             GN         ++L T     + + +G  +Q  QQ +G N   Y+   IF+SVG K+S 
+Sbjct  302  AGNASWS-----ELLSTKTKVFQRVLMGVMIQSLQQLTGDNYFFYYGTTIFKSVGLKDSF  356
+
+Query  369  SVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAI--AYHFLPADTTQN  426
+              SI++G  NF  + +A   I+R GRR  LL  +A M+   A+ A        P  ++  
+Sbjct  357  QTSIIIGVVNFFSSFIAVYTIERFGRRTCLLWGAASMLCCFAVFASVGVTKLWPQGSSHQ  416
+
+Query  427  --TNSGWQYVVLASIIIFLASYASG-IGNIPWQQAELFPMEVRALGAGFSTAINWVGNLI  483
+              T+ G    ++   + F+ S+A+   G      +E FP+ V++ G   +TA NW+   +
+Sbjct  417  DITSQGAGNCMIVFTMFFIFSFATTWAGGCYVIVSETFPLRVKSRGMAIATAANWMWGFL  476
+
+Query  484  ISASFLTMMESITP--TGTFALFAGFCFVGLV-----TSYFTYPELAGMSIENIHKLLEK  536
+            IS          TP  TG    + G+ F+G +       +F  PE  G+++E ++ +  +
+Sbjct  477  ISF--------FTPFITGAINFYYGYVFLGCLVFAYFYVFFFVPETKGLTLEEVNTMWLE  528
+
+Query  537  G  537
+            G
+Sbjct  529  G  529
+
+
+
+>hexose transporter HXT17 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014470.1 Length: 564 
+>RecName: Full=Hexose transporter HXT17 [Saccharomyces cerevisiae S288C]
+Sequence ID: P53631.1 Length: 564  
+Range 1: 5 to 524
+
+Score:163 bits(412), Expect:4e-44, 
+Method:Compositional matrix adjust., 
+Identities:150/540(28%), Positives:245/540(45%), Gaps:61/540(11%)
+
+Query  39   SEDMREIPSLPNEEEANATDPQANEVADE-------NGEGFEAEKISSW----IWVLSAV  87
+            +E  R+I   P + + +   P   E +D        NG+  E  K        I++L   
+Sbjct  5    TESDRDIQDGP-DADIHVAPPVEKEWSDGFDDNEVINGDNVEPPKRGLIGYLVIYLLCYP  63
+
+Query  88   AGISGLLFGYDTGVISGALAVLGSDLG----------HVLSSGQKELITSATSFAALISA  137
+                G L G+D+G+ +G + +    +           + LS+ +  L+ +  S    I  
+Sbjct  64   ISFGGFLPGWDSGITAGFINMDNFKMNFGSYKHSTGEYYLSNVRMGLLVAMFSIGCAIGG  123
+
+Query  138  TTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSLIVPM  196
+                 LAD +GR+  ++    ++++G++I  +S +      VG+ I G G G  S++ PM
+Sbjct  124  LIFARLADTLGRRLAIVIVVLVYMVGAIIQISSNHKWYQYFVGKIIYGLGAGGCSVLCPM  183
+
+Query  197  YITELAPARLRGRLVIIYVVFITGGQLIAYSL---NAAFEHVHQGWRIMFGIGAAPALGQ  253
+             ++E+AP  LRG LV +Y + +T G  + Y        +++  Q WR+  G+     L  
+Sbjct  184  LLSEIAPTDLRGGLVSLYQLNMTFGIFLGYCSVYGTRKYDNTAQ-WRVPLGLCFLWTLII  242
+
+Query  254  LISLFWTPESPRYLL---RHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVKVDFPEG  310
+            +I +   PESPRYL+   RH         ++++ PE     +  +   I  GV      G
+Sbjct  243  IIGMLLVPESPRYLIECERHEEARASIAKINKVSPE--DPWVLKQADEINAGVLAQRELG  300
+
+Query  311  NKFQHFFHSLKVLFTVPSN-RRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSIS  369
+                    S K LF+V +   + L  G  +Q F Q +G N   ++   IF+SVG  +   
+Sbjct  301  EA------SWKELFSVKTKVLQRLITGILVQTFLQLTGENYFFFYGTTIFKSVGLTDGFE  354
+
+Query  370  VSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCA-IAYHFL---PADTTQ  425
+             SIV+G  NF  TI+A M +D+IGRR+ LL  +A M+A + + A I    L     D   
+Sbjct  355  TSIVLGTVNFFSTIIAVMVVDKIGRRKCLLFGAAGMMACMVIFASIGVKCLYPHGQDGPS  414
+
+Query  426  NTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWVGNLII  484
+            +  +G   +V     IF   +A+    + +   AE FP +V++     STA NW+   +I
+Sbjct  415  SKGAGNAMIVFTCFYIF--CFATTWAPVAYIVVAESFPSKVKSRAMSISTACNWLWQFLI  472
+
+Query  485  SASFLTMMESITP--TGTFALFAGFCFVGLVTSYFTY-----PELAGMSIENIHKLLEKG  537
+                       TP  TG+   + G+ FVG + + F Y     PE  G+S+E I  L E+G
+Sbjct  473  GF--------FTPFITGSIHFYYGYVFVGCLVAMFLYVFFFLPETIGLSLEEIQLLYEEG  524
+
+
+
+>hexose transporter HXT15 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010036.1 Length: 567 
+>RecName: Full=Hexose transporter HXT15 [Saccharomyces cerevisiae S288C]
+Sequence ID: P54854.1 Length: 567  
+Range 1: 38 to 551
+
+Score:162 bits(409), Expect:1e-43, 
+Method:Compositional matrix adjust., 
+Identities:153/541(28%), Positives:249/541(46%), Gaps:60/541(11%)
+
+Query  50   NEEEANATDPQANEVADENGEGFEAEKISSWIWVLSAVAGISGLLFGYDTGVISGALAVL  109
+            ++E  N   P A +       GF    I   I++L       G L G+D+G+ +G + + 
+Sbjct  38   DKEVINGNTPDAPK------RGFLGYLI---IYLLCYPVSFGGFLPGWDSGITAGFINMD  88
+
+Query  110  GSDLG----------HVLSSGQKELITSATSFAALISATTSGWLADWVGRKRLLLCADAI  159
+               +           + LS+ +  L+ +  S    I       LAD +GR+  ++    +
+Sbjct  89   NFKMNFGSYKHSTGEYYLSNVRMGLLVAMFSVGCSIGGVAFARLADTLGRRLAIVIVVLV  148
+
+Query  160  FVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFI  218
+            +++G++I  +S +      VG+ I G G G  S++ PM ++E+AP  LRG LV +Y + +
+Sbjct  149  YMVGAIIQISSNHKWYQYFVGKIIYGLGAGGCSVLCPMLLSEIAPTDLRGGLVSLYQLNM  208
+
+Query  219  TGGQLIAY-SLNAAFEHVHQG-WRIMFGIGAAPALGQLISLFWTPESPRYLLR-HNHVEK  275
+            T G  + Y S+    ++ +   WRI  G+    AL  ++ +   PESPRYL+    H E 
+Sbjct  209  TFGIFLGYCSVYGTRKYSNTAQWRIPVGLCFLWALIIIVGMLLVPESPRYLIECERHEEA  268
+
+Query  276  VYKI--LSRIHPEAKPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSN-RRS  332
+               I  ++++ PE     +  +   I  GV      G        S K LF+V +   + 
+Sbjct  269  CVSIAKINKVSPE--DPWVLKQADEINAGVLAQRELGEA------SWKELFSVKTKVLQR  320
+
+Query  333  LFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRI  392
+            L  G  +Q F Q +G N   ++   IF+SVG  +    SIV+G  NF  TI+A M +D+I
+Sbjct  321  LITGILVQTFLQLTGENYFFFYGTTIFKSVGLTDGFETSIVLGTVNFFSTIIAVMVVDKI  380
+
+Query  393  GRRRILLCTSAVMIAGLALCA-IAYHFL---PADTTQNTNSGWQYVVLASIIIFLASYAS  448
+            GRR+ LL  +A M+A + + A I    L     D   +  +G   +V     IF   +A+
+Sbjct  381  GRRKCLLFGAASMMACMVIFASIGVKCLYPHGQDGPSSKGAGNAMIVFTCFYIF--CFAT  438
+
+Query  449  GIGNIPW-QQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITP--TGTFALFA  505
+                + +   AE FP +V++     STA NW+   +I           TP  TG+   + 
+Sbjct  439  TWAPVAYIVVAESFPSKVKSKAMSISTAFNWLWQFLIGF--------FTPFITGSIHFYY  490
+
+Query  506  GFCFVGLVTSYFTY-----PELAGMSIENIHKLLEKGF--WQAVK--ESTKRVRKGRIDE  556
+            G+ FVG + + F Y     PE  G+S+E I  L E+G   W++      ++R    R  E
+Sbjct  491  GYVFVGCLVAMFLYVFFFLPETIGLSLEEIQLLYEEGIKPWKSASWVPPSRRGASSRETE  550
+
+Query  557  A  557
+            A
+Sbjct  551  A  551
+
+
+
+>hexose transporter HXT4 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011960.2 Length: 576 
+>RecName: Full=Low-affinity glucose transporter HXT4; AltName: Full=Low-affinity glucose transporter LGT1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32467.1 Length: 576  
+Range 1: 23 to 537
+
+Score:161 bits(407), Expect:2e-43, 
+Method:Compositional matrix adjust., 
+Identities:147/528(28%), Positives:239/528(45%), Gaps:40/528(7%)
+
+Query  37   PFSEDMREIPSLPNEEEANATDPQANEVADENGEGFEAEKISSWIWVLSAVAGI----SG  92
+            P   D     S P+ +         +E  +E+    E  K  +  +V  ++  +     G
+Sbjct  23   PVESDSNSALSTPSNKAERDDMKDFDENHEESNNYVEIPKKPASAYVTVSICCLMVAFGG  82
+
+Query  93   LLFGYDTGVISGALA---------VLGSDLGHVLSSGQKELITSATSFAALISATTSGWL  143
+             +FG+DTG ISG +A         +   D  + LS  +  LI S  +    I       L
+Sbjct  83   FVFGWDTGTISGFVAQTDFIRRFGMKHHDGTYYLSKVRTGLIVSIFNIGCAIGGIILAKL  142
+
+Query  144  ADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSLIVPMYITELA  202
+             D  GRK  L+    I++IG +I  AS N      +GR I G G+G  +++ PM I+E++
+Sbjct  143  GDMYGRKMGLIVVVVIYIIGIIIQIASINKWYQYFIGRIISGLGVGGIAVLSPMLISEVS  202
+
+Query  203  PARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPALGQLISLFWT  260
+            P  +RG LV  Y + IT G  + Y  N   +       WR+  G+G A AL  +  + + 
+Sbjct  203  PKHIRGTLVSCYQLMITLGIFLGYCTNYGTKTYTNSVQWRVPLGLGFAWALFMIGGMTFV  262
+
+Query  261  PESPRYLLRHNHVEKVYK--ILSRIHPEAKPAEIAYKVSLIQEGVKVDFPEGN-KFQHFF  317
+            PESPRYL+    +E+  +   LS       PA +A +V ++Q  V+ +   GN  +   F
+Sbjct  263  PESPRYLVEVGKIEEAKRSIALSNKVSADDPAVMA-EVEVVQATVEAEKLAGNASWGEIF  321
+
+Query  318  HSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGAT  377
+             +   +F      + L +G  +Q  QQ +G N   Y+   +F +VG ++S   SIV+G  
+Sbjct  322  STKTKVF------QRLIMGAMIQSLQQLTGDNYFFYYGTTVFTAVGLEDSFETSIVLGIV  375
+
+Query  378  NFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAI--AYHFLPADTTQNTNSGWQYVV  435
+            NF  T V    ++R GRRR LL  +A M A + + A        P      ++ G    +
+Sbjct  376  NFASTFVGIFLVERYGRRRCLLWGAASMTACMVVFASVGVTRLWPNGKKNGSSKGAGNCM  435
+
+Query  436  LASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMES  494
+            +     +L  +A+    IP+   +E FP+ V++     + A NW+   +I   F T   S
+Sbjct  436  IVFTCFYLFCFATTWAPIPFVVNSETFPLRVKSKCMAIAQACNWIWGFLI--GFFTPFIS  493
+
+Query  495  ITPTGTFALFAGFCFVGLV-----TSYFTYPELAGMSIENIHKLLEKG  537
+                G    + G+ F+G +       +F  PE  G+++E ++ L E+G
+Sbjct  494  ----GAIDFYYGYVFMGCLVFSYFYVFFFVPETKGLTLEEVNTLWEEG  537
+
+
+
+>hexose transporter HXT16 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012692.3 Length: 567 
+>RecName: Full=Hexose transporter HXT16 [Saccharomyces cerevisiae S288C]
+Sequence ID: P47185.1 Length: 567 >TPA: hexose transporter HXT16 [Saccharomyces cerevisiae S288C]
+Sequence ID: DAA08942.1 Length: 567  
+Range 1: 38 to 551
+
+Score:160 bits(404), Expect:5e-43, 
+Method:Compositional matrix adjust., 
+Identities:152/541(28%), Positives:247/541(45%), Gaps:60/541(11%)
+
+Query  50   NEEEANATDPQANEVADENGEGFEAEKISSWIWVLSAVAGISGLLFGYDTGVISGALAVL  109
+            ++E  N   P A +       GF    I   I++L       G L G+D+G+ +G + + 
+Sbjct  38   DKEVINGNTPDAPK------RGFLGYLI---IYLLCYPVSFGGFLPGWDSGITAGFINMD  88
+
+Query  110  GSDLG----------HVLSSGQKELITSATSFAALISATTSGWLADWVGRKRLLLCADAI  159
+               +           + LS+ +  L+ +  S    I       LAD +GR+  ++    +
+Sbjct  89   NFKMNFGSYKHSTGEYYLSNVRMGLLVAMFSVGCSIGGVAFARLADTLGRRLAIVIVVLV  148
+
+Query  160  FVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFI  218
+            +++G++I  +S +      VG+ I G G G  S++ PM ++E+AP  LRG LV +Y + +
+Sbjct  149  YMVGAIIQISSNHKWYQYFVGKIIYGLGAGGCSVLCPMLLSEIAPTDLRGGLVSLYQLNM  208
+
+Query  219  TGGQLIAY-SLNAAFEHVHQG-WRIMFGIGAAPALGQLISLFWTPESPRYLLR-HNHVEK  275
+            T G  + Y S+    ++ +   WRI  G+    AL  ++ +   PESPRYL+    H E 
+Sbjct  209  TFGIFLGYCSVYGTRKYSNTAQWRIPVGLCFLWALIIIVGMLLVPESPRYLIECERHEEA  268
+
+Query  276  VYKI--LSRIHPEAKPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSN-RRS  332
+               I  + ++ PE     +  +   I  GV      G        S K LF+V +   + 
+Sbjct  269  CVSIAKIDKVSPE--DPWVLKQADEINAGVLAQRELGEA------SWKELFSVKTKVLQR  320
+
+Query  333  LFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRI  392
+            L  G  +Q F Q +G N   ++   IF+SVG  +    SIV+G  NF  TI+A M +D+I
+Sbjct  321  LITGILVQTFLQLTGENYFFFYGTTIFKSVGLTDGFETSIVLGTVNFFSTIIAVMVVDKI  380
+
+Query  393  GRRRILLCTSAVMIAGLALCA-IAYHFL---PADTTQNTNSGWQYVVLASIIIFLASYAS  448
+            GRR+ LL  +A M+A + + A I    L     D   +  +G   +V     IF   +A+
+Sbjct  381  GRRKCLLFGAASMMACMVIFASIGVKCLYPHGQDGPSSKGAGNAMIVFTCFYIF--CFAT  438
+
+Query  449  GIGNIPW-QQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITP--TGTFALFA  505
+                + +   AE FP +V++     STA NW+   +I           TP  TG+   + 
+Sbjct  439  TWAPVAYIVVAESFPSKVKSKAMSISTAFNWLWQFLIGF--------FTPFITGSIHFYY  490
+
+Query  506  GFCFVGLVTSYFTY-----PELAGMSIENIHKLLEKGF--WQAVK--ESTKRVRKGRIDE  556
+            G+ FVG + + F Y     PE  G+S+E    L E+G   W++      ++R    R  E
+Sbjct  491  GYVFVGCLVAMFLYVFFFLPETIGLSLEETQLLYEEGIKPWKSASWVPPSRRGASSRETE  550
+
+Query  557  A  557
+            A
+Sbjct  551  A  551
+
+
+
+>hexose transporter HXT1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011962.1 Length: 570 
+>RecName: Full=Low-affinity glucose transporter HXT1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32465.1 Length: 570  
+Range 1: 67 to 531
+
+Score:158 bits(399), Expect:2e-42, 
+Method:Compositional matrix adjust., 
+Identities:136/484(28%), Positives:220/484(45%), Gaps:48/484(9%)
+
+Query  83   VLSAVAGISGLLFGYDTGVISGALA---------VLGSDLGHVLSSGQKELITSATSFAA  133
+            +   +    G +FG+DTG ISG +A         +   D  H LS  +  LI S  +   
+Sbjct  67   ICCVMVAFGGFIFGWDTGTISGFVAQTDFLRRFGMKHHDGSHYLSKVRTGLIVSIFNIGC  126
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSL  192
+             I       L D  GR+  L+    I+ IG +I  AS N      +GR I G G+G  ++
+Sbjct  127  AIGGIVLAKLGDMYGRRIGLIVVVVIYTIGIIIQIASINKWYQYFIGRIISGLGVGGITV  186
+
+Query  193  IVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPA  250
+            + PM I+E+AP+ +RG LV  Y V IT G  + Y  N   ++      WR+  G+  A A
+Sbjct  187  LSPMLISEVAPSEMRGTLVSCYQVMITLGIFLGYCTNFGTKNYSNSVQWRVPLGLCFAWA  246
+
+Query  251  LGQLISLFWTPESPRYLLRHNHVEKVYKILSRIH--PEAKPAEIAYKVSLIQEGVKVDFP  308
+            L  +  + + PESPRYL+    +++    L++++  P   P  I Y++  I+  V+    
+Sbjct  247  LFMIGGMMFVPESPRYLVEAGRIDEARASLAKVNKCPPDHP-YIQYELETIEASVEEMRA  305
+
+Query  309  EGNKFQHFFHSLKVLFT-VPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNS  367
+             G        S   LFT  P+  +   +G  +Q  QQ +G N   Y+  I+FQ+VG  +S
+Sbjct  306  AGTA------SWGELFTGKPAMFQRTMMGIMIQSLQQLTGDNYFFYYGTIVFQAVGLSDS  359
+
+Query  368  ISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAY------HFLPA  421
+               SIV G  NF  T  +   +DR GRR  L+  +     G+  C + Y         P 
+Sbjct  360  FETSIVFGVVNFFSTCCSLYTVDRFGRRNCLMWGA----VGMVCCYVVYASVGVTRLWPN  415
+
+Query  422  DTTQNTNSGWQYVVLASIIIFLASYASGIGNIPWQQ-AELFPMEVRALGAGFSTAINWVG  480
+               Q ++ G    ++     ++  +A+    I +   +E FP+ V++     ++A NW+ 
+Sbjct  416  GQDQPSSKGAGNCMIVFACFYIFCFATTWAPIAYVVISECFPLRVKSKCMSIASAANWIW  475
+
+Query  481  NLIISASFLTMMESITP--TGTFALFAGFCFVGLV-----TSYFTYPELAGMSIENIHKL  533
+              +IS          TP  TG    + G+ F+G +       +F  PE  G+S+E ++ +
+Sbjct  476  GFLISF--------FTPFITGAINFYYGYVFMGCMVFAYFYVFFFVPETKGLSLEEVNDM  527
+
+Query  534  LEKG  537
+              +G
+Sbjct  528  YAEG  531
+
+
+
+>hexose transporter HXT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010629.3 Length: 570 
+>RecName: Full=High-affinity hexose transporter HXT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: P39004.1 Length: 570  
+Range 1: 67 to 531
+
+Score:157 bits(396), Expect:5e-42, 
+Method:Compositional matrix adjust., 
+Identities:139/485(29%), Positives:222/485(45%), Gaps:50/485(10%)
+
+Query  83   VLSAVAGISGLLFGYDTGVISG---------ALAVLGSDLGHVLSSGQKELITSATSFAA  133
+            ++  +    G +FG+DTG ISG            +   D  + LS  +  LI S  +   
+Sbjct  67   IMCIMIAFGGFVFGWDTGTISGFINQTDFIRRFGMKHKDGTNYLSKVRTGLIVSIFNIGC  126
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSL  192
+             I       L D  GRK  L+    I++IG +I  AS N      +GR I G G+G  ++
+Sbjct  127  AIGGIILSKLGDMYGRKVGLIVVVVIYIIGIIIQIASINKWYQYFIGRIISGLGVGGIAV  186
+
+Query  193  IVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPA  250
+            + PM I+E++P  LRG LV  Y + IT G  + Y  N   ++      WR+  G+  A A
+Sbjct  187  LSPMLISEVSPKHLRGTLVSCYQLMITAGIFLGYCTNFGTKNYSNSVQWRVPLGLCFAWA  246
+
+Query  251  LGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEA--KPAEIAYKVSLIQEGVKVDFP  308
+            L  +  + + PESPRYL     +E+  + ++  +  A   P+ +A +V  +  GV+ +  
+Sbjct  247  LFMIGGMTFVPESPRYLAEVGKIEEAKRSIAVSNKVAVDDPSVLA-EVEAVLAGVEAEKL  305
+
+Query  309  EGNKF--QHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKN  366
+             GN    + F    KVL       + L +G  +Q  QQ +G N   Y+   IF++VG  +
+Sbjct  306  AGNASWGELFSSKTKVL-------QRLIMGAMIQSLQQLTGDNYFFYYGTTIFKAVGLSD  358
+
+Query  367  SISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAY------HFLP  420
+            S   SIV+G  NF  T V    ++R GRR  LL  +A M A    C + Y         P
+Sbjct  359  SFETSIVLGIVNFASTFVGIYVVERYGRRTCLLWGAASMTA----CMVVYASVGVTRLWP  414
+
+Query  421  ADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWV  479
+                Q ++ G    ++     ++  +A+    IP+   +E FP+ V++     +TA NW+
+Sbjct  415  NGQDQPSSKGAGNCMIVFACFYIFCFATTWAPIPYVVVSETFPLRVKSKAMSIATAANWL  474
+
+Query  480  GNLIISASFLTMMESITP--TGTFALFAGFCFVGLVTSYFTY-----PELAGMSIENIHK  532
+               +I           TP  TG    + G+ F+G +   F Y     PE  G+++E ++ 
+Sbjct  475  WGFLIGF--------FTPFITGAINFYYGYVFMGCLVFMFFYVLLVVPETKGLTLEEVNT  526
+
+Query  533  LLEKG  537
+            + E+G
+Sbjct  527  MWEEG  531
+
+
+
+>hexose transporter HXT6 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010630.1 Length: 570 
+>RecName: Full=High-affinity hexose transporter HXT6 [Saccharomyces cerevisiae S288C]
+Sequence ID: P39003.2 Length: 570 >TPA: hexose transporter HXT6 [Saccharomyces cerevisiae S288C]
+Sequence ID: DAA12184.1 Length: 570  
+Range 1: 67 to 531
+
+Score:157 bits(396), Expect:6e-42, 
+Method:Compositional matrix adjust., 
+Identities:139/485(29%), Positives:222/485(45%), Gaps:50/485(10%)
+
+Query  83   VLSAVAGISGLLFGYDTGVISG---------ALAVLGSDLGHVLSSGQKELITSATSFAA  133
+            ++  +    G +FG+DTG ISG            +   D  + LS  +  LI S  +   
+Sbjct  67   IMCIMIAFGGFVFGWDTGTISGFINQTDFIRRFGMKHKDGTNYLSKVRTGLIVSIFNIGC  126
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSL  192
+             I       L D  GRK  L+    I++IG +I  AS N      +GR I G G+G  ++
+Sbjct  127  AIGGIILSKLGDMYGRKVGLIVVVVIYIIGIIIQIASINKWYQYFIGRIISGLGVGGIAV  186
+
+Query  193  IVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPA  250
+            + PM I+E++P  LRG LV  Y + IT G  + Y  N   ++      WR+  G+  A A
+Sbjct  187  LSPMLISEVSPKHLRGTLVSCYQLMITAGIFLGYCTNFGTKNYSNSVQWRVPLGLCFAWA  246
+
+Query  251  LGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEA--KPAEIAYKVSLIQEGVKVDFP  308
+            L  +  + + PESPRYL     +E+  + ++  +  A   P+ +A +V  +  GV+ +  
+Sbjct  247  LFMIGGMTFVPESPRYLAEVGKIEEAKRSIAVSNKVAVDDPSVLA-EVEAVLAGVEAEKL  305
+
+Query  309  EGNKF--QHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKN  366
+             GN    + F    KVL       + L +G  +Q  QQ +G N   Y+   IF++VG  +
+Sbjct  306  AGNASWGELFSSKTKVL-------QRLIMGAMIQSLQQLTGDNYFFYYGTTIFKAVGLSD  358
+
+Query  367  SISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAY------HFLP  420
+            S   SIV+G  NF  T V    ++R GRR  LL  +A M A    C + Y         P
+Sbjct  359  SFETSIVLGIVNFASTFVGIYVVERYGRRTCLLWGAASMTA----CMVVYASVGVTRLWP  414
+
+Query  421  ADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWV  479
+                Q ++ G    ++     ++  +A+    IP+   +E FP+ V++     +TA NW+
+Sbjct  415  NGQDQPSSKGAGNCMIVFACFYIFCFATTWAPIPYVVVSETFPLRVKSKAMSIATAANWL  474
+
+Query  480  GNLIISASFLTMMESITP--TGTFALFAGFCFVGLVTSYFTY-----PELAGMSIENIHK  532
+               +I           TP  TG    + G+ F+G +   F Y     PE  G+++E ++ 
+Sbjct  475  WGFLIGF--------FTPFITGAINFYYGYVFMGCLVFMFFYVLLVVPETKGLTLEEVNT  526
+
+Query  533  LLEKG  537
+            + E+G
+Sbjct  527  MWEEG  531
+
+
+
+>glucose sensor [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010087.1 Length: 884 
+>RecName: Full=Low glucose sensor SNF3; AltName: Full=High-affinity glucose receptor SNF3; AltName: Full=High-affinity transporter-like sensor SNF3; AltName: Full=Sucrose nonfermenting protein 3 [Saccharomyces cerevisiae S288C]
+Sequence ID: P10870.3 Length: 884  
+Range 1: 106 to 558
+
+Score:156 bits(395), Expect:6e-41, 
+Method:Compositional matrix adjust., 
+Identities:128/466(27%), Positives:217/466(46%), Gaps:32/466(6%)
+
+Query  90   ISGLLFGYDTGVISGALAVLGSDLGHV------LSSGQKELITSATSFAALISATTSGWL  143
+            + G LFGYDTG+I+ ++  +     HV       ++ Q  ++ S  S      A T+ ++
+Sbjct  106  VGGFLFGYDTGLIN-SITSMNYVKSHVAPNHDSFTAQQMSILVSFLSLGTFFGALTAPFI  164
+
+Query  144  ADWVGRKRLLLCADA-IFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELA  202
+            +D  GRK  ++ +   IF IG+ +   +  + +++VGR I G GIG  S +VP+Y  E  
+Sbjct  165  SDSYGRKPTIIFSTIFIFSIGNSLQVGAGGITLLIVGRVISGIGIGAISAVVPLYQAEAT  224
+
+Query  203  PARLRGRLVIIYVVFITGGQLI--AYSLNAAFEHVHQGWRIMFGIGAAPALGQLISLFWT  260
+               LRG ++  Y   IT G L+  A S      +    +RI  G+    +    I +F+ 
+Sbjct  225  HKSLRGAIISTYQWAITWGLLVSSAVSQGTHARNDASSYRIPIGLQYVWSSFLAIGMFFL  284
+
+Query  261  PESPRYLLRHNHVEKVYKILSRIHPEAKPAEIAYKVSLIQEGVKV----DFPEGNKFQHF  316
+            PESPRY +  + +++  K LS +          +   L++E V++    D+       +F
+Sbjct  285  PESPRYYVLKDKLDEAAKSLSFLR-----GVPVHDSGLLEELVEIKATYDYEASFGSSNF  339
+
+Query  317  FHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGA  376
+                    + P     +F G  LQ FQQFSG N I Y+    F   G  NS  VS +  A
+Sbjct  340  IDCFISSKSRPKQTLRMFTGIALQAFQQFSGINFIFYYGVNFFNKTGVSNSYLVSFITYA  399
+
+Query  377  TNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAYHFLPADTTQNTNSGWQYVVL  436
+             N VF +    F++  GRR++L+    +M     + AI    L              V++
+Sbjct  400  VNVVFNVPGLFFVEFFGRRKVLVVGGVIMTIANFIVAIVGCSLKT-------VAAAKVMI  452
+
+Query  437  ASIIIFLASYASGIGNIPWQ-QAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESI  495
+            A I +F+A++++  G + W   AEL+P+ VR+       A NW+ N I +     ++++ 
+Sbjct  453  AFICLFIAAFSATWGGVVWVISAELYPLGVRSKCTAICAAANWLVNFICALITPYIVDTG  512
+
+Query  496  TPTGT-----FALFAGFCFVGLVTSYFTYPELAGMSIENIHKLLEK  536
+            + T +     F ++     +G++  Y T  E  G+++E I +L  K
+Sbjct  513  SHTSSLGAKIFFIWGSLNAMGVIVVYLTVYETKGLTLEEIDELYIK  558
+
+
+
+>glucose sensor [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010143.1 Length: 763 
+>RecName: Full=High glucose sensor RGT2; AltName: Full=Low-affinity glucose receptor RGT2; AltName: Full=Low-affinity transporter-like sensor RGT2; AltName: Full=Restores glucose transport protein 2 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q12300.1 Length: 763  
+Range 1: 49 to 577
+
+Score:151 bits(382), Expect:2e-39, 
+Method:Compositional matrix adjust., 
+Identities:150/545(28%), Positives:248/545(45%), Gaps:59/545(10%)
+
+Query  50   NEEEANA----TDPQANEVADENGE--GFEAEKISSWIW---------VLSAVAGI----  90
+            N+ EA +     DP A +++  N E  G  A + +S +          V+S + GI    
+Sbjct  49   NDTEAKSIVMCDDPNAYQISYTNNEPAGDGAIETTSILLSQPLPLRSNVMSVLVGIFVAV  108
+
+Query  91   SGLLFGYDTGVISGALAVLGSDLGHV----------LSSGQKELITSATSFAALISATTS  140
+             G LFGYDTG+I+       +D+ +V           ++ Q  ++ S  S      A  +
+Sbjct  109  GGFLFGYDTGLINSI-----TDMPYVKTYIAPNHSYFTTSQIAILVSFLSLGTFFGALIA  163
+
+Query  141  GWLADWVGRKRLLLCADA-IFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYIT  199
+             +++D  GRK  ++ + A IF IG+ +  AS  + +++VGR I G GIG+ S +VP+Y  
+Sbjct  164  PYISDSYGRKPTIMFSTAVIFSIGNSLQVASGGLVLLIVGRVISGIGIGIISAVVPLYQA  223
+
+Query  200  ELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG---WRIMFGIGAAPALGQLIS  256
+            E A   LRG ++  Y   IT G L++ +++    H   G   +RI  G+    +    + 
+Sbjct  224  EAAQKNLRGAIISSYQWAITIGLLVSSAVSQG-THSKNGPSSYRIPIGLQYVWSSILAVG  282
+
+Query  257  LFWTPESPRYLLRHNHVEKVYKILS--RIHPEAKPAEIAYKVSLIQEGVKVDFPEGNKFQ  314
+            + + PESPRY +  + + K  K LS  R  P   P  +     L++     D+       
+Sbjct  283  MIFLPESPRYYVLKDELNKAAKSLSFLRGLPIEDPRLLE---ELVEIKATYDYEASFGPS  339
+
+Query  315  HFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVV  374
+                  K     P     +F G  +Q FQQ SG N I Y+    F + G  NS  VS + 
+Sbjct  340  TLLDCFKTSENRPKQILRIFTGIAIQAFQQASGINFIFYYGVNFFNNTGVDNSYLVSFIS  399
+
+Query  375  GATNFVFTIVAFMFIDRIGRRRILLCTSAVM-IAGLALCAIAYHFLPADTTQNTNSGWQY  433
+             A N  F+I     +DRIGRR +LL    +M IA L +  +         ++        
+Sbjct  400  YAVNVAFSIPGMYLVDRIGRRPVLLAGGVIMAIANLVIAIVG-------VSEGKTVVASK  452
+
+Query  434  VVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAGFSTAINWVGNL---IISASFL  489
+            +++A I +F+A++++  G + W   AEL+P+ VR+       A NW+ N    +I+   +
+Sbjct  453  IMIAFICLFIAAFSATWGGVVWVVSAELYPLGVRSKCTAICAAANWLVNFTCALITPYIV  512
+
+Query  490  TMMESITPTGT--FALFAGFCFVGLVTSYFTYPELAGMSIENIHKLLEKGFWQAVKES-T  546
+             +    +  G   F ++ G   V ++  YF   E  G+++E I +L  K     +     
+Sbjct  513  DVGSHTSSMGPKIFFIWGGLNVVAVIVVYFAVYETRGLTLEEIDELFRKAPNSVISSKWN  572
+
+Query  547  KRVRK  551
+            K++RK
+Sbjct  573  KKIRK  577
+
+
+
+>hexose transporter HXT2 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013724.1 Length: 541 
+>RecName: Full=High-affinity glucose transporter HXT2 [Saccharomyces cerevisiae S288C]
+Sequence ID: P23585.1 Length: 541  
+Range 1: 8 to 537
+
+Score:148 bits(374), Expect:4e-39, 
+Method:Compositional matrix adjust., 
+Identities:139/551(25%), Positives:235/551(42%), Gaps:56/551(10%)
+
+Query  35   KVPFSEDMREIPSLPNEEEANATDPQANEVADENGEGFEAEKISSW--IWVLSAVAGISG  92
+            +V        I S P  ++    +      ++       A+ I+++  +  L  +    G
+Sbjct  8    RVESGSQQTSIHSTPIVQKLETDESPIQTKSEYTNAELPAKPIAAYWTVICLCLMIAFGG  67
+
+Query  93   LLFGYDTGVISG---------ALAVLGSDLGHVLSSGQKELITSATSFAALISATTSGWL  143
+             +FG+DTG ISG             + SD  + LS  +  LI    +        T G L
+Sbjct  68   FVFGWDTGTISGFVNQTDFKRRFGQMKSDGTYYLSDVRTGLIVGIFNIGCAFGGLTLGRL  127
+
+Query  144  ADWVGRKRLLLCADAIFVIGSVI-MAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELA  202
+             D  GR+  L+C   ++++G VI +A+S       +GR I G G+G  +++ P  I+E A
+Sbjct  128  GDMYGRRIGLMCVVLVYIVGIVIQIASSDKWYQYFIGRIISGMGVGGIAVLSPTLISETA  187
+
+Query  203  PARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPALGQLISLFWT  260
+            P  +RG  V  Y + IT G  + Y  N   +       WR+  G+  A A+  +  +   
+Sbjct  188  PKHIRGTCVSFYQLMITLGIFLGYCTNYGTKDYSNSVQWRVPLGLNFAFAIFMIAGMLMV  247
+
+Query  261  PESPRYLLRHNHVEKVYKILSRIHP-EAKPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHS  319
+            PESPR+L+     E   + L++ +    +   I  ++  I   V+ +   GN       S
+Sbjct  248  PESPRFLVEKGRYEDAKRSLAKSNKVTIEDPSIVAEMDTIMANVETERLAGNA------S  301
+
+Query  320  LKVLFTVPSNRRSLF----IGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVG  375
+               LF   SN+ ++     +G  +Q  QQ +G N   Y+   IF +VG K+S   SIV+G
+Sbjct  302  WGELF---SNKGAILPRVIMGIMIQSLQQLTGNNYFFYYGTTIFNAVGMKDSFQTSIVLG  358
+
+Query  376  ATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAY------HFLPADTTQNTNS  429
+              NF  T VA   +D+ GRR+ LL  SA M    A+C + +         P    Q ++ 
+Sbjct  359  IVNFASTFVALYTVDKFGRRKCLLGGSASM----AICFVIFSTVGVTSLYPNGKDQPSSK  414
+
+Query  430  GWQYVVLASIIIFLASYASGIGNIPWQ-QAELFPMEVRALGAGFSTAINWVGNLIISASF  488
+                V++    +F+  +A     I +   AE +P+ V+      +   NW+   +I    
+Sbjct  415  AAGNVMIVFTCLFIFFFAISWAPIAYVIVAESYPLRVKNRAMAIAVGANWIWGFLIGF--  472
+
+Query  489  LTMMESITP--TGTFALFAGFCFVGLVTSYFTYP-----ELAGMSIENIHKLLEKGF--W  539
+                   TP  T       G+ F+G +   F Y      E  G+++E ++++  +G   W
+Sbjct  473  ------FTPFITSAIGFSYGYVFMGCLVFSFFYVFFFVCETKGLTLEEVNEMYVEGVKPW  526
+
+Query  540  QAVKESTKRVR  550
+            ++    +K  R
+Sbjct  527  KSGSWISKEKR  537
+
+
+
+>hexose transporter HXT5 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011964.1 Length: 592 
+>RecName: Full=Probable glucose transporter HXT5 [Saccharomyces cerevisiae S288C]
+Sequence ID: P38695.1 Length: 592  
+Range 1: 63 to 560
+
+Score:149 bits(375), Expect:5e-39, 
+Method:Compositional matrix adjust., 
+Identities:130/514(25%), Positives:227/514(44%), Gaps:46/514(8%)
+
+Query  60   QANEVADENGEGFEAEKISSWIWV--LSAVAGISGLLFGYDTGVISGA------LAVLGS  111
+            +  E+  E  +  E +  S  ++V     +    G +FG+DTG ISG       +   GS
+Sbjct  63   ELEELQKEVDKQLEKKSKSDLLFVSVCCLMVAFGGFVFGWDTGTISGFVRQTDFIRRFGS  122
+
+Query  112  DLGH---VLSSGQKELITSATSFAALISATTSGWLADWVGRK-RLLLCADAIFVIGSVIM  167
+               +    LS  +  L+ S  +    I       L D  GRK  L+       +   + +
+Sbjct  123  TRANGTTYLSDVRTGLMVSIFNIGCAIGGIVLSKLGDMYGRKIGLMTVVVIYSIGIIIQI  182
+
+Query  168  AASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYS  227
+            A+        +GR I G G+G  +++ PM I+E++P +LRG LV  Y + IT G  + Y 
+Sbjct  183  ASIDKWYQYFIGRIISGLGVGGITVLAPMLISEVSPKQLRGTLVSCYQLMITFGIFLGYC  242
+
+Query  228  LNAAFEHVHQG--WRIMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHP  285
+             N   ++      WR+  G+  A ++  ++ + + PESPRYL+    +E+  + L+R + 
+Sbjct  243  TNFGTKNYSNSVQWRVPLGLCFAWSIFMIVGMTFVPESPRYLVEVGKIEEAKRSLARAN-  301
+
+Query  286  EAKPAEIAYKVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQF  345
+              K  E +  V+L  E  +    E  +        +++   P   R   +G  +Q  QQ 
+Sbjct  302  --KTTEDSPLVTLEMENYQSSI-EAERLAGSASWGELVTGKPQMFRRTLMGMMIQSLQQL  358
+
+Query  346  SGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVM  405
+            +G N   Y+   IFQ+VG ++S   +IV+G  NFV T  +   +DR GRR  LL     M
+Sbjct  359  TGDNYFFYYGTTIFQAVGLEDSFETAIVLGVVNFVSTFFSLYTVDRFGRRNCLLWGCVGM  418
+
+Query  406  IAGLALCAIAY------HFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPWQQ-A  458
+            I     C + Y         P    Q ++ G    ++     ++  +A+    + +   +
+Sbjct  419  IC----CYVVYASVGVTRLWPNGQDQPSSKGAGNCMIVFACFYIFCFATTWAPVAYVLIS  474
+
+Query  459  ELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITP--TGTFALFAGFCFVGLV---  513
+            E +P+ VR      ++A NW+   +IS          TP  T     + G+ F+G +   
+Sbjct  475  ESYPLRVRGKAMSIASACNWIWGFLISF--------FTPFITSAINFYYGYVFMGCMVFA  526
+
+Query  514  --TSYFTYPELAGMSIENIHKLLEKGF--WQAVK  543
+                +F  PE  G+++E ++++ E+    W++ K
+Sbjct  527  YFYVFFFVPETKGLTLEEVNEMYEENVLPWKSTK  560
+
+
+
+>Cin10p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010675.3 Length: 555 
+>RecName: Full=Probable metabolite transport protein YDR387C [Saccharomyces cerevisiae S288C]
+Sequence ID: Q04162.1 Length: 555  
+Range 1: 345 to 544
+
+Score:148 bits(374), Expect:5e-39, 
+Method:Compositional matrix adjust., 
+Identities:73/211(35%), Positives:118/211(55%), Gaps:11/211(5%)
+
+Query  327  PSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAF  386
+            P   R+L +GC L +FQQ +G NA  Y++AIIF     KN +   I++ +TNF+FT  A 
+Sbjct  345  PRTIRALIVGCMLMFFQQITGFNAFMYYAAIIFSKFNIKNPLLPPILIASTNFIFTFFAM  404
+
+Query  387  MFIDRIGRRRILLCTSAVMIAGLALCAIAYHFLPADTTQNTNSGWQYVVLASIIIFLASY  446
+              +D +GRR ILL T  +M  GL LC++ +     +           ++L S++I++A+Y
+Sbjct  405  YTMDSLGRRAILLRTILIMTVGLLLCSVGFGHDQVN-----------LLLISVVIYVAAY  453
+
+Query  447  ASGIGNIPWQQAELFPMEVRALGAGFSTAINWVGNLIISASFLTMMESITPTGTFALFAG  506
+            AS +G++PW   E  P+  R+ GA      NW+ N  +S ++L+ + +I    T  +FA 
+Sbjct  454  ASAMGSVPWTCVEFLPLNRRSFGASCIACTNWLTNAFVSMTYLSTINTIGDENTMLIFAF  513
+
+Query  507  FCFVGLVTSYFTYPELAGMSIENIHKLLEKG  537
+            F        YF YPE+ G+S+E + ++ + G
+Sbjct  514  FTVCAWFFVYFWYPEVKGLSLEEVGRVFDNG  544
+
+
+
+
+Range 2: 46 to 270
+
+Score:144 bits(363), Expect:1e-37, 
+Method:Compositional matrix adjust., 
+Identities:82/225(36%), Positives:133/225(59%), Gaps:3/225(1%)
+
+Query  88   AGISGLLFGYDTGVISGALAVLG-SDLGHV-LSSGQKELITSATSFAALISATTSGWLAD  145
+            A I GLLFGYDTGVISG L  L   DL  V L+  QKELITS+TS  +   +  +  LAD
+Sbjct  46   ATIGGLLFGYDTGVISGVLLSLKPEDLSLVVLTDVQKELITSSTSVGSFFGSILAFPLAD  105
+
+Query  146  WVGRKRLLLCADAIFVIGSVIMAASRNVAMMVVGRFIVGYGIGLTSLIVPMYITELAPAR  205
+              GR+  L    +IF++ ++ MA +R +  ++ GR +VG  +G+++  VP++++E++P+R
+Sbjct  106  RYGRRITLAICCSIFILAAIGMAIARTLTFLICGRLLVGIAVGVSAQCVPLFLSEISPSR  165
+
+Query  206  LRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQGWRIMFGIGAAPALGQLISLFWTPESPR  265
+            +RG ++ + ++ ITGGQL++Y + +  + +   WR +F + A PA+  L  L + PESPR
+Sbjct  166  IRGFMLTLNIIAITGGQLVSYVIASLMKEIDNSWRYLFALSAIPAILFLSILDFIPESPR  225
+
+Query  266  YLLRHNHVEKVYKILSRIHPEAKPAEIAYKVS-LIQEGVKVDFPE  309
+            + +    +      L  ++P A    +  K+  LI E  K+   E
+Sbjct  226  WSISKGDILYTRDSLRMLYPTASTYHVNSKIKQLIIELDKLRLYE  270
+
+
+
+>hexose transporter HXT10 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_116644.1 Length: 546 
+>RecName: Full=Hexose transporter HXT10 [Saccharomyces cerevisiae S288C]
+Sequence ID: P43581.1 Length: 546  
+Range 1: 52 to 514
+
+Score:147 bits(372), Expect:9e-39, 
+Method:Compositional matrix adjust., 
+Identities:132/478(28%), Positives:217/478(45%), Gaps:40/478(8%)
+
+Query  84   LSAVAGISGLLFGYDTGVISG---------ALAVLGSDLGHVLSSGQKELITSATSFAAL  134
+            L  +    G +FG+DTG ISG             L  D    LS  +  LI    +    
+Sbjct  52   LCLMIAFGGFIFGWDTGTISGFINQTDFKRRFGELQRDGSFQLSDVRTGLIVGIFNIGCA  111
+
+Query  135  ISATTSGWLADWVGRKRLLLCADAIFVIGSVI-MAASRNVAMMVVGRFIVGYGIGLTSLI  193
+            +   T G L D  GRK  L+C   ++V+G VI +A+S       +GR + G G+G  +++
+Sbjct  112  LGGLTLGRLGDIYGRKIGLMCVILVYVVGIVIQIASSDKWYQYFIGRIVSGMGVGGVAVL  171
+
+Query  194  VPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPAL  251
+             P  I+E++P  LRG  V  Y + IT G  + Y  N   +       WR+  G+  A A+
+Sbjct  172  SPTLISEISPKHLRGTCVSFYQLMITLGIFLGYCTNYGTKKYSNSIQWRVPLGLCFAWAI  231
+
+Query  252  GQLISLFWTPESPRYLLRHNHVEKVYKILSRIHP-EAKPAEIAYKVSLIQEGVKVDFPEG  310
+              +I +   PESPRYL+     E+  + L++ +        + ++   I   ++++   G
+Sbjct  232  FMVIGMVMVPESPRYLVEKGKYEEARRSLAKSNKVTVTDPGVVFEFDTIVANMELERAVG  291
+
+Query  311  NKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISV  370
+            N   H   S K    +P     + +G  +Q  QQ +G N   Y+   IF +VG ++S   
+Sbjct  292  NASWHELFSNKGAI-LPR----VIMGIVIQSLQQLTGCNYFFYYGTTIFNAVGMQDSFET  346
+
+Query  371  SIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAY------HFLPADTT  424
+            SIV+GA NF  T VA   +D+ GRR+ LL  SA M    A+C + +         P    
+Sbjct  347  SIVLGAVNFASTFVALYIVDKFGRRKCLLWGSASM----AICFVIFATVGVTRLWPQGKD  402
+
+Query  425  QNTNSGWQYVVLASIIIFLASYASGIGNIPWQ-QAELFPMEVRALGAGFSTAINWVGNLI  483
+            Q ++     V++     F+ S+A     I +   AE +P+ V+      +   NW+   +
+Sbjct  403  QPSSQSAGNVMIVFTCFFIFSFAITWAPIAYVIVAETYPLRVKNRAMAIAVGANWMWGFL  462
+
+Query  484  ISASFLTMMESITPTGTFALFAGFCFVGLV-----TSYFTYPELAGMSIENIHKLLEK  536
+            I   F T    IT +  F+   G+ F+G +       +F   E  G+++E ++++ E+
+Sbjct  463  I--GFFTPF--ITRSIGFSY--GYVFMGCLIFSYFYVFFFVCETKGLTLEEVNEMYEE  514
+
+
+
+>hexose transporter HXT3 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010632.1 Length: 567 
+>RecName: Full=Low-affinity glucose transporter HXT3 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32466.1 Length: 567  
+Range 1: 8 to 528
+
+Score:147 bits(370), Expect:2e-38, 
+Method:Compositional matrix adjust., 
+Identities:144/543(27%), Positives:239/543(44%), Gaps:52/543(9%)
+
+Query  25   MTTRPSETKKKVPFSEDMREIPSLPNEEEANATDPQA--NEVADENGEGFEAEKISSWIW  82
+            ++ + S          +  ++ ++P EE+    D QA  ++V      G  A    S   
+Sbjct  8    ISPQKSSENSNADLPSNSSQVMNMP-EEKGVQDDFQAEADQVLTNPNTGKGAYVTVSICC  66
+
+Query  83   VLSAVAGISGLLFGYDTGVISGALA---------VLGSDLGHVLSSGQKELITSATSFAA  133
+            V+ A     G +FG+DTG ISG +A         +   D  + LS  +  LI S  +   
+Sbjct  67   VMVA---FGGFVFGWDTGTISGFVAQTDFLRRFGMKHKDGSYYLSKVRTGLIVSIFNIGC  123
+
+Query  134  LISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVGYGIGLTSL  192
+             I       L D  GRK  L+    I++IG +I  AS N      +GR I G G+G  ++
+Sbjct  124  AIGGIILAKLGDMYGRKMGLIVVVVIYIIGIIIQIASINKWYQYFIGRIISGLGVGGIAV  183
+
+Query  193  IVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIMFGIGAAPA  250
+            + PM I+E+AP  +RG LV  Y + IT G  + Y  N   ++      WR+  G+  A A
+Sbjct  184  LSPMLISEVAPKEMRGTLVSCYQLMITLGIFLGYCTNFGTKNYSNSVQWRVPLGLCFAWA  243
+
+Query  251  LGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEAKPAE-IAYKVSLIQEGVKVDFPE  309
+            L  +  + + PESPRYL+    +++    LS+++  A     I  ++ +I+  V+     
+Sbjct  244  LFMIGGMTFVPESPRYLVEAGQIDEARASLSKVNKVAPDHPFIQQELEVIEASVEEARAA  303
+
+Query  310  GNKFQHFFHSLKVLFT-VPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSI  368
+            G+       S   LFT  P+  +   +G  +Q  QQ +G N   Y+   +F +VG  +S 
+Sbjct  304  GSA------SWGELFTGKPAMFKRTMMGIMIQSLQQLTGDNYFFYYGTTVFNAVGMSDSF  357
+
+Query  369  SVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAY------HFLPAD  422
+              SIV G  NF  T  +   +DR GRR  LL  +     G+  C + Y         P  
+Sbjct  358  ETSIVFGVVNFFSTCCSLYTVDRFGRRNCLLYGA----IGMVCCYVVYASVGVTRLWPNG  413
+
+Query  423  TTQNTNSGWQYVVLASIIIFLASYASGIGNIPWQQ-AELFPMEVRALGAGFSTAINWVGN  481
+                ++ G    ++     ++  +A+    I +   +E FP+ V++     +TA NW+  
+Sbjct  414  EGNGSSKGAGNCMIVFACFYIFCFATTWAPIAYVVISETFPLRVKSKAMSIATAANWLWG  473
+
+Query  482  LIISASFLTMMESITP--TGTFALFAGFCFVGLV-----TSYFTYPELAGMSIENIHKLL  534
+             +I           TP  TG    + G+ F+G +       +F  PE  G+++E ++ + 
+Sbjct  474  FLIGF--------FTPFITGAINFYYGYVFMGCMVFAYFYVFFFVPETKGLTLEEVNDMY  525
+
+Query  535  EKG  537
+             +G
+Sbjct  526  AEG  528
+
+
+
+>Hxt14p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014081.1 Length: 540 
+>RecName: Full=Hexose transporter HXT14 [Saccharomyces cerevisiae S288C]
+Sequence ID: P42833.2 Length: 540  
+Range 1: 4 to 538
+
+Score:133 bits(334), Expect:9e-34, 
+Method:Compositional matrix adjust., 
+Identities:137/546(25%), Positives:243/546(44%), Gaps:56/546(10%)
+
+Query  35   KVPFSEDMREIPSLPNEE-------EANATDPQANEVADENGEGFEAEKISSWI-----W  82
+            ++P+      I    N E       + N T    ++  +EN EG +A KIS         
+Sbjct  4    QIPYQHSSGYISHFHNNELDAGRGRDYNVTIKYLDD-KEENIEG-QAAKISHNASLHIPV  61
+
+Query  83   VLSAVAGISGLLFGYDTGVISGALAVLG-------SDLGH----------VLSSGQKELI  125
+            +L  V  + G +FG+D G I G   ++        +++ H           L+  Q  LI
+Sbjct  62   LLCLVISLGGFIFGWDIGTIGGMTNMVSFQEKFGTTNIIHDDETIFVSTKKLTDLQIGLI  121
+
+Query  126  TSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVG  184
+             S  + +  + A T   + DW+GRK  +  A  ++ IG  I   S      + +GR + G
+Sbjct  122  ISIFNISCGVGALTLSKIGDWIGRKGGIWFALVVYCIGITIQILSYGRWYFLTLGRAVTG  181
+
+Query  185  YGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQ------G  238
+             G+G+T+++VPM+++E +P ++RG +V  Y + +T G L+   LN   E  ++       
+Sbjct  182  IGVGVTTVLVPMFLSENSPLKIRGSMVSTYQLIVTFGILMGNILNFICERCYKDPTQNIA  241
+
+Query  239  WRIMFGIGAAPALGQLISLFWTPESPRYLLR-HNHVEKVYKILSRIHPEAKPAEIAYKVS  297
+            W++   +G   A+   +SL + PESP+YL +  N V       +R++    PA  +  + 
+Sbjct  242  WQLPLFLGYIWAIIIGMSLVYVPESPQYLAKIKNDVPSAKYSFARMN--GIPATDSMVIE  299
+
+Query  298  LIQE-----GVKVDFPEGNKFQHFF--HSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNA  350
+             I +         +    +K Q     ++ + +   P     L IG  +  FQQ SG N 
+Sbjct  300  FIDDLLENNYNNEETNNESKKQSLVKRNTFEFIMGKPKLWLRLIIGMMIMAFQQLSGINY  359
+
+Query  351  IQYFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLA  410
+              Y+   +F+ VG K+    SI++ + NF+ TI+   ++++ G +  LL  S  ++  + 
+Sbjct  360  FFYYGTSVFKGVGIKDPYITSIILSSVNFLSTILGIYYVEKWGHKTCLLYGSTNLLFYMM  419
+
+Query  411  LCAIAYHFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALG  469
+              A    F     T  +N     V++     F+  +A  +G + +   +ELFP+  RA+ 
+Sbjct  420  TYATVGTF--GRETDFSN----IVLIIVTCCFIFWFAITLGPVTFVLVSELFPLRTRAIS  473
+
+Query  470  AGFSTAINWVGNLIISASFLTMMESITPTGTFALFAGFCFVGLVTSYFTYPELAGMSIEN  529
+                T INW+ N +IS     M+ S        +FA      ++ S+   PE    + + 
+Sbjct  474  MAICTFINWMFNFLISL-LTPMIVSKIDFKLGYIFAACLLALIIFSWILVPETRKKNEQE  532
+
+Query  530  IHKLLE  535
+            I+K+ E
+Sbjct  533  INKIFE  538
+
+
+
+>hexose transporter HXT8 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012321.1 Length: 569 
+>RecName: Full=Hexose transporter HXT8 [Saccharomyces cerevisiae S288C]
+Sequence ID: P40886.1 Length: 569  
+Range 1: 1 to 554
+
+Score:133 bits(335), Expect:9e-34, 
+Method:Compositional matrix adjust., 
+Identities:138/569(24%), Positives:245/569(43%), Gaps:52/569(9%)
+
+Query  25   MTTRPSETKKKVPFSEDMRE-IPSLPNEEEANATDPQAN-EVADENGEGF-------EAE  75
+            MT R +   ++  F E   +  PS+ N    +    + N + ++ NGE         +  
+Sbjct  1    MTDRKTNLPEEPIFEEAEDDGCPSIENSSHLSVPTVEENKDFSEYNGEEAEEVVVPEKPA  60
+
+Query  76   KISSWIWVLSAVAGISGLLFGYDTGVISGA------LAVLG----SDLGHVLSSGQKELI  125
+               + + ++       G + G+DTG ISG       L   G    S   + LS+ +  LI
+Sbjct  61   SAYATVSIMCLCMAFGGFMSGWDTGTISGFVNQTDFLRRFGNYSHSKNTYYLSNVRTGLI  120
+
+Query  126  TSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFIVG  184
+             S  +  + I       L D  GR   L+    ++++G VI  AS +      +GR I G
+Sbjct  121  VSIFNVGSAIGCLFLSKLGDIYGRCMGLIIVIVVYMVGIVIQIASIDKWYQYFIGRIIAG  180
+
+Query  185  YGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WRIM  242
+             G G  S++ PM I+E AP  +RG L+  + + +T    + Y  N   +       WR+ 
+Sbjct  181  IGAGSISVLAPMLISETAPKHIRGTLLACWQLMVTFAIFLGYCTNYGTKTYSNSVQWRVP  240
+
+Query  243  FGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEA--KPAEIAYKVSLIQ  300
+             G+  A A+  +  + + PESPR+L++   +E+     ++ +  +   PA +A ++ L+ 
+Sbjct  241  LGLCFAWAIIMIGGMTFVPESPRFLVQVGKIEQAKASFAKSNKLSVDDPAVVA-EIDLLV  299
+
+Query  301  EGVKVDFPEGNKFQHFFHSLKVLFTVPSNR-RSLFIGCFLQWFQQFSGTNAIQYFSAIIF  359
+             GV+ +   G        S K LF+  +   + L +   +   QQ +G N   Y+   IF
+Sbjct  300  AGVEAEEAMGTA------SWKELFSRKTKVFQRLTMTVMINSLQQLTGDNYFFYYGTTIF  353
+
+Query  360  QSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAI--AYH  417
+            +SVG  +S   SIV+G  NF     +   +D++GRRR LL  +A M A + + A      
+Sbjct  354  KSVGMNDSFETSIVLGIVNFASCFFSLYSVDKLGRRRCLLLGAATMTACMVIYASVGVTR  413
+
+Query  418  FLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPWQ-QAELFPMEVRALGAGFSTAI  476
+              P   ++ ++ G     +     ++  ++   G + +   +E FP+ VR+     +TA 
+Sbjct  414  LYPNGKSEPSSKGAGNCTIVFTCFYIFCFSCTWGPVCYVIISETFPLRVRSKCMSVATAA  473
+
+Query  477  NWVGNLIISASFLTMMESITP--TGTFALFAGFCFVGLVT-----SYFTYPELAGMSIEN  529
+            N +   +I           TP  T     + G+ F+G +       +F  PE  G+++E 
+Sbjct  474  NLLWGFLIGF--------FTPFITSAINFYYGYVFMGCLAFSYFYVFFFVPETKGLTLEE  525
+
+Query  530  IHKLLEKGF--WQAVKESTKRVRKGRIDE  556
+            + ++   G   W++        R G  D 
+Sbjct  526  VDEMWMDGVLPWKSESWVPASRRDGDYDN  554
+
+
+
+>PUTATIVE PSEUDOGENE: RecName: Full=Putative hexose transporter 12 [Saccharomyces cerevisiae S288C]
+Sequence ID: P40441.1 Length: 457 
+Range 1: 3 to 419
+
+Score:132 bits(331), Expect:9e-34, 
+Method:Compositional matrix adjust., 
+Identities:122/431(28%), Positives:205/431(47%), Gaps:31/431(7%)
+
+Query  124  LITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNV-AMMVVGRFI  182
+            LI S  +    I       + D  GR+  L+   AI+V+G +I   S N      +GR I
+Sbjct  3    LIVSIFNIGCAIGGIVLSKVGDIYGRRIGLITVTAIYVVGILIQITSINKWYQYFIGRII  62
+
+Query  183  VGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVHQG--WR  240
+             G G+G  +++ PM I+E+AP  +RG LV +Y +  T G  + Y  N   ++ H    WR
+Sbjct  63   SGIGVGGIAVLSPMLISEVAPKHIRGTLVQLYQLMGTMGIFLGYCTNYGTKNYHNATQWR  122
+
+Query  241  IMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHPEA--KPAEIAYKVSL  298
+            +  G+  A A   +  + + PESPRYL+     E+    LS+ +  +   PA +A +   
+Sbjct  123  VGLGLCFAWATFMVSGMMFVPESPRYLIEVGKDEEAKHSLSKSNKVSVDDPALLA-EYDT  181
+
+Query  299  IQEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAII  358
+            I+ G++++   GN         ++L T     + + +G  +Q  QQ +G N   Y+   I
+Sbjct  182  IKAGIEIEKLAGNASWS-----ELLSTKTKVFQRVLMGVIIQSLQQLTGDNYFFYYGTTI  236
+
+Query  359  FQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAI--AY  416
+            F+SVG K+S   SI++G  NF  + +A   I+R GRR  LL  +A M+   A+ A     
+Sbjct  237  FKSVGLKDSFQTSIIIGVVNFFSSFIAVYTIERFGRRTCLLWGAASMLCCFAVFASVGVT  296
+
+Query  417  HFLPADTTQN--TNSGWQYVVLASIIIFLASYASG-IGNIPWQQAELFPMEVRALGAGFS  473
+               P  ++    T+ G    ++   + F+ S+A+   G      +E FP+  ++ G   +
+Sbjct  297  KLWPQGSSHQDITSQGAGNCMIVFTMFFIFSFATTWAGGCFVIVSETFPLRAKSRGMAIA  356
+
+Query  474  TAINWVGNLIISASFLTMMESITP--TGTFALFAGFCFVGLV-----TSYFTYPELAGMS  526
+            TA NW+   +IS          TP  TG    + G+ F+G +       +F  PE  G++
+Sbjct  357  TAANWMWGFLISF--------FTPFITGAINFYYGYVFLGCLVFAYFYVFFFVPETKGLT  408
+
+Query  527  IENIHKLLEKG  537
+            +E ++ +  +G
+Sbjct  409  LEEVNTMWLEG  419
+
+
+
+>uncharacterized protein YBR241C [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_009800.1 Length: 488 
+>RecName: Full=Probable metabolite transport protein YBR241C [Saccharomyces cerevisiae S288C]
+Sequence ID: P38142.1 Length: 488  
+Range 1: 82 to 442
+
+Score:119 bits(297), Expect:4e-29, 
+Method:Compositional matrix adjust., 
+Identities:99/377(26%), Positives:176/377(46%), Gaps:21/377(5%)
+
+Query  117  LSSGQKELITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMM  176
+            L+  Q   ITS  S   L  +  +G  A+  GRK + + A A+ ++ S+++  S +   +
+Sbjct  82   LTDSQYGAITSIFSIGGLFGSYYAGNWANRYGRKYVSMGASAMCMVSSLLLFFSNSYLQL  141
+
+Query  177  VVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVH  236
+            + GRF+VG   G   +I P++I E+AP   RG +  +  V I  G L+  +L   +   +
+Sbjct  142  LFGRFLVGMSCGTAIVITPLFINEIAPVEWRGAMGSMNQVSINLGILLTQTLALKYADSY  201
+
+Query  237  QGWRIMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHP----EAKPAEI  292
+              WR +   G+  A+  +++     ESPR+L+ H  V +    L ++ P    +AK    
+Sbjct  202  N-WRWLLFSGSVIAVANILAWLKVDESPRWLVSHGFVSEAETALFKLRPGTYQQAKQEIQ  260
+
+Query  293  AYKVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQ  352
+             ++ S    G   D PE ++  H   +L    T PS ++   +   +   QQF G N+I 
+Sbjct  261  DWQRS---HGHNRD-PESSEETHSGPTLWQYVTDPSYKKPRTVILAILSCQQFCGINSII  316
+
+Query  353  YFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALC  412
+            ++   +   +    SI V+  +   N V T+ A   ID +GRR +LL ++ VM A   L 
+Sbjct  317  FYGVKVIGKILPDYSIQVNFAISILNVVVTLAASAIIDHVGRRPLLLASTTVMTAMSLLI  376
+
+Query  413  AIAYHFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPWQ-QAELFPMEVRALGAG  471
+            ++      +           ++++ +  +++A++A G+G IP+    EL   +  A    
+Sbjct  377  SVGLTLSVS-----------FLLVTATFVYIAAFAIGLGPIPFLIIGELSYPQDAATAQS  425
+
+Query  472  FSTAINWVGNLIISASF  488
+            F T  NW+   I+   F
+Sbjct  426  FGTVCNWLATFIVGYLF  442
+
+
+
+>putative sugar transporter [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011411.3 Length: 486 
+>RecName: Full=Vacuolar protein sorting-associated protein 73 [Saccharomyces cerevisiae S288C]
+Sequence ID: P53142.1 Length: 486  
+Range 1: 86 to 465
+
+Score:79.3 bits(194), Expect:3e-16, 
+Method:Compositional matrix adjust., 
+Identities:92/394(23%), Positives:172/394(43%), Gaps:19/394(4%)
+
+Query  117  LSSGQKELITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRNVAMM  176
+            L+  Q  ++TS      ++ +  +  LA+  GRK   L    + ++GS+I+  S +   +
+Sbjct  86   LNDEQIGIVTSVFCIGGILGSYFATSLANIYGRKFSSLINCTLNIVGSLIIFNSNSYRGL  145
+
+Query  177  VVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVH  236
+            ++GR +VG   G   +I+P++I E+AP+   G L  +  + I  G L+   +       +
+Sbjct  146  IIGRILVGISCGSLIVIIPLFIKEVAPSGWEGLLGSMTQICIRLGVLLTQGIALPLTDSY  205
+
+Query  237  QGWR-IMFGIGAAPALGQLISLFWTPESPRYLLRHNHVEKVYKILSRIHP---EAKPAEI  292
+            + WR I+FG     A+      F   ESP++LL H  V      L ++     +    EI
+Sbjct  206  R-WRWILFG-SFLIAVLNFFMWFIVDESPKWLLAHGRVTDAKLSLCKLRGVTFDEAAQEI  263
+
+Query  293  AYKVSLIQEGVKVDFPEGNKFQHFFHSLKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQ  352
+                  I+ G  +  P         +SL       +N +S  +   L + QQF G N+I 
+Sbjct  264  QDWQLQIESGDPLIEPTTTNSISGSNSLWKYLRDRTNVKSRHVITVLLFGQQFCGINSIV  323
+
+Query  353  YFSAIIFQSVGFKNSISVSIVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALC  412
+             +   I   +  +++I ++  +   N + TI+  + I  + R+ +L+ TS V+++  A  
+Sbjct  324  LYGTKIISQLYPQHAIRINFFISMVNVLVTILVSLLIHSLPRKPLLM-TSTVLVSVTAFI  382
+
+Query  413  AIAYHFLPADTTQNTNSGWQYVVLASIIIFLASYASGIGNIPW-QQAELFPMEVRALGAG  471
+                         N N     +V +   I++  +  G+  +P+    E+   +   L   
+Sbjct  383  --------MGIAMNHNKMNLLIVFS--FIYMGVFTMGLNPLPFIIMREVSKPQDMVLAQR  432
+
+Query  472  FSTAINWVGNLIISASFLTMMESITPTGTFALFA  505
+            + T  NWVG  II+ +F  ++  +     F +FA
+Sbjct  433  YGTICNWVGTFIIAYTF-PIIHDVLSGYVFIIFA  465
+
+
+
+>phosphate transporter PHO84 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013583.1 Length: 587 
+>RecName: Full=Inorganic phosphate transporter PHO84 [Saccharomyces cerevisiae S288C]
+Sequence ID: P25297.2 Length: 587 >TPA: phosphate transporter PHO84 [Saccharomyces cerevisiae S288C]
+Sequence ID: DAA09776.1 Length: 587  
+Range 1: 49 to 556
+
+Score:70.9 bits(172), Expect:2e-13, 
+Method:Compositional matrix adjust., 
+Identities:126/537(23%), Positives:206/537(38%), Gaps:93/537(17%)
+
+Query  61   ANEVADENGEGFEAEKISSWIWVLSAVAGISGLLFGYDTGVISGALAVLGSDLGHVLSSG  120
+            A E  D+ G G++  K  S       +AG+  L   YD   I+  + ++     H    G
+Sbjct  49   ALESIDDEGFGWQQVKTIS-------IAGVGFLTDSYDIFAINLGITMMSYVYWHGSMPG  101
+
+Query  121  QKE-LITSATSFAALISATTSGWLADWVGRKRLLLCADAIFVIGSVIMAASRN------V  173
+              + L+  +TS   +I     G LAD VGRKR+      I ++ +++     +      V
+Sbjct  102  PSQTLLKVSTSVGTVIGQFGFGTLADIVGRKRIYGMELIIMIVCTILQTTVAHSPAINFV  161
+
+Query  174  AMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVF-------ITGGQLIAY  226
+            A++   R ++G GIG    +  +  +E A  + RG   I+  VF       I+GG +IA 
+Sbjct  162  AVLTFYRIVMGIGIGGDYPLSSIITSEFATTKWRG--AIMGAVFANQAWGQISGG-IIAL  218
+
+Query  227  SLNAAF----EHVHQG--------------WRIMFGIGAAPALGQLISLFWTPESPRYLL  268
+             L AA+    E+ + G              WRI+ G+G    L  L      PESPRY L
+Sbjct  219  ILVAAYKGELEYANSGAECDARCQKACDQMWRILIGLGTVLGLACLYFRLTIPESPRYQL  278
+
+Query  269  RHNHVEKVYKILSRIHPEAKPAEIA---------YKVSLIQEGVKVDFPEGNKFQHFFHS  319
+              N   ++         E K  + +          + S   E +  + P    F+ F   
+Sbjct  279  DVNAKLELAAAAQEQDGEKKIHDTSDEDMAINGLERASTAVESLD-NHPPKASFKDFCRH  337
+
+Query  320  LKVLFTVPSNRRSLFIGCFLQWFQQFSGTNAIQYFSAIIFQSVGFKNSISVS--------  371
+                         + +G    WF        +   SA+I Q++G+  S +V         
+Sbjct  338  FGQW-----KYGKILLGTAGSWFTLDVAFYGLSLNSAVILQTIGYAGSKNVYKKLYDTAV  392
+
+Query  372  ---IVVGATNFVFTIVAFMFIDRIGRRRILLCTSAVMIAGLALCAIAYHFLPADTTQNTN  428
+               I++ A +     V+   +D IGR+ I L    ++ A   +   AYH L         
+Sbjct  393  GNLILICAGSLPGYWVSVFTVDIIGRKPIQLAGFIILTALFCVIGFAYHKL---------  443
+
+Query  429  SGWQYVVLASIIIFLASYASGIGN--IPWQQAELFPMEVRALGAGFSTAINWVGNLIISA  486
+                 + L  I  F  ++        +P    E FP   R+   G S A   VG +I   
+Sbjct  444  GDHGLLALYVICQFFQNFGPNTTTFIVP---GECFPTRYRSTAHGISAASGKVGAIIAQT  500
+
+Query  487  SFLTMMESIT-----PTGTF-----ALFAGFCFVGLVTSYFTYPELAGMSIENIHKL  533
+            +  T+++        PT  +      +FA F  +G+ T+    PE    ++E I++L
+Sbjct  501  ALGTLIDHNCARDGKPTNCWLPHVMEIFALFMLLGIFTTLLI-PETKRKTLEEINEL  556
+
+
+
+
+
+Query #8: rho5 Query ID: lcl|Query_93920 Length: 200
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+Rho family GTPase RHO1 [Saccharomyces cerevisiae S288C]           302    302   88%   3e-106 78.53  NP_015491.1      
+Rho family GTPase RHO3 [Saccharomyces cerevisiae S288C]           217    217   98%   2e-72  47.47  NP_012148.1      
+Rho family GTPase RHO2 [Saccharomyces cerevisiae S288C]           197    197   88%   5e-65  54.80  NP_014309.3      
+Rho family GTPase CDC42 [Saccharomyces cerevisiae S288C]          193    193   96%   1e-63  49.74  NP_013330.1      
+Rho family GTPase RHO4 [Saccharomyces cerevisiae S288C]           182    182   84%   9e-58  50.89  NP_012981.3      
+Rho family GTPase RHO5 [Saccharomyces cerevisiae S288C]           158    158   95%   4e-48  40.34  NP_014219.1      
+Rab family GTPase YPT1 [Saccharomyces cerevisiae S288C]           91.7   91.7  94%   1e-23  29.59  NP_116615.1      
+Ras family GTPase RSR1 [Saccharomyces cerevisiae S288C]           88.2   88.2  82%   8e-22  32.34  NP_011668.3      
+Chain A, Ras-related Protein Sec4 [Saccharomyces cerevisiae...    85.5   85.5  85%   1e-21  27.91  4Z8Y_A           
+Rab family GTPase SEC4 [Saccharomyces cerevisiae S288C]           86.3   86.3  85%   1e-21  26.90  NP_116650.1      
+Rab family GTPase YPT6 [Saccharomyces cerevisiae S288C]           81.6   81.6  85%   1e-19  30.46  NP_013363.1      
+Rab family GTPase YPT52 [Saccharomyces cerevisiae S288C]          81.3   81.3  84%   2e-19  30.32  NP_012939.1      
+putative GTPase RHB1 [Saccharomyces cerevisiae S288C]             77.4   77.4  85%   3e-18  29.21  NP_009956.2      
+Ran GTPase GSP2 [Saccharomyces cerevisiae S288C]                  76.6   76.6  85%   9e-18  31.58  NP_014828.1      
+Ran GTPase GSP1 [Saccharomyces cerevisiae S288C]                  76.3   76.3  85%   1e-17  31.58  NP_013396.1      
+Rab family GTPase YPT31 [Saccharomyces cerevisiae S288C]          68.9   68.9  85%   6e-15  29.65  NP_010948.1      
+Rab family GTPase YPT7 [Saccharomyces cerevisiae S288C]           66.2   66.2  86%   4e-14  27.22  NP_013713.1      
+Rab family GTPase YPT10 [Saccharomyces cerevisiae S288C]          64.7   64.7  57%   1e-13  29.51  NP_009823.2      
+Chain A, GTP-binding protein YPT7 [Saccharomyces cerevisiae...    63.9   63.9  86%   2e-13  27.22  4PHF_A           
+Ras family GTPase RAS1 [Saccharomyces cerevisiae S288C]           63.5   63.5  77%   1e-12  28.39  NP_014744.1      
+Rab family GTPase YPT11 [Saccharomyces cerevisiae S288C]          52.0   52.0  38%   1e-08  34.15  NP_014095.2      
+
+
+Alignments:
+>Rho family GTPase RHO1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_015491.1 Length: 209 
+>RecName: Full=GTP-binding protein RHO1; AltName: Full=Rho-type GTPase 1; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P06780.3 Length: 209  
+Range 1: 9 to 185
+
+Score:302 bits(773), Expect:3e-106, 
+Method:Compositional matrix adjust., 
+Identities:139/177(79%), Positives:157/177(88%), Gaps:0/177(0%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQ  64
+            +RRKLVIVGDGACGKTCLLIVFSKG FPEVYVPTVFENYVADVEVDGR +ELALWDTAGQ
+Sbjct  9    IRRKLVIVGDGACGKTCLLIVFSKGQFPEVYVPTVFENYVADVEVDGRRVELALWDTAGQ  68
+
+Query  65   EDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRN  124
+            EDYDRLRPLSYPDS+VVLICFS+D P+SL+NVQEKWI+EVLHFC  +PI+LVGCKVDLRN
+Sbjct  69   EDYDRLRPLSYPDSNVVLICFSIDLPDSLENVQEKWIAEVLHFCQGVPIILVGCKVDLRN  128
+
+Query  125  DPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASML  181
+            DP+TIE+L +  Q+P+T +EGQ VA +IGA  Y ECSAK   GV EVFE A RAS++
+Sbjct  129  DPQTIEQLRQEGQQPVTSQEGQSVADQIGATGYYECSAKTGYGVREVFEAATRASLM  185
+
+
+
+>Rho family GTPase RHO3 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012148.1 Length: 231 
+>RecName: Full=GTP-binding protein RHO3; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: Q00245.2 Length: 231  
+Range 1: 15 to 231
+
+Score:217 bits(553), Expect:2e-72, 
+Method:Compositional matrix adjust., 
+Identities:103/217(47%), Positives:143/217(65%), Gaps:21/217(9%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQ  64
+            + RK+VI+GDGACGKT LL VF++G FPEVY PTVFENY+ D+ VD +HI L+LWDTAGQ
+Sbjct  15   IERKIVILGDGACGKTSLLNVFTRGYFPEVYEPTVFENYIHDIFVDSKHITLSLWDTAGQ  74
+
+Query  65   EDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRN  124
+            E++DRLR LSY D+  +++CFS+D+ +SL+NVQ KW+ E+   C  + ++LV  K DLRN
+Sbjct  75   EEFDRLRSLSYSDTQCIMLCFSIDSRDSLENVQNKWVGEITDHCEGVKLVLVALKCDLRN  134
+
+Query  125  D--------PKTIEELSKTSQKP-------------ITFEEGQVVAQKIGAYKYLECSAK  163
+            +        P  I++ +  S                I++EEG  +A+KIGA +YLECSAK
+Sbjct  135  NENESNAITPNNIQQDNSVSNDNGNNINSTSNGKNLISYEEGLAMAKKIGALRYLECSAK  194
+
+Query  164  LNEGVNEVFETAARASMLKFKPASVPKTKKKKHCILL  200
+            LN+GVNE F  AAR ++     A+  K+     C ++
+Sbjct  195  LNKGVNEAFTEAARVALTAGPVATEVKSDSGSSCTIM  231
+
+
+
+>Rho family GTPase RHO2 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014309.3 Length: 192 
+>RecName: Full=GTP-binding protein RHO2; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P06781.2 Length: 192  
+Range 1: 6 to 179
+
+Score:197 bits(500), Expect:5e-65, 
+Method:Compositional matrix adjust., 
+Identities:97/177(55%), Positives:122/177(68%), Gaps:3/177(1%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQ  64
+            +RRKLVI+GDGACGKT LL VF+ G FPE Y PTVFENYV D  VDG  + L LWDTAGQ
+Sbjct  6    VRRKLVIIGDGACGKTSLLYVFTLGKFPEQYHPTVFENYVTDCRVDGIKVSLTLWDTAGQ  65
+
+Query  65   EDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRN  124
+            E+Y+RLRP SY  + ++LI F+VD  ESL N + KW  E L +C + PI+LVG K DLR 
+Sbjct  66   EEYERLRPFSYSKADIILIGFAVDNFESLINARTKWADEALRYCPDAPIVLVGLKKDLRQ  125
+
+Query  125  DPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASML  181
+            +    E     + + +  E+ + VA+ IGA KY+ECSA   EGV++VFE A R S+L
+Sbjct  126  EAHFKE---NATDEMVPIEDAKQVARAIGAKKYMECSALTGEGVDDVFEVATRTSLL  179
+
+
+
+>Rho family GTPase CDC42 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013330.1 Length: 191 
+>RecName: Full=Cell division control protein 42; AltName: Full=Suppressor of RHO3 protein 2; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P19073.2 Length: 191  
+Range 1: 5 to 191
+
+Score:193 bits(490), Expect:1e-63, 
+Method:Compositional matrix adjust., 
+Identities:96/193(50%), Positives:126/193(65%), Gaps:6/193(3%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQEDY  67
+            K V+VGDGA GKTCLLI ++   FP  YVPTVF+NY   V +      L L+DTAGQEDY
+Sbjct  5    KCVVVGDGAVGKTCLLISYTTNQFPADYVPTVFDNYAVTVMIGDEPYTLGLFDTAGQEDY  64
+
+Query  68   DRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDPK  127
+            DRLRPLSYP + V L+CFSV +P S +NV+EKW  EV H C  +P L+VG ++DLR+D  
+Sbjct  65   DRLRPLSYPSTDVFLVCFSVISPPSFENVKEKWFPEVHHHCPGVPCLVVGTQIDLRDDKV  124
+
+Query  128  TIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKFKPAS  187
+             IE+L +   +PIT E+G  +A+++ A KY+ECSA    G+  VF+ A  A++       
+Sbjct  125  IIEKLQRQRLRPITSEQGSRLARELKAVKYVECSALTQRGLKNVFDEAIVAAL------E  178
+
+Query  188  VPKTKKKKHCILL  200
+             P  KK K C +L
+Sbjct  179  PPVIKKSKKCAIL  191
+
+
+
+>Rho family GTPase RHO4 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012981.3 Length: 291 
+>RecName: Full=GTP-binding protein RHO4; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: Q00246.2 Length: 291  
+Range 1: 74 to 234
+
+Score:182 bits(461), Expect:9e-58, 
+Method:Compositional matrix adjust., 
+Identities:86/169(51%), Positives:124/169(73%), Gaps:9/169(5%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVE-VDGRHIELALWDTAGQED  66
+            K+V+VGDGA GKTCLLI + +GTFP  Y+PT+FENYV ++E  +G+ IELALWDTAGQE+
+Sbjct  74   KIVVVGDGAVGKTCLLISYVQGTFPTDYIPTIFENYVTNIEGPNGQIIELALWDTAGQEE  133
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDP  126
+            Y RLRPLSY ++ V+++C+SV +  SL NV++ W  EV HFC + PI+LVG K DL  + 
+Sbjct  134  YSRLRPLSYTNADVLMVCYSVGSKTSLKNVEDLWFPEVKHFCPSTPIMLVGLKSDLY-EA  192
+
+Query  127  KTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETA  175
+              + +L + S         + +A+++GA+ +++CSA+L E ++EVFETA
+Sbjct  193  DNLSDLVEPSS-------AESLAKRLGAFAHIQCSARLKENIDEVFETA  234
+
+
+
+>Rho family GTPase RHO5 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014219.1 Length: 331 
+>RecName: Full=GTP-binding protein RHO5; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P53879.2 Length: 331  
+Range 1: 5 to 233
+
+Score:158 bits(399), Expect:4e-48, 
+Method:Compositional matrix adjust., 
+Identities:94/233(40%), Positives:122/233(52%), Gaps:46/233(19%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEV------------------  49
+            K VI+GDGA GKT LLI ++  +FP  YVPTVF+NY   + +                  
+Sbjct  5    KCVIIGDGAVGKTSLLISYTTNSFPTDYVPTVFDNYSTTIAIPNGTASSPLELDNGNDKR  64
+
+Query  50   ------------DGRHIELALWDTAGQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQ  97
+                        D +  ++ LWDTAGQEDYDRLRPL YP + + LICFSV    S  NV 
+Sbjct  65   GSLSSASSSPSTDRKLYKINLWDTAGQEDYDRLRPLCYPQTDIFLICFSVSEHASFANVT  124
+
+Query  98   EKWISEVLHFCSNL------------PILLVGCKVDLRNDPKTIEELSKTSQKPITFEEG  145
+            EKW+ E L   SN+            PILLVG K DLR+DP T ++L + +   ++ EE 
+Sbjct  125  EKWLPE-LKQTSNIEGTSLYTKLGKYPILLVGTKSDLRDDPATQKKLQEANSDYVSQEEI  183
+
+Query  146  QVVAQKIGAYKYLECSAKLNEGVNEVFETAARASMLKFKPASVPKTKKKKHCI  198
+              + Q+ G   Y ECSA    GV EVFE A R ++  ++P S P  K   H +
+Sbjct  184  DELVQRCGFMGYTECSAATQAGVREVFEQAVRYAI--YEPES-PNQKSANHTL  233
+
+
+
+>Rab family GTPase YPT1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_116615.1 Length: 206 
+>RecName: Full=GTP-binding protein YPT1; AltName: Full=Protein YP2; AltName: Full=Rab GTPase YPT1; AltName: Full=Transport GTPase YPT1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P01123.2 Length: 206  
+Range 1: 10 to 186
+
+Score:91.7 bits(226), Expect:1e-23, 
+Method:Compositional matrix adjust., 
+Identities:58/196(30%), Positives:101/196(51%), Gaps:26/196(13%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHIELALWDTAGQED  66
+            KL+++G+   GK+CLL+ FS  T+   Y+ T+  ++ +  VE+DG+ ++L +WDTAGQE 
+Sbjct  10   KLLLIGNSGVGKSCLLLRFSDDTYTNDYISTIGVDFKIKTVELDGKTVKLQIWDTAGQER  69
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPI-LLVGCKVDLRND  125
+            +  +    Y  SH ++I + V   ES + V+  W+ E+  + ++  + LLVG K DL+ D
+Sbjct  70   FRTITSSYYRGSHGIIIVYDVTDQESFNGVK-MWLQEIDRYATSTVLKLLVGNKCDLK-D  127
+
+Query  126  PKTIE-----ELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASM  180
+             + +E     E +  ++ P                 +LE SA  +  V + F T AR   
+Sbjct  128  KRVVEYDVAKEFADANKMP-----------------FLETSALDSTNVEDAFLTMARQIK  170
+
+Query  181  LKFKPASVPKTKKKKH  196
+                  ++ +T +KK 
+Sbjct  171  ESMSQQNLNETTQKKE  186
+
+
+
+>Ras family GTPase RSR1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011668.3 Length: 272 
+>RecName: Full=Ras-related protein RSR1; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P13856.1 Length: 272  
+Range 1: 5 to 158
+
+Score:88.2 bits(217), Expect:8e-22, 
+Method:Compositional matrix adjust., 
+Identities:54/167(32%), Positives:87/167(52%), Gaps:15/167(8%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQEDY  67
+            KLV++G G  GK+CL + F +G + + Y PT+ ++Y   +E+D +  +L + DTAG   +
+Sbjct  5    KLVVLGAGGVGKSCLTVQFVQGVYLDTYDPTIEDSYRKTIEIDNKVFDLEILDTAGIAQF  64
+
+Query  68   DRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHF--CSNLPILLVGCKVDLRND  125
+              +R L        L+ +SV   +SL+ + E    +VL       +P++L+G K DL N+
+Sbjct  65   TAMRELYIKSGMGFLLVYSVTDRQSLEELME-LREQVLRIKDSDRVPMVLIGNKADLINE  123
+
+Query  126  PKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVF  172
+                        + I+ EEG  V+ K G   + E SA L   V+EVF
+Sbjct  124  ------------RVISVEEGIEVSSKWGRVPFYETSALLRSNVDEVF  158
+
+
+
+>Chain A, Ras-related Protein Sec4 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4Z8Y_A Length: 170 
+>Chain B, Ras-related Protein Sec4 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4Z8Y_B Length: 170 >Chain A, Ras-related protein SEC4 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4ZDW_A Length: 170  
+Range 1: 5 to 161
+
+Score:85.5 bits(210), Expect:1e-21, 
+Method:Compositional matrix adjust., 
+Identities:48/172(28%), Positives:95/172(55%), Gaps:17/172(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHIELALWDTAGQED  66
+            K++++GD   GK+CLL+ F +  F   ++ T+  ++ +  V+++G+ ++L LWDTAGQE 
+Sbjct  5    KILLIGDVGVGKSCLLVRFVEDKFNPSFITTIGIDFKIKTVDINGKKVKLQLWDTAGQER  64
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVL-HFCSNLPILLVGCKVDLRND  125
+            +  +    Y  +  +++ + V    +  N+++ W   V  H      +LLVG K D+   
+Sbjct  65   FRTITTAYYRGAMGIILVYDVTDERTFTNIKQ-WFKTVNEHANDEAQLLLVGNKSDMET-  122
+
+Query  126  PKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+                        + +T ++G+ +A+++G   ++E SAK ++ VNE+F T A+
+Sbjct  123  ------------RVVTADQGEALAKELG-IPFIESSAKNDDNVNEIFFTLAK  161
+
+
+
+>Rab family GTPase SEC4 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_116650.1 Length: 215 
+>RecName: Full=Ras-related protein SEC4; AltName: Full=Suppressor of RHO3 protein 6 [Saccharomyces cerevisiae S288C]
+Sequence ID: P07560.1 Length: 215  
+Range 1: 22 to 178
+
+Score:86.3 bits(212), Expect:1e-21, 
+Method:Compositional matrix adjust., 
+Identities:46/171(27%), Positives:95/171(55%), Gaps:15/171(8%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENY-VADVEVDGRHIELALWDTAGQED  66
+            K++++GD   GK+CLL+ F +  F   ++ T+  ++ +  V+++G+ ++L LWDTAGQE 
+Sbjct  22   KILLIGDSGVGKSCLLVRFVEDKFNPSFITTIGIDFKIKTVDINGKKVKLQLWDTAGQER  81
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDP  126
+            +  +    Y  +  +++ + V    +  N+++ + +   H      +LLVG K D+    
+Sbjct  82   FRTITTAYYRGAMGIILVYDVTDERTFTNIKQWFKTVNEHANDEAQLLLVGNKSDMET--  139
+
+Query  127  KTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+                       + +T ++G+ +A+++G   ++E SAK ++ VNE+F T A+
+Sbjct  140  -----------RVVTADQGEALAKELG-IPFIESSAKNDDNVNEIFFTLAK  178
+
+
+
+>Rab family GTPase YPT6 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013363.1 Length: 215 
+>RecName: Full=GTP-binding protein YPT6 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q99260.1 Length: 215  
+Range 1: 12 to 172
+
+Score:81.6 bits(200), Expect:1e-19, 
+Method:Compositional matrix adjust., 
+Identities:53/174(30%), Positives:92/174(52%), Gaps:16/174(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDGRHIELALWDTAGQED  66
+            K+V +G+   GKT L+  F   TF + Y  T+  ++++  + +D + I L LWDTAGQE 
+Sbjct  12   KIVFLGEQGVGKTSLITRFMYDTFDDHYQATIGIDFLSKTMYLDDKTIRLQLWDTAGQER  71
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILL--VGCKVDLRN  124
+            +  L P    DS V +I + +   +S + + +KWI +V +   +  ++L  VG K DL  
+Sbjct  72   FRSLIPSYIRDSRVAIIVYDITKRKSFEYI-DKWIEDVKNERGDENVILCIVGNKSDL--  128
+
+Query  125  DPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARA  178
+                      + ++ I+ EEG+  A+ +GA  ++E S K    V  +F+  A++
+Sbjct  129  ----------SDERQISTEEGEKKAKLLGAKIFMETSTKAGYNVKALFKKIAKS  172
+
+
+
+>Rab family GTPase YPT52 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012939.1 Length: 234 
+>RecName: Full=GTP-binding protein YPT52 [Saccharomyces cerevisiae S288C]
+Sequence ID: P36018.1 Length: 234  
+Range 1: 2 to 187
+
+Score:81.3 bits(199), Expect:2e-19, 
+Method:Compositional matrix adjust., 
+Identities:57/188(30%), Positives:97/188(51%), Gaps:21/188(11%)
+
+Query  5    LRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEV----DGRH-----IE  55
+            L+ KLV++GD + GK+ ++  F K TF E+   T+   +++        DG       I+
+Sbjct  2    LQFKLVLLGDSSVGKSSIVHRFVKDTFDELRESTIGAAFLSQSITIHPNDGNETKDVVIK  61
+
+Query  56   LALWDTAGQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCS--NLPI  113
+              +WDTAGQE Y  L P+ Y +++  L+ + +   +SL   +  W+ E+ +     +L I
+Sbjct  62   FEIWDTAGQERYKSLAPMYYRNANAALVVYDITQEDSLQKAR-NWVDELKNKVGDDDLVI  120
+
+Query  114  LLVGCKVDLRNDPKTIEELSKTSQ--------KPITFEEGQVVAQKIGAYKYLECSAKLN  165
+             L+G KVDL  +  + E    +++        + I+ EE +  AQ+ G   + E SAK  
+Sbjct  121  YLLGNKVDLCQETPSTETSPDSNEGGDEEQKVRAISTEEAKQYAQEQGLL-FREVSAKTG  179
+
+Query  166  EGVNEVFE  173
+            EGV E+F+
+Sbjct  180  EGVKEIFQ  187
+
+
+
+>putative GTPase RHB1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_009956.2 Length: 209 
+>RecName: Full=Rheb-like protein RHB1; AltName: Full=GTP-binding protein RSG1; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P25378.2 Length: 209  
+Range 1: 12 to 182
+
+Score:77.4 bits(189), Expect:3e-18, 
+Method:Compositional matrix adjust., 
+Identities:52/178(29%), Positives:83/178(46%), Gaps:14/178(7%)
+
+Query  2    TTELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDT  61
+            T   +RK+ ++G    GKT L + F +  F E Y PT+   +   +        L + DT
+Sbjct  12   THNFQRKIALIGARNVGKTTLTVRFVESRFVESYYPTIENEFTRIIPYKSHDCTLEILDT  71
+
+Query  62   AGQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFC-SNLPILLVGCKV  120
+            AGQ++   L   S      +++C+S+    S D +   W   V      NLP++LVG K 
+Sbjct  72   AGQDEVSLLNIKSLTGVRGIILCYSIINRASFDLIPILWDKLVDQLGKDNLPVILVGTKA  131
+
+Query  121  DLRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAY------KYLECSAKLNEGVNEVF  172
+            DL    K +       ++ +T  EG+ +A  IG+        ++ECSA+L+  V E F
+Sbjct  132  DLGRSTKGV-------KRCVTKAEGEKLASTIGSQDKRNQAAFIECSAELDYNVEETF  182
+
+
+
+>Ran GTPase GSP2 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014828.1 Length: 220 
+>RecName: Full=GTP-binding nuclear protein GSP2/CNR2 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32836.1 Length: 220  
+Range 1: 15 to 169
+
+Score:76.6 bits(187), Expect:9e-18, 
+Method:Compositional matrix adjust., 
+Identities:54/171(32%), Positives:81/171(47%), Gaps:17/171(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHIELALWDTAGQED  66
+            KLV+VGDG  GKT  +     G F + Y+ T+  E +      +   I+  +WDTAGQE 
+Sbjct  15   KLVLVGDGGTGKTTFVKRHLTGEFEKKYIATIGVEVHPLSFYTNFGEIKFDVWDTAGQEK  74
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDP  126
+            +  LR   Y ++   +I F V +  +  NV   W  +++  C N+PI+L G KVD++   
+Sbjct  75   FGGLRDGYYINAQCAIIMFDVTSRITYKNV-PNWHRDLVRVCENIPIVLCGNKVDVKE--  131
+
+Query  127  KTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+                   K   K ITF   + +       +Y + SAK N    + F   AR
+Sbjct  132  ------RKVKAKTITFHRKKNL-------QYYDISAKSNYNFEKPFLWLAR  169
+
+
+
+>Ran GTPase GSP1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013396.1 Length: 219 
+>RecName: Full=GTP-binding nuclear protein GSP1/CNR1; AltName: Full=Chromosome stability protein 17; AltName: Full=GTPase Ran homolog; AltName: Full=Genetic suppressor of PRP20-1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32835.1 Length: 219  
+Range 1: 14 to 168
+
+Score:76.3 bits(186), Expect:1e-17, 
+Method:Compositional matrix adjust., 
+Identities:54/171(32%), Positives:81/171(47%), Gaps:17/171(9%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHIELALWDTAGQED  66
+            KLV+VGDG  GKT  +     G F + Y+ T+  E +      +   I+  +WDTAGQE 
+Sbjct  14   KLVLVGDGGTGKTTFVKRHLTGEFEKKYIATIGVEVHPLSFYTNFGEIKFDVWDTAGQEK  73
+
+Query  67   YDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKVDLRNDP  126
+            +  LR   Y ++   +I F V +  +  NV   W  +++  C N+PI+L G KVD++   
+Sbjct  74   FGGLRDGYYINAQCAIIMFDVTSRITYKNV-PNWHRDLVRVCENIPIVLCGNKVDVKE--  130
+
+Query  127  KTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAAR  177
+                   K   K ITF   + +       +Y + SAK N    + F   AR
+Sbjct  131  ------RKVKAKTITFHRKKNL-------QYYDISAKSNYNFEKPFLWLAR  168
+
+
+
+>Rab family GTPase YPT31 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010948.1 Length: 223 
+>RecName: Full=GTP-binding protein YPT31/YPT8; AltName: Full=Rab GTPase YPT31 [Saccharomyces cerevisiae S288C]
+Sequence ID: P38555.3 Length: 223  
+Range 1: 11 to 168
+
+Score:68.9 bits(167), Expect:6e-15, 
+Method:Compositional matrix adjust., 
+Identities:51/172(30%), Positives:81/172(47%), Gaps:16/172(9%)
+
+Query  4    ELRRKLVIVGDGACGKTCLLIVFSKGTFPEVYVPTV-FENYVADVEVDGRHIELALWDTA  62
+            +L  K+V++GD   GK+ LL  F+K  F      T+  E     +E+DG+ I+  +WDTA
+Sbjct  11   DLLFKIVLIGDSGVGKSNLLSRFTKNEFNMDSKSTIGVEFATRTLEIDGKRIKAQIWDTA  70
+
+Query  63   GQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFC-SNLPILLVGCKVD  121
+            GQE Y  +    Y  +   LI + +    S +N    W+SE+      N+ + L+G K D
+Sbjct  71   GQERYRAITSAYYRGAVGALIVYDISKSSSYENCNH-WLSELRENADDNVAVGLIGNKSD  129
+
+Query  122  LRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFE  173
+            L               + +  EE +  AQ+     + E SA  +E V++ FE
+Sbjct  130  L------------AHLRAVPTEESKTFAQE-NQLLFTETSALNSENVDKAFE  168
+
+
+
+>Rab family GTPase YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013713.1 Length: 208 
+>RecName: Full=GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32939.1 Length: 208  
+Range 1: 10 to 177
+
+Score:66.2 bits(160), Expect:4e-14, 
+Method:Compositional matrix adjust., 
+Identities:49/180(27%), Positives:84/180(46%), Gaps:19/180(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVA-DVEVDGRHIE-LALWDTAGQE  65
+            K++I+GD   GKT L+  +    + + Y  T+  +++  +V VDG  +  + +WDTAGQE
+Sbjct  10   KVIILGDSGVGKTSLMHRYVNDKYSQQYKATIGADFLTKEVTVDGDKVATMQVWDTAGQE  69
+
+Query  66   DYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVL-HFCSN----LPILLVGCKV  120
+             +  L    Y  +   ++ + V    S +N++  W  E L H   N     P +++G K+
+Sbjct  70   RFQSLGVAFYRGADCCVLVYDVTNASSFENIK-SWRDEFLVHANVNSPETFPFVILGNKI  128
+
+Query  121  DLRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASM  180
+            D     K + E S            Q +A+ +G       SAK    V+  FE  AR+++
+Sbjct  129  DAEESKKIVSEKS-----------AQELAKSLGDIPLFLTSAKNAINVDTAFEEIARSAL  177
+
+
+
+>Rab family GTPase YPT10 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_009823.2 Length: 199 
+>RecName: Full=GTP-binding protein YPT10 [Saccharomyces cerevisiae S288C]
+Sequence ID: P38146.2 Length: 199  
+Range 1: 6 to 126
+
+Score:64.7 bits(156), Expect:1e-13, 
+Method:Compositional matrix adjust., 
+Identities:36/122(30%), Positives:61/122(50%), Gaps:8/122(6%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVAD-VEVDG------RHIELALWD  60
+            K+V++GD + GKT ++     G F   +  T+   ++   +EV        + I + +WD
+Sbjct  6    KVVLLGDSSVGKTSIVTRLKSGKFLAKHAATIGAAFITKTIEVPSNDSSTEKRIHMEIWD  65
+
+Query  61   TAGQEDYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVLHFCSNLPILLVGCKV  120
+            TAGQE Y  L P+ Y D+++ LI F +    SL    + W  ++        +++VG K 
+Sbjct  66   TAGQERYKSLVPMYYRDANIALIVFELGDVSSL-QCAKTWFQDLQDRAQGTQVIIVGNKY  124
+
+Query  121  DL  122
+            DL
+Sbjct  125  DL  126
+
+
+
+>Chain A, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHF_A Length: 184 
+>Chain A, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_A Length: 184 >Chain B, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_B Length: 184 >Chain C, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_C Length: 184 >Chain D, GTP-binding protein YPT7 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4PHH_D Length: 184  
+Range 1: 12 to 179
+
+Score:63.9 bits(154), Expect:2e-13, 
+Method:Compositional matrix adjust., 
+Identities:49/180(27%), Positives:83/180(46%), Gaps:19/180(10%)
+
+Query  8    KLVIVGDGACGKTCLLIVFSKGTFPEVYVPTVFENYVA-DVEVDGRHIE-LALWDTAGQE  65
+            K++I+GD   GKT L+  +    +   Y  T+  +++  +V VDG  +  + +WDTAGQE
+Sbjct  12   KVIILGDSGVGKTSLMHRYVNDKYSCQYKATIGADFLTKEVTVDGDKVATMQVWDTAGQE  71
+
+Query  66   DYDRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVL-HFCSN----LPILLVGCKV  120
+             +  L    Y  +   ++ + V    S +N++  W  E L H   N     P +++G K+
+Sbjct  72   RFQSLGVAFYRGADCCVLVYDVTNASSFENIKS-WRDEFLVHANVNSPETFPFVILGNKI  130
+
+Query  121  DLRNDPKTIEELSKTSQKPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVFETAARASM  180
+            D     K + E S            Q +A+ +G       SAK    V+  FE  AR+++
+Sbjct  131  DAEESKKIVSEKS-----------AQELAKSLGDIPLFLTSAKNAINVDTAFEEIARSAL  179
+
+
+
+>Ras family GTPase RAS1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014744.1 Length: 309 
+>RecName: Full=Ras-like protein 1; Flags: Precursor [Saccharomyces cerevisiae S288C]
+Sequence ID: P01119.2 Length: 309  
+Range 1: 23 to 164
+
+Score:63.5 bits(153), Expect:1e-12, 
+Method:Compositional matrix adjust., 
+Identities:44/155(28%), Positives:79/155(50%), Gaps:14/155(9%)
+
+Query  19   KTCLLIVFSKGTFPEVYVPTVFENYVADVEVDGRHIELALWDTAGQEDYDRLRPLSYPDS  78
+            K+ L I F +  F + Y PT+ ++Y   V +D +   L + DTAGQE+Y  +R       
+Sbjct  23   KSALTIQFIQSYFVDEYDPTIEDSYRKQVVIDDKVSILDILDTAGQEEYSAMREQYMRTG  82
+
+Query  79   HVVLICFSVDAPESLDNVQEKWIS-EVLHFCSNLPILLVGCKVDLRNDPKTIEELSKTSQ  137
+               L+ +SV +  S D +   +   + +     +P+++VG K+DL N            +
+Sbjct  83   EGFLLVYSVTSRNSFDELLSYYQQIQRVKDSDYIPVVVVGNKLDLEN------------E  130
+
+Query  138  KPITFEEGQVVAQKIGAYKYLECSAKLNEGVNEVF  172
+            + +++E+G  +A+++ A  +LE SAK    V+E F
+Sbjct  131  RQVSYEDGLRLAKQLNA-PFLETSAKQAINVDEAF  164
+
+
+
+>Rab family GTPase YPT11 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014095.2 Length: 417 
+>RecName: Full=GTP-binding protein YPT11; AltName: Full=Rab GTPase YPT11 [Saccharomyces cerevisiae S288C]
+Sequence ID: P48559.2 Length: 417  
+Range 1: 215 to 296
+
+Score:52.0 bits(123), Expect:1e-08, 
+Method:Compositional matrix adjust., 
+Identities:28/82(34%), Positives:45/82(54%), Gaps:6/82(7%)
+
+Query  47   VEVDGRHIELALWDTAGQEDY-DRLRPLSYPDSHVVLICFSVDAPESLDNVQEKWISEVL  105
+            V +D R   + LWDTAGQE Y + + P  Y  ++ V++ + +   +S  +  E+WI + L
+Sbjct  215  VNIDNRFFNVILWDTAGQERYQNAIIPSLYKKTNAVILTYDITNAKSFQSCMERWIVQAL  274
+
+Query  106  HFCSNLPIL-----LVGCKVDL  122
+               S+  +L     LVG K+DL
+Sbjct  275  ENFSSQDLLKARFFLVGNKIDL  296
+
+
+
+
+
+Query #9: cdc25 Query ID: lcl|Query_93921 Length: 596
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+putative tyrosine protein phosphatase MIH1 [Saccharomyces...      143    143   28%   6e-37 40.56  NP_013750.1      
+
+
+Alignments:
+>putative tyrosine protein phosphatase MIH1 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013750.1 Length: 554 
+>RecName: Full=M-phase inducer phosphatase; AltName: Full=Mitosis initiation protein MIH1; AltName: Full=Mitotic inducer homolog [Saccharomyces cerevisiae S288C]
+Sequence ID: P23748.2 Length: 554  
+Range 1: 239 to 416
+
+Score:143 bits(360), Expect:6e-37, 
+Method:Compositional matrix adjust., 
+Identities:73/180(41%), Positives:104/180(57%), Gaps:11/180(6%)
+
+Query  408  DSLKRITQETLLGLLDGKF-KDIFDKCIIIDCRFEYEYLGGHISTAVNLNTKQAIVDAFL  466
+            D   RI+ ETL  +L     +  ++ C IIDCRFEYEY GGHI  +VN++++  +   F+
+Sbjct  239  DFFPRISPETLKNILQNNMCESFYNSCRIIDCRFEYEYTGGHIINSVNIHSRDELEYEFI  298
+
+Query  467  SKPL--------THRVALVFHCEHSAHRAPHLALHFRNTDRRMNSHRYPFLYYPEVYILH  518
+             K L        T    L+ HCE S+HR P LA H RN DR +N   YP L+YP++ IL 
+Sbjct  299  HKVLHSDTSNNNTLPTLLIIHCEFSSHRGPSLASHLRNCDRIINQDHYPKLFYPDILILD  358
+
+Query  519  GGYKSFYENHKNRCDPINYVPMNDASHVMTCTKAMNNFKRNATFMRTKSYTFGQSVLASP  578
+            GGYK+ ++N    C P  YV MN   +++ C + M+ F+R +    TK+ +F +  LASP
+Sbjct  359  GGYKAVFDNFPELCYPRQYVGMNSQENLLNCEQEMDKFRRESKRFATKNNSFRK--LASP  416
+
+
+
+
+
+Query #10: SPAC3G9.05 Query ID: lcl|Query_93922 Length: 659
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+Spa2p [Saccharomyces cerevisiae S288C]                            79.0   79.0  13%   1e-15 47.83  NP_013079.1      
+Sph1p [Saccharomyces cerevisiae S288C]                            49.3   49.3  15%   2e-06 35.24  NP_013417.3      
+RecName: Full=Protein SPH1; AltName: Full=SPA2 homolog 1...       48.9   48.9  15%   2e-06 35.24  Q06160.2         
+
+
+Alignments:
+>Spa2p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013079.1 Length: 1466 
+>RecName: Full=Protein SPA2 [Saccharomyces cerevisiae S288C]
+Sequence ID: P23201.1 Length: 1466 >TPA: Spa2p [Saccharomyces cerevisiae S288C]
+Sequence ID: DAA09299.1 Length: 1466  
+Range 1: 43 to 132
+
+Score:79.0 bits(193), Expect:1e-15, 
+Method:Compositional matrix adjust., 
+Identities:44/92(48%), Positives:60/92(65%), Gaps:3/92(3%)
+
+Query  32   RPREKLQRLSHIQFSELLTDVADELQRRINNDP-KVRFLPPVDSYHPKRNHARQKLSSLA  90
+            + R KL +LS  QF EL TDV+DELQRRI  D  +  +L P  ++H KRN ARQKL++L+
+Sbjct  43   KARAKLLKLSSSQFYELSTDVSDELQRRIGEDANQPDYLLPKANFHMKRNQARQKLANLS  102
+
+Query  91   PTRLRDLCMDVFFEVQSRYSGALKEVSSNTPP  122
+             TR  DL  D+ FE++ R  G  K++ +  PP
+Sbjct  103  QTRFNDLLDDILFEIKRR--GFDKDLDAPRPP  132
+
+
+
+>Sph1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013417.3 Length: 530 
+Range 1: 14 to 115
+
+Score:49.3 bits(116), Expect:2e-06, 
+Method:Compositional matrix adjust., 
+Identities:37/105(35%), Positives:56/105(53%), Gaps:4/105(3%)
+
+Query  5    IIRQYRFLARYLEPEFVKDPALRNANARPREK-LQRLSHIQFSELLTDVADELQRRINND  63
+            +I  Y+   R +E    +D   RN N + R K L +LS++QF +L TDV DEL +R+ + 
+Sbjct  14   LISDYKNFKRIIEASVPEDDRRRNQNRQNRNKDLTKLSNVQFWQLTTDVNDELMKRLTDS  73
+
+Query  64   PKVRFLPPVDSYHPKRNHARQKLSSLAPTRLRDLCMDVFFEVQSR  108
+                 L  +D    KR  A+ KLS L   +   L +D+F E++ R
+Sbjct  74   GADASLNDLDL---KRGKAQSKLSRLKDAKFHKLILDIFTEIERR  115
+
+
+
+>RecName: Full=Protein SPH1; AltName: Full=SPA2 homolog 1 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q06160.2 Length: 661 
+Range 1: 14 to 115
+
+Score:48.9 bits(115), Expect:2e-06, 
+Method:Compositional matrix adjust., 
+Identities:37/105(35%), Positives:56/105(53%), Gaps:4/105(3%)
+
+Query  5    IIRQYRFLARYLEPEFVKDPALRNANARPREK-LQRLSHIQFSELLTDVADELQRRINND  63
+            +I  Y+   R +E    +D   RN N + R K L +LS++QF +L TDV DEL +R+ + 
+Sbjct  14   LISDYKNFKRIIEASVPEDDRRRNQNRQNRNKDLTKLSNVQFWQLTTDVNDELMKRLTDS  73
+
+Query  64   PKVRFLPPVDSYHPKRNHARQKLSSLAPTRLRDLCMDVFFEVQSR  108
+                 L  +D    KR  A+ KLS L   +   L +D+F E++ R
+Sbjct  74   GADASLNDLDL---KRGKAQSKLSRLKDAKFHKLILDIFTEIERR  115
+
+
+
+
+
+Query #11: cdc3 Query ID: lcl|Query_93923 Length: 127
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+profilin [Saccharomyces cerevisiae S288C]                         147    147   100%  2e-47 52.76  NP_014765.3      
+
+
+Alignments:
+>profilin [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014765.3 Length: 126 
+>RecName: Full=Profilin [Saccharomyces cerevisiae S288C]
+Sequence ID: P07274.2 Length: 126  
+Range 1: 1 to 126
+
+Score:147 bits(370), Expect:2e-47, 
+Method:Compositional matrix adjust., 
+Identities:67/127(53%), Positives:90/127(70%), Gaps:1/127(0%)
+
+Query  1    MSWQAYVDTSLLGTGKIDRAAIVSRAGDSVWAASAGFNLSPQEIQGLAAGFQDPPSMFGT  60
+            MSWQAY D +L+GTGK+D+A I SRAGD+VWA S G +L P EI  +  GF +P  +   
+Sbjct  1    MSWQAYTD-NLIGTGKVDKAVIYSRAGDAVWATSGGLSLQPNEIGEIVQGFDNPAGLQSN  59
+
+Query  61   GIILAGQKYITIRAEGRSIYGKLQKEGIICVATKLCILVSHYPETTLPGEAAKITEALAD  120
+            G+ + GQK++ +RA+ RSIYG+   EG++CV TK  ++++HYP T   GEA KI E LAD
+Sbjct  60   GLHIQGQKFMLLRADDRSIYGRHDAEGVVCVRTKQTVIIAHYPPTVQAGEATKIVEQLAD  119
+
+Query  121  YLVGVGY  127
+            YL+GV Y
+Sbjct  120  YLIGVQY  126
+
+
+
+
+
+Query #12: exo70 Query ID: lcl|Query_93924 Length: 615
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+GTP-Rho binding exocyst subunit EXO70 [Saccharomyces cerevisia... 65.9   65.9  20%   1e-11 32.52  NP_012450.1      
+
+
+Alignments:
+>GTP-Rho binding exocyst subunit EXO70 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012450.1 Length: 623 
+>RecName: Full=Exocyst complex component EXO70; AltName: Full=Exocyst complex protein of 70 kDa [Saccharomyces cerevisiae S288C]
+Sequence ID: P19658.1 Length: 623 >Chain G, Exocyst complex component EXO70 [Saccharomyces cerevisiae S288C]
+Sequence ID: 5YFP_G Length: 623 >Chain G, Exocyst complex component EXO70 [Saccharomyces cerevisiae S288C]
+Sequence ID: 6VKL_G Length: 623  
+Range 1: 504 to 618
+
+Score:65.9 bits(159), Expect:1e-11, 
+Method:Compositional matrix adjust., 
+Identities:40/123(33%), Positives:65/123(52%), Gaps:8/123(6%)
+
+Query  485  LEKLGDRSQKYSTMYMEVWRQCSQNMLDSTYTKSQNKSTMSAKEREITKEKFRNFNEQVT  544
+            LE+L  R   Y +  +  WR  + N++DS +  S  K +   K++E  KEKFR FNE   
+Sbjct  504  LERLKKR---YISYMVSDWRDLTANLMDSVFIDSSGKKS---KDKEQIKEKFRKFNEGFE  557
+
+Query  545  SVVQVHRESVRFETGVATFLLQEVKKTVLPLYQRFYDKYINSDFTKNKDKYIKFTKADLD  604
+             +V   ++    +  +   L  E+   V+P+Y+RFY +Y   D  KN  K+IK+T  +L 
+Sbjct  558  DLVSKTKQYKLSDPSLKVTLKSEIISLVMPMYERFYSRY--KDSFKNPRKHIKYTPDELT  615
+
+Query  605  SFI  607
+            + +
+Sbjct  616  TVL  618
+
+
+
+
+
+Query #13: tea2 Query ID: lcl|Query_93925 Length: 628
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+Kip2p [Saccharomyces cerevisiae S288C]                            244    244   46%   5e-72 41.28  NP_015170.1      
+tubulin-dependent ATPase KIP3 [Saccharomyces cerevisiae S288C]    219    219   45%   2e-62 43.05  NP_011299.1      
+Kip1p [Saccharomyces cerevisiae S288C]                            191    191   68%   7e-52 33.40  NP_009490.1      
+Chain A, Kinesin-like Protein Kar3 [Saccharomyces cerevisiae...   155    155   44%   4e-42 36.27  4ETP_A           
+Kar3p [Saccharomyces cerevisiae S288C]                            156    156   44%   9e-41 35.93  NP_015467.1      
+kinesin motor protein CIN8 [Saccharomyces cerevisiae S288C]       130    200   57%   6e-32 36.65  NP_010853.2      
+Smy1p [Saccharomyces cerevisiae S288C]                            108    108   46%   4e-25 28.52  NP_012844.1      
+
+
+Alignments:
+>Kip2p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_015170.1 Length: 706 
+>RecName: Full=Kinesin-like protein KIP2 [Saccharomyces cerevisiae S288C]
+Sequence ID: P28743.1 Length: 706  
+Range 1: 162 to 505
+
+Score:244 bits(622), Expect:5e-72, 
+Method:Compositional matrix adjust., 
+Identities:142/344(41%), Positives:198/344(57%), Gaps:49/344(14%)
+
+Query  178  EYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTENEPGI  237
+            E+ F++VF     N ++Y+R+ K ++  +  G+N  +FAYGMTG+GKT++M G E E G+
+Sbjct  162  EFKFDHVFASHCTNLEVYERTSKPMIDKLLMGFNATIFAYGMTGSGKTFTMSGNEQELGL  221
+
+Query  238  IPLAMNDLFE--MVENNSDDDTFQIRISYLEIYNERIRDLIGNSDEEP------------  283
+            IPL+++ LF   M ++ + D  F + ISYLEIYNERI DL+ +  EE             
+Sbjct  222  IPLSVSYLFTNIMEQSMNGDKKFDVIISYLEIYNERIYDLLESGLEESGSRISTPSRLYM  281
+
+Query  284  ------------RIRENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYS  331
+                        +IR+++   V V  LT     S EE+ + I   +  RK   TD+N  S
+Sbjct  282  SKSNSNGLGVELKIRDDSQYGVKVIGLTERRCESSEELLRWIAVGDKSRKIGETDYNARS  341
+
+Query  332  SRSHAILQVFLIRNNPTAHTSQISSLSLVDLAGSERASAHHERRKEGAFINKSLLTLGTV  391
+            SRSHAI+ + L   N    TS+ S+LSL DLAGSERA+   ERRKEG+FINKSLL LGTV
+Sbjct  342  SRSHAIVLIRLTSTNVKNGTSRSSTLSLCDLAGSERATGQQERRKEGSFINKSLLALGTV  401
+
+Query  392  ISRLSAAANPSLTSN-----------------------SGHIPYRESKLTRLLQQSLSGQ  428
+            IS+LSA    S+ SN                       S HIPYR+SKLTRLLQ +LSG 
+Sbjct  402  ISKLSADKMNSVGSNIPSPSASGSSSSSGNATNNGTSPSNHIPYRDSKLTRLLQPALSGD  461
+
+Query  429  SQISLLATISIESNHTMETTNTLKFASRAQNLPQDIRQAEAVTN  472
+            S ++ + T+   ++   ET NTL+FASRA+N+   + +   ++N
+Sbjct  462  SIVTTICTVDTRNDAAAETMNTLRFASRAKNVALHVSKKSIISN  505
+
+
+
+>tubulin-dependent ATPase KIP3 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011299.1 Length: 805 
+>RecName: Full=Kinesin-like protein KIP3 [Saccharomyces cerevisiae S288C]
+Sequence ID: P53086.1 Length: 805  
+Range 1: 152 to 442
+
+Score:219 bits(558), Expect:2e-62, 
+Method:Compositional matrix adjust., 
+Identities:127/295(43%), Positives:180/295(61%), Gaps:12/295(4%)
+
+Query  178  EYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTENEPGI  237
+            +++F+ +F   S    +YK +   ++ +V  G+N  VFAYG TG GKTY++ GT ++PGI
+Sbjct  152  KFVFDKLFDETSSQARVYKETTSPLLDSVLDGFNSTVFAYGATGCGKTYTVSGTPSQPGI  211
+
+Query  238  IPLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLIGNSDEEPR--IRENASGEVNV  295
+            I LAM +LF  + +  D+  F+I +SYLEIYNERIRDL+       R  IRE+    + V
+Sbjct  212  IFLAMEELFNKITDLKDEKDFEISLSYLEIYNERIRDLLKPETPSKRLVIREDTQNHIKV  271
+
+Query  296  TPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLIRNNPTAH-TSQ-  353
+              L+     + E+V  ++ Q N  R T+ T+ N  SSRSHA+LQ+ +++ N     TSQ 
+Sbjct  272  ANLSYHHPNTVEDVMDLVVQGNINRTTSPTEANEVSSRSHAVLQIHIMQTNKLVDLTSQH  331
+
+Query  354  -ISSLSLVDLAGSERASAHHE---RRKEGAFINKSLLTLGTVISRLSAAANPSLTSNSGH  409
+              ++LS++DLAGSERA+A      R  EGA IN+SLL LG  I+ L         S S H
+Sbjct  332  TFATLSIIDLAGSERAAATRNRGIRLHEGANINRSLLALGNCINALCLNDG----SRSCH  387
+
+Query  410  IPYRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRAQNLPQDI  464
+            IPYR+SKLTRLL+ SL G  +  ++  IS  S+H  ET NTLK+A+RA+ +   I
+Sbjct  388  IPYRDSKLTRLLKFSLGGNCKTVMIVCISPSSSHYDETLNTLKYANRAKEIKTKI  442
+
+
+
+>Kip1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_009490.1 Length: 1111 
+>RecName: Full=Kinesin-like protein KIP1; AltName: Full=Chromosome instability protein 9 [Saccharomyces cerevisiae S288C]
+Sequence ID: P28742.1 Length: 1111  
+Range 1: 80 to 524
+
+Score:191 bits(485), Expect:7e-52, 
+Method:Compositional matrix adjust., 
+Identities:162/485(33%), Positives:245/485(50%), Gaps:97/485(20%)
+
+Query  158  PYGREYIRQQTSTSS-STIQQEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFA  216
+            P G+E I    S  S S+ ++ Y F+ VFG ES    ++  + K+ ++ +  GYN  +FA
+Sbjct  80   PQGKEIILSNGSHQSYSSSKKTYQFDQVFGAESDQETVFNATAKNYIKEMLHGYNCTIFA  139
+
+Query  217  YGMTGTGKTYSMQGTEN---------------EPGIIPLAMNDLFEMVENNSDDDTFQIR  261
+            YG TGTGKTY+M G  N                 GIIP  + DLF+  E +S +  + ++
+Sbjct  140  YGQTGTGKTYTMSGDINILGDVQSTDNLLLGEHAGIIPRVLVDLFK--ELSSLNKEYSVK  197
+
+Query  262  ISYLEIYNERIRDL----------IGNSDEEPRIRENASGE--VNVTPLTRVLVTSPEEV  309
+            IS+LE+YNE ++DL          + +   + RI +N +    + V  +  + + S  E 
+Sbjct  198  ISFLELYNENLKDLLSDSEDDDPAVNDPKRQIRIFDNNNNNSSIMVKGMQEIFINSAHEG  257
+
+Query  310  SQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLIRNNPTAHTS----------QISSLSL  359
+              ++ Q +  RK AAT  N  SSRSH    VF I  N     S          +I  L+L
+Sbjct  258  LNLLMQGSLKRKVAATKCNDLSSRSHT---VFTITTNIVEQDSKDHGQNKNFVKIGKLNL  314
+
+Query  360  VDLAGSE---RASAHHERRKEGAFINKSLLTLGTVISRLSAAANPSLTSNSGHIPYRESK  416
+            VDLAGSE   R+ A ++R +E   INKSLLTLG VI+        +L  +S HIPYRESK
+Sbjct  315  VDLAGSENINRSGAENKRAQEAGLINKSLLTLGRVIN--------ALVDHSNHIPYRESK  366
+
+Query  417  LTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRA---QNLPQDIRQAEAVTNV  473
+            LTRLLQ SL G ++  ++ATIS       ET +TL++A+RA   +N PQ + Q+      
+Sbjct  367  LTRLLQDSLGGMTKTCIIATISPAKISMEETASTLEYATRAKSIKNTPQ-VNQS------  419
+
+Query  474  QAELASLHSALEKNAQEVEYYASLVKQLTSDLEERDTYIAMLEAERSQGTAISRARLRME  533
+                 S  + L+   QE+E       +L +DL+          +   QG  I++ +L + 
+Sbjct  420  ----LSKDTCLKDYIQEIE-------KLRNDLK---------NSRNKQGIFITQDQLDLY  459
+
+Query  534  E----LLSDHNFEIADLRDELQD-KEQI-----IYALRYAQKQRDIA---DFNQSLAKFP  580
+            E    L+ + N +I +LR++++  KE       I  L  ++K++ IA   +FN   + F 
+Sbjct  460  ESNSILIDEQNLKIHNLREQIKKFKENYLNQLDINNLLQSEKEKLIAIIQNFNVDFSNFY  519
+
+Query  581  HKILK  585
+             +I K
+Sbjct  520  SEIQK  524
+
+
+
+>Chain A, Kinesin-like Protein Kar3 [Saccharomyces cerevisiae S288C]
+Sequence ID: 4ETP_A Length: 403 
+Range 1: 108 to 394
+
+Score:155 bits(392), Expect:4e-42, 
+Method:Compositional matrix adjust., 
+Identities:107/295(36%), Positives:162/295(54%), Gaps:22/295(7%)
+
+Query  177  QEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTENEPG  236
+             E+ F+ +F  +  N D++K  V  +V++   GYN  +FAYG TG+GKT++M    +  G
+Sbjct  108  HEFKFDKIFDQQDTNVDVFKE-VGQLVQSSLDGYNVAIFAYGQTGSGKTFTMLNPGD--G  164
+
+Query  237  IIPLAMNDLFEMVEN-NSDDDTFQIRISYLEIYNERIRDLI---GNSDEEPRI-------  285
+            IIP  ++ +F  +    +    +++   ++EIYNE I DL+    N+ E+  I       
+Sbjct  165  IIPSTISHIFNWINKLKTKGWDYKVNAEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIR  224
+
+Query  286  RENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLIRN  345
+             +  +    +T +T V + S E V  ++++ N +R TA+T  N +SSRSH+I  + L  +
+Sbjct  225  HDQETKTTTITNVTSVKLESEEMVEIILKKANKLRSTASTASNEHSSRSHSIFIIHLSGS  284
+
+Query  346  NPTAHTSQISSLSLVDLAGSERASAHH---ERRKEGAFINKSLLTLGTVISRLSAAANPS  402
+            N         +L+LVDLAGSER +      +R +E   INKSL  LG VI    A   P 
+Sbjct  285  NAKTGAHSYGTLNLVDLAGSERINVSQVVGDRLRETQNINKSLSALGDVI---HALGQPD  341
+
+Query  403  LTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRA  457
+              S   HIP+R SKLT LLQ SL+G S+  +   IS  S+H  ET N+L+FAS+ 
+Sbjct  342  --STKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKV  394
+
+
+
+>Kar3p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_015467.1 Length: 729 
+>RecName: Full=Kinesin-like protein KAR3; AltName: Full=Nuclear fusion protein [Saccharomyces cerevisiae S288C]
+Sequence ID: P17119.1 Length: 729  
+Range 1: 434 to 720
+
+Score:156 bits(395), Expect:9e-41, 
+Method:Compositional matrix adjust., 
+Identities:106/295(36%), Positives:161/295(54%), Gaps:22/295(7%)
+
+Query  177  QEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTENEPG  236
+             E+ F+ +F  +  N D++K  V  +V++   GYN  +FAYG TG+GKT++M    +  G
+Sbjct  434  HEFKFDKIFDQQDTNVDVFK-EVGQLVQSSLDGYNVCIFAYGQTGSGKTFTMLNPGD--G  490
+
+Query  237  IIPLAMNDLFEMVEN-NSDDDTFQIRISYLEIYNERIRDLI---GNSDEEPRI-------  285
+            IIP  ++ +F  +    +    +++   ++EIYNE I DL+    N+ E+  I       
+Sbjct  491  IIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIR  550
+
+Query  286  RENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAILQVFLIRN  345
+             +  +    +T +T   + S E V  ++++ N +R TA+T  N +SSRSH+I  + L  +
+Sbjct  551  HDQETKTTTITNVTSCKLESEEMVEIILKKANKLRSTASTASNEHSSRSHSIFIIHLSGS  610
+
+Query  346  NPTAHTSQISSLSLVDLAGSERASAHH---ERRKEGAFINKSLLTLGTVISRLSAAANPS  402
+            N         +L+LVDLAGSER +      +R +E   INKSL  LG VI    A   P 
+Sbjct  611  NAKTGAHSYGTLNLVDLAGSERINVSQVVGDRLRETQNINKSLSCLGDVI---HALGQPD  667
+
+Query  403  LTSNSGHIPYRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTNTLKFASRA  457
+              S   HIP+R SKLT LLQ SL+G S+  +   IS  S+H  ET N+L+FAS+ 
+Sbjct  668  --STKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKV  720
+
+
+
+>kinesin motor protein CIN8 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_010853.2 Length: 1000 
+>RecName: Full=Kinesin-like protein CIN8; AltName: Full=Chromosome instability protein 8 [Saccharomyces cerevisiae S288C]
+Sequence ID: P27895.3 Length: 1000  
+Range 1: 343 to 606
+
+Score:130 bits(327), Expect:6e-32, 
+Method:Compositional matrix adjust., 
+Identities:103/281(37%), Positives:152/281(54%), Gaps:38/281(13%)
+
+Query  320  RKTAATDFNTYSSRSHAILQVFLIRNNPTAHTSQISSLSLVDLAGSE---RASAHHERRK  376
+            R+ A+T  N +SSRSH I  + L + +      +IS ++LVDLAGSE   R+ A ++R K
+Sbjct  343  RQVASTKMNDFSSRSHTIFTITLYKKHQD-ELFRISKMNLVDLAGSENINRSGALNQRAK  401
+
+Query  377  EGAFINKSLLTLGTVISRLSAAANPSLTSNSGHIPYRESKLTRLLQQSLSGQSQISLLAT  436
+            E   IN+SLLTLG VI+        +L   SGHIP+RESKLTRLLQ SL G ++ +L+AT
+Sbjct  402  EAGSINQSLLTLGRVIN--------ALVDKSGHIPFRESKLTRLLQDSLGGNTKTALIAT  453
+
+Query  437  ISIESNHTMETTNTLKFASRAQNL---PQ---DIRQAEAVTNVQAELASLHSALEKNAQE  490
+            IS     + ET +TL++AS+A+N+   PQ    I +   V N+  ELA + S L     +
+Sbjct  454  ISPAKVTSEETCSTLEYASKAKNIKNKPQLGSFIMKDILVKNITMELAKIKSDLLSTKSK  513
+
+Query  491  VEYYASL--VKQLTSDLEERDTYIA----MLEAERSQGTAISRARLRMEELLSDHNFEIA  544
+               Y S    K L SDLE     +      +E+  S+   + + +L+ +E +   N +I 
+Sbjct  514  EGIYMSQDHYKNLNSDLESYKNEVQECKREIESLTSKNALLVKDKLKSKETIQSQNCQIE  573
+
+Query  545  DLR---DELQ---DKEQIIYALRYAQKQRDIADFNQSLAKF  579
+             L+   D L+   DK+         + + +I+DFN  L K 
+Sbjct  574  SLKTTIDHLRAQLDKQH--------KTEIEISDFNNKLQKL  606
+
+
+
+
+Range 2: 87 to 192
+
+Score:69.7 bits(169), Expect:8e-13, 
+Method:Compositional matrix adjust., 
+Identities:36/108(33%), Positives:58/108(53%), Gaps:10/108(9%)
+
+Query  177  QEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTGKTYSMQGTE----  232
+            + Y  + VFG  +    I+      + ++   GYN  V  YGMT TGKTY+M G E    
+Sbjct  87   KRYTVDKVFGPGASQDLIFDEVAGPLFQDFIKGYNCTVLVYGMTSTGKTYTMTGDEKLYN  146
+
+Query  233  ----NEPGIIPLAMNDLFEMVENNSDDDTFQIRISYLEIYNERIRDLI  276
+                +  GIIP  +  LF+ +E   +D  + ++ S++E+YNE ++DL+
+Sbjct  147  GELSDAAGIIPRVLLKLFDTLELQQND--YVVKCSFIELYNEELKDLL  192
+
+
+
+>Smy1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012844.1 Length: 656 
+>RecName: Full=Kinesin-related protein SMY1; AltName: Full=Suppressor protein SMY1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P32364.1 Length: 656 >TPA: Smy1p [Saccharomyces cerevisiae S288C]
+Sequence ID: DAA09078.1 Length: 656  
+Range 1: 64 to 358
+
+Score:108 bits(269), Expect:4e-25, 
+Method:Compositional matrix adjust., 
+Identities:87/305(29%), Positives:146/305(47%), Gaps:24/305(7%)
+
+Query  164  IRQQTSTSSSTIQQEYLFNNVFGMESKNYDIYKRSVKSVVRNVFSGYNGIVFAYGMTGTG  223
+            + + T  + ST Q    F+ VF   +   D+ K  V  ++ +V +GYNG V  YG + +G
+Sbjct  64   LHETTKETHSTFQ----FDKVFDANATQEDVQKFLVHPIINDVLNGYNGTVITYGPSFSG  119
+
+Query  224  KTYSMQGTENEPGIIPLAMNDLFEMVENNSD--DDTFQIRISYLEIYNERIRDLIGNSDE  281
+            K+YS+ G++   GI+P     LF+ +E N +   D+F + +   EIY E+  DL+    E
+Sbjct  120  KSYSLIGSKESEGILPNICKTLFDTLEKNEETKGDSFSVSVLAFEIYMEKTYDLLVPLPE  179
+
+Query  282  EPRI---RENASGEVNVTPLTRVLVTSPEEVSQVIEQCNAIRKTAATDFNTYSSRSHAIL  338
+               +   R ++  ++ +  +    V S E++   I+    +    A    T  SRSH + 
+Sbjct  180  RKPLKLHRSSSKMDLEIKDICPAHVGSYEDLRSYIQAVQNVGNRMACGDKTERSRSHLVF  239
+
+Query  339  QVFLIRNNPTAHTSQISSLSLVDLAGSERASAHHERRKEGAF-------INKSLLTLGTV  391
+            Q+ + + N      + SSL LVDL G+E+     ++R E          +N+S+  L   
+Sbjct  240  QLHVEQRNRKDDILKNSSLYLVDLHGAEK----FDKRTESTLSQDALKKLNQSIEALKNT  295
+
+Query  392  ISRLSAAANPSLTSNSG--HIPYRESKLTRLLQQSLSGQSQISLLATISIESNHTMETTN  449
+            +  LS     S  S  G     YRES+LT +L+ SL G  +  ++ T  + +  T  T +
+Sbjct  296  VRSLSMKERDSAYSAKGSHSSAYRESQLTEVLKDSLGGNRKTKVILTCFLSNVPT--TLS  353
+
+Query  450  TLKFA  454
+            TL+F 
+Sbjct  354  TLEFG  358
+
+
+
+
+
+Query #14: tea4 Query ID: lcl|Query_93926 Length: 821
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+protein phosphatase regulator BUD14 [Saccharomyces cerevisiae...  66.2   66.2  14%   1e-11 32.17  NP_009408.3      
+
+
+Alignments:
+>protein phosphatase regulator BUD14 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_009408.3 Length: 709 
+>RecName: Full=Bud site selection protein 14 [Saccharomyces cerevisiae S288C]
+Sequence ID: P27637.4 Length: 709  
+Range 1: 226 to 330
+
+Score:66.2 bits(160), Expect:1e-11, 
+Method:Compositional matrix adjust., 
+Identities:37/115(32%), Positives:60/115(52%), Gaps:10/115(8%)
+
+Query  87   EYNEVVEDDEFRSEDEDDFMDEEEEYALYEAELSSSPSIHEEVIDCNFVHAIRGFEATVE  146
+            +++   +D  F+ E +DD  +E ++Y          P      +D + ++A+  F     
+Sbjct  226  DFDRKFQDSGFQGE-KDDLEEENDDY---------QPLSPPRELDPDKLYALYAFNGHDS  275
+
+Query  147  GQVDATKGDMMILLDDSNSYWWLVKMCKNLAIGYLPAEYIETPSERLARLNKYKN  201
+                  + +  ILL+D ++YWWLVK   +  IG+ PAE +ET  ERLARLN +KN
+Sbjct  276  SHCQLGQDEPCILLNDQDAYWWLVKRITDGKIGFAPAEILETFPERLARLNCWKN  330
+
+
+
+
+
+Query #15: nop56 Query ID: lcl|Query_93927 Length: 497
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+snoRNP complex protein NOP56 [Saccharomyces cerevisiae S288C]     584    584   85%   0.0    63.64  NP_013298.1      
+RNA-processing protein NOP58 [Saccharomyces cerevisiae S288C]     325    325   81%   1e-106 42.89  NP_014955.1      
+U4/U6-U5 snRNP complex subunit PRP31 [Saccharomyces cerevisiae... 69.3   69.3  38%   5e-13  24.62  NP_011605.1      
+
+
+Alignments:
+>snoRNP complex protein NOP56 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_013298.1 Length: 504 
+>RecName: Full=Nucleolar protein 56; AltName: Full=Ribosome biosynthesis protein SIK1; AltName: Full=Suppressor of I kappa b protein 1 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q12460.1 Length: 504  
+Range 1: 5 to 433
+
+Score:584 bits(1505), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:273/429(64%), Positives:348/429(81%), Gaps:2/429(0%)
+
+Query  3    DYLLYESATGYSLFDV-VGADQIAAKTKEVQLSLQDISKFGKVVQLRSFIPFKNAAHALE  61
+            +YLL+E  TGY++F V +  D I ++ KEVQ  + D   F K+++L SF PFK AA ALE
+Sbjct  5    EYLLFEEPTGYAVFKVKLQQDDIGSRLKEVQEQINDFGAFTKLIELVSFAPFKGAAEALE  64
+
+Query  62   NANDISEGVLNDFLKNFLELNLPKASKKKK-VSLGVQDKNLATSIKSEIDAIECDTSELT  120
+            NANDISEG++++ LK  L+LNLPKAS KKK ++L + DKNL  SIK E   ++C ++EL 
+Sbjct  65   NANDISEGLVSESLKAILDLNLPKASSKKKNITLAISDKNLGPSIKEEFPYVDCISNELA  124
+
+Query  121  QDLLRGIRFHGDKLLKQLSPGDFERAQLGLGHSYSRAKVKFNVNRNDNMIIQAIAILDQL  180
+            QDL+RG+R HG+KL K L  GD ERAQLGLGH+YSRAKVKF+V +NDN IIQAIA+LDQL
+Sbjct  125  QDLIRGVRLHGEKLFKGLQSGDLERAQLGLGHAYSRAKVKFSVQKNDNHIIQAIALLDQL  184
+
+Query  181  DKDINTFAMRMKEWYSWHFPELSKIVGDNYKYAVIVTLVGDKTTINDEMLHDLAAVVDDD  240
+            DKDINTFAMR+KEWY WHFPEL+K+V DNY +A +V  + DK ++ND+ LHDLAA++++D
+Sbjct  185  DKDINTFAMRVKEWYGWHFPELAKLVPDNYTFAKLVLFIKDKASLNDDSLHDLAALLNED  244
+
+Query  241  KDIAQSIINAGKVSMGQDISEIDLENILSFAERVIKLSNYRKQLHNYLVQKMNVVAPNLA  300
+              IAQ +I+  ++SMGQDISE D+EN+  FA+RV  L++YR+QL++YL +KM+ VAPNL+
+Sbjct  245  SGIAQRVIDNARISMGQDISETDMENVCVFAQRVASLADYRRQLYDYLCEKMHTVAPNLS  304
+
+Query  301  ELIGEMVGARLISHAGSLTNLSKCPASTVQILGAEKALFRALKTRGNTPKYGIIYHSSFI  360
+            ELIGE++GARLISHAGSLTNLSK  ASTVQILGAEKALFRALKT+GNTPKYG+IYHS FI
+Sbjct  305  ELIGEVIGARLISHAGSLTNLSKQAASTVQILGAEKALFRALKTKGNTPKYGLIYHSGFI  364
+
+Query  361  GKAGAKNKGRISRFLANKCSIASRIDNFSDAPTTAFGQVLRRQVEERLNFFDTGVAPTRN  420
+             KA AKNKGRISR+LANKCS+ASRIDN+S+ P+  FG VL++QVE+RL F++TG    +N
+Sbjct  365  SKASAKNKGRISRYLANKCSMASRIDNYSEEPSNVFGSVLKKQVEQRLEFYNTGKPTLKN  424
+
+Query  421  SIAMAEAYE  429
+             +A+ EA E
+Sbjct  425  ELAIQEAME  433
+
+
+
+>RNA-processing protein NOP58 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_014955.1 Length: 511 
+>RecName: Full=Nucleolar protein 58; AltName: Full=Nucleolar protein 5 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q12499.1 Length: 511  
+Range 1: 3 to 399
+
+Score:325 bits(834), Expect:1e-106, 
+Method:Compositional matrix adjust., 
+Identities:175/408(43%), Positives:265/408(64%), Gaps:13/408(3%)
+
+Query  4    YLLYESATGYSLFDVVGADQIAAKTKEVQLSLQDISKFGKVVQLRSFIPFKNAAHALENA  63
+            Y+L E++ GY+L     +D+   K+  +   L    K  K  ++ +F  F +AA+ALE A
+Sbjct  3    YVLTETSAGYALLK--ASDKKIYKSSSLIQDLDSSDKVLKEFKIAAFSKFNSAANALEEA  60
+
+Query  64   NDISEGVLNDFLKNFLELNLPKASKKKKVSLGVQDKNLATSIKSEIDAIECDTSELTQDL  123
+            N I EG ++  L+  LE    +  K KK +L V +  LA +I          +  +T D+
+Sbjct  61   NSIIEGKVSSQLEKLLE----EIKKDKKSTLIVSETKLANAINKLGLNFNVVSDAVTLDI  116
+
+Query  124  LRGIRFHGDKLLKQLSPGDFERAQLGLGHSYSRAKVKFNVNRNDNMIIQAIAILDQLDKD  183
+             R I+ +  +LL  +S  D  +  LGL HS  R K+KF+ ++ D MIIQAIA+LD LDK+
+Sbjct  117  YRAIKEYLPELLPGMSDNDLSKMSLGLAHSIGRHKLKFSADKVDVMIIQAIALLDDLDKE  176
+
+Query  184  INTFAMRMKEWYSWHFPELSKIVGDNYKYAVIVTLVGDKTTINDEMLHDLAAVVDDDKDI  243
+            +NT+AMR KEWY WHFPEL+KIV D+  YA I+  +G ++  ++    DL+ ++ ++  I
+Sbjct  177  LNTYAMRCKEWYGWHFPELAKIVTDSVAYARIILTMGIRSKASET---DLSEILPEE--I  231
+
+Query  244  AQSIINAGKVSMGQDISEIDLENILSFAERVIKLSNYRKQLHNYLVQKMNVVAPNLAELI  303
+             + +  A +VSMG +I++ DL+NI + AE++++ + YR+QL NYL  +M  +APNL +L+
+Sbjct  232  EERVKTAAEVSMGTEITQTDLDNINALAEQIVEFAAYREQLSNYLSARMKAIAPNLTQLV  291
+
+Query  304  GEMVGARLISHAGSLTNLSKCPASTVQILGAEKALFRALKTRGNTPKYGIIYHSSFIGKA  363
+            GE+VGARLI+H+GSL +L+K PAST+QILGAEKALFRALKT+ +TPKYG++YH+S +G+A
+Sbjct  292  GELVGARLIAHSGSLISLAKSPASTIQILGAEKALFRALKTKHDTPKYGLLYHASLVGQA  351
+
+Query  364  GAKNKGRISRFLANKCSIASRIDNFSDAPTTA--FGQVLRRQVEERLN  409
+              KNKG+I+R LA K +++ R D  ++    +   G   R +VE RL+
+Sbjct  352  TGKNKGKIARVLAAKAAVSLRYDALAEDRDDSGDIGLESRAKVENRLS  399
+
+
+
+>U4/U6-U5 snRNP complex subunit PRP31 [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011605.1 Length: 494 
+>RecName: Full=Pre-mRNA-processing factor 31 [Saccharomyces cerevisiae S288C]
+Sequence ID: P49704.2 Length: 494 >Chain I, Pre-mRNA-processing factor 31 [Saccharomyces cerevisiae S288C]
+Sequence ID: 3JCM_I Length: 494 >Chain L, Pre-mRNA-processing factor 31 [Saccharomyces cerevisiae S288C]
+Sequence ID: 5ZWM_L Length: 494 >Chain L, Pre-mRNA-processing factor 31 [Saccharomyces cerevisiae S288C]
+Sequence ID: 5ZWO_L Length: 494  
+Range 1: 120 to 317
+
+Score:69.3 bits(168), Expect:5e-13, 
+Method:Compositional matrix adjust., 
+Identities:49/199(25%), Positives:95/199(47%), Gaps:8/199(4%)
+
+Query  195  YSWHFPELSKIVGDNYKYAVIVTLVGDKTTINDEMLHDLAAVVDDDKDIAQSIINAGKVS  254
+            YS  FPELS ++    +Y+ +++++ ++    +E   +L   +++   + +  I    +S
+Sbjct  120  YSRRFPELSSLIPSPLQYSKVISILENENYSKNES-DELFFHLENKAKLTREQILVLTMS  178
+
+Query  255  MGQDI---SEIDLENILSFAERVIKLSNYRK---QLHNYLVQKMNVVAPNLAELIGEMVG  308
+            M         +D++      E    L N  K    +  Y+  K++++APN+  L+G  + 
+Sbjct  179  MKTSFKNKEPLDIKTRTQILEANSILENLWKLQEDIGQYIASKISIIAPNVCFLVGPEIA  238
+
+Query  309  ARLISHAGSLTNLSKCPASTVQILGAEKALFRALKT-RGNTPKYGIIYHSSFIGKAGAKN  367
+            A+LI+HAG +   S+ P+  +  +G  K L   L T      + G ++ S  I K     
+Sbjct  239  AQLIAHAGGVLEFSRIPSCNIASIGKNKHLSHELHTLESGVRQEGYLFASDMIQKFPVSV  298
+
+Query  368  KGRISRFLANKCSIASRID  386
+              ++ R L  K S+A+R+D
+Sbjct  299  HKQMLRMLCAKVSLAARVD  317
+
+
+
+
+
+Query #16: tea1 Query ID: lcl|Query_93928 Length: 1147
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+Kel2p [Saccharomyces cerevisiae S288C]                            215    215   29%   4e-58 35.81  NP_011754.3      
+Kel1p [Saccharomyces cerevisiae S288C]                            214    214   40%   4e-57 30.02  NP_012028.1      
+Kel3p [Saccharomyces cerevisiae S288C]                            61.6   61.6  19%   5e-10 25.30  NP_015060.1      
+
+
+Alignments:
+>Kel2p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_011754.3 Length: 882 
+>RecName: Full=Kelch repeat-containing protein 2 [Saccharomyces cerevisiae S288C]
+Sequence ID: P50090.1 Length: 882  
+Range 1: 35 to 393
+
+Score:215 bits(547), Expect:4e-58, 
+Method:Compositional matrix adjust., 
+Identities:130/363(36%), Positives:188/363(51%), Gaps:26/363(7%)
+
+Query  38   SNVKMSTSTVTEHRKKPTGSGSHITASPWSKLT----------VRGSSNVLPRYSHASHL  87
+            +N ++ T T+  ++ +     S  TA PWS  +          V+  ++  PRY H+S  
+Sbjct  35   NNTRIVTPTLPPNQHRGISGAS--TALPWSPESKNTGKYIWNRVKLKNSPFPRYRHSSSF  92
+
+Query  88   YAEGGQEIYIFGGVASDSQPKNDLWVL--NLATSQFTSLRSLGE--TPSPRLGHASILIG  143
+                   I++ GG+  D     D+W +  N   + FTS R   +  TP PR+GHAS + G
+Sbjct  93   IVTNDNRIFVTGGL-HDQSVYGDVWQIAANADGTSFTSKRIDIDQNTPPPRVGHASTICG  151
+
+Query  144  NAFIVFGGLTNH-DVADRQDNSLYLLNTSSLVWQKANASGARPSGRYGHTISCLGS----  198
+            NA++VFGG T+  +     D+ LYL N +S  W      G RP GRYGH IS + S    
+Sbjct  152  NAYVVFGGDTHKLNKNGLLDDDLYLFNINSYKWTIPQPIGRRPLGRYGHKISIIASNPMQ  211
+
+Query  199  -KICLFGGRLLDYYFNDLVCFDLNNLNTSDSRWELASVVNDPPPARAGHVAFTFSDKLYI  257
+             K+ LFGG++ + YFNDLV FDL++    +S WE    V D PP    H    + +KL++
+Sbjct  212  TKLYLFGGQVDETYFNDLVVFDLSSFRRPNSHWEFLEPVGDLPPPLTNHTMVAYDNKLWV  271
+
+Query  258  FGGTDGANFFNDLWCYHPKQSAWSKVETFGVAPNPRAGHAASVVEGILYVFGGRASDGTF  317
+            FGG       ND + Y P QS WSKV+T G  P P   HA+ V + ++ V GG+ +   +
+Sbjct  272  FGGETPKTISNDTYRYDPAQSEWSKVKTTGEKPPPIQEHASVVYKHLMCVLGGKDTHNAY  331
+
+Query  318  LNDLYAFRLSSKHWYKLSDLP-FTPSPRSSHTLSC-SGLTLVLIGGKQGKGASDSNVYML  375
+             ND+Y   L S  WYKL  +    P  RS H+L+      L+++GG +   AS  N++ L
+Sbjct  332  SNDVYFLNLLSLKWYKLPRMKEGIPQERSGHSLTLMKNEKLLIMGGDKTDYAS-PNIHDL  390
+
+Query  376  DTS  378
+             TS
+Sbjct  391  QTS  393
+
+
+
+>Kel1p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_012028.1 Length: 1164 
+>RecName: Full=Kelch repeat-containing protein 1 [Saccharomyces cerevisiae S288C]
+Sequence ID: P38853.1 Length: 1164 >TPA: Kel1p [Saccharomyces cerevisiae S288C]
+Sequence ID: DAA06851.1 Length: 1164  
+Range 1: 35 to 567
+
+Score:214 bits(545), Expect:4e-57, 
+Method:Compositional matrix adjust., 
+Identities:163/543(30%), Positives:239/543(44%), Gaps:83/543(15%)
+
+Query  16   TKPN---FSKTSTTPSTSQLKHSHESNVKMSTSTVTEHRKKPTGSGSHITASPWSKLTVR  72
+            T PN   F+K  T     Q    + SNV  ++S     RK+ + S    +A P  +  V 
+Sbjct  35   TPPNEKFFTKQETPQKGRQFSQGYHSNVNKTSSPPMFARKQVSESRIQPSAVPPQQRNVS  94
+
+Query  73   GSSNVL-----------------------PRYSHASHLYAEGGQEIYIFGGVASDSQPKN  109
+            G S  L                       PRY H +  Y     +IY+ GG+  D     
+Sbjct  95   GPSTTLHKQLSKQREYTVWNRIKLQNSPFPRYRHVASAYVTDKNQIYVIGGL-HDQSVYG  153
+
+Query  110  DLWVLNL---ATSQFTSLRSLGE-TPSPRLGHASILIGNAFIVFGGLTNHDVADR--QDN  163
+            D W+L     AT   T+   + E TP PR+GHA++L GNAF+VFGG T H V      D+
+Sbjct  154  DTWILTAFDNATRFSTTTIDISEATPPPRVGHAAVLCGNAFVVFGGDT-HKVNKEGLMDD  212
+
+Query  164  SLYLLNTSSLVWQKANASGARPSGRYGHTISCLGS-----KICLFGGRLLDYYFNDLVCF  218
+             +YLLN +S  W      G RP GRYGH IS + +     K+ +FGG+  D YFNDL  +
+Sbjct  213  DIYLLNINSYKWTVPAPVGPRPLGRYGHKISIIATTQMKTKLYVFGGQFDDTYFNDLAVY  272
+
+Query  219  DLNNLNTSDSRWELASVVNDPPPARAGHVAFTFSDKLYIFGGTDGANFFNDLWCYHPKQS  278
+            DL++    DS WE        PP        ++  KL++FGG       ND++ Y P  +
+Sbjct  273  DLSSFRRPDSHWEFLKPRTFTPPPITNFTMISYDSKLWVFGGDTLQGLVNDVFMYDPAIN  332
+
+Query  279  AWSKVETFGVAPNPRAGHAASVVEGILYVFGGRASDGTFLNDLYAFRLSSKHWYKLSDLP  338
+             W  ++T G  P P   HA  V   ++ V GG+     +LN +Y   L S+ W+KL    
+Sbjct  333  DWFIIDTTGEKPPPVQEHATVVYNDLMCVVGGKDEHDAYLNSVYFLNLKSRKWFKLP--V  390
+
+Query  339  FT---PSPRSSHTLS-CSGLTLVLIGGKQGKGA---------SDSN------VYMLDTSR  379
+            FT   P  RS H+L+      ++++GG +   A         SD +      VY LD +R
+Sbjct  391  FTAGIPQGRSGHSLTLLKNDKILIMGGDKFDYARVEEYDLHTSDIDMQRGTIVYTLDLAR  450
+
+Query  380  FR-----LGSVPTTSGRQRNTSF--------FSNSTGNTNPSAFNGLLTSSRIPSYNGSK  426
+             +     +  VPT +   RN +          S+ T N N       L S+  PS     
+Sbjct  451  IKDLCPGVMDVPTDTPTPRNGNLDLATPVTPTSHQTKNMNVPISAAPLASA--PSPAPKD  508
+
+Query  427  VRSTSHPSRQQYIGSSNSRFNTRHQTISTPVSGR----ASNDLPSPVVPTRSNSSSILQP  482
+                   +R+ +    N   +T HQ  S PV+      A  ++ +P VP+ S+ + +++ 
+Sbjct  509  FSDADRLNREVH----NRNVSTEHQNQSHPVNSESHLIAEPNILTPYVPSESSQTPVMKI  564
+
+Query  483  SYN  485
+            + N
+Sbjct  565  TSN  567
+
+
+
+>Kel3p [Saccharomyces cerevisiae S288C]
+Sequence ID: NP_015060.1 Length: 651 
+>RecName: Full=Kelch repeat-containing protein 3 [Saccharomyces cerevisiae S288C]
+Sequence ID: Q08979.1 Length: 651  
+Range 1: 114 to 348
+
+Score:61.6 bits(148), Expect:5e-10, 
+Method:Compositional matrix adjust., 
+Identities:63/249(25%), Positives:96/249(38%), Gaps:40/249(16%)
+
+Query  163  NSLYLLNTSSLVWQKANASGARPSGRYGHTISCLGSKICLFGGRLLD-------YYFNDL  215
+            N LY  +  +  W+K  +  A P  R    ++   S I L  G           Y+++D 
+Sbjct  114  NDLYSYSIKNNSWKKYVSQNA-PLPRSSAAVAVHPSGIALLHGGEFSSPKQSKFYHYSDT  172
+
+Query  216  VCFDLNNLNTSDSRWELASVVNDPPPARAGHVAFTFSDKLYIFGG-TDGAN----FFNDL  270
+              FD   +    ++ E     +  P AR+GH    + +   +FGG  D  N    + NDL
+Sbjct  173  WLFDC--VERKFTKLEFGGR-DSSPSARSGHRIIAWKNYFILFGGFRDLGNGQTSYLNDL  229
+
+Query  271  WCYHPKQSAWSKVETFGVAPNPRAGHAASVVEGILYVFGGRAS----------DGTFLND  320
+            WC+      W+K+ET    P+ R+GH     +    + GG              G  LND
+Sbjct  230  WCFDISTYKWTKLET-NSKPDARSGHCFIPTDNSAILMGGYCKIIAKNNKNLMKGKILND  288
+
+Query  321  LYAFRLSSK----HWYKLSDLPFTPSPRSSHTLSCSGLTLVLIGGKQGKGASDSNVYMLD  376
+             +   L+       W KL +    PSPR  ++ +           KQ K  +   VY L 
+Sbjct  289  AWKLNLTPDPKKWQWEKLKNFKNQPSPRVGYSFNL---------WKQNKSVAFGGVYDLQ  339
+
+Query  377  TSRFRLGSV  385
+             +   L SV
+Sbjct  340  ETEESLESV  348
+
+
+
+
+
+Query #17: mid1 Query ID: lcl|Query_93929 Length: 920
+
+No significant similarity found.
+
+
+
+
+
+		
+
+
